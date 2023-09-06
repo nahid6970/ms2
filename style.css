@@ -1,0 +1,94 @@
+/* Global styles */
+body {
+background-color: #31343a;
+font-family: Calibri;
+}
+
+h3 {
+color: #5fc4fd;
+background-color: #363633;
+text-align:center ;
+margin-top: 0ch ;
+}
+
+
+p {text-align: left;height: 15px;color: purple;}
+
+
+a:link {color: #b5ac97;background-color: transparent;text-decoration: none;}
+a:visited {color: #bbd853;background-color: transparent;text-decoration: none;}
+a:hover {color: red;background-color: transparent;text-decoration: none;}
+a:active {color: yellow;background-color: transparent;text-decoration: underline;}
+
+
+img {
+border: 1px solid transparent;
+}
+
+/* Box styles */
+.box {
+width: 100%;
+height: 100%;
+background-color: #a4bb24;
+display: row;
+padding: 10px;
+border: 0px solid rgb(2, 56, 2);
+}
+
+.flex-container {
+display: flex;
+flex-direction: row;
+background-color: #31343a;
+gap: 3px;
+flex-wrap: wrap;
+text-align: left;
+line-height: auto;
+align-items: flex-start;
+font-size: auto;
+}
+
+.flex-container > div {
+background-image: linear-gradient(10deg, #1d1e22, #1d1e22);
+font-weight: bold;
+flex-grow: 1;
+border-radius: 0px;
+width: max-content;
+color: rgb(216, 42, 42);
+margin: 1px;
+text-align: left;
+border-bottom-right-radius: 1cm;
+}
+
+.break {
+flex-basis: 100%;
+height: 45px;
+display: none;
+}
+
+/* Lists */
+ul, #myUL {
+list-style-type: ""; /* thumbs up sign */
+margin: 0;
+padding: 0;
+}
+
+li {
+list-style: circle;
+}
+
+/* Interaction */
+.box {
+cursor: pointer;
+-webkit-user-select: none; /* Safari 3.1+ */
+-moz-user-select: none; /* Firefox 2+ */
+-ms-user-select: none; /* IE 10+ */
+user-select: none;
+}
+
+.nested {
+display: none;
+}
+
+.active {
+display: block;
+}
