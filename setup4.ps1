@@ -56,6 +56,7 @@ $newContent = $newLines + $existingContent
 $newContent | Set-Content -Path $filePath -Encoding utf8
 
 
+
 # Get the directory where the script is located
 $scriptDirectory = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
 # Define the HTML file path relative to the script directory
@@ -63,7 +64,8 @@ $htmlFilePath = Join-Path -Path $scriptDirectory -ChildPath "1.html"
 # Read in the HTML file
 $html = Get-Content -Path $htmlFilePath -Raw
 # Replace the ICON attribute with <img> tag
-$html = $html -replace 'ICON="([^"]+)"', '> <img src="$1" />'
+$html = $html -replace 'ICON="([^"]+)"', '> <img src="$1" '
+#$html = $html -replace 'ICON="([^"]+)"', '> <img src="$1" />'
 # Write the modified HTML back to the file
 Set-Content -Path $htmlFilePath -Value $html -Encoding utf8
 
