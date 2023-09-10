@@ -136,11 +136,15 @@ border: 0px solid rgb(2, 56, 2);
 
 
 summary {
-list-style: none; /* This will remove the default list style (usually the bullet point) */
-font-size: xx-large; text-align: center;
-background-color: #333530;
-padding: 0%;
-border-radius: 1cqb;
+    list-style: none;
+    font-size: xx-large;
+    text-align: center;
+    background-color: #333530;
+    padding: 0%;
+    border-radius: 1cqb;
+    cursor: pointer; /* Set cursor to hand pointer */
+  }
+  
 }
 
 h25{
