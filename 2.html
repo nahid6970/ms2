@@ -1,72 +1,59 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Extra.Page</title>
-    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4021/4021539.png" type="image/x-icon">
-    <meta name="viewport" content="wilih=device-wilih, initial-scale=1">
-    <link rel="stylesheet" href="style.css" ;>
+<title>Extra.Page</title>
+<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4021/4021539.png" type="image/x-icon">
+<meta name="viewport" content="wilih=device-wilih, initial-scale=1">
+<link rel="stylesheet" href="style.css" ;>
 </head>
-
 <body>
 
-    <div class="flex-container2">
-        <div class="box2">
-            <details>
-                <summary>mklink</summary>
-                <h25>rclone-config</h25>
-                <li>Start-Process "C:\Users\nahid\scoop\apps\rclone\current\" -Confirm</li>
-                <li>New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\scoop\apps\rclone\current\rclone.conf" -Target
-                    "C:\Users\nahid\OneDrive\git\ms1\mklink\rclone.conf" -Confirm </li>
-                    <h25>Powershell-Profile</h25>
-                <li>Start-Process "C:\Users\nahid\OneDrive\Documents\PowerShell\" -Confirm</li>
-                <li>New-Item -ItemType SymbolicLink -Path
-                    "C:\Users\nahid\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target
-                    "C:\Users\nahid\OneDrive\git\ms1\mklink\PowerShell.Profile.txt" -Confirm</li>
-                    <h25>Windows-Terminal-Preview</h25>
-                <li>Start-Process 
-                    "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\"
-                    -Confirm</li>
-                <li>New-Item -ItemType SymbolicLink -Path
-                    "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json"
-                    -Target "C:\Users\nahid\OneDrive\git\ms1\mklink\WindowsTerminal.Profile.json" -Confirm</li>
-            </details>
-        </div>
 
+<div class="flex-container2">
+<div class="box2">
+<details>
+<summary>mklink</summary>
+<h25>rclone-config</h25>
+<li>Start-Process "C:\Users\nahid\scoop\apps\rclone\current\" -Confirm</li>
+<li>New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\scoop\apps\rclone\current\rclone.conf" -Target "C:\Users\nahid\OneDrive\git\ms1\mklink\rclone.conf" -Confirm </li>
+<h25>Powershell-Profile</h25>
+<li>Start-Process "C:\Users\nahid\OneDrive\Documents\PowerShell\" -Confirm</li>
+<li>New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target "C:\Users\nahid\OneDrive\git\ms1\mklink\PowerShell.Profile.txt" -Confirm</li>
+<h25>Windows-Terminal-Preview</h25>
+<li>Start-Process "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\" -Confirm</li>
+<li>New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json" -Target "C:\Users\nahid\OneDrive\git\ms1\mklink\WindowsTerminal.Profile.json" -Confirm</li>
+</details>
+</div>
 
+<div class="box2">
+<details>
+<summary>Initial.Setup</summary>
+<h25>Jackett</h25>
+<li>C:\Users\nahid\AppData\Local\qBittorrent\nova3\engines\jackett.json</li>
+<h25>Ditto</h25>
+<li>setup shortcuts for ctrl+alt+1/2/3 for past</li>
+<h25>oh_my_posh</h25>
+<li>>oh-my-posh font install --victoria --firecode --terminus --meslo --hack</li>
+<li>>oh-my-posh init pwsh --config 'them path in scoop folder' | Invoke-Expression #pwsh profile</li>
+<h25>tailwind</h25>
+<li>install node.js using scoop</li>
+<li>open the folder using vscode</li>
+<li>cd to the directory</li>
+<li>npm init</li>
+<li>npm install -D tailwindcss</li>
+<li>npx tailwindcss init --full</li>
+<li>always cd to that folder and</li>
+<li>always keep below command running</li>
+<li>npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch</li>
+</details>
+</div>
 
-
-        <div class="box2">
-            <details>
-                <summary>Initial.Setup</summary>
-                <h25>Jackett</h25>
-                <li>C:\Users\nahid\AppData\Local\qBittorrent\nova3\engines\jackett.json</li>
-                <h25>Ditto</h25>
-                <li>setup shortcuts for ctrl+alt+1/2/3 for past</li>
-                <h25>oh_my_posh</h25>
-                <li>>oh-my-posh font install --victoria --firecode --terminus --meslo --hack</li>
-                <li>>oh-my-posh init pwsh --config 'them path in scoop folder' | Invoke-Expression #pwsh profile</li>
-                <h25>tailwind</h25>
-                <li>install node.js using scoop</li>
-                <li>open the folder using vscode</li>
-                <li>cd to the directory</li>
-                <li>npm init</li>
-                <li>npm install -D tailwindcss</li>
-                <li>npx tailwindcss init --full</li>
-                <li>always cd to that folder and</li>
-                <li>always keep below command running</li>
-                <li>npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch</li>
-            </details>
-        </div>
-
-
-
-        <div class="box2">
-            <details>
-                <summary>Winget</summary>
-                <li>winget upgrade --all</li>
-                <li>winget upgrade --all --include-unknown</li>
-                <li>C:\Users\<username>\AppData\Local\Microsoft\Winget\Cache</li>
+<div class="box2">
+<details>
+<summary>Winget</summary>
+<li>winget upgrade --all</li>
+<li>winget upgrade --all --include-unknown</li>
+<li>C:\Users\<username>\AppData\Local\Microsoft\Winget\Cache</li>
 <table>
 <thead>
 <tr>
@@ -112,46 +99,55 @@ td>show</td><td>Shows information about a package</td>
 </details>
 </div>
 
+<div class="box2">
+<details>
+<summary>Git</summary>
+<li style="list-style: square;">git #shows all command list
+<li style="list-style: square;">cd to local file where u can see the .git folder dont have to go to that
+folders</li>
+<li style="list-style: square;">git init #initialize a folder as git repository</li>
+<li style="list-style: square;">git add . # Stage all changes</li>
+<li style="list-style: square;">git commit -m "Your commit message here"</li>
+<li style="list-style: square;">git pull origin main && git push origin main</li>
+<li style="list-style: square;">git add . && git commit -m "comment" && git pull origin main && git push
+origin main</li>
+<li style="list-style: square;">#dont-work-for-pull</li>
+<li style="list-style: square;">git pull</li>
+</details>
+</div>
 
-        <div class="box2">
-            <details>
-                <summary>Git</summary>
-                <li style="list-style: square;">git #shows all command list
-                <li style="list-style: square;">cd to local file where u can see the .git folder dont have to go to that
-                    folders</li>
-                <li style="list-style: square;">git init #initialize a folder as git repository</li>
-                <li style="list-style: square;">git add . # Stage all changes</li>
-                <li style="list-style: square;">git commit -m "Your commit message here"</li>
-                <li style="list-style: square;">git pull origin main && git push origin main</li>
-                <li style="list-style: square;">git add . && git commit -m "comment" && git pull origin main && git push
-                    origin main</li>
-                <li style="list-style: square;">#dont-work-for-pull</li>
-                <li style="list-style: square;">git pull</li>
-            </details>
-        </div>
+<div class="box2">
+<details>
+<summary>Scoop</summary>
+<li style="list-style: square;">Set-Alias -Name fake -Value real </li>
+<li style="list-style: square;">del .\scoop -Force</li>
+<li style="list-style: square;">scoop update</li>
+<li style="list-style: square;">scoop update *</li>
+<li style="list-style: square;">scoop cleanup *</li>
+<li style="list-style: square;">scoop status</li>
+<li style="list-style: square;">scoop list | foreach { scoop update $_.Name }</li>
+<li style="list-style: square;">>scoop update && Stop-Process -Name "JackettConsole" -Force && scoop list | foreach { scoop update $_.Name } && Start-Process -FilePath "C:\Users\nahid\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Scoop Apps\Jackett.lnk"</li>
+<li style="list-style: square;">scoop cache rm * #To clear everything in your cache</li>
+<li style="list-style: square;">scoop export > C:\Users\nahid\OneDrive\myscripts\backup\scoop-apps-settings.txt #(backup scoop apps settings)</li>
+<li style="list-style: square;">scoop import C:\Users\nahid\OneDrive\myscripts\backup\scoop-apps-settings.txt #(restore settings)</li>
+</details>
+</div>
 
+<div class="box2">
+<details>
+<summary>Android.Terminals</summary>
+</details>
+</div>
 
-        <div class="box2">
-            <details>
-                <summary>Scoop</summary>
-                <li style="list-style: square;">Set-Alias -Name fake -Value real </li>
-                <li style="list-style: square;">del .\scoop -Force</li>
-                <li style="list-style: square;">scoop update</li>
-                <li style="list-style: square;">scoop update *</li>
-                <li style="list-style: square;">scoop cleanup *</li>
-                <li style="list-style: square;">scoop status</li>
-                <li style="list-style: square;">scoop list | foreach { scoop update $_.Name }</li>
-                <li style="list-style: square;">>scoop update && Stop-Process -Name "JackettConsole" -Force && scoop
-                    list | foreach { scoop update $_.Name } && Start-Process -FilePath
-                    "C:\Users\nahid\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Scoop Apps\Jackett.lnk"</li>
-                <li style="list-style: square;">scoop cache rm * #To clear everything in your cache</li>
-                <li style="list-style: square;">scoop export >
-                    C:\Users\nahid\OneDrive\myscripts\backup\scoop-apps-settings.txt #(backup scoop apps settings)</li>
-                <li style="list-style: square;">scoop import
-                    C:\Users\nahid\OneDrive\myscripts\backup\scoop-apps-settings.txt #(restore settings)</li>
-            </details>
-        </div>
+<div class="box2">
+<details>
+<summary>Android.Apps</summary>
+</details>
+</div>
 
 
 
-    </div>
+
+
+
+</div>
