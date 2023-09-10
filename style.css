@@ -109,6 +109,8 @@ line-height: auto;
 align-items: flex-start;
 font-size: auto;
 color: rgb(255, 255, 255);
+padding: 1cm;
+border-radius: 1cm;
 }
 
 .flex-container2 > div {
@@ -119,6 +121,7 @@ width: max-content;
 margin: 1px;
 text-align: left;
 border-bottom-right-radius: 0cm;
+border-radius: 1cqi;
 }
 
 .box2 {
@@ -135,10 +138,14 @@ border: 0px solid rgb(2, 56, 2);
 summary {
 list-style: none; /* This will remove the default list style (usually the bullet point) */
 font-size: xx-large; text-align: center;
+background-color: #333530;
+padding: 0%;
+border-radius: 1cqb;
 }
 
 h25{
     font-size: x-large ;
+    color: #2c9c71;
 }
 
 table {
