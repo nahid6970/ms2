@@ -1,0 +1,2 @@
+            <DT><A HREF="http://mail.google.com/mail/u/0/" ICON="zxczxczxczcz">Gmail</A>
+            <DT><A HREF="https://vscode.dev/" ICON="fcbxfbxbggfbfgdf">Workspace</A>
