@@ -97,7 +97,7 @@ display: block;
 
 
 
-/* ##################For html part 2 ########################*/
+/* For html part 2 ############################################################*/
 .flex-container2 {
 display: flex;
 flex-direction: row;
@@ -139,4 +139,20 @@ font-size: xx-large; text-align: center;
 
 h25{
     font-size: x-large ;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+border: 2px solid #9dff00; /* Set border color here */
+}
+
+th, td {
+border: 1px solid #2c9c71; /* Set border color here */
+padding: 4px;
+
+}
+
+thead {
+text-align: center !important;
 }
