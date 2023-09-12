@@ -65,59 +65,30 @@
 <li>winget upgrade --all</li>
 <li>winget upgrade --all --include-unknown</li>
 <li>C:\Users\<username>\AppData\Local\Microsoft\Winget\Cache</li>
-<table>
-<thead>
-<tr>
-<th>Winget</th>
-<th>info</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>install</td>
-<td>Installs the given package</td>
-</tr><tr>
-<td>show</td>
-<td>Shows information about a package</td>
-</tr><tr>
-<td>source</td>
-<td>Manage sources of packages</td>
-</tr><tr>
-<td>search</td>
-<td>Find and show basic info of packages</td>
-</tr><tr>
-<td>list</td>
-<td>Display installed packages</td>
-</tr><tr>
-<td>upgrade</td>
-<td>Shows and performs available upgrades</td>
-</tr><tr>
-<td>uninstall</td>
-<td>Uninstalls the given package</td>
-</tr><tr>
-<td>hash</td>
-<td>Helper to hash installer files</td>
-</tr><tr>
-<td>validate</td>
-<td>Validates a manifest file</td>
-</tr><tr>
-<td>settings</td>
-<td>Open settings or set administrator settings</td>
-</tr><tr>
-<td>features</td>
-<td>Shows the status of experimental features</td>
-</tr><tr>
-<td>export</td>
-<td>Exports a list of the installed packages</td>
-</tr><tr>
-<td>import</td>
-<td>Installs all the packages in a file</td>
-</tr><tr>
-<td>pin</td>
-<td>Manage package pins</td>
-</tr>
-</tbody>
-</table>
+<div id="markdownTable"></div>
+<script>
+const markdownTable = `
+|  Winget   |                    info                     |
+| --------- | ------------------------------------------- |
+| install   | Installs the given package                  |
+| show      | Shows information about a package           |
+| source    | Manage sources of packages                  |
+| search    | Find and show basic info of packages        |
+| list      | Display installed packages                  |
+| upgrade   | Shows and performs available upgrades       |
+| uninstall | Uninstalls the given package                |
+| hash      | Helper to hash installer files              |
+| validate  | Validates a manifest file                   |
+| settings  | Open settings or set administrator settings |
+| features  | Shows the status of experimental features   |
+| export    | Exports a list of the installed packages    |
+| import    | Installs all the packages in a file         |
+| pin       | Manage package pins                         |
+`;
+const md = window.markdownit();
+const htmlTable = md.render(markdownTable);
+document.getElementById('markdownTable').innerHTML = htmlTable;
+</script>
 </details>
 </div>
 
@@ -125,14 +96,12 @@
 <details>
 <summary>Git</summary>
 <li style="list-style: square;">git #shows all command list
-<li style="list-style: square;">cd to local file where u can see the .git folder dont have to go to that
-folders</li>
+<li style="list-style: square;">cd to local file where u can see the .git folder dont have to go to that folders</li>
 <li style="list-style: square;">git init #initialize a folder as git repository</li>
 <li style="list-style: square;">git add . # Stage all changes</li>
 <li style="list-style: square;">git commit -m "Your commit message here"</li>
 <li style="list-style: square;">git pull origin main && git push origin main</li>
-<li style="list-style: square;">git add . && git commit -m "comment" && git pull origin main && git push
-origin main</li>
+<li style="list-style: square;">git add . && git commit -m "comment" && git pull origin main && git push origin main</li>
 <li style="list-style: square;">#dont-work-for-pull</li>
 <li style="list-style: square;">git pull</li>
 </details>
@@ -148,14 +117,9 @@ origin main</li>
 <li style="list-style: square;">scoop cleanup *</li>
 <li style="list-style: square;">scoop status</li>
 <li style="list-style: square;">scoop list | foreach { scoop update $_.Name }</li>
-<li style="list-style: square;">>scoop update && Stop-Process -Name "JackettConsole" -Force && scoop
-list | foreach { scoop update $_.Name } && Start-Process -FilePath
-"C:\Users\nahid\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Scoop Apps\Jackett.lnk"</li>
 <li style="list-style: square;">scoop cache rm * #To clear everything in your cache</li>
-<li style="list-style: square;">scoop export >
-C:\Users\nahid\OneDrive\myscripts\backup\scoop-apps-settings.txt #(backup scoop apps settings)</li>
-<li style="list-style: square;">scoop import
-C:\Users\nahid\OneDrive\myscripts\backup\scoop-apps-settings.txt #(restore settings)</li>
+<li style="list-style: square;">scoop export > C:\Users\nahid\OneDrive\myscripts\backup\scoop-apps-settings.txt #(backup scoop apps settings)</li>
+<li style="list-style: square;">scoop import C:\Users\nahid\OneDrive\myscripts\backup\scoop-apps-settings.txt #(restore settings)</li>
 </details>
 </div>
 
@@ -164,6 +128,9 @@ C:\Users\nahid\OneDrive\myscripts\backup\scoop-apps-settings.txt #(restore setti
 <summary>Android.Terminals</summary>
 </details>
 </div>
+
+
+
 
 <div class="box2">
 <details>

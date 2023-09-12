@@ -56,7 +56,6 @@ $newContent = $newLines + $existingContent
 $newContent | Set-Content -Path $filePath -Encoding utf8
 
 
-
 # Get the directory where the script is located
 $scriptDirectory = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
 # Define the HTML file path relative to the script directory
