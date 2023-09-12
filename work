@@ -1,0 +1,58 @@
+|                                                   Android_App                                                    |          category           |
+| ---------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| [AppOps](https://play.google.com/store/apps/details?id=rikka.appops&hl=en_US)                                    | Root & Customization        |
+| [Bing_AI](https://play.google.com/store/apps/details?id=com.microsoft.bing)                                      | A.I                         |
+| [ChatGPT](https://play.google.com/store/apps/details?id=com.openai.chatgpt)                                      | A.I                         |
+| [discord](https://play.google.com/store/apps/details?id=com.discord)                                             | Development & Creativity    |
+| [droid_ify](https://github.com/Droid-ify/client/releases)                                                        | Root & Customization        |
+| [Excel](https://play.google.com/store/apps/details?id=com.microsoft.office.excel)                                | Productivity                |
+| [feeder](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)                           | Productivity                |
+| [github](https://play.google.com/store/apps/details?id=com.github.android)                                       | Development & Creativity    |
+| [jobcircular](https://play.google.com/store/apps/details?id=com.careerguidebd.jobcircular)                       | Productivity                |
+| [Keep](https://play.google.com/store/apps/details?id=com.google.android.keep)                                    | Productivity                |
+| [Magisk](https://github.com/topjohnwu/Magisk)                                                                    | Root & Customization        |
+| [Microsoft_365](https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow)                 | Productivity                |
+| [MS_OneNote](https://play.google.com/store/apps/details?id=com.microsoft.office.onenote)                         | Productivity                |
+| [perplexity](https://play.google.com/store/apps/details?id=ai.perplexity.app.android)                            | A.I                         |
+| [shizuku](https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api)                              | Root & Customization        |
+| [shortcutmaker](https://play.google.com/store/apps/details?id=rk.android.app.shortcutmaker)                      | Root & Customization        |
+| [Showly_OSS](https://github.com/1RandomDev/showly-oss/releases)                                                  | Entertainment               |
+| [Termux](https://github.com/termux/termux-app/releases)                                                          | Root & Customization        |
+| [LSPosed](https://github.com/LSPosed/LSPosed)                                                                    | Root & Customization        |
+| [Automate](https://play.google.com/store/apps/details?id=com.llamalab.automate&hl=en&gl=US)                      | Root & Customization        |
+| [Facebook](https://play.google.com/store/apps/details?id=com.facebook.katana)                                    | Communications & Messengers |
+| [whatsapp](https://play.google.com/store/apps/details?id=com.whatsapp)                                           | Communications & Messengers |
+| [telegram](https://play.google.com/store/apps/details?id=org.telegram.messenger)                                 | Communications & Messengers |
+| [AIMP](https://play.google.com/store/apps/details?id=com.aimp.player&hl=en&gl=USs)                               | Music & Audio               |
+| [photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos)                           | Photos & Videos             |
+| [Material_files](https://play.google.com/store/apps/details?id=me.zhanghai.android.files)                        | Files                       |
+| [droidfs](https://github.com/hardcore-sushi/DroidFS/releases)                                                    | Files                       |
+| [Rclone](https://github.com/x0b/rcx/releases/tag/v1.12.2)                                                        | Cloud Storage               |
+| [MEGA](https://play.google.com/store/apps/details?id=mega.privacy.android.app)                                   | Cloud Storage               |
+| [OneDrive](https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en&gl=US)                     | Cloud Storage               |
+| [Google_Drive](https://play.google.com/store/apps/details?id=com.google.android.apps.docs&hl=en&gl=US)           | Cloud Storage               |
+| [YTDLnis](https://github.com/deniscerri/ytdlnis/releases)                                                        | YouTube Downloader          |
+| [Seal](https://github.com/JunkFood02/Seal/releases)                                                              | Privacy                     |
+| [audiorelay](https://audiorelay.net/)                                                                            | Audio                       |
+| [chromeremotedesktop](https://play.google.com/store/apps/details?id=com.google.chromeremotedesktop)              | Remote Desktop              |
+| [Nagad](https://play.google.com/store/apps/details?id=com.konasl.nagad)                                          | Payment                     |
+| [MyGP](https://play.google.com/store/apps/details?id=com.portonics.mygp)                                         | Utilities                   |
+| [Formulia](https://play.google.com/store/apps/details?id=m4.enginary&hl=en&gl=US)                                | Education                   |
+| [BCSProstuti](https://play.google.com/store/apps/details?id=com.bcsprostuti.tanim.bcsprostuti&hl=en&gl=US)       | Education                   |
+| [UltimateJobSolutions](https://play.google.com/store/apps/details?id=com.aisolutionsbd.jobsolutions&hl=en&gl=US) | Education                   |
+| [1111WARP](https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone)                   |                             |
+| [1DM](https://play.google.com/store/apps/details?id=idm.internet.download.manager)                               |                             |
+| [GameGuardian](https://gameguardian.net/forum/files/file/2-gameguardian/)                                        |                             |
+| [Kotatsu](https://github.com/KotatsuApp/Kotatsu/releases)                                                        |                             |
+| [MyTeletalk](https://play.google.com/store/apps/details?id=teletalk.teletalkcustomerapp)                         |                             |
+| [Warden](https://www.apkmirror.com/apk/aurora-oss/warden/)                                                       |                             |
+| [NOVA_Video_Player](https://play.google.com/store/apps/details?id=org.courville.nova&hl=en&gl=US)                |                             |
+| [Tooly](https://play.google.com/store/apps/details?id=com.yousx.thetoolsapp)                                     |                             |
+| [Authenticator_Pro](https://authenticatorpro.jmh.me/)                                                            |                             |
+| [Next_Player](https://github.com/anilbeesetti/nextplayer/releases)                                               |                             |
+| [Daraz](https://play.google.com/store/apps/details?id=com.daraz.android)                                         |                             |
+| [MagnetX](https://play.google.com/store/apps/details?id=app.magnetx.magnetx)                                     |                             |
+| [InviZible_Pro](https://play.google.com/store/apps/details?id=pan.alexander.tordnscrypt.gp)                      |                             |
+| [Kiwi_Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser)                            |                             |
+| [Tailwind_CSS](https://play.google.com/store/apps/details?id=net.golbarg.tailwind)                               |                             |
+| [QuranApp](https://play.google.com/store/apps/details?id=com.quranapp.android)                                   |                             |
