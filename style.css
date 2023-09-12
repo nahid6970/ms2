@@ -133,24 +133,23 @@ border-radius: 1cqi;
 font-family: Calibri;
 width: 100%;
 height: 100%;
-background-color: #000000;
+background-color: #1d1e22;
 display: row;
 padding: 10px;
-border: 1px solid rgb(255, 255, 255);
 }
 
 
 summary {
     list-style: none;
-    font-size: xx-large;
+    font-size: 25px;
     text-align: center;
-    background-color: #333530;
+    #background-color: #333530;
     padding: 0%;
     border-radius: 1cqb;
     cursor: pointer; /* Set cursor to hand pointer */
   }
   
-}
+
 
 h25{
     font-size: x-large ;
