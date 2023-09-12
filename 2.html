@@ -1,40 +1,23 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 <title>Extra.Page</title>
 <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4021/4021539.png" type="image/x-icon">
 <meta name="viewport" content="wilih=device-wilih, initial-scale=1">
 <link rel="stylesheet" href="style.css" ;>
-<script src="https://unpkg.com/showdown@1.10.3/dist/showdown.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.2.0/markdown-it.min.js"></script>
-<script src="script.js"></script>
-
 </head>
 <body>
 <div class="flex-container2">
 
+
+
 <div class="box2">
 <details>
-<summary>mklink</summary>
-<h25>rclone-config</h25>
-<li>Start-Process "C:\Users\nahid\scoop\apps\rclone\current\" -Confirm</li>
-<li>New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\scoop\apps\rclone\current\rclone.conf" -Target
-"C:\Users\nahid\OneDrive\git\ms1\mklink\rclone.conf" -Confirm </li>
-<h25>Powershell-Profile</h25>
-<li>Start-Process "C:\Users\nahid\OneDrive\Documents\PowerShell\" -Confirm</li>
-<li>New-Item -ItemType SymbolicLink -Path
-"C:\Users\nahid\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target
-"C:\Users\nahid\OneDrive\git\ms1\mklink\PowerShell.Profile.txt" -Confirm</li>
-<h25>Windows-Terminal-Preview</h25>
-<li>Start-Process
-"C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\"
--Confirm</li>
-<li>New-Item -ItemType SymbolicLink -Path
-"C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json"
--Target "C:\Users\nahid\OneDrive\git\ms1\mklink\WindowsTerminal.Profile.json" -Confirm</li>
+<summary>How.to</summary>
+<li>?vscode how to remove all unnecessary spaces? <ul>Pressing Ctrl+F -> enter \s+. -> is a regular expression -> any number of whitespace characters.</ul></li>
 </details>
 </div>
+
 
 <div class="box2">
 <details>
@@ -61,49 +44,16 @@
 
 <div class="box2">
 <details>
-<summary>Winget</summary>
-<li>winget upgrade --all</li>
-<li>winget upgrade --all --include-unknown</li>
-<li>C:\Users\<username>\AppData\Local\Microsoft\Winget\Cache</li>
-<div id="markdownTable"></div>
-<script>
-const markdownTable = `
-|  Winget   |                    info                     |
-| --------- | ------------------------------------------- |
-| install   | Installs the given package                  |
-| show      | Shows information about a package           |
-| source    | Manage sources of packages                  |
-| search    | Find and show basic info of packages        |
-| list      | Display installed packages                  |
-| upgrade   | Shows and performs available upgrades       |
-| uninstall | Uninstalls the given package                |
-| hash      | Helper to hash installer files              |
-| validate  | Validates a manifest file                   |
-| settings  | Open settings or set administrator settings |
-| features  | Shows the status of experimental features   |
-| export    | Exports a list of the installed packages    |
-| import    | Installs all the packages in a file         |
-| pin       | Manage package pins                         |
-`;
-const md = window.markdownit();
-const htmlTable = md.render(markdownTable);
-document.getElementById('markdownTable').innerHTML = htmlTable;
-</script>
-</details>
-</div>
-
-<div class="box2">
-<details>
-<summary>Git</summary>
-<li style="list-style: square;">git #shows all command list
-<li style="list-style: square;">cd to local file where u can see the .git folder dont have to go to that folders</li>
-<li style="list-style: square;">git init #initialize a folder as git repository</li>
-<li style="list-style: square;">git add . # Stage all changes</li>
-<li style="list-style: square;">git commit -m "Your commit message here"</li>
-<li style="list-style: square;">git pull origin main && git push origin main</li>
-<li style="list-style: square;">git add . && git commit -m "comment" && git pull origin main && git push origin main</li>
-<li style="list-style: square;">#dont-work-for-pull</li>
-<li style="list-style: square;">git pull</li>
+<summary>mklink</summary>
+<h25>rclone-config</h25>
+<li>Start-Process "C:\Users\nahid\scoop\apps\rclone\current\" -Confirm</li>
+<li>New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\scoop\apps\rclone\current\rclone.conf" -Target "C:\Users\nahid\OneDrive\git\ms1\mklink\rclone.conf" -Confirm </li>
+<h25>Powershell-Profile</h25>
+<li>Start-Process "C:\Users\nahid\OneDrive\Documents\PowerShell\" -Confirm</li>
+<li>New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target "C:\Users\nahid\OneDrive\git\ms1\mklink\PowerShell.Profile.txt" -Confirm</li>
+<h25>Windows-Terminal-Preview</h25>
+<li>Start-Process "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\" -Confirm</li>
+<li>New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json" -Target "C:\Users\nahid\OneDrive\git\ms1\mklink\WindowsTerminal.Profile.json" -Confirm</li>
 </details>
 </div>
 
@@ -125,82 +75,106 @@ document.getElementById('markdownTable').innerHTML = htmlTable;
 
 <div class="box2">
 <details>
+<summary>Git</summary>
+<li style="list-style: square;">git #shows all command list
+<li style="list-style: square;">cd to local file where u can see the .git folder dont have to go to that folders</li>
+<li style="list-style: square;">git init #initialize a folder as git repository</li>
+<li style="list-style: square;">git add . # Stage all changes</li>
+<li style="list-style: square;">git commit -m "Your commit message here"</li>
+<li style="list-style: square;">git pull origin main && git push origin main</li>
+<li style="list-style: square;">git add . && git commit -m "comment" && git pull origin main && git push origin main</li>
+<li style="list-style: square;">#dont-work-for-pull</li>
+<li style="list-style: square;">git pull</li>
+</details>
+</div>
+
+<div class="box2">
+<details>
+<summary>Winget</summary>
+ <li>install   Installs the given package                 </li>
+ <li>show      Shows information about a package          </li>
+ <li>source    Manage sources of packages                 </li>
+ <li>search    Find and show basic info of packages       </li>
+ <li>list      Display installed packages                 </li>
+ <li>upgrade   Shows and performs available upgrades      </li>
+ <li>uninstall Uninstalls the given package               </li>
+ <li>hash      Helper to hash installer files             </li>
+ <li>validate  Validates a manifest file                  </li>
+ <li>settings  Open settings or set administrator settings</li>
+ <li>features  Shows the status of experimental features  </li>
+ <li>export    Exports a list of the installed packages   </li>
+ <li>import    Installs all the packages in a file        </li>
+ <li>pin       Manage package pins                        </li>
+</details>
+</div>
+
+<div class="box2">
+<details>
 <summary>Android.Terminals</summary>
 </details>
 </div>
 
-
-
-
 <div class="box2">
 <details>
 <summary>Android.Apps</summary>
-<div id="markdownTable"></div>
-<script>
-const markdownTable = `
-|                                                   Android_App                                                    |          category           |
-| ---------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| [1111WARP](https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone)                   |                             |
-| [1DM](https://play.google.com/store/apps/details?id=idm.internet.download.manager)                               |                             |
-| [AIMP](https://play.google.com/store/apps/details?id=com.aimp.player&hl=en&gl=US)                                | Music & Audio               |
-| [AppOps](https://play.google.com/store/apps/details?id=rikka.appops&hl=en_US)                                    | Root & Customization        |
-| [audiorelay](https://audiorelay.net/)                                                                            | Audio                       |
-| [Authenticator_Pro](https://authenticatorpro.jmh.me/)                                                            |                             |
-| [Automate](https://play.google.com/store/apps/details?id=com.llamalab.automate&hl=en&gl=US)                      | Root & Customization        |
-| [BCSProstuti](https://play.google.com/store/apps/details?id=com.bcsprostuti.tanim.bcsprostuti&hl=en&gl=US)       | Education                   |
-| [Bing_AI](https://play.google.com/store/apps/details?id=com.microsoft.bing)                                      | A.I                         |
-| [ChatGPT](https://play.google.com/store/apps/details?id=com.openai.chatgpt)                                      | A.I                         |
-| [chromeremotedesktop](https://play.google.com/store/apps/details?id=com.google.chromeremotedesktop)              | Remote Desktop              |
-| [Daraz](https://play.google.com/store/apps/details?id=com.daraz.android)                                         |                             |
-| [discord](https://play.google.com/store/apps/details?id=com.discord)                                             | Development & Creativity    |
-| [droid_ify](https://github.com/Droid-ify/client/releases)                                                        | Root & Customization        |
-| [droidfs](https://github.com/hardcore-sushi/DroidFS/releases)                                                    | Files                       |
-| [Excel](https://play.google.com/store/apps/details?id=com.microsoft.office.excel)                                | Productivity                |
-| [Facebook](https://play.google.com/store/apps/details?id=com.facebook.katana)                                    | Communications & Messengers |
-| [feeder](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)                           | Productivity                |
-| [Formulia](https://play.google.com/store/apps/details?id=m4.enginary&hl=en&gl=US)                                | Education                   |
-| [GameGuardian](https://gameguardian.net/forum/files/file/2-gameguardian/)                                        |                             |
-| [github](https://play.google.com/store/apps/details?id=com.github.android)                                       | Development & Creativity    |
-| [Google_Drive](https://play.google.com/store/apps/details?id=com.google.android.apps.docs&hl=en&gl=US)           | Cloud Storage               |
-| [InviZible_Pro](https://play.google.com/store/apps/details?id=pan.alexander.tordnscrypt.gp)                      |                             |
-| [jobcircular](https://play.google.com/store/apps/details?id=com.careerguidebd.jobcircular)                       | Productivity                |
-| [Keep](https://play.google.com/store/apps/details?id=com.google.android.keep)                                    | Productivity                |
-| [Kiwi_Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser)                            |                             |
-| [Kotatsu](https://github.com/KotatsuApp/Kotatsu/releases)                                                        |                             |
-| [LSPosed](https://github.com/LSPosed/LSPosed)                                                                    | Root & Customization        |
-| [Magisk](https://github.com/topjohnwu/Magisk)                                                                    | Root & Customization        |
-| [MagnetX](https://play.google.com/store/apps/details?id=app.magnetx.magnetx)                                     |                             |
-| [Material_files](https://play.google.com/store/apps/details?id=me.zhanghai.android.files)                        | Files                       |
-| [MEGA](https://play.google.com/store/apps/details?id=mega.privacy.android.app)                                   | Cloud Storage               |
-| [Microsoft_365](https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow)                 | Productivity                |
-| [MS_OneNote](https://play.google.com/store/apps/details?id=com.microsoft.office.onenote)                         | Productivity                |
-| [MyGP](https://play.google.com/store/apps/details?id=com.portonics.mygp)                                         | Utilities                   |
-| [MyTeletalk](https://play.google.com/store/apps/details?id=teletalk.teletalkcustomerapp)                         |                             |
-| [Nagad](https://play.google.com/store/apps/details?id=com.konasl.nagad)                                          | Payment                     |
-| [Next_Player](https://github.com/anilbeesetti/nextplayer/releases)                                               |                             |
-| [NOVA_Video_Player](https://play.google.com/store/apps/details?id=org.courville.nova&hl=en&gl=US)                |                             |
-| [OneDrive](https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en&gl=US)                     | Cloud Storage               |
-| [perplexity](https://play.google.com/store/apps/details?id=ai.perplexity.app.android)                            | A.I                         |
-| [photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos)                           | Photos & Videos             |
-| [QuranApp](https://play.google.com/store/apps/details?id=com.quranapp.android)                                   |                             |
-| [Rclone](https://github.com/x0b/rcx/releases/tag/v1.12.2)                                                        | Cloud Storage               |
-| [Seal](https://github.com/JunkFood02/Seal/releases)                                                              | Privacy                     |
-| [shizuku](https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api)                              | Root & Customization        |
-| [shortcutmaker](https://play.google.com/store/apps/details?id=rk.android.app.shortcutmaker)                      | Root & Customization        |
-| [Showly_OSS](https://github.com/1RandomDev/showly-oss/releases)                                                  | Entertainment               |
-| [Tailwind_CSS](https://play.google.com/store/apps/details?id=net.golbarg.tailwind)                               |                             |
-| [telegram](https://play.google.com/store/apps/details?id=org.telegram.messenger)                                 | Communications & Messengers |
-| [Termux](https://github.com/termux/termux-app/releases)                                                          | Root & Customization        |
-| [Tooly](https://play.google.com/store/apps/details?id=com.yousx.thetoolsapp)                                     |                             |
-| [UltimateJobSolutions](https://play.google.com/store/apps/details?id=com.aisolutionsbd.jobsolutions&hl=en&gl=US) | Education                   |
-| [Warden](https://www.apkmirror.com/apk/aurora-oss/warden/)                                                       |                             |
-| [whatsapp](https://play.google.com/store/apps/details?id=com.whatsapp)                                           | Communications & Messengers |
-| [YTDLnis](https://github.com/deniscerri/ytdlnis/releases)                                                        | YouTube Downloader          |
-`;
-const md = window.markdownit();
-const htmlTable = md.render(markdownTable);
-document.getElementById('markdownTable').innerHTML = htmlTable;
-</script>
+|                                                                            Android_App                                                                             |          category           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- |
+| <!--1111WARP-->           <a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone">1111WARP           </a>(|                             |
+| <!--1DM-->                <a href="https://play.google.com/store/apps/details?id=idm.internet.download.manager">1DM                </a>(|                             |
+| <!--AIMP-->               <a href="https://play.google.com/store/apps/details?id=com.aimp.player&hl=en&gl=US">AIMP               </a>(| Music & Audio               |
+| <!--App-->                <a href="s](https://play.google.com/store/apps/details?id=rikka.appops&hl=en_US">App                </a>p| Root & Customization        |
+| <!--audiorelay-->         <a href="https://audiorelay.net/">audiorelay         </a>(| Audio                       |
+| <!--Authenticator-->      <a href="ro](https://authenticatorpro.jmh.me/">Authenticator      </a>P|                             |
+| <!--Automate-->           <a href="https://play.google.com/store/apps/details?id=com.llamalab.automate&hl=en&gl=US">Automate           </a>(| Root & Customization        |
+| <!--BCSProstuti-->        <a href="https://play.google.com/store/apps/details?id=com.bcsprostuti.tanim.bcsprostuti&hl=en&gl=US)          ">BCSProstuti        </a>(| Education                   |
+| <!--Bing-->               <a href="I](https://play.google.com/store/apps/details?id=com.microsoft.bing">Bing               </a>A| A.I                         |
+| <!--Chat-->               <a href="T](https://play.google.com/store/apps/details?id=com.openai.chatgpt">Chat               </a>P| A.I                         |
+| <!--chromeremotedesktop--><a href="https://play.google.com/store/apps/details?id=com.google.chromeremotedesktop">chromeremotedesktop</a>(| Remote Desktop              |
+| <!--Daraz-->              <a href="https://play.google.com/store/apps/details?id=com.daraz.android">Daraz              </a>(|                             |
+| <!--discord-->            <a href="https://play.google.com/store/apps/details?id=com.discord">discord            </a>(| Development & Creativity    |
+| <!--droid-->              <a href="fy](https://github.com/Droid-ify/client/releases">droid              </a>i| Root & Customization        |
+| <!--droidfs-->            <a href="https://github.com/hardcore-sushi/DroidFS/releases">droidfs            </a>(| Files                       |
+| <!--Excel-->              <a href="https://play.google.com/store/apps/details?id=com.microsoft.office.excel">Excel              </a>(| Productivity                |
+| <!--Facebook-->           <a href="https://play.google.com/store/apps/details?id=com.facebook.katana">Facebook           </a>(| Communications & Messengers |
+| <!--feeder-->             <a href="https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play">feeder             </a>(| Productivity                |
+| <!--Formulia-->           <a href="https://play.google.com/store/apps/details?id=m4.enginary&hl=en&gl=US">Formulia           </a>(| Education                   |
+| <!--Game-->               <a href="ardian](https://gameguardian.net/forum/files/file/2-gameguardian/">Game               </a>u|                             |
+| <!--github-->             <a href="https://play.google.com/store/apps/details?id=com.github.android">github             </a>(| Development & Creativity    |
+| <!--Google-->             <a href="rive](https://play.google.com/store/apps/details?id=com.google.android.apps.docs&hl=en&gl=US">Google             </a>D| Cloud Storage               |
+| <!--Invi-->               <a href="ble_Pro](https://play.google.com/store/apps/details?id=pan.alexander.tordnscrypt.gp">Invi               </a>i|                             |
+| <!--jobcircular-->        <a href="https://play.google.com/store/apps/details?id=com.careerguidebd.jobcircular">jobcircular        </a>(| Productivity                |
+| <!--Keep-->               <a href="https://play.google.com/store/apps/details?id=com.google.android.keep">Keep               </a>(| Productivity                |
+| <!--Kiwi-->               <a href="rowser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser">Kiwi               </a>B|                             |
+| <!--Kotatsu-->            <a href="https://github.com/KotatsuApp/Kotatsu/releases">Kotatsu            </a>(|                             |
+| <!--LSPosed-->            <a href="https://github.com/LSPosed/LSPosed">LSPosed            </a>(| Root & Customization        |
+| <!--Magisk-->             <a href="https://github.com/topjohnwu/Magisk">Magisk             </a>(| Root & Customization        |
+| <!--Magnet-->             <a href="(https://play.google.com/store/apps/details?id=app.magnetx.magnetx">Magnet             </a>]|                             |
+| <!--Material-->           <a href="iles](https://play.google.com/store/apps/details?id=me.zhanghai.android.files">Material           </a>f| Files                       |
+| <!--MEGA-->               <a href="https://play.google.com/store/apps/details?id=mega.privacy.android.app">MEGA               </a>(| Cloud Storage               |
+| <!--Microsoft-->          <a href="65](https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow">Microsoft          </a>3| Productivity                |
+| <!--MS-->                 <a href="neNote](https://play.google.com/store/apps/details?id=com.microsoft.office.onenote">MS                 </a>O| Productivity                |
+| <!--My-->                 <a href="](https://play.google.com/store/apps/details?id=com.portonics.mygp">My                 </a>P| Utilities                   |
+| <!--My-->                 <a href="letalk](https://play.google.com/store/apps/details?id=teletalk.teletalkcustomerapp)                   ">My                 </a>e|                             |
+| <!--Nagad-->              <a href="https://play.google.com/store/apps/details?id=com.konasl.nagad)                                       ">Nagad              </a>(| Payment                     |
+| <!--Next-->               <a href="layer](https://github.com/anilbeesetti/nextplayer/releases)                                           ">Next               </a>P|                             |
+| <!--NOVA-->               <a href="ideo_Player](https://play.google.com/store/apps/details?id=org.courville.nova&hl=en&gl=US)            ">NOVA               </a>V|                             |
+| <!--One-->                <a href="ive](https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en&gl=US)                ">One                </a>r| Cloud Storage               |
+| <!--perplexity-->         <a href="https://play.google.com/store/apps/details?id=ai.perplexity.app.android)                              ">perplexity         </a>(| A.I                         |
+| <!--photos-->             <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.photos)                         ">photos             </a>(| Photos & Videos             |
+| <!--Quran-->              <a href="p](https://play.google.com/store/apps/details?id=com.quranapp.android)                                ">Quran              </a>p|                             |
+| <!--Rclone-->             <a href="https://github.com/x0b/rcx/releases/tag/v1.12.2)                                                      ">Rclone             </a>(| Cloud Storage               |
+| <!--Seal-->               <a href="https://github.com/JunkFood02/Seal/releases)                                                          ">Seal               </a>(| Privacy                     |
+| <!--shizuku-->            <a href="https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api)                             ">shizuku            </a>(| Root & Customization        |
+| <!--shortcutmaker-->      <a href="https://play.google.com/store/apps/details?id=rk.android.app.shortcutmaker)                           ">shortcutmaker      </a>(| Root & Customization        |
+| <!--Showly-->             <a href="SS](https://github.com/1RandomDev/showly-oss/releases)                                                ">Showly             </a>O| Entertainment               |
+| <!--Tailwind-->           <a href="SS](https://play.google.com/store/apps/details?id=net.golbarg.tailwind)                               ">Tailwind           </a>C|                             |
+| <!--telegram-->           <a href="https://play.google.com/store/apps/details?id=org.telegram.messenger)                                 ">telegram           </a>(| Communications & Messengers |
+| <!--Termux-->             <a href="https://github.com/termux/termux-app/releases)                                                        ">Termux             </a>(| Root & Customization        |
+| <!--Tooly-->              <a href="https://play.google.com/store/apps/details?id=com.yousx.thetoolsapp)                                  ">Tooly              </a>(|                             |
+| <!--Ultimate-->           <a href="bSolutions](https://play.google.com/store/apps/details?id=com.aisolutionsbd.jobsolutions&hl=en&gl=US) ">Ultimate           </a>o| Education                   |
+| <!--Warden-->             <a href="https://www.apkmirror.com/apk/aurora-oss/warden/)                                                     ">Warden             </a>(|                             |
+| <!--whatsapp-->           <a href="https://play.google.com/store/apps/details?id=com.whatsapp)                                           ">whatsapp           </a>(| Communications & Messengers |
+| <!--YTDLnis-->            <a href="https://github.com/deniscerri/ytdlnis/releases)                                                       ">YTDLnis            </a>(| YouTube Downloader          |
 </details>
 </div>
 
