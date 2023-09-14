@@ -125,9 +125,8 @@ border-radius: 0px;
 width: max-content;
 margin: 1px;
 text-align: left;
+#border-radius: 10%  10% 10% 10%;
 border-bottom-right-radius: 2cqi;
-border-top-left-radius: 2cqi;
-
 }
 
 .box2 {
