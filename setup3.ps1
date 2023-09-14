@@ -15,7 +15,6 @@ $html = $html -replace "<DL><p>", "" `
 # Write the modified HTML back to the file
 Set-Content -Path $htmlFilePath -Value $html -Encoding utf8
 
-
 # Get the directory where the script is located
 $scriptDirectory = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
 # Define the file path relative to the script directory
