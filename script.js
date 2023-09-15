@@ -14,3 +14,5 @@ spans.forEach(span => {
 spans.forEach(span => {
   span.style.width = `${maxWidth}px`;
 });
+
+
