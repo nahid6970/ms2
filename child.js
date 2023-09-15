@@ -1,12 +1,12 @@
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const childContentElement = document.getElementById('childcontent1');
+    const ccElement = document.getElementById('cc1');
     const xhr = new XMLHttpRequest();
     xhr.open('GET', 'initial_setup.html', true); // Update the filename here
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-            childContentElement.innerHTML = xhr.responseText;
+            ccElement.innerHTML = xhr.responseText;
         }
     };
     xhr.send();
@@ -15,12 +15,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const childContentElement = document.getElementById('childcontent2');
+    const ccElement = document.getElementById('cc_howto');
     const xhr = new XMLHttpRequest();
     xhr.open('GET', 'how_to.html', true); // Update the filename here
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-            childContentElement.innerHTML = xhr.responseText;
+            ccElement.innerHTML = xhr.responseText;
         }
     };
     xhr.send();
@@ -30,12 +30,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const childContentElement = document.getElementById('childcontent3');
+    const ccElement = document.getElementById('cc_mklink');
     const xhr = new XMLHttpRequest();
     xhr.open('GET', 'mklink.html', true); // Update the filename here
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-            childContentElement.innerHTML = xhr.responseText;
+            ccElement.innerHTML = xhr.responseText;
         }
     };
     xhr.send();
@@ -45,12 +45,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const childContentElement = document.getElementById('childcontent4');
+    const ccElement = document.getElementById('cc_scoop');
     const xhr = new XMLHttpRequest();
     xhr.open('GET', 'scoop.html', true); // Update the filename here
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-            childContentElement.innerHTML = xhr.responseText;
+            ccElement.innerHTML = xhr.responseText;
         }
     };
     xhr.send();
@@ -60,12 +60,57 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const childContentElement = document.getElementById('childcontentandroidapps');
+    const ccElement = document.getElementById('cc_androidapps');
     const xhr = new XMLHttpRequest();
     xhr.open('GET', 'scoop.html', true); // Update the filename here
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-            childContentElement.innerHTML = xhr.responseText;
+            ccElement.innerHTML = xhr.responseText;
+        }
+    };
+    xhr.send();
+});
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const ccElement = document.getElementById('cc_git');
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', 'scoop.html', true); // Update the filename here
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+            ccElement.innerHTML = xhr.responseText;
+        }
+    };
+    xhr.send();
+});
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const ccElement = document.getElementById('cc_winget');
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', 'scoop.html', true); // Update the filename here
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+            ccElement.innerHTML = xhr.responseText;
+        }
+    };
+    xhr.send();
+});
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const ccElement = document.getElementById('cc_android');
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', 'scoop.html', true); // Update the filename here
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+            ccElement.innerHTML = xhr.responseText;
         }
     };
     xhr.send();
