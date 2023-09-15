@@ -236,7 +236,7 @@ text-decoration: underline;
 /* Style for spans */
 span {
 display: inline-block;
-padding: 8px 16px;
+padding: 5px 5px;
 background-color: #474747;
 border-radius: 5px;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
