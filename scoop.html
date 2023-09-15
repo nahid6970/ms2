@@ -1,0 +1,22 @@
+<h1 class="h25">Scoop Setup      </h1>
+<li>iex (new-object net.webclient).downloadstring('https://get.scoop.sh') </li>
+<li>scoop config cache_Path D:\@install\scoop\cache                       </li>
+<li>scoop install git                                                     </li>
+<h1 class="h25">Scoop Add Buckets</h1>
+<li>Usage: scoop bucket add|list|known|rm [<args>]                        </li>
+<li>scoop bucket add main                                                 </li>
+<li>scoop bucket add extras                                               </li>
+<li>scoop bucket add versions                                             </li>
+<li>scoop bucket add nonportable                                          </li>
+<li>scoop bucket add games                                                </li>
+<h1 class="h25">Scoop Commands</h1>
+<li>Set-Alias -Name fake -Value real </li>
+<li>del .\scoop -Force</li>
+<li>scoop update</li>
+<li>scoop update *</li>
+<li>scoop cleanup *</li>
+<li>scoop status</li>
+<li>scoop list | foreach { scoop update $_.Name }</li>
+<li>scoop cache rm * #To clear everything in your cache</li>
+<li>scoop export > C:\Users\nahid\OneDrive\myscripts\backup\scoop-apps-settings.txt #(backup scoop apps settings)</li>
+<li>scoop import C:\Users\nahid\OneDrive\myscripts\backup\scoop-apps-settings.txt #(restore settings)</li>
