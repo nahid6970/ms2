@@ -157,6 +157,8 @@ font-size: x-large;
 color: #2c9c71;
 position: relative;
 display: inline-block;
+margin-bottom: 0%;
+margin-top: 1%;
 }
 
 .h25::after {
@@ -259,3 +261,6 @@ font-weight: bold;
 span a:hover {
 text-decoration: underline;
 }
+
+
+  
