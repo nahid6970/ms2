@@ -263,5 +263,47 @@ span a:hover {
 text-decoration: underline;
 }
 
+.scoop {
+display: inline-block;
+padding: 5px 5px;
+background-color: #6b667b ;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+margin: 2px;
+width: 160px;
+}
 
-  
+.winget {
+display: inline-block;
+padding: 5px 5px;
+background-color: #005da7 ;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+margin: 2px;
+width: 160px;
+}
+
+.choco {
+display: inline-block;
+padding: 5px 5px;
+background-color: #884b2e ;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+margin: 2px;
+width: 160px;
+}
+
+.home {
+display: inline-block;
+padding: 5px 5px;
+background-color: #43a72f ;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+margin: 2px;
+width: 160px;
+}
+
