@@ -47,6 +47,7 @@
 <li>C:\Users\nahid\scoop\apps\neovim\0.9.2\share\nvim\runtime\doc</li>
 <table>
 <tr><td>:NvimTreeOpen</td><td></td></tr>
+<tr><td>:NvimTreeClose</td><td></td></tr>
 <tr><td>:help nvim   </td><td></td></tr>
 <tr><td>:Tutor       </td><td></td></tr>
 <tr><td>   </td><td>   </td></tr>
@@ -54,25 +55,32 @@
 | :wq           | save and quit                                                        |
 | # {← or →}    | to go to that number ch                                              |
 | # {↓ or ↑}    | to go to that number lines                                           |
+| #dd {normal}  | to delete # lines.                                                   |
 | #e{normal}    | to move the cursor to the end of the # word forward.                 |
 | #G            | To go to line #, use shift for capital g                             |
 | #w            | to move the cursor # words forward                                   |
+| 0 {normal}    | to move to the start of the line                                     |
 | A {normal}    | append /insert text after the cursor                                 |
 | ctrl +/-      | zoomin/out                                                           |
 | d             | commandlist1                                                         |
-| d$ {normal}   | to delete to the end of the line.                                    |
+| d#w {normal}  | to delete the # UPPER CASE words                                     |
+| d$ {normal}   | To delete from the cursor to the end of a line type                  |
 | dd            | delete-line                                                          |
 | de {normal}   | delete to the end of the current word, INCLUDING the last character. |
 | dw {normal}   | to delete a word.                                                    |
 | esc or ctrl+: | normal-mode                                                          |
+| G {normal}    | go to last line                                                      |
 | gg            | To go to the first line of the file                                  |
 | hjkl ←↓↑→     | works as arrow key                                                   |
 | i             | insert text before the cursor                                        |
-| U {normal}    | undo                                                                 |
+| U {normal}    | to fix a whole line.                                                 |
+| u {normal}    | to undo the last commands,                                           |
 | x             | delete the character under the cursor.                               |
-| 0 {normal}    | to move to the start of the line                                     |
-| G {normal}    | go to last line                                                      |
-| d#w {normal}  | to delete the # UPPER CASE words                                     |
+| ctrl+r        | Redo                                                                 |
+| p {normal}    | to put previously deleted text after the cursor.                     |
+
+
+
 
 
 
