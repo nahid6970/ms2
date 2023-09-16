@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const ccElement = document.getElementById('cc_pc_apps');
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'pc_apps.html', true); // Update the filename here
+    xhr.open('GET', "content/pc_apps.html", true); // Update the filename here
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
             ccElement.innerHTML = xhr.responseText;
