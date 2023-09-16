@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const ccElement = document.getElementById('cc_git');
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'git.html', true); // Update the filename here
+    xhr.open('GET', "content/git.html", true); // Update the filename here
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
             ccElement.innerHTML = xhr.responseText;
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const ccElement = document.getElementById('cc_winget');
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'winget.html', true); // Update the filename here
+    xhr.open('GET', "content/winget.html", true); // Update the filename here
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
             ccElement.innerHTML = xhr.responseText;
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const ccElement = document.getElementById('cc_android');
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'android.html', true); // Update the filename here
+    xhr.open('GET', "content/android.html", true); // Update the filename here
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
             ccElement.innerHTML = xhr.responseText;
