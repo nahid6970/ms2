@@ -1,0 +1,52 @@
+<h1 class="h25">SCOOP</h1>
+<h3>Scoop Setup</h3>
+<li>iex (new-object net.webclient).downloadstring('https://get.scoop.sh') </li>
+<li>scoop config cache_Path D:\@install\scoop\cache                       </li>
+<li>scoop install git                                                     </li>
+<h3>Scoop Add Buckets</h3>
+<li>Usage: scoop bucket add|list|known|rm [<args>]                        </li>
+<li>scoop bucket add main                                                 </li>
+<li>scoop bucket add extras                                               </li>
+<li>scoop bucket add versions                                             </li>
+<li>scoop bucket add nonportable                                          </li>
+<li>scoop bucket add games                                                </li>
+<h3>Scoop Commands</h3>
+<li>Set-Alias -Name fake -Value real </li>
+<li>del .\scoop -Force</li>
+<li>scoop update</li>
+<li>scoop update *</li>
+<li>scoop cleanup *</li>
+<li>scoop status</li>
+<li>scoop list | foreach { scoop update $_.Name }</li>
+<li>scoop cache rm * #To clear everything in your cache</li>
+<li>scoop export > C:\Users\nahid\OneDrive\myscripts\backup\scoop-apps-settings.txt #(backup scoop apps settings)</li>
+<li>scoop import C:\Users\nahid\OneDrive\myscripts\backup\scoop-apps-settings.txt #(restore settings)</li>
+
+
+<h1 class="h25">WINGET</h1>
+<li>install   Installs the given package                 </li>
+<li>show      Shows information about a package          </li>
+<li>source    Manage sources of packages                 </li>
+<li>search    Find and show basic info of packages       </li>
+<li>list      Display installed packages                 </li>
+<li>upgrade   Shows and performs available upgrades      </li>
+<li>uninstall Uninstalls the given package               </li>
+<li>hash      Helper to hash installer files             </li>
+<li>validate  Validates a manifest file                  </li>
+<li>settings  Open settings or set administrator settings</li>
+<li>features  Shows the status of experimental features  </li>
+<li>export    Exports a list of the installed packages   </li>
+<li>import    Installs all the packages in a file        </li>
+<li>pin       Manage package pins                        </li>
+
+
+<h1 class="h25">Git</h1>
+<li style="list-style: square;">git #shows all command list
+<li style="list-style: square;">cd to local file where u can see the .git folder dont have to go to that folders</li>
+<li style="list-style: square;">git init #initialize a folder as git repository</li>
+<li style="list-style: square;">git add . # Stage all changes</li>
+<li style="list-style: square;">git commit -m "Your commit message here"</li>
+<li style="list-style: square;">git pull origin main && git push origin main</li>
+<li style="list-style: square;">git add . && git commit -m "comment" && git pull origin main && git push origin main</li>
+<li style="list-style: square;">#dont-work-for-pull</li>
+<li style="list-style: square;">git pull</li>

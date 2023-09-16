@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const ccElement = document.getElementById('cc_initial_setup');
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'initial_setup.html', true); // Update the filename here
+    xhr.open('GET', "content/initial_setup.html", true); // Update the filename here
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
             ccElement.innerHTML = xhr.responseText;
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const ccElement = document.getElementById('cc_howto');
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'how_to.html', true); // Update the filename here
+    xhr.open('GET', "content/how_to.html", true); // Update the filename here
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
             ccElement.innerHTML = xhr.responseText;
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const ccElement = document.getElementById('cc_mklink');
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'mklink.html', true); // Update the filename here
+    xhr.open('GET', "content/mklink.html", true); // Update the filename here
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
             ccElement.innerHTML = xhr.responseText;
@@ -44,9 +44,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const ccElement = document.getElementById('cc_scoop');
+    const ccElement = document.getElementById('cc_scoop_winget_git');
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'scoop.html', true); // Update the filename here
+    xhr.open('GET', "content/scoop_winget_git.html", true); // Update the filename here
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
             ccElement.innerHTML = xhr.responseText;
@@ -73,32 +73,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    const ccElement = document.getElementById('cc_git');
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', "content/git.html", true); // Update the filename here
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-            ccElement.innerHTML = xhr.responseText;
-        }
-    };
-    xhr.send();
-});
-
-
-
-
-document.addEventListener('DOMContentLoaded', function() {
-    const ccElement = document.getElementById('cc_winget');
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', "content/winget.html", true); // Update the filename here
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-            ccElement.innerHTML = xhr.responseText;
-        }
-    };
-    xhr.send();
-});
 
 
 
