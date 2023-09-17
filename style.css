@@ -139,7 +139,8 @@ padding: 10px;
 }
 
 .box2:hover {
-background-color: #1d2e52;
+background-color: #000000;
+border: solid 2px rgb(167, 72, 8);
 }
 
 
@@ -155,6 +156,9 @@ border-radius: 1cqb;
 cursor: pointer; /* Set cursor to hand pointer */
 }
 
+.summary1 {
+  color: blue;
+}
 
 
 .h25 {
