@@ -156,10 +156,17 @@ border-radius: 1cqb;
 cursor: pointer; /* Set cursor to hand pointer */
 }
 
+
 .summary1 {
-  color: blue;
+  color: rgb(247, 86, 86);
+  text-align: left;
+  padding-top: 5px;
 }
 
+h2 {
+padding-bottom: 0;
+margin-bottom: 2px;
+}
 
 .h25 {
 font-size: x-large;
