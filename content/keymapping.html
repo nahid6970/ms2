@@ -109,9 +109,36 @@ ctrl+x swap window
 :new	Opens a new window.
 :vnew	Opens a new vertical window.
 
-v command list
+v command list for selecting
+y command list for
 :colorscheme then Space followed by TAB.  list of all installed color schemes in Vim
 Tab in normal mode enter command and auto complete
+
+***************************************************************************************************
+For replacing first select using v command and up or down arrow 
+here g tell to replace all occurance not only the first occurance
+:%s/<search_word>/<replace_word>/g
+
+You can also use the replace all command to replace words with more complex expressions. For 
+example,to replace all occurrences of the word "hello" with the phrase "Hello, world!", you
+could use the following command:
+:%s/hello/Hello, world!/g
+
+You can also use the replace all command to replace words with regular expressions.For example, to 
+replace all occurrences of the word "hello" with the word "world" onlyif they are followed by a 
+comma and a space, you could use the following command:
+:%s/hello,(?=\s)/world/g
+
+To replace selected words in the first 10 lines of a Neovim file, you can use the following command:
+:1,10s/<search_word>/<replace_word>/g
+
+To replace all second occurrences of a word in Neovim, you can use the following command:
+:%s/\(.\{-}\zs<search_word>\){2}/<replace_word>/g
+:1,10s/\(.\{-}\zshello\){2}/world/g
+***************************************************************************************************
+
+
+
 
 :L
 :colorscheme xx to change to xx colortheme and add to init.lua like vim.cmd("colorscheme nightfox")
@@ -122,10 +149,19 @@ F1 quick help
 in explorer click s to sort and also different option will come
 in explorer click F1 for different kemaps in explorer mode
 
+:%y or ggVG To select all text in Neovim, you can use the following command:
+vg start selecting text
+
+for mysertup it will be
+
+y -yy Copy the current line  
+yw Copy the current word
+ys Copy the current sentence
+yip Copy the current paragraph
+:%y Copy the entire file
 
 
-
-when on explorer--------------------------------------------------------------------------------------------------
+when on explorer***********************************************************************************
 ---			-----------------			----
 Map			Quick Explanation			Link
 ---			-----------------			----
@@ -192,13 +228,18 @@ Map			Quick Explanation			Link
  X	Execute filename under cursor via |system()|           |netrw-X|
 
  %	Open a new file in netrw's current directory         |netrw-%|
- ---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************
 cd code in explorer will accept the current dir as working directory
 % to create a files :Ex file explorer --mapped to leader-fm
 d to create a folder :Ex file explorer --mapped to leader-fm
-:so to always active the package managers after modify lua files --first open the lua file like packer.lua then :so
-:so command in Neovim is used to source a file. This means that Neovim will execute all of the commands in the file as if they had been typed directly into the editor.
+:so to always active the package managers after modify lua files --first open the lua file like 
+packer.lua then :so
+
+:so command in Neovim is used to source a file. This means that Neovim will execute all of the commands
+in the file as if they had been typed directly into the editor.
+
 https://www.youtube.com/watch?v=w7i4amO_zaE nvim tutorial
+
 :PackerSync to sync packer package
 
 how to use packer
