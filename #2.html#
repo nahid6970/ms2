@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<a name="
+<head>
+<title>Extra.Page</title>
+<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4021/4021539.png" type="image/x-icon">
+<meta name="viewport" content="wilih=device-wilih, initial-scale=1">
+<link rel="stylesheet" href="style.css" ;>
+</head>
+<body>
+<div class="flex-container2">
+
+
+
+
+<div class="box2"><details><summary>Android 📱</summary><div id="cc_android"></div></details></div>
+<div class="box2"><details><summary>Application 📱</summary><div id="cc_androidapps"></div></details></div>
+<div class="box2"><details><summary>How to 🤔</summary><div id="cc_howto"></div></details></div>
+<div class="box2"><details><summary>Initial Setup 🎯</summary><div id="cc_initial_setup"></div></details></div>
+<div class="box2"><details><summary>Key Binding ⌨️</summary><div id="cc_keymapping"></div></details></div>
+<div class="box2"><details><summary>Mklink &#10541;</summary><div id="cc_mklink"></div></details></div>
+<div class="box2"><details><summary>Package Manager</summary><div id="cc_scoop_winget_git"></div></details></div>
+<div class="box2"><details><summary>Software 🖥️</summary><div id="cc_pc_apps"></div></details></div>
+
+
+
+
+
+</div>
+<script src="script.js"></script>
+<script src="child.js"></script>
