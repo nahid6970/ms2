@@ -1,5 +1,5 @@
 /* For Showing Markdown Table in HTML properly but lines also show */
-function parseMarkdownTable(markdown) {
+ function parseMarkdownTable(markdown) {
   const rows = markdown.trim().split('\n');
   const headers = rows[1].split('|').map(header => header.trim()).filter(Boolean);
   const data = rows.slice(2, -1).map(row => row.split('|').map(cell => cell.trim()).filter(Boolean));
@@ -49,10 +49,8 @@ function convertMarkdownTables() {
 }
 
 // Call the function to convert Markdown tables on page load
-window.addEventListener('load', convertMarkdownTables);
+window.addEventListener('load', convertMarkdownTables); 
  
-
-
 
 
 
