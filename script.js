@@ -47,22 +47,9 @@ function convertMarkdownTables() {
       element.appendChild(tableElement);
   });
 }
-
 // Call the function to convert Markdown tables on page load
 window.addEventListener('load', convertMarkdownTables); 
  
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
