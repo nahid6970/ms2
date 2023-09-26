@@ -24,7 +24,7 @@ spans.forEach(span => {
 
 
 
-
+/* For Showing Markdown Table in HTML properly but lines also show */
 function parseMarkdownTable(markdown) {
   const rows = markdown.trim().split('\n');
   const headers = rows[1].split('|').map(header => header.trim()).filter(Boolean);
