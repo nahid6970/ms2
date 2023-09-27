@@ -206,6 +206,7 @@ padding: 8px;
 }
 
 th {
+  text-align: center;
 background-color: #ffffff;
 color: #000000;
 } 
