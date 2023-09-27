@@ -193,7 +193,7 @@ transform-origin: bottom left;
 }
 
 
-
+/* Table Related */
 table {
 border-collapse: collapse;
 width: 100%;
@@ -206,12 +206,18 @@ padding: 8px;
 }
 
 th {
-background-color: #5f31cc;
+background-color: #ffffff;
+color: #000000;
 } 
 
 tr:nth-child(even) {
-background-color: #794545;
+background-color: #454c5a;
 }
+
+tr:nth-child(odd) {
+  background-color: #3b414b;
+}
+
 
 
 /* Style for the list container */
