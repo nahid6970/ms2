@@ -446,9 +446,9 @@ termux pc keyboard mapping</li>
 <h1>Auto-Hot-Key</h1>
 <div class="markdown-table" id="markdown-table-1">
 <script type="text/markdown">
-| Key        | Objective                               |
-| Ctrl+Alt+N | Notepad++ (Open Selecteditem With) |
-| Ctrl+Alt+N | Notepad++ (Open Selecteditem With) |
+| AutoHotKey Keybinding | Objective                          |
+| Ctrl+Alt+N            | Notepad++ (Open Selecteditem With) |
+| Ctrl+Alt+N            | Notepad++ (Open Selecteditem With) |
 
 </script>
 </div>
@@ -463,136 +463,136 @@ termux pc keyboard mapping</li>
 <h1>Operator List</h1>
 <div class="markdown-table" id="markdown-table-1">
 <script type="text/markdown">
-| Operators list |                                                                 |
-| d              | Delete                                                          |
-| y              | Yank (copy)                                                     |
-| c              | Change (delete then insert)                                     |
-| &#65310;       | Indent right or shift right                                     |
-| &#65308;       | Indent left or shift left                                       |
-| =              | Autoindent or filter through 'equalprg' or C-indenting if empty |
-| g~             | Swap case                                                       |
-| gU             | Uppercase                                                       |
-| gu             | Lowercase                                                       |
-| !              | Filter through external program                                 |
-| ~              | swap case (only if 'tildeop' is set)                            |
-| gq             | text formatting                                                 |
-| g?             | ROT13 encoding                                                  |
-| gw             | text formatting with no cursor movement                         |
-| zf             | define a fold                                                   |
-| g@             | call function set with the 'operatorfunc' option                |
+| !                 | Filter through external program                                 |
+| &#65308;          | Indent left or shift left                                       |
+| &#65310;          | Indent right or shift right                                     |
+| =                 | Autoindent or filter through 'equalprg' or C-indenting if empty |
+| ~                 | swap case (only if 'tildeop' is set)                            |
+| c                 | Change (delete then insert)                                     |
+| d                 | Delete                                                          |
+| g?                | ROT13 encoding                                                  |
+| g@                | call function set with the 'operatorfunc' option                |
+| g~                | Swap case                                                       |
+| gq                | text formatting                                                 |
+| gu                | Lowercase                                                       |
+| gU                | Uppercase                                                       |
+| gw                | text formatting with no cursor movement                         |
+| Vim Operator list | Objective                                                       |
+| y                 | Yank (copy)                                                     |
+| zf                | define a fold                                                   |
 </script>
 </div>
 
 <div class="markdown-table" id="markdown-table-1">
 <script type="text/markdown">
-| Operators Helper |                                         |     |
-| $                | End of line                             |     |
-| %                | Matching character: '()', '{}', '[]'    |     |
-| 0                | Start of line                           |     |
-| ^                | Start of line (non-blank)               |     |
-| {                | Previous empty line                     |     |
-| }                | Next empty line                         |     |
-| b                | Previous word                           |     |
-| e                | Next end of word                        |     |
-| F                | Move to previous char                   |     |
-| f                | Move to next char                       |     |
-| G                | Last line                               |     |
-| h                | Left                                    |     |
-| j                | Down                                    |     |
-| k                | Up                                      |     |
-| l                | Right                                   |     |
-| s                | Add a surrounding pair around a motion  |     |
-| S                | Add a surrounding pair around a motion, |     |
-| T                | Move before previous char               |     |
-| t                | Move before next char                   |     |
-| w                | Next word                               |     |
-| [                | +prefix                                 |     |
-| ]                | +prefix                                 |     |
-| a                | +around                                 |     |
-| g                | +prefix                                 |     |
-| i                | +inside                                 |     |
-| H                | Home line of window (top)               |     |
-| J                | mzJ`2 ***                               | *** |
-| L                | Last Line of window                     |     |
-| M                | Middle line of window                   |     |
+| Vim Motion                      | Objective                                                       |     |
+| :%s/<x>,(?=\s)/<y>/g            | Replace 'x' if followed by comma and space with 'y'             |     |
+| :%s/<x>/<y>                     | Replace first occurance                                         |     |
+| :%s/<x>/<y>/g                   | Replace all first occurance                                     |     |
+| :%y or ggVG                     | To select all text in Neovim, you can use the                   |     |
+| :1,10s/\(.\{-}\zs<x>\){2}/<y>/g | Replace second occurrence of 'x' with                           |     |
+| :1,10s/<x>/<y>/g                | Replace <x> with <y> in lines 1 to 10                           |     |
+| :colorscheme                    | list of all installed color schemes in Vim                      |     |
+| :Ex                             | explorer                                                        |     |
+| :help nvim                      | Help                                                            |     |
+| :Lazy                           | Lazy Package Manager                                            |     |
+| :Mason                          | Mason Package Manager                                           |     |
+| :new                            |                                                                 |     |
+| :new                            | Opens a new window.                                             |     |
+| :NvimTreeClose                  |                                                                 |     |
+| :NvimTreeOpen                   |                                                                 |     |
+| :old                            |                                                                 |     |
+| :PackerSync                     | to sync packer package                                          |     |
+| :q or :q!                       | quit/close-extra-window                                         |     |
+| :so                             | Source a file like save & reload                                |     |
+| :split                          |                                                                 |     |
+| :split or :sp                   | Splits the current window horizontally.                         |     |
+| :Telescope builtin              |                                                                 |     |
+| :Telescope keymaps              | keymaps                                                         |     |
+| :Tutor                          |                                                                 |     |
+| :vnew                           |                                                                 |     |
+| :vnew                           | Opens a new vertical window.                                    |     |
+| :vsplit or :vs                  | Splits the current window vertically.                           |     |
+| :w!                             | override and save                                               |     |
+| :wq                             | save and quit                                                   |     |
+| 'y' in lines 1 to 10            |                                                                 |     |
+| [                               | +prefix                                                         |     |
+| ]                               | +prefix                                                         |     |
+| {                               | Previous empty line                                             |     |
+| }                               | Next empty line                                                 |     |
+| /                               | find text                                                       |     |
+| # {down or up}                  | to go to that number lines                                      |     |
+| # {left or right}               | to go to that number ch                                         |     |
+| #dd {normal}                    | to delete # lines.                                              |     |
+| #e{normal}                      | to move the cursor to the end of the # word forward.            |     |
+| #G                              | To go to line # ,use shift for capital g                        |     |
+| #w                              | to move the cursor # words forward                              |     |
+| %                               | Matching character: '()', '{}', '[]'                            |     |
+| ^                               | Start of line (non-blank)                                       |     |
+| $                               | End of line                                                     |     |
+| $                               | move to the end of line                                         |     |
+| $                               | to the end of the line, INCLUDING the last character.           |     |
+| 0                               | Start of line                                                   |     |
+| 0 {normal}                      | to move to the start of the line                                |     |
+| a                               | +around                                                         |     |
+| A {normal}                      | append /insert text after the cursor                            |     |
+| b                               | Previous word                                                   |     |
+| ctrl +/-                        | zoomin/out                                                      |     |
+| ctrl+r                          | Redo                                                            |     |
+| ctrl+w                          | commandlist                                                     |     |
+| Ctrl+W                          | to quit the buffer.                                             |     |
+| ctrl+w+s                        | hprizontal split                                                |     |
+| ctrl+w+v                        | vertical split or :vsplit                                       |     |
+| ctrl+x                          | swap window                                                     |     |
+| d                               | commandlist1                                                    |     |
+| d#w {normal}                    | to delete the # UPPER CASE words                                |     |
+| d$ {normal}                     | To delete from the cursor to the end of a line type             |     |
+| dd                              | delete-line                                                     |     |
+| de {normal}                     | delete to the end of the current word.                          |     |
+| dw {normal}                     | to delete a word.                                               |     |
+| e                               | Next end of word                                                |     |
+| e                               | to the end of the current word, INCLUDING the last character    |     |
+| esc or ctrl+:                   | normal-mode                                                     |     |
+| f                               | Move to next char                                               |     |
+| F                               | Move to previous char                                           |     |
+| F1                              | quick help                                                      |     |
+| g                               | +prefix                                                         |     |
+| G                               | Last line                                                       |     |
+| G {normal}                      | go to last line                                                 |     |
+| gg                              | To go to the first line of the file                             |     |
+| H                               | Home line of window (top)                                       |     |
+| h                               | Left                                                            |     |
+| hjkl left-downup-right          | works as arrow key                                              |     |
+| i                               | +inside                                                         |     |
+| i                               | insert text before the cursor                                   |     |
+| j                               | Down                                                            |     |
+| J                               | mzJ`2 ***                                                       | *** |
+| k                               | Up                                                              |     |
+| L                               | Last Line of window                                             |     |
+| l                               | Right                                                           |     |
+| M                               | Middle line of window                                           |     |
+| p {normal}                      | to put previously deleted text after the cursor.                |     |
+| q:                              | edit command history                                            |     |
+| s                               | Add a surrounding pair around a motion                          |     |
+| S                               | Add a surrounding pair around a motion,                         |     |
+| shift+j                         | next lines will automerge with current lines                    |     |
+| space+s+f                       | find files                                                      |     |
+| t                               | Move before next char                                           |     |
+| T                               | Move before previous char                                       |     |
+| Tab {normal}                    | in normal mode enter command and auto complete                  |     |
+| U {normal}                      | to fix a whole line.                                            |     |
+| u {normal}                      | to undo the last commands,                                      |     |
+| vg                              | start selecting text                                            |     |
+| Vim Command List                | Objective                                                       |     |
+| w                               | Next word                                                       |     |
+| w                               | until the start of the next word, EXCLUDING its first character |     |
+| x                               | delete the character under the cursor.                          |     |
 </script>
 </div>
 
-<h1>Vim Commands</h1>
+<h1>Vim Commands List</h1>
 <div class="markdown-table" id="markdown-table-2">
 <script type="text/markdown">
-| Key                             | Objective                                                            |
-| :help nvim                      | Help                                                            |
-| :Lazy                           | Lazy Package Manager                                            |
-| :Mason                          | Mason Package Manager                                           |
-| :new                            |                                                                 |
-| :NvimTreeClose                  |                                                                 |
-| :NvimTreeOpen                   |                                                                 |
-| :old                            |                                                                 |
-| :q or :q!                       | quit/close-extra-window                                         |
-| :split                          |                                                                 |
-| :Telescope builtin              |                                                                 |
-| :Telescope keymaps              | keymaps                                                         |
-| :Tutor                          |                                                                 |
-| :vnew                           |                                                                 |
-| :w!                             | override and save                                               |
-| :wq                             | save and quit                                                   |
-| /                               | find text                                                       |
-| # {down or up}                  | to go to that number lines                                      |
-| # {left or right}               | to go to that number ch                                         |
-| #dd {normal}                    | to delete # lines.                                              |
-| #e{normal}                      | to move the cursor to the end of the # word forward.            |
-| #G                              | To go to line # ,use shift for capital g                        |
-| #w                              | to move the cursor # words forward                              |
-| $                               | move to the end of line                                         |
-| 0 {normal}                      | to move to the start of the line                                |
-| A {normal}                      | append /insert text after the cursor                            |
-| ctrl +/-                        | zoomin/out                                                      |
-| ctrl+r                          | Redo                                                            |
-| d                               | commandlist1                                                    |
-| d#w {normal}                    | to delete the # UPPER CASE words                                |
-| d$ {normal}                     | To delete from the cursor to the end of a line type             |
-| dd                              | delete-line                                                     |
-| de {normal}                     | delete to the end of the current word.                          |
-| dw {normal}                     | to delete a word.                                               |
-| esc or ctrl+:                   | normal-mode                                                     |
-| G {normal}                      | go to last line                                                 |
-| gg                              | To go to the first line of the file                             |
-| hjkl left-downup-right          | works as arrow key                                              |
-| i                               | insert text before the cursor                                   |
-| p {normal}                      | to put previously deleted text after the cursor.                |
-| space+s+f                       | find files                                                      |
-| U {normal}                      | to fix a whole line.                                            |
-| u {normal}                      | to undo the last commands,                                      |
-| x                               | delete the character under the cursor.                          |
-| :so                             | Source a file like save & reload                                |
-| :PackerSync                     | to sync packer package                                          |
-| w                               | until the start of the next word, EXCLUDING its first character |
-| e                               | to the end of the current word, INCLUDING the last character    |
-| $                               | to the end of the line, INCLUDING the last character.           |
-| ctrl+w                          | commandlist                                                     |
-| ctrl+w+s                        | hprizontal split                                                |
-| ctrl+w+v                        | vertical split or :vsplit                                       |
-| ctrl+x                          | swap window                                                     |
-| :split or :sp                   | Splits the current window horizontally.                         |
-| :vsplit or :vs                  | Splits the current window vertically.                           |
-| :new                            | Opens a new window.                                             |
-| :vnew                           | Opens a new vertical window.                                    |
-| :colorscheme                    | list of all installed color schemes in Vim                      |
-| Tab {normal}                    | in normal mode enter command and auto complete                  |
-| :%s/<x>/<y>                     | Replace first occurance                                         |
-| :%s/<x>/<y>/g                   | Replace all first occurance                                     |
-| :%s/<x>,(?=\s)/<y>/g            | Replace 'x' if followed by comma and space with 'y'             |
-| :1,10s/<x>/<y>/g                | Replace <x> with <y> in lines 1 to 10                           |
-| :1,10s/\(.\{-}\zs<x>\){2}/<y>/g | Replace second occurrence of 'x' with                           |
-| 'y' in lines 1 to 10            |                                                                 |
-| q:                              | edit command history                                            |
-| Ctrl+W                          | to quit the buffer.                                             |
-| F1                              | quick help                                                      |
-| :Ex                             | explorer                                                        |
-| shift+j                         | next lines will automerge with current lines                    |
-| :%y or ggVG                     | To select all text in Neovim, you can use the                   |
-| vg                              | start selecting text                                            |
 </script>
 </div>
 
