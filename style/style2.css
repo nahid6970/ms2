@@ -79,7 +79,7 @@ a:active {color: yellow;background-color: transparent;text-decoration: underline
 /* Style third-level headings in the TOC */
 #TOC ul ul ul li a {
   font-size: 14px; /* Adjust the font size for third-level headings */
-  color: rgb(39, 91, 255);
+  color: rgb(244, 67, 54);
 }
 
 
