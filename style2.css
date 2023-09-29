@@ -1,25 +1,47 @@
+body {
+  background-color: rgb(40, 44, 52);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 88%;
+  margin: 0 auto 0 12%;
+  color: aliceblue;
+}
+
+
+
+
+h1 {
+color: rgb(36, 147, 255);
+}
+
+h3 {
+color: rgb(34, 116, 255);
+}
+
+h2 {
+color: rgb(26, 119, 26);
+}
+
+
+
+
+
 /* Customize Table of Contents (TOC) */
 
 /* Style the TOC container */
 #TOC {
-  background-color: #ffffff;
+  background-color: #282c34;
   padding: 10px;
-  border: 2px solid #000000;
+  border: 2px solid #fa8a53;
   border-radius: 5px;
   max-width: 15%;
   position: fixed;
   top: 10%;
-  left: 2%;
-  height: 80%;
+  left: 1%;
+  height: fit-content;
   overflow-y: auto;
 }
 
-/* Style the TOC title */
-#TOC h2 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
+
 
 /* Style the list items in the TOC */
 #TOC ul {
@@ -32,14 +54,29 @@
   margin-bottom: 5px;
 }
 
-/* Style TOC links */
+/* Style First-level headings in the TOC */
 #TOC ul li a {
   text-decoration: none;
-  color: #333;
+  color: rgb(36, 147, 255);
   display: block;
   padding: px 0;
   margin-left: 10px;
+  font-weight: bold;
 }
+
+
+/* Style second-level headings in the TOC */
+#TOC ul ul li a {
+  font-size: 16px; /* Decrease the font size for second-level headings */
+  color: rgb(26, 119, 26);
+}
+
+/* Style third-level headings in the TOC */
+#TOC ul ul ul li a {
+  font-size: 14px; /* Adjust the font size for third-level headings */
+  color: rgb(39, 91, 255);
+}
+
 
 /* Adjust position of subheadings */
 #TOC ul ul li {
@@ -47,13 +84,29 @@
 }
 
 
-h1 {
-  background-color: black;
-color: aquamarine;
-}
 
-
-body {
-  background-color: aqua;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+/* Table Related */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  }
+  
+  th, td {
+  text-align: left;
+  padding: 8px;
+  }
+  
+  th {
+    text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  } 
+  
+  tr:nth-child(even) {
+  background-color: #454c5a;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #3b414b;
+  }
