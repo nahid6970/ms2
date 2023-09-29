@@ -12,7 +12,16 @@ margin-top: 0ch ;
 }
 
 
-p {text-align: left;height: 15px;color: purple;}
+/* p {text-align: left;height: 15px;color: purple;} */
+p {
+  text-align: justify; /* Change to justify for a cleaner look */
+  line-height: 1.5; /* Increase line height for better readability */
+  height: auto; /* Remove fixed height for dynamic sizing */
+  color: #4a90e2; /* Change to a nice blue color */
+  font-family: Arial, sans-serif; /* Choose a widely supported font */
+  font-size: 16px; /* Set an appropriate font size */
+}
+
 
 
 a:link {color: #b5ac97;background-color: transparent;text-decoration: none;}
@@ -333,4 +342,11 @@ margin: 2px;
 width: 160px;
 }
 
+.folder {
+  background-color: yellow;
+  color: rgb(116, 116, 116);
+}
 
+.yt {
+  background-color: red;
+}
