@@ -1,6 +1,6 @@
-#+TITLE: Example Org File
+#+TITLE: 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="C:\Users\nahid\OneDrive\Git\ms2\style2.css">
-#+HTML_HEAD: <style type="text/css">body{ max-width:100%; }</style>
+#+HTML_HEAD: <style type="text/css">body{ max-width:50%; }</style>
 
 
 
@@ -38,3 +38,9 @@
 *** Vim Shortcuts
 *** NVIM-netrw
 *** More Nvim
+#+HTML: <span style="color: red;">Hello</span>
+#+HTML: <span style="color: red;">Hello</span>
+#+HTML: <span style="color: red;">Hello</span>
+#+HTML: <span style="color: red;">Hello</span>
+
+

@@ -2,11 +2,16 @@
 
 /* Style the TOC container */
 #TOC {
-  background-color: #5e5555;
-  padding: 0px;
-  border: 1px solid #ddd;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 2px solid #000000;
   border-radius: 5px;
-  max-width: 50%;
+  max-width: 15%;
+  position: fixed;
+  top: 10%;
+  left: 2%;
+  height: 80%;
+  overflow-y: auto;
 }
 
 /* Style the TOC title */
@@ -32,7 +37,7 @@
   text-decoration: none;
   color: #333;
   display: block;
-  padding: 4px 0;
+  padding: 5px 0;
   margin-left: 10px;
 }
 
