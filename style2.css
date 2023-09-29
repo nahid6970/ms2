@@ -1,0 +1,54 @@
+/* Customize Table of Contents (TOC) */
+
+/* Style the TOC container */
+#TOC {
+  background-color: #5e5555;
+  padding: 0px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 50%;
+}
+
+/* Style the TOC title */
+#TOC h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the list items in the TOC */
+#TOC ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style TOC entries */
+#TOC ul li {
+  margin-bottom: 5px;
+}
+
+/* Style TOC links */
+#TOC ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 4px 0;
+  margin-left: 10px;
+}
+
+/* Adjust position of subheadings */
+#TOC ul ul li {
+  margin-left: 15px;
+}
+
+
+h1 {
+  background-color: black;
+color: aquamarine;
+}
+
+
+body {
+  background-color: aqua;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

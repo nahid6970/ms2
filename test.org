@@ -1,0 +1,40 @@
+#+TITLE: Example Org File
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="C:\Users\nahid\OneDrive\Git\ms2\style2.css">
+#+HTML_HEAD: <style type="text/css">body{ max-width:100%; }</style>
+
+
+
+* Android 📱
+** Application 📱
+   - This is some content under heading 1
+
+
+* How to 🤔
+** Align by RegEx
+** Align-column
+
+
+* Initial Setup 🎯
+
+* Mklink &#10541;
+
+* Package Manager
+** Winget
+** Scoop Setup
+** Git
+
+
+* PC
+** Software 🖥️
+** extra
+
+
+* Key Binding ⌨️
+** VScode
+** PWSH
+** Windows-Terminal
+** AutoHotKey
+** NeoVim / Vim
+*** Vim Shortcuts
+*** NVIM-netrw
+*** More Nvim
