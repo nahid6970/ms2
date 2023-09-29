@@ -5,12 +5,38 @@
 
 
 * Android 📱
+- [[https://www.youtube.com/watch?v=BWgh6pH72Fc&t=470s][Encrypt & Decrypt Device]]
+
+*** Termux Commands
+- [[https://www.learntermux.tech/2020/01/basic-commands-in-termux.html?m=1][Learn Termux]]
+- [[https://wiki.termux.com/wiki/Touch_Keyboard][Termux Keyboard]]
+
+[[][]]
+[[][]]
+[[][]]
+
+- alias alias_name='command' 
+- unalias 
+- termux-setup-storage 
+- cd storage/shared/ 
+- pkg update -y && pkg upgrade -y 
+- pkg in 
+- apt update -y && apt upgrade -y 
+- pkg install rclone python tealdeer tsu -y 
+- git clone https://github.com/h4ck3r0/Termux-os && cd Termux-os && bash os.sh
+
+*** Termux rclone
+rclone copy storage/shared/rclone.conf /data/data/com.termux/files/home/.config/rclone/
+rclone sync gu:/song/ storage/shared/song/ -P --track-renames --ignore-existing --fast-list
+
+
 ** Application 📱
-   - This is some content under heading 1
+
 
 
 * How to 🤔
 ** Align by RegEx
+
 ** Align-column
 
 
@@ -42,8 +68,8 @@
 ** Windows-Terminal
 ** AutoHotKey
 ** NeoVim / Vim
-| Related-Function |      Keybinding / Shortcut      |                            Objective                            |     |
-| ---------------- + ------------------- + ----------------------------------------------------------------+ --- |
+| Related-Function | Keybinding / Shortcut           | Objective                                                       |     |
+|------------------+---------------------------------+-----------------------------------------------------------------+-----|
 | **Command-list   | ctrl+w                          | commandlist                                                     |     |
 | *Operator        | !                               | Filter through external program                                 |     |
 | *Operator        | &#65308;                        | Indent left or shift left                                       |     |

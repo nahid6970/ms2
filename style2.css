@@ -21,6 +21,10 @@ h2 {
 color: rgb(26, 119, 26);
 }
 
+/* Change hyperlink text color */
+a {
+  color: #FF5733; /* This is an example color (orange) */
+}
 
 
 
