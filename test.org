@@ -1,10 +1,10 @@
 #+TITLE: 
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style\style2.css">
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style//style2.css">
 
 
 
 
-* Android 📱
+* Android 📱1
 - [[https://www.youtube.com/watch?v=BWgh6pH72Fc&t=470s][Encrypt & Decrypt Device]]
 
 *** Termux Commands
