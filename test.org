@@ -1,5 +1,5 @@
 #+TITLE: 
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style2.css">
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style\style2.css">
 
 
 
