@@ -125,26 +125,24 @@ table {
 
 
 
-@media screen {
+/* @media screen {
   body {font-size: 11px;}
   h1 {font-size: 25px;}
   h2 {font-size: 25px;}
   h3 {font-size: 25px;}
   h4 {font-size: 25px;}
-
-
-}
+} */
 
 
 
 
   @media only screen and (max-width: 440px ){
-    h1 {font-size: 25px;}
-    h2 {font-size: 25px;}
-    h3 {font-size: 25px;}
-    h4 {font-size: 25px;}
-
-    body {font-size: 11px;}
+  
+body {font-size: 25px;}
+h1 {font-size: 25px;}
+h2 {font-size: 25px;}
+h3 {font-size: 25px;}
+h4 {font-size: 25px;}
 
 
 
