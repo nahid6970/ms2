@@ -443,12 +443,12 @@ href="https://github.com/h4ck3r0/Termux-os">https://github.com/h4ck3r0/Termux-os
 <h1 id="how-to">How to 🤔</h1>
 <h2 id="align-by-regex">Align by RegEx</h2>
 <ul>
-<li>remove all unnecessary spaces &lt;/li&gt;</li>
+<li>remove all unnecessary spaces</li>
 <li>Pressing Ctrl+F -&gt; enter +. -&gt; is a regular expression -&gt;
 any number of whitespace characters.</li>
 <li>to use align by regix on any other sign use \ first then the symber
-for others \ not necessary&lt;/li&gt;</li>
-<li>works only on first one&lt;/li&gt;</li>
+for others \ not necessary</li>
+<li>works only on first one</li>
 </ul>
 <h2 id="align-column">Align-column</h2>
 <ul>
@@ -458,7 +458,64 @@ for others \ not necessary&lt;/li&gt;</li>
 <li>works on all matched item</li>
 </ul>
 <h1 id="initial-setup">Initial Setup 🎯</h1>
+<ul>
+<li>Jackett
+<ul>
+<li>C:.json</li>
+</ul></li>
+<li>Ditto
+<ul>
+<li>setup shortcuts for ctrl+alt+1/2/3 for past</li>
+</ul></li>
+<li>OH.MY.POSH
+<ul>
+<li>oh-my-posh font install –victoria –firecode –terminus –meslo
+–hack</li>
+<li>oh-my-posh init pwsh –config 'path in scoop folder' |
+Invoke-Expression #pwsh profile</li>
+</ul></li>
+<li>Tailwind
+<ul>
+<li>install node.js using scoop</li>
+<li>open the folder using vscode</li>
+<li>cd to the directory</li>
+<li>npm init</li>
+<li>npm install -D tailwindcss</li>
+<li>npx tailwindcss init –full</li>
+<li>always cd to that folder and</li>
+<li>always keep below command running</li>
+<li>npx tailwindcss -i ./src/input.css -o ./dist/output.css –watch</li>
+</ul></li>
+</ul>
 <h1 id="mklink">Mklink ⤨</h1>
+<ul>
+<li>rclone-config
+<ul>
+<li>Start-Process "C:\" -Confirm</li>
+<li>New-Item -ItemType SymbolicLink -Path "C:.conf" -Target "C:.conf"
+-Confirm</li>
+</ul></li>
+<li>Powershell-Profile
+<ul>
+<li>Start-Process "C:\" -Confirm</li>
+<li><code
+class="verbatim">New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target "C:\Users\nahid\OneDrive\Git\ms1\mklink\PowerShell.Profile.txt" -Confirm</code></li>
+</ul></li>
+<li>Windows-Terminal-Preview
+<ul>
+<li><code
+class="verbatim">Start-Process "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\" -Confirm</code></li>
+<li><code
+class="verbatim">New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json" -Target "C:\Users\nahid\OneDrive\Git\ms1\mklink\WindowsTerminal.Profile.json" -Confirm</code></li>
+</ul></li>
+<li>Neovim
+<ul>
+<li>mkdir C: -Confirm</li>
+<li>Start-Process "C:" -Confirm</li>
+<li><code
+class="verbatim">New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\AppData\Local\nvim\init.lua" -Target "C:\Users\nahid\OneDrive\Git\ms1\mklink\nvim_init.lua" -Confirm</code></li>
+</ul></li>
+</ul>
 <h1 id="package-manager">Package Manager</h1>
 <h2 id="winget">Winget</h2>
 <h2 id="scoop-setup">Scoop Setup</h2>

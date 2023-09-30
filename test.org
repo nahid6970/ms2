@@ -94,10 +94,10 @@
 
 * How to 🤔
 ** Align by RegEx
-- remove all unnecessary spaces </li>
+- remove all unnecessary spaces 
 - Pressing Ctrl+F -> enter \s+. -> is a regular expression -> any number of whitespace characters.
-- to use align by regix on any other sign use \ first then the symber for others \ not necessary</li>
-- works only on first one</li>
+- to use align by regix on any other sign use \ first then the symber for others \ not necessary
+- works only on first one
 
 ** Align-column
 - go to command pallet
@@ -107,8 +107,46 @@
 
 
 * Initial Setup 🎯
+- Jackett
+  - C:\Users\nahid\AppData\Local\qBittorrent\nova3\engines\jackett.json
+- Ditto
+  - setup shortcuts for ctrl+alt+1/2/3 for past
+- OH.MY.POSH
+  - oh-my-posh font install --victoria --firecode --terminus --meslo --hack
+  - oh-my-posh init pwsh --config 'path in scoop folder' | Invoke-Expression #pwsh profile
+- Tailwind
+  - install node.js using scoop
+  - open the folder using vscode
+  - cd to the directory
+  - npm init
+  - npm install -D tailwindcss
+  - npx tailwindcss init --full
+  - always cd to that folder and
+  - always keep below command running
+  - npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+
 
 * Mklink ⤨
+- rclone-config 
+  - Start-Process "C:\Users\nahid\scoop\apps\rclone\current\" -Confirm
+  - New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\scoop\apps\rclone\current\rclone.conf" -Target "C:\Users\nahid\OneDrive\Git\ms1\mklink\rclone.conf" -Confirm 
+
+- Powershell-Profile 
+  - Start-Process "C:\Users\nahid\OneDrive\Documents\PowerShell\" -Confirm
+  - =New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target "C:\Users\nahid\OneDrive\Git\ms1\mklink\PowerShell.Profile.txt" -Confirm=
+
+- Windows-Terminal-Preview
+  - =Start-Process "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\" -Confirm=
+  - =New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json" -Target "C:\Users\nahid\OneDrive\Git\ms1\mklink\WindowsTerminal.Profile.json" -Confirm=
+
+- Neovim
+  - mkdir C:\Users\nahid\AppData\Local\nvim -Confirm
+  - Start-Process "C:\Users\nahid\AppData\Local\nvim" -Confirm
+  - =New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\AppData\Local\nvim\init.lua" -Target "C:\Users\nahid\OneDrive\Git\ms1\mklink\nvim_init.lua" -Confirm=
+
+
+
 
 * Package Manager
 ** Winget
