@@ -629,9 +629,11 @@ lineux key to windows key
 #+END_COMMENT
 
 
-#+BEGIN_SRC emacs-lisp :exports results :results raw
-(concat "#+BEGIN_DETAILS\n"
-        "* Summary\n"
-        "  This is the content that will be hidden until the user clicks the summary.\n"
-        "#+END_DETAILS")
-#+END_SRC
+
+#+HTML:<details><summary>
+This is th Summary
+#+HTML:</summary>
+asmkwkjvlkljkewnlvlkqldkmldkmlk#+BEGIN_VERBATIM adkljdlmdjvk
+efdlkjnioudwdnoadalksdmadjauiowdjjaksdnjknjvwnjklansjknijkaasdd
+asjdnjwndjaskmdlk
+#+HTML:</details>
