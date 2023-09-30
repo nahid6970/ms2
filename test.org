@@ -108,7 +108,7 @@
 
 * Initial Setup 🎯
 
-* Mklink &#10541;
+* Mklink ⤨
 
 * Package Manager
 ** Winget
