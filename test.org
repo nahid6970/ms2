@@ -628,7 +628,8 @@ lineux key to windows key
 #+HTML: <img src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg" alt="ff" height="250px" width="150">
 #+END_COMMENT
 
+
 #+BEGIN_DETAILS
-* Summary
+#+Summary
   This is the content that will be hidden until the user clicks the summary.
 #+END_DETAILS
