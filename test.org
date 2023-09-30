@@ -607,10 +607,17 @@ lineux key to windows key
 
 
 
-#+HTML: <h1 class="redhead">Heading 1</h1>
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+
+
+
+
+
+
+
+
 
 
 
@@ -645,9 +652,11 @@ efdlkjnioudwdnoadalksdmadjauiowdjjaksdnjknjvwnjklansjknijkaasdddsfsdfdsfdaaaaaaa
 asjdnjwndjaskmdlk
 #+HTML:</details>
 
+
 ** ASCII
 #+BEGIN_ASCII 
 #+END_ASCII
+
 
 #+ASCII: 
 
