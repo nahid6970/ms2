@@ -13,24 +13,6 @@
 * Android 📱
 - [[https://www.youtube.com/watch?v=BWgh6pH72Fc&t=470s][Encrypt & Decrypt Device]]
 
-*** Termux Commands
-- [[https://www.learntermux.tech/2020/01/basic-commands-in-termux.html?m=1][Learn Termux]]
-- [[https://wiki.termux.com/wiki/Touch_Keyboard][Termux Keyboard]]
-- alias alias_name='command' 
-- unalias 
-- termux-setup-storage 
-- cd storage/shared/ 
-- pkg update -y && pkg upgrade -y 
-- pkg in 
-- apt update -y && apt upgrade -y 
-- pkg install rclone python tealdeer tsu -y 
-- git clone https://github.com/h4ck3r0/Termux-os && cd Termux-os && bash os.sh
-
-*** Termux rclone
-- rclone copy storage/shared/rclone.conf /data/data/com.termux/files/home/.config/rclone/
-- rclone sync gu:/song/ storage/shared/song/ -P --track-renames --ignore-existing --fast-list
-
-
 ** Application 📱
 - [[https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone         ][1111WARP              ]]
 - [[https://play.google.com/store/apps/details?id=idm.internet.download.manager                ][1DM                   ]]
@@ -92,6 +74,23 @@
 - [[https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid&hl=en&gl=US&pli=1    ][MacroDroid            ]]
 
 
+** Termux
+*** Termux Commands
+- [[https://www.learntermux.tech/2020/01/basic-commands-in-termux.html?m=1][Learn Termux]]
+- [[https://wiki.termux.com/wiki/Touch_Keyboard][Termux Keyboard]]
+- alias alias_name='command' 
+- unalias 
+- termux-setup-storage 
+- cd storage/shared/ 
+- pkg update -y && pkg upgrade -y 
+- pkg in 
+- apt update -y && apt upgrade -y 
+- pkg install rclone python tealdeer tsu -y 
+- git clone https://github.com/h4ck3r0/Termux-os && cd Termux-os && bash os.sh
+
+*** Termux rclone
+- rclone copy storage/shared/rclone.conf /data/data/com.termux/files/home/.config/rclone/
+- rclone sync gu:/song/ storage/shared/song/ -P --track-renames --ignore-existing --fast-list
 
 * How to 🤔
 ** Align by RegEx

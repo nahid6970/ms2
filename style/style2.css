@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-color: rgb(236, 176, 86);
+  color: rgb(244, 67, 54);
 
 }
 
@@ -74,7 +74,7 @@ a:active {color: yellow;background-color: transparent;text-decoration: underline
 }
 
 
-/* Style Second-level headings in the TOC */
+/* Style second-level headings in the TOC */
 #TOC ul ul li a {
   font-size: 16px; /* Decrease the font size for second-level headings */
   color: rgb(26, 119, 26);
@@ -83,7 +83,7 @@ a:active {color: yellow;background-color: transparent;text-decoration: underline
 /* Style third-level headings in the TOC */
 #TOC ul ul ul li a {
   font-size: 14px; /* Adjust the font size for third-level headings */
-  color: rgb(236, 176, 86);
+  color: rgb(244, 67, 54);
 }
 
 
@@ -96,9 +96,9 @@ a:active {color: yellow;background-color: transparent;text-decoration: underline
 
 /* Table Related */
 table {
-  border-collapse: collapse;
+  border-collapse: inherit;
   width: 100%;
-  border: 1px solid #ddd;
+/*   border: 1px solid #ddd; */
   }
   
   th, td {
