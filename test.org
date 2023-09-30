@@ -609,9 +609,7 @@ lineux key to windows key
 
 
 
-#+BEGIN_LaTeX 
-rclone copy storage/shared/rc_lone.conf /data/data/com.termux/files/home/.config/rclone/
-#+END_LaTeX
+
 
 #+BEGIN_COMMENT
 * Examples
@@ -669,7 +667,6 @@ My Name NahidNA
 #+HTML:
 
 #+BEGIN_LaTeX 
-- rclone copy storage/shared/rc_lone.conf /data/data/com.termux/files/home/.config/rclone/
 #+END_LaTeX
 
 #+LaTeX: 
