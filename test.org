@@ -607,8 +607,12 @@ lineux key to windows key
 
 
 
-
-
+#+OPTIONS: html-style:nil
+* Heading 1 with Custom Class
+  :PROPERTIES:
+  :CUSTOM_CLASS: my-heading-class
+  :END:
+  This is a sample heading with a custom class.
 
 
 

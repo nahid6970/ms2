@@ -33,10 +33,10 @@ h3 {
 
 /* Some class Examples */
 /* red heading */
-.heading-class {
+/* style.css */
+.my-heading-class {
   color: blue;
   font-size: 24px;
-  font-weight: bold;
 }
 
 
