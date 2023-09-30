@@ -630,6 +630,5 @@ lineux key to windows key
 
 
 #+BEGIN_DETAILS
-#+Summary
-  This is the content that will be hidden until the user clicks the summary.
+This is the content that will be hidden until the user clicks the summary.
 #+END_DETAILS
