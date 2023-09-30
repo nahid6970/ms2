@@ -607,16 +607,10 @@ lineux key to windows key
 
 
 
+#+BEGIN_EXAMPLE 
+My Name NahidNA
+#+END_EXAMPLE
 
-#+BEGIN_QUOTE 
-My Name NahidNA
-#+END_QUOTE
-#+BEGIN_QUOTE 
-My Name NahidNA
-#+END_QUOTE
-#+BEGIN_QUOTE 
-My Name NahidNA
-#+END_QUOTE
 
 
 #+BEGIN_COMMENT
@@ -654,12 +648,15 @@ asjdnjwndjaskmdlk
 
 #+ASCII: 
 
-
+#+BEGIN_QUOTE 
+My Name NahidNA
+#+END_QUOTE
 
 #+BEGIN_EXAMPLE 
+My Name NahidNA
 #+END_EXAMPLE
 
-#+INDEX: 
+#+INDEX: My Name is NahidNA
 
 #+INCLUDE: incllude file
 
