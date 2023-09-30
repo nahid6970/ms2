@@ -7,9 +7,6 @@ body {
   padding-left: 200px;
 }
 
-
-
-
 p {
   text-align: justify; /* Change to justify for a cleaner look */
   line-height: 1.5; /* Increase line height for better readability */
@@ -23,21 +20,15 @@ p {
 h1 {
 color: rgb(36, 147, 255);
 /* margin-left: 15%; */
-
 }
 
 h2 {
   color: rgb(26, 119, 26);
-
 }
 
 h3 {
-  color: rgb(244, 67, 54);
-
+  color:rgb(188, 120, 221);
 }
-
-
-
 
 /* Change hyperlink text color */
 a:link {color: #b5ac97;background-color: transparent;text-decoration: none;}
@@ -49,7 +40,6 @@ a:active {color: yellow;background-color: transparent;text-decoration: underline
 
 
 /* Customize Table of Contents (TOC) */
-
 /* Style the TOC container */
 #TOC {
   background-color: #282c34;
@@ -63,9 +53,6 @@ a:active {color: yellow;background-color: transparent;text-decoration: underline
   height: 70%;
   overflow-y: auto;
 }
-
-
-
 
 /* Style the list items in the TOC */
 #TOC ul {
@@ -88,7 +75,6 @@ a:active {color: yellow;background-color: transparent;text-decoration: underline
   font-weight: bold;
 }
 
-
 /* Style second-level headings in the TOC */
 #TOC ul ul li a {
   font-size: 16px; /* Decrease the font size for second-level headings */
@@ -98,13 +84,13 @@ a:active {color: yellow;background-color: transparent;text-decoration: underline
 /* Style third-level headings in the TOC */
 #TOC ul ul ul li a {
   font-size: 14px; /* Adjust the font size for third-level headings */
-  color: rgb(244, 67, 54);
+  color: rgb(188, 120, 221);
 }
-
 
 /* Adjust position of subheadings */
 #TOC ul ul li {
   margin-left: 15px;
+  list-style-type: lower-roman;
 }
 
 /* Firefox */
@@ -119,6 +105,9 @@ a:active {color: yellow;background-color: transparent;text-decoration: underline
 #TOC::-webkit-scrollbar-track {
   background-color: #000000; /* Track color */
 }
+
+
+
 
 
 /* Table Related */
