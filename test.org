@@ -1,5 +1,6 @@
 #+TITLE: 
-#+DATE: <YYYY-MM-DD Day>
+#+DATE: <%%(format-time-string "%Y-%m-%d")>
+
 #+HTML_TITLE: <title>Test</title>
 #+HTML_HEAD: <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4021/4021539.png" type="image/x-icon">
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style//style2.css">
