@@ -611,7 +611,7 @@ lineux key to windows key
 
 
 
-
+#+BEGIN_COMMENT
 * Examples
 ** Image
 #+CAPTION: This is the caption for the next figure link (or table)
@@ -626,3 +626,5 @@ lineux key to windows key
 #+END_HTML
 
 #+HTML: <img src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg" alt="ff" height="250px" width="150">
+#+END_COMMENT
+
