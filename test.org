@@ -624,3 +624,6 @@ lineux key to windows key
 ** Html Items
 #+BEGIN_HTML
 #+END_HTML
+
+#+HTML: <span style="color: red;">Hello</span>
+<img src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg" alt="ff" height="25px" width="15">
