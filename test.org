@@ -13,8 +13,6 @@
 
 ** Application 📱
 #+BEGIN_HTML
-<!--dot_NET_Desktop_Runtime  --> <span class="home"><a href="https://dotnet.microsoft.com/en-us/download">.NET 6.0</a>      </span>
-
 <!--1111WARP              --> <span> <a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone         ">1111WARP              </a></span>
 <!--1DM                   --> <span> <a href="https://play.google.com/store/apps/details?id=idm.internet.download.manager                ">1DM                   </a></span>
 <!--AIMP                  --> <span> <a href="https://play.google.com/store/apps/details?id=com.aimp.player&hl=en&gl=US                  ">AIMP                  </a></span>
