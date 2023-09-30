@@ -191,6 +191,7 @@ table {
   /* Style for spans */
 span {
   display: inline-block;
+  vertical-align: top;
   padding: 5px 5px;
   background-color: #474747;
   border-radius: 5px;
