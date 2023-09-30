@@ -612,9 +612,17 @@ lineux key to windows key
 
 
 
-#+HTML: <span style="color: red;">Hello</span>
 
-* Examples 1: Image
+
+* Examples
+** Examples 1: Image
 #+CAPTION: This is the caption for the next figure link (or table)
 #+NAME:   fig:SED-HR4049
 [[https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg]]
+
+** Examples 2: Span Using
+#+HTML: <span style="color: red;">Hello</span>
+
+** Examples 1: Html Items
+#+BEGIN_HTML
+#+END_HTML
