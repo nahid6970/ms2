@@ -134,6 +134,28 @@ table {
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and ( max-width: 900px ) {
   body {
     background-color: rgb(40, 44, 52);
@@ -142,9 +164,9 @@ table {
     color: aliceblue;
     padding-left: 0px;
   }
-/*   h1 { font-size: 12px;}
-  h2 {font-size: 10px;}
-  h2 {font-size: 8px;} */
+  h1 { font-size: px;}
+  h2 {font-size: px;}
+  h2 {font-size: px;}
   
 #TOC {
   visibility: hidden;
