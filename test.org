@@ -612,7 +612,6 @@ lineux key to windows key
   :PROPERTIES:
   :ATTR_LATEX: :class redhead
   :END:
-  
   This is some content under Heading 1.
 
 
