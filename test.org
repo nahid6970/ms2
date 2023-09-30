@@ -394,8 +394,8 @@
 | +Prefix          | a                               | +around                                                         |    |
 | +Prefix          | i                               | +inside                                                         |    |
 | Customization    | :colorscheme                    | list of all installed color schemes in Vim                      |    |
-| Delete           | #dd {normal}                    | to delete # lines.                                              |    |
-| Delete           | d#w {normal}                    | to delete the # UPPER CASE words                                |    |
+| Delete           | #dd {normal}                    | to delete #lines.                                               |    |
+| Delete           | d#w {normal}                    | to delete the #UPPER CASE words                                 |    |
 | Delete           | d$ {normal}                     | To delete from the cursor to the end of a line type             |    |
 | Delete           | dd                              | delete-line                                                     |    |
 | Delete           | de {normal}                     | delete to the end of the current word.                          |    |
@@ -412,9 +412,9 @@
 | Goto             | }                               | Next empty line                                                 |    |
 | Goto             | #{down or up}                   | to go to that number lines                                      |    |
 | Goto             | #{left or right}                | to go to that number ch                                         |    |
-| Goto             | #e                              | to move the cursor to the end of the # word forward.            |    |
-| Goto             | #G                              | To go to line #                                                 |    |
-| Goto             | #w                              | to move the cursor # words forward                              |    |
+| Goto             | #e                              | to move the cursor to the end of the #word forward.             |    |
+| Goto             | #G                              | To go to #line                                                  |    |
+| Goto             | #w                              | to move the cursor #words forward                               |    |
 | Goto             | %                               | Matching character: '()', '{}', '[]'                            |    |
 | Goto             | ^                               | Start of line (non-blank)                                       |    |
 | Goto             | $                               | move to the end of line                                         |    |
