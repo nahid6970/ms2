@@ -228,7 +228,7 @@ id="toc-windows-terminal">Windows-Terminal</a></li>
 <li><a href="#vim-shortcuts" id="toc-vim-shortcuts">Vim
 Shortcuts</a></li>
 <li><a href="#nvim-netrw" id="toc-nvim-netrw">Nvim-netrw</a></li>
-<li><a href="#more-nvim" id="toc-more-nvim">More Nvim</a></li>
+<li><a href="#notes" id="toc-notes">Notes:</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#examples-1-image" id="toc-examples-1-image">Examples 1:
@@ -1931,7 +1931,35 @@ g:netrw<sub>listhide</sub>)</td>
 </tr>
 </tbody>
 </table>
-<h3 id="more-nvim">More Nvim</h3>
+<h3 id="notes">Notes:</h3>
+<p>vim-visual-multi It's called vim-visual-multi in analogy with
+visual-block, but the plugin works mostly from normal mode.</p>
+<p>Basic usage: select words with Ctrl-N (like Ctrl-d in Sublime Text/VS
+Code) create cursors vertically with Ctrl-Down/Ctrl-Up select one
+character at a time with Shift-Arrows press n/N to get next/previous
+occurrence press [/] to select next/previous cursor press q to skip
+current and get next occurrence press Q to remove current
+cursor/selection start insert mode with i,a,I,A Two main modes:</p>
+<p>in cursor mode commands work as they would in normal mode in extend
+mode commands work as they would in visual mode press Tab to switch
+between «cursor» and «extend» mode Most vim commands work as expected
+(motions, r to replace characters, ~ to change case, etc). Additionally
+you can:</p>
+<p>run macros/ex/normal commands at cursors align cursors transpose
+selections add patterns with regex, or from visual mode And more… of
+course, you can enter insert mode and autocomplete will work.</p>
+<p>{asdasdasdasdad}</p>
+<p>BOOKMARK.NVIM move the cursor to the line of the file that needs to
+be bookmarked. press \ in normal mode, and input a description in the
+pop-up shortcut window. press enter in insert mode to add, or press esc
+in normal mode to cancel adding bookmarks. press &lt;tab&gt; &lt;tab&gt;
+to open or close the bookmark list window. move the cursor in the
+bookmark list window, press enter to jump to the file line where the
+bookmark is located. press &lt;space&gt; &lt;space&gt; in the bookmark
+list window to switch sorting rules. press dd in the bookmark list to
+delete a bookmark. use :telescope bookmarks to stop seeing highlight s
+:help visual-multi :help vm-some-topic lineux key to windows key
+&lt;cr&gt; ——-Enter &lt;/details&gt;</p>
 <span style="color: red;">Hello</span>
 <h1 id="examples-1-image">Examples 1: Image</h1>
 <figure id="fig:SED-HR4049">
