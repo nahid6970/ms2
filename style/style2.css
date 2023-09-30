@@ -33,8 +33,10 @@ h3 {
 
 /* Some class Examples */
 /* red heading */
+
 .redhead {
   color: #ff0000;
+  background-color: red;
 }
 
 
