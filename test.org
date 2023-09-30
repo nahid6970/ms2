@@ -616,6 +616,8 @@ lineux key to windows key
 ** Image
 #+CAPTION: This is the caption for the next figure link (or table)
 #+NAME:   fig:SED-HR4049
+#+ATTR_HTML: :width 300px
+#+ATTR_HTML: :height 55px
 [[https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg]]
 
 ** Span Using
@@ -624,3 +626,6 @@ lineux key to windows key
 ** Html Items
 #+BEGIN_HTML
 #+END_HTML
+
+
+
