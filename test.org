@@ -607,9 +607,8 @@ lineux key to windows key
 
 
 
-#+BEGIN_HTML
-<h1 class="redhead">Heading 1</h1>
-#+END_HTML
+#+HTML <h1 class="redhead">Heading 1</h1>
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
