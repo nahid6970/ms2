@@ -4,22 +4,34 @@ body {
   max-width: 88%;
   margin: 0 auto 0 12%;
   color: aliceblue;
+
 }
 
-
+/* Media query for Android devices */
+@media only screen and (max-device-width: 480px) {
+  body {
+    font-size: 10px;
+  }
+}
 
 
 h1 {
 color: rgb(36, 147, 255);
+font-size: 1.5vw;
+}
+
+h2 {
+  color: rgb(26, 119, 26);
+  font-size: 1em;
 }
 
 h3 {
 color: rgb(34, 116, 255);
+font-size: .5em;
 }
 
-h2 {
-color: rgb(26, 119, 26);
-}
+
+
 
 /* Change hyperlink text color */
 a:link {color: #b5ac97;background-color: transparent;text-decoration: none;}
