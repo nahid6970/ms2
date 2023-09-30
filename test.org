@@ -607,10 +607,8 @@ lineux key to windows key
 
 
 
-#+BEGIN_EXAMPLE 
-My Name NahidNA
-#+END_EXAMPLE
 
+#+INDEX: My Name is NahidNA
 
 
 #+BEGIN_COMMENT
