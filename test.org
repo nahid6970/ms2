@@ -607,9 +607,12 @@ lineux key to windows key
 
 
 
-#+ATTR_HTML: :class my-heading-class
-* Heading 1
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#+BEGIN_HTML
+<h1 class="my-heading-class">Heading 1</h1>
+#+END_HTML
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
 
 
 
