@@ -627,8 +627,8 @@ lineux key to windows key
 
 
 
+#+ATTR_HTML: :width 300px :height 200px
 #+CAPTION: This is the caption for the next figure link (or table)
 #+NAME:   fig:SED-HR4049
 [[https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg]]
-#+ATTR_HTML: :width 300px :height 200px
 
