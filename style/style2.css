@@ -136,15 +136,18 @@ table {
 
 
 
-  @media only screen and (max-width: 404px ){
-  
-body {font-size: 25px;}
+
+/* @media only screen and (max-width: 600px) {
+body {font-size: 14px;}
 h1 {font-size: 25px;}
 h2 {font-size: 25px;}
 h3 {font-size: 25px;}
 h4 {font-size: 25px;}
+} */
 
 
-
-
+@media (max-width: 6.7 inches) {
+  body {
+    font-size: 160px;
   }
+}
