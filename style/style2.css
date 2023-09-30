@@ -169,7 +169,7 @@ table {
   h2 {font-size: px;}
   
 #TOC {
-  visibility: hidden;
+visibility: hidden;
 background-color: #282c34;
 padding: 2px;
 border: 2px solid #ff5500;
