@@ -199,19 +199,27 @@ RegEx</a></li>
 <li><a href="#package-manager" id="toc-package-manager">Package
 Manager</a>
 <ul>
+<li><a href="#scoop" id="toc-scoop">Scoop</a>
+<ul>
+<li><a href="#scoop-add-buckets" id="toc-scoop-add-buckets">Scoop Add
+Buckets</a></li>
+<li><a href="#scoop-commands" id="toc-scoop-commands">Scoop
+Commands</a></li>
+</ul></li>
 <li><a href="#winget" id="toc-winget">Winget</a></li>
-<li><a href="#scoop-setup" id="toc-scoop-setup">Scoop Setup</a></li>
-<li><a href="#git" id="toc-git">Git</a></li>
+<li><a href="#git-command-list" id="toc-git-command-list">Git Command
+List</a></li>
 </ul></li>
 <li><a href="#pc" id="toc-pc">PC</a>
 <ul>
 <li><a href="#software" id="toc-software">Software 🖥️</a></li>
-<li><a href="#extra" id="toc-extra">extra</a></li>
+<li><a href="#additional-software"
+id="toc-additional-software">Additional Software</a></li>
 </ul></li>
 <li><a href="#key-binding" id="toc-key-binding">Key Binding ⌨️</a>
 <ul>
-<li><a href="#vscode" id="toc-vscode">VScode</a></li>
 <li><a href="#pwsh" id="toc-pwsh">PWSH</a></li>
+<li><a href="#vscode" id="toc-vscode">VScode</a></li>
 <li><a href="#windows-terminal"
 id="toc-windows-terminal">Windows-Terminal</a></li>
 <li><a href="#autohotkey" id="toc-autohotkey">AutoHotKey</a></li>
@@ -219,10 +227,12 @@ id="toc-windows-terminal">Windows-Terminal</a></li>
 <ul>
 <li><a href="#vim-shortcuts" id="toc-vim-shortcuts">Vim
 Shortcuts</a></li>
-<li><a href="#nvim-netrw" id="toc-nvim-netrw">NVIM-netrw</a></li>
+<li><a href="#nvim-netrw" id="toc-nvim-netrw">Nvim-netrw</a></li>
 <li><a href="#more-nvim" id="toc-more-nvim">More Nvim</a></li>
 </ul></li>
 </ul></li>
+<li><a href="#examples-1-image" id="toc-examples-1-image">Examples 1:
+Image</a></li>
 </ul>
 </nav>
 <head>
@@ -517,48 +527,462 @@ class="verbatim">New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\AppData\L
 </ul></li>
 </ul>
 <h1 id="package-manager">Package Manager</h1>
+<h2 id="scoop">Scoop</h2>
+<ul>
+<li>iex (new-object net.webclient).downloadstring('<a
+href="https://get.scoop.sh">https://get.scoop.sh</a>')</li>
+<li><code
+class="verbatim">scoop config cache_Path D:\@install\scoop\cache</code></li>
+</ul>
+<h3 id="scoop-add-buckets">Scoop Add Buckets</h3>
+<ul>
+<li>Usage: scoop bucket add|list|known|rm [&lt;args&gt;]</li>
+<li>scoop bucket add main</li>
+<li>scoop bucket add extras</li>
+<li>scoop bucket add versions</li>
+<li>scoop bucket add nonportable</li>
+<li>scoop bucket add games</li>
+</ul>
+<h3 id="scoop-commands">Scoop Commands</h3>
+<ul>
+<li>Set-Alias -Name fake -Value real</li>
+<li>del . -Force</li>
+<li>scoop update</li>
+<li>scoop update *</li>
+<li>scoop cleanup *</li>
+<li>scoop status</li>
+<li>scoop list | foreach { scoop update $_.Name }</li>
+<li>scoop cache rm * #To clear everything in your cache</li>
+<li>scoop export &gt; C:-apps.txt #(backup scoop apps settings)</li>
+<li>scoop import C:-apps.txt #(restore settings)</li>
+</ul>
 <h2 id="winget">Winget</h2>
-<h2 id="scoop-setup">Scoop Setup</h2>
-<h2 id="git">Git</h2>
-<h1 id="pc">PC</h1>
-<h2 id="software">Software 🖥️</h2>
-<h2 id="extra">extra</h2>
-<h1 id="key-binding">Key Binding ⌨️</h1>
-<h2 id="vscode">VScode</h2>
-<h2 id="pwsh">PWSH</h2>
 <table>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Age</th>
-<th>Occupation</th>
+<th>Winget</th>
+<th>Commands Details</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>John</td>
-<td>30</td>
-<td>Engineer</td>
+<td>install</td>
+<td>Installs the given package</td>
 </tr>
 <tr class="even">
-<td>Jane</td>
-<td>25</td>
-<td>Designer</td>
+<td>show</td>
+<td>Shows information about a package</td>
 </tr>
 <tr class="odd">
-<td>Bob</td>
-<td>35</td>
-<td>Developer</td>
+<td>source</td>
+<td>Manage sources of packages</td>
 </tr>
 <tr class="even">
-<td>Alice</td>
-<td>28</td>
-<td>Analyst</td>
+<td>search</td>
+<td>Find and show basic info of packages</td>
+</tr>
+<tr class="odd">
+<td>list</td>
+<td>Display installed packages</td>
+</tr>
+<tr class="even">
+<td>upgrade</td>
+<td>Shows and performs available upgrades</td>
+</tr>
+<tr class="odd">
+<td>uninstall</td>
+<td>Uninstalls the given package</td>
+</tr>
+<tr class="even">
+<td>hash</td>
+<td>Helper to hash installer files</td>
+</tr>
+<tr class="odd">
+<td>validate</td>
+<td>Validates a manifest file</td>
+</tr>
+<tr class="even">
+<td>settings</td>
+<td>Open settings or set administrator settings</td>
+</tr>
+<tr class="odd">
+<td>features</td>
+<td>Shows the status of experimental features</td>
+</tr>
+<tr class="even">
+<td>export</td>
+<td>Exports a list of the installed packages</td>
+</tr>
+<tr class="odd">
+<td>import</td>
+<td>Installs all the packages in a file</td>
+</tr>
+<tr class="even">
+<td>pin</td>
+<td>Manage package pins</td>
 </tr>
 </tbody>
 </table>
+<h2 id="git-command-list">Git Command List</h2>
+<table>
+<tbody>
+<tr class="odd">
+<td>cd to local file where u can see the .git folder dont have to go
+to</td>
+</tr>
+<tr class="even">
+<td>that folders</td>
+</tr>
+<tr class="odd">
+<td>git init #initialize a folder as git repository</td>
+</tr>
+<tr class="even">
+<td>git add .</td>
+</tr>
+<tr class="odd">
+<td>git commit -m "Your commit message here"</td>
+</tr>
+<tr class="even">
+<td>git pull origin main &amp;&amp; git push origin main</td>
+</tr>
+<tr class="odd">
+<td>git add . &amp;&amp; git commit -m "comment" &amp;&amp; git pull
+origin main &amp;&amp; git</td>
+</tr>
+<tr class="even">
+<td>push origin main</td>
+</tr>
+<tr class="odd">
+<td>#dont-work-for-pull</td>
+</tr>
+<tr class="even">
+<td>git pull</td>
+</tr>
+</tbody>
+</table>
+<h1 id="pc">PC</h1>
+<h2 id="software">Software 🖥️</h2>
+<!--ACK--> <span class="scoop">ack </span>
+<!--adb--> <span class="scoop">adb </span>
+<!--Alacritty--> <span class="scoop">Alacritty </span>
+<!--aria2--> <span class="scoop">aria2 </span>
+<!--AudioRelay--> <span class="winget">AudioRelay </span>
+<!--AutoHotKey--> <span class="scoop">autohotkey1.1<br>autohotkey </span>
+<!--Cheat.Engine--> <span class="choco">cheatengine -y </span>
+<!--Chrome_Remote_Desktop--> <span class="winget">ChromeRemoteDesktop </span>
+<!--clangd--> <span class="scoop">clangd </span>
+<!--cmake--> <span class="scoop">cmake </span>
+<!--DirectX--> <span class="winget">Microsoft.DirectX </span>
+<!--Ditto--> <span class="scoop">Ditto </span>
+<!--dot_NET_Desktop_Runtime--> <span class="home"><a href="https://dotnet.microsoft.com/en-us/download">.NET 6.0</a> </span>
+<!--FFmpeg_Batch_AV_Converter--><span class="scoop">ffmpeg-batch </span>
+<!--ffmpeg--> <span class="scoop">ffmpeg </span>
+<!--Foxit_Reader--> <span class="scoop">foxit-reader </span>
+<!--gcc--> <span class="scoop">gcc </span>
+<!--Git--> <span class="scoop">git </span>
+<!--Github_Desktop--> <span class="scoop">github </span>
+<!--Google_Chrome--> <span class="home"><a href="https://www.google.com/chrome/">Google-Chrome</a></span>
+<!--IDM--> <span class="winget">IDM </span>
+<!--imagemagick--> <span class="scoop">imagemagick </span>
+<!--Jackett--> <span class="scoop">jackett </span>
+<!--libreoffice--> <span class="scoop">libreoffice </span>
+<!--Lite_XL--> <span class="scoop">lite-xl </span>
+<!--localsend--> <span class="scoop">localsend </span>
+<!--make--> <span class="scoop">make </span>
+<!--MS-Office--> <span class="">MS-OFFICE </span>
+<!--NanaZip--> <span class="winget">M2Team.NanaZip </span>
+<!--Nano--> <span class="scoop">nano </span>
+<!--NearbyShare--> <span class="winget">Google.NearbyShare </span>
+<!--NeoVim--> <span class="scoop">NeoVim </span>
+<!--Node.js--> <span class="scoop">nodejs </span>
+<!--Notepad++--> <span class="scoop">notepadplusplus </span>
+<!--Oh_My_Posh --> <span class="scoop">oh-my-posh </span>
+<!--OneDrive--> <span class="winget">Microsoft.OneDrive </span>
+<!--Phantomjs--> <span class="scoop">phantomjs<br>phantomjs19 </span>
+<!--Potplayer--> <span class="scoop">potplayer </span>
+<!--Powertoys--> <span class="scoop">powertoys </span>
+<!--Pwsh--> <span class="scoop">pwsh </span>
+<!--Python--> <span class="scoop">python<br>python-alpha<br>python-beta </span>
+<!--qBittorrent--> <span class="winget">qBittorrent.qBittorrent </span>
+<!--Rclone--> <span class="scoop">rclone<br>rclone-beta </span>
+<!--Ruffle_Nightly--> <span class="scoop">ruffle-nightly </span>
+<!--Rufus--> <span class="scoop">rufus </span>
+<!--scoop-completion--> <span class="scoop">scoop-completion </span>
+<!--scoop-search--> <span class="scoop">scoop-search </span>
+<!--scrcpy--> <span class="scoop">scrcpy </span>
+<!--Shell--> <span class="scoop">nilesoft-shell </span>
+<!--Sysinternals--> <span class="scoop">sysinternals </span>
+<!--tldr--> <span class="scoop">tldr </span>
+<!--trafficmonitor--> <span class="scoop">trafficmonitor<br>trafficmonitor-lite </span>
+<!--vcredist--> <span class="scoop">vcredist2022<br>vcredist<br>vcredist-aio </span>
+<!--ventoy--> <span class="scoop">ventoy </span>
+<!--VScode--> <span class="scoop">vscode </span>
+<!--wget--> <span class="scoop">wget </span>
+<!--winaero_tweaker--> <span class="scoop">winaero-tweaker </span>
+<!--Windows_Terminal--> <span class="winget" style="overflow-wrap: break-word;">Microsoft.WindowsTerminal.Preview </span>
+<!--Wise.Program.Uninstaller--> <span class="winget" style="overflow-wrap: break-word;;">WiseCleaner.WiseProgramUninstaller</span>
+<!--wiztree--> <span class="scoop">wiztree </span>
+<!--WSA_System_Control--> <span class="winget" style="overflow-wrap: break-word;">infinitepower18.WSASystemControl </span>
+<!--yt_dlp--> <span class="scoop">yt-dlp </span>
+<!--perl--> <span class="scoop">perl </span>
+<!--kate--> <span class="scoop">kate </span>
+<!--lazygit--> <span class="scoop">lazygit </span>
+<!--Pandoc--> <span class="scoop">Pandoc </span>
+
+<h2 id="additional-software">Additional Software</h2>
+<ul>
+<li>[AudioRelay](<a
+href="https://audiorelay.net/downloads">https://audiorelay.net/downloads</a>)</li>
+<li>[AutoHotkey](<a
+href="https://www.autohotkey.com/">https://www.autohotkey.com/</a>)</li>
+<li>[DirectX](<a
+href="https://www.microsoft.com/en-US/download/details.aspx?id=35">https://www.microsoft.com/en-US/download/details.aspx?id=35</a>)</li>
+<li>[Jackett](<a
+href="https://github.com/Jackett/Jackett/releases">https://github.com/Jackett/Jackett/releases</a>)</li>
+<li>[qBittorrent](<a
+href="https://www.qbittorrent.org/download">https://www.qbittorrent.org/download</a>)</li>
+<li>[Chrome-remote-Desktop](<a
+href="https://remotedesktop.google.com/home">https://remotedesktop.google.com/home</a>)</li>
+<li>[Nilesoft Shell](<a
+href="https://nilesoft.org/">https://nilesoft.org/</a>)</li>
+<li>[Microsoft Visual C++](<a
+href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170">https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170</a>)</li>
+<li>[Wise.Program.Uninstaller](<a
+href="https://www.wisecleaner.com/wise-program-uninstaller.html">https://www.wisecleaner.com/wise-program-uninstaller.html</a>)</li>
+<li>Alacritty <a
+href="https://github.com/alacritty/alacritty/releases">https://github.com/alacritty/alacritty/releases</a></li>
+<li>neovim
+<ul>
+<li><a
+href="https://dotfyle.com/plugins/kyazdani42/nvim-tree.lua">https://dotfyle.com/plugins/kyazdani42/nvim-tree.lua</a></li>
+<li><a
+href="https://github.com/nvim-lua/kickstart.nvim">https://github.com/nvim-lua/kickstart.nvim</a></li>
+<li><a href="https://neovim.io/">https://neovim.io/</a></li>
+<li><a
+href="https://www.youtube.com/watch?v=stqUbv-5u2s">https://www.youtube.com/watch?v=stqUbv-5u2s</a></li>
+</ul></li>
+<li>Google.NearbyShare <a
+href="https://www.android.com/better-together/nearby-share-app/">Link</a></li>
+<li>Nano <a
+href="https://github.com/scopatz/nanorc">https://github.com/scopatz/nanorc</a></li>
+<li>vscode extensions</li>
+</ul>
+<table>
+<tbody>
+<tr class="odd">
+<td>VScode-Align by RegEx</td>
+<td>janjoerke.align-by-regex</td>
+</tr>
+<tr class="even">
+<td>vscode-aligncoulmn</td>
+<td>jca02266.align-columns</td>
+</tr>
+<tr class="odd">
+<td>VScode-HTML.Preview</td>
+<td>george-alisson.html-preview-vscode</td>
+</tr>
+<tr class="even">
+<td>VScode-Inline.Fold</td>
+<td>moalamri.inline-fold</td>
+</tr>
+<tr class="odd">
+<td>VSCode-Neovim</td>
+<td>asvetliakov.vscode-neovim</td>
+</tr>
+<tr class="even">
+<td>VScode-Nilesoft.Shell</td>
+<td>code-nature.nilesoft-shell-file-formatter</td>
+</tr>
+<tr class="odd">
+<td>VScode-PowerShell</td>
+<td>ms-vscode.powershell</td>
+</tr>
+<tr class="even">
+<td>VScode-Table.Formatter</td>
+<td>shuworks.vscode-table-formatter</td>
+</tr>
+</tbody>
+</table>
+<h1 id="key-binding">Key Binding ⌨️</h1>
+<h2 id="pwsh">PWSH</h2>
+<table>
+<thead>
+<tr class="header">
+<th>PWSH Keybinding</th>
+<th>Objective</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ctrl+Space</td>
+<td>Auto Completion Scoop/Winget</td>
+</tr>
+<tr class="even">
+<td>Ctrl+Space</td>
+<td>Scoop-Completion</td>
+</tr>
+<tr class="odd">
+<td>F2</td>
+<td>Suggestions</td>
+</tr>
+</tbody>
+</table>
+<h2 id="vscode">VScode</h2>
+<table>
+<thead>
+<tr class="header">
+<th>VScode Keybinding</th>
+<th>Objective</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ALT+L ALT+O</td>
+<td>Live Server</td>
+</tr>
+<tr class="even">
+<td>alt+shift+;</td>
+<td>Align Multi Coulmns by Separator</td>
+</tr>
+<tr class="odd">
+<td>ALT+SHIFT+A</td>
+<td>Comment</td>
+</tr>
+<tr class="even">
+<td>ALT+SHIFT+M1</td>
+<td>For Coulmns Select First Point &amp; Alt+Shift &amp; Last Point</td>
+</tr>
+<tr class="odd">
+<td>ALT+SHIFT+R</td>
+<td>Align by RegEx</td>
+</tr>
+<tr class="even">
+<td>ALT+SHIFT+RIGHT</td>
+<td>Select All Text Between Quates</td>
+</tr>
+<tr class="odd">
+<td>ALT+SHIFT+S</td>
+<td>Sort Lines Ascending</td>
+</tr>
+<tr class="even">
+<td>ALT+SHIFT+UP/DOWN</td>
+<td>Copy The Same Line</td>
+</tr>
+<tr class="odd">
+<td>CTRL+\</td>
+<td>Split Same Document</td>
+</tr>
+<tr class="even">
+<td>CTRL+ALT+UP/DOWN</td>
+<td>Add Cursor Above/Below</td>
+</tr>
+<tr class="odd">
+<td>CTRL+F2</td>
+<td>Select All Similar Words Simultaneously</td>
+</tr>
+<tr class="even">
+<td>CTRL+K CTRL+C</td>
+<td>Comment</td>
+</tr>
+<tr class="odd">
+<td>CTRL+SHIFT+~</td>
+<td>Terminal.New</td>
+</tr>
+<tr class="even">
+<td>CTRL+SHIFT+5</td>
+<td>Terminal.Split</td>
+</tr>
+<tr class="odd">
+<td>CTRL+SHIFT+V</td>
+<td>Preview</td>
+</tr>
+<tr class="even">
+<td>CTRL+T CTRL+T</td>
+<td>Table Format Properly</td>
+</tr>
+<tr class="odd">
+<td>ctrl+alt+shift+n</td>
+<td>enable neovim</td>
+</tr>
+<tr class="even">
+<td>ctrl+alt+shift+m</td>
+<td>disable neovim</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>alt+j join lines</li>
+<li>ctrl+b ctrl+b bookmark line</li>
+<li>ctrl+b ctrl+l list all bookmark lines</li>
+<li>ctrl+k ctrl+s keyboard shortcuts</li>
+<li>ctrl+f ctrl+a fold all</li>
+<li>ctrl+f ctrl+u unfold all</li>
+<li>**org related keybinding</li>
+<li>**emmet</li>
+<li>alt+m minimap toogle</li>
+<li>ctrl+right ctrl+right split copy to right</li>
+<li>editor.action.deleteLines</li>
+<li>editor.action.joinLines</li>
+<li>editor.action.removeDuplicateLines</li>
+<li>editor.action.sortLinesAscending</li>
+<li>editor.action.toggleMinimap</li>
+<li>workbench.action.newGroupX (Right/left/up/below) –splits into empty
+window</li>
+<li>workbench.action.splitEditorX (Right/left/up/below) –split and
+mirror current window</li>
+<li>workbench.action.duplicateActiveEditorGroupX (Right/left/up/below)
+–duplicates all tabs</li>
+</ul>
 <h2 id="windows-terminal">Windows-Terminal</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Windows Terminal Keybinding</th>
+<th>Objective</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Alt+Shift+Plus</td>
+<td>Split Screen (Vertically)</td>
+</tr>
+<tr class="even">
+<td>Ctrl+Shift+W</td>
+<td>Split-Screen (Close)</td>
+</tr>
+<tr class="odd">
+<td>Alt+Shift+Minus</td>
+<td>Split-Screen (Horizontally)</td>
+</tr>
+<tr class="even">
+<td>Alt+Shift+Arrow</td>
+<td>Split-Screen (Increase/Decrease Size)</td>
+</tr>
+<tr class="odd">
+<td>Ctrl+Shift+M</td>
+<td>Toogle Mark Mode</td>
+</tr>
+</tbody>
+</table>
 <h2 id="autohotkey">AutoHotKey</h2>
+<table>
+<thead>
+<tr class="header">
+<th>AutoHotKey Keybinding</th>
+<th>Objective</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ctrl+Alt+N</td>
+<td>Notepad++ (Open Selecteditem With)</td>
+</tr>
+<tr class="even">
+<td>Ctrl+Alt+N</td>
+<td>Notepad++ (Open Selecteditem With)</td>
+</tr>
+</tbody>
+</table>
 <h2 id="neovim-vim">NeoVim / Vim</h2>
 <table>
 <thead>
@@ -1251,9 +1675,31 @@ class="math inline">$.\{-}\zs&lt;x&gt;$</span>{2}/&lt;y&gt;/g</td>
 </tr>
 </tbody>
 </table>
+<ul>
+<li>Neovim tutorial <a
+href="https://www.youtube.com/watch?v=w7i4amO_zaE">https://www.youtube.com/watch?v=w7i4amO_zaE</a></li>
+<li>CHEATSHEET <a
+href="https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/editing-like-magic-with-vim-operators/">https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/editing-like-magic-with-vim-operators/</a></li>
+<li>Vim cheatsheet <a
+href="https://devhints.io/vim">https://devhints.io/vim</a></li>
+</ul>
+<p>For matching brackets and sign if the matching sign not found will
+delete the next matcing items. For matching brackets and sign if the
+matching sign not found will delete the next matcing items. For matching
+brackets and sign if the matching sign not found will delete the next
+matcing items. For matching brackets and sign if the matching sign not
+found will delete the next matcing items. For matching brackets and sign
+if the matching sign not found will delete the next matcing items.</p>
 <h3 id="vim-shortcuts">Vim Shortcuts</h3>
-<h3 id="nvim-netrw">NVIM-netrw</h3>
+<h3 id="nvim-netrw">Nvim-netrw</h3>
 <h3 id="more-nvim">More Nvim</h3>
 <span style="color: red;">Hello</span>
+<h1 id="examples-1-image">Examples 1: Image</h1>
+<figure id="fig:SED-HR4049">
+<img
+src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg" />
+<figcaption>This is the caption for the next figure link (or
+table)</figcaption>
+</figure>
 </body>
 </html>
