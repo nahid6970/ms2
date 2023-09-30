@@ -35,10 +35,9 @@ h3 {
 /* red heading */
 /* style.css */
 .my-heading-class {
-  color: red;
+  color: red; /* Example CSS styling for the class */
   font-size: 24px;
 }
-
 
 
 
