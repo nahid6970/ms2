@@ -125,7 +125,15 @@ table {
 
 
 
+@media screen {
+  body {font-size: 11px;}
+  h1 {font-size: 25px;}
+  h2 {font-size: 25px;}
+  h3 {font-size: 25px;}
+  h4 {font-size: 25px;}
 
+
+}
 
 
 
