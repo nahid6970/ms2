@@ -610,7 +610,7 @@ lineux key to windows key
 
 * Heading 1                                       :heading1:
   :PROPERTIES:
-  :ATTR: :class redhead :id redhead
+#+ATTR_HTML: :class redhead
   :END:
   
   This is some content under Heading 1.
