@@ -47,10 +47,9 @@ a:active {color: yellow;background-color: transparent;text-decoration: underline
   position: fixed;
   top: 10%;
   left: 1%;
-  height: fit-content;
+  height: 70%;
   overflow-y: auto;
 }
-
 
 
 /* Style the list items in the TOC */
