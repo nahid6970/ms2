@@ -618,22 +618,67 @@ lineux key to windows key
 #+NAME:   fig:SED-HR4049
 [[https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg]]
 
+
 ** Span Using
 #+HTML: <span style="color: red;">Hello</span>
+
 
 ** Html Items
 #+BEGIN_HTML
 #+END_HTML
 
+
 #+HTML: <img src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg" alt="ff" height="250px" width="150">
-#+END_COMMENT
 
 
-
+** Details+Summary
 #+HTML:<details><summary>
-This is th Summary
+This is a Summary Paragraph
 #+HTML:</summary>
 asmkwkjvlkljkewnlvlkqldkmldkmlk#+BEGIN_VERBATIM adkljdlmdjvk
 efdlkjnioudwdnoadalksdmadjauiowdjjaksdnjknjvwnjklansjknijkaasdd
 asjdnjwndjaskmdlk
 #+HTML:</details>
+
+** ASCII
+#+BEGIN_ASCII 
+#+END_ASCII
+
+#+ASCII: 
+
+#+BEGIN_QUOTE 
+#+END_QUOTE
+
+#+BEGIN_EXAMPLE 
+#+END_EXAMPLE
+
+#+INDEX: 
+
+#+INCLUDE: incllude file
+
+#+BEGIN_SRC 
+#+END_SRC
+
+#+BEGIN_HTML 
+#+END_HTML
+
+#+HTML:
+
+#+BEGIN_LaTeX 
+#+END_LaTeX
+
+#+LaTeX: 
+
+#+BEGIN_CENTER 
+#+END_CENTER
+
+#+BEGIN_VERBATIM 
+#+END_VERBATIM
+
+#+BEGIN_VERSE 
+#+END_VERSE
+
+
+
+#+END_COMMENT
+
