@@ -625,3 +625,9 @@ lineux key to windows key
 #+BEGIN_HTML
 #+END_HTML
 
+
+#+CAPTION: This is the caption for the next figure link (or table)
+#+NAME:   fig:SED-HR4049
+[[https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg]]
+[[https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg]]
+[[https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg]]
