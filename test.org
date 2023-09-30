@@ -8,9 +8,6 @@
 
 
 
-
-* Test 33
-
 * Android 📱
 - [[https://www.youtube.com/watch?v=BWgh6pH72Fc&t=470s][Encrypt & Decrypt Device]]
 
