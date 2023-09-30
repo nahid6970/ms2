@@ -1,5 +1,11 @@
 #+TITLE: 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style//style2.css">
+#+BEGIN_HTML
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+#+END_HTML
+
 
 
 
