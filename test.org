@@ -629,6 +629,9 @@ lineux key to windows key
 #+END_COMMENT
 
 
-#+BEGIN_DETAILS
-This is the content that will be hidden until the user clicks the summary.
-#+END_DETAILS
+#+BEGIN_SRC emacs-lisp :exports results :results raw
+(concat "#+BEGIN_DETAILS\n"
+        "* Summary\n"
+        "  This is the content that will be hidden until the user clicks the summary.\n"
+        "#+END_DETAILS")
+#+END_SRC
