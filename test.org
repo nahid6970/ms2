@@ -9,8 +9,6 @@
 
 
 * Android 📱
-- [[https://www.youtube.com/watch?v=BWgh6pH72Fc&t=470s][Encrypt & Decrypt Device]]
-
 ** Application 📱
 #+BEGIN_HTML
 <!--1111WARP              --> <span> <a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone         ">1111WARP              </a></span>
@@ -72,6 +70,7 @@
 <!--NewPipe               --> <span> <a href="https://github.com/TeamNewPipe/NewPipe/releases                                            ">NewPipe               </a></span>
 <!--MacroDroid            --> <span> <a href="https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid&hl=en&gl=US&pli=1    ">MacroDroid            </a></span>
 #+END_HTML
+- [[https://www.youtube.com/watch?v=BWgh6pH72Fc&t=470s][Encrypt & Decrypt Device]]
 
 ** Termux
 *** Termux Commands
