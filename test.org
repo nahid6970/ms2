@@ -628,3 +628,11 @@ lineux key to windows key
 #+HTML: <img src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg" alt="ff" height="250px" width="150">
 #+END_COMMENT
 
+* Collapsible detail block
+#+BEGIN_DETAILS
+This is the summary text.
+#+END_DETAILS
+
+#+BEGIN_DETAILS
+This is the detailed content.
+#+END_DETAILS
