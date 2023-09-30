@@ -607,7 +607,14 @@ lineux key to windows key
 
 
 
-
+** Details+Summary
+#+HTML:<details><summary>
+This is a Summary Paragraph
+#+HTML:</summary>
+asmkwkjvlkljkewnlvlkqldkmldkmlk#+BEGIN_VERBATIM adkljdlmdjvkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaa
+efdlkjnioudwdnoadalksdmadjauiowdjjaksdnjknjvwnjklansjknijkaasdddsfsdfdsfdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaa
+asjdnjwndjaskmdlk
+#+HTML:</details>
 
 
 
@@ -631,14 +638,7 @@ lineux key to windows key
 #+HTML: <img src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg" alt="ff" height="250px" width="150">
 
 
-** Details+Summary
-#+HTML:<details><summary>
-This is a Summary Paragraph
-#+HTML:</summary>
-asmkwkjvlkljkewnlvlkqldkmldkmlk#+BEGIN_VERBATIM adkljdlmdjvkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaa
-efdlkjnioudwdnoadalksdmadjauiowdjjaksdnjknjvwnjklansjknijkaasdddsfsdfdsfdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaa
-asjdnjwndjaskmdlk
-#+HTML:</details>
+
 
 ** ASCII
 #+BEGIN_ASCII 
