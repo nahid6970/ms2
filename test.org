@@ -12,6 +12,7 @@
 - [[https://www.youtube.com/watch?v=BWgh6pH72Fc&t=470s][Encrypt & Decrypt Device]]
 
 ** Application 📱
+#+BEGIN_HTML
 - [[https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone         ][1111WARP              ]]
 - [[https://play.google.com/store/apps/details?id=idm.internet.download.manager                ][1DM                   ]]
 - [[https://play.google.com/store/apps/details?id=com.aimp.player&hl=en&gl=US                  ][AIMP                  ]]
@@ -70,7 +71,7 @@
 - [[https://github.com/deniscerri/ytdlnis/releases                                             ][YTDLnis               ]]
 - [[https://github.com/TeamNewPipe/NewPipe/releases                                            ][NewPipe               ]]
 - [[https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid&hl=en&gl=US&pli=1    ][MacroDroid            ]]
-
+#+END_HTML
 
 ** Termux
 *** Termux Commands
@@ -202,72 +203,72 @@
 * PC
 ** Software 🖥️
 #+BEGIN_HTML
-<!--ACK--> <span class="scoop">ack </span>
-<!--adb--> <span class="scoop">adb </span>
-<!--Alacritty--> <span class="scoop">Alacritty </span>
-<!--aria2--> <span class="scoop">aria2 </span>
-<!--AudioRelay--> <span class="winget">AudioRelay </span>
-<!--AutoHotKey--> <span class="scoop">autohotkey1.1<br>autohotkey </span>
-<!--Cheat.Engine--> <span class="choco">cheatengine -y </span>
-<!--Chrome_Remote_Desktop--> <span class="winget">ChromeRemoteDesktop </span>
-<!--clangd--> <span class="scoop">clangd </span>
-<!--cmake--> <span class="scoop">cmake </span>
-<!--DirectX--> <span class="winget">Microsoft.DirectX </span>
-<!--Ditto--> <span class="scoop">Ditto </span>
-<!--dot_NET_Desktop_Runtime--> <span class="home"><a href="https://dotnet.microsoft.com/en-us/download">.NET 6.0</a> </span>
-<!--FFmpeg_Batch_AV_Converter--><span class="scoop">ffmpeg-batch </span>
-<!--ffmpeg--> <span class="scoop">ffmpeg </span>
-<!--Foxit_Reader--> <span class="scoop">foxit-reader </span>
-<!--gcc--> <span class="scoop">gcc </span>
-<!--Git--> <span class="scoop">git </span>
-<!--Github_Desktop--> <span class="scoop">github </span>
-<!--Google_Chrome--> <span class="home"><a href="https://www.google.com/chrome/">Google-Chrome</a></span>
-<!--IDM--> <span class="winget">IDM </span>
-<!--imagemagick--> <span class="scoop">imagemagick </span>
-<!--Jackett--> <span class="scoop">jackett </span>
-<!--libreoffice--> <span class="scoop">libreoffice </span>
-<!--Lite_XL--> <span class="scoop">lite-xl </span>
-<!--localsend--> <span class="scoop">localsend </span>
-<!--make--> <span class="scoop">make </span>
-<!--MS-Office--> <span class="">MS-OFFICE </span>
-<!--NanaZip--> <span class="winget">M2Team.NanaZip </span>
-<!--Nano--> <span class="scoop">nano </span>
-<!--NearbyShare--> <span class="winget">Google.NearbyShare </span>
-<!--NeoVim--> <span class="scoop">NeoVim </span>
-<!--Node.js--> <span class="scoop">nodejs </span>
-<!--Notepad++--> <span class="scoop">notepadplusplus </span>
-<!--Oh_My_Posh --> <span class="scoop">oh-my-posh </span>
-<!--OneDrive--> <span class="winget">Microsoft.OneDrive </span>
-<!--Phantomjs--> <span class="scoop">phantomjs<br>phantomjs19 </span>
-<!--Potplayer--> <span class="scoop">potplayer </span>
-<!--Powertoys--> <span class="scoop">powertoys </span>
-<!--Pwsh--> <span class="scoop">pwsh </span>
-<!--Python--> <span class="scoop">python<br>python-alpha<br>python-beta </span>
-<!--qBittorrent--> <span class="winget">qBittorrent.qBittorrent </span>
-<!--Rclone--> <span class="scoop">rclone<br>rclone-beta </span>
-<!--Ruffle_Nightly--> <span class="scoop">ruffle-nightly </span>
-<!--Rufus--> <span class="scoop">rufus </span>
-<!--scoop-completion--> <span class="scoop">scoop-completion </span>
-<!--scoop-search--> <span class="scoop">scoop-search </span>
-<!--scrcpy--> <span class="scoop">scrcpy </span>
-<!--Shell--> <span class="scoop">nilesoft-shell </span>
-<!--Sysinternals--> <span class="scoop">sysinternals </span>
-<!--tldr--> <span class="scoop">tldr </span>
-<!--trafficmonitor--> <span class="scoop">trafficmonitor<br>trafficmonitor-lite </span>
-<!--vcredist--> <span class="scoop">vcredist2022<br>vcredist<br>vcredist-aio </span>
-<!--ventoy--> <span class="scoop">ventoy </span>
-<!--VScode--> <span class="scoop">vscode </span>
-<!--wget--> <span class="scoop">wget </span>
-<!--winaero_tweaker--> <span class="scoop">winaero-tweaker </span>
-<!--Windows_Terminal--> <span class="winget" style="overflow-wrap: break-word;">Microsoft.WindowsTerminal.Preview </span>
-<!--Wise.Program.Uninstaller--> <span class="winget" style="overflow-wrap: break-word;;">WiseCleaner.WiseProgramUninstaller</span>
-<!--wiztree--> <span class="scoop">wiztree </span>
-<!--WSA_System_Control--> <span class="winget" style="overflow-wrap: break-word;">infinitepower18.WSASystemControl </span>
-<!--yt_dlp--> <span class="scoop">yt-dlp </span>
-<!--perl--> <span class="scoop">perl </span>
-<!--kate--> <span class="scoop">kate </span>
-<!--lazygit--> <span class="scoop">lazygit </span>
-<!--Pandoc--> <span class="scoop">Pandoc </span>
+<!--ACK                      --> <span class="scoop">ack                                                                    </span>
+<!--adb                      --> <span class="scoop">adb                                                                    </span>
+<!--Alacritty                --> <span class="scoop">Alacritty                                                              </span>
+<!--aria2                    --> <span class="scoop">aria2                                                                  </span>
+<!--AudioRelay               --> <span class="winget">AudioRelay                                                            </span>
+<!--AutoHotKey               --> <span class="scoop">autohotkey1.1<br>autohotkey                                            </span>
+<!--Cheat.Engine             --> <span class="choco">cheatengine -y                                                         </span>
+<!--Chrome_Remote_Desktop    --> <span class="winget">ChromeRemoteDesktop                                                   </span>
+<!--clangd                   --> <span class="scoop">clangd                                                                 </span>
+<!--cmake                    --> <span class="scoop">cmake                                                                  </span>
+<!--DirectX                  --> <span class="winget">Microsoft.DirectX                                                     </span>
+<!--Ditto                    --> <span class="scoop">Ditto                                                                  </span>
+<!--dot_NET_Desktop_Runtime  --> <span class="home"><a href="https://dotnet.microsoft.com/en-us/download">.NET 6.0</a>      </span>
+<!--FFmpeg_Batch_AV_Converter--> <span class="scoop">ffmpeg-batch                                                           </span>
+<!--ffmpeg                   --> <span class="scoop">ffmpeg                                                                 </span>
+<!--Foxit_Reader             --> <span class="scoop">foxit-reader                                                           </span>
+<!--gcc                      --> <span class="scoop">gcc                                                                    </span>
+<!--Git                      --> <span class="scoop">git                                                                    </span>
+<!--Github_Desktop           --> <span class="scoop">github                                                                 </span>
+<!--Google_Chrome            --> <span class="home"><a href="https://www.google.com/chrome/">Google-Chrome</a>              </span>
+<!--IDM                      --> <span class="winget">IDM                                                                   </span>
+<!--imagemagick              --> <span class="scoop">imagemagick                                                            </span>
+<!--Jackett                  --> <span class="scoop">jackett                                                                </span>
+<!--libreoffice              --> <span class="scoop">libreoffice                                                            </span>
+<!--Lite_XL                  --> <span class="scoop">lite-xl                                                                </span>
+<!--localsend                --> <span class="scoop">localsend                                                              </span>
+<!--make                     --> <span class="scoop">make                                                                   </span>
+<!--MS-Office                --> <span class="">MS-OFFICE                                                                   </span>
+<!--NanaZip                  --> <span class="winget">M2Team.NanaZip                                                        </span>
+<!--Nano                     --> <span class="scoop">nano                                                                   </span>
+<!--NearbyShare              --> <span class="winget">Google.NearbyShare                                                    </span>
+<!--NeoVim                   --> <span class="scoop">NeoVim                                                                 </span>
+<!--Node.js                  --> <span class="scoop">nodejs                                                                 </span>
+<!--Notepad++                --> <span class="scoop">notepadplusplus                                                        </span>
+<!--Oh_My_Posh               --> <span class="scoop">oh-my-posh                                                             </span>
+<!--OneDrive                 --> <span class="winget">Microsoft.OneDrive                                                    </span>
+<!--Phantomjs                --> <span class="scoop">phantomjs<br>phantomjs19                                               </span>
+<!--Potplayer                --> <span class="scoop">potplayer                                                              </span>
+<!--Powertoys                --> <span class="scoop">powertoys                                                              </span>
+<!--Pwsh                     --> <span class="scoop">pwsh                                                                   </span>
+<!--Python                   --> <span class="scoop">python<br>python-alpha<br>python-beta                                  </span>
+<!--qBittorrent              --> <span class="winget">qBittorrent.qBittorrent                                               </span>
+<!--Rclone                   --> <span class="scoop">rclone<br>rclone-beta                                                  </span>
+<!--Ruffle_Nightly           --> <span class="scoop">ruffle-nightly                                                         </span>
+<!--Rufus                    --> <span class="scoop">rufus                                                                  </span>
+<!--scoop-completion         --> <span class="scoop">scoop-completion                                                       </span>
+<!--scoop-search             --> <span class="scoop">scoop-search                                                           </span>
+<!--scrcpy                   --> <span class="scoop">scrcpy                                                                 </span>
+<!--Shell                    --> <span class="scoop">nilesoft-shell                                                         </span>
+<!--Sysinternals             --> <span class="scoop">sysinternals                                                           </span>
+<!--tldr                     --> <span class="scoop">tldr                                                                   </span>
+<!--trafficmonitor           --> <span class="scoop">trafficmonitor<br>trafficmonitor-lite                                  </span>
+<!--vcredist                 --> <span class="scoop">vcredist2022<br>vcredist<br>vcredist-aio                               </span>
+<!--ventoy                   --> <span class="scoop">ventoy                                                                 </span>
+<!--VScode                   --> <span class="scoop">vscode                                                                 </span>
+<!--wget                     --> <span class="scoop">wget                                                                   </span>
+<!--winaero_tweaker          --> <span class="scoop">winaero-tweaker                                                        </span>
+<!--Windows_Terminal         --> <span class="winget" style="overflow-wrap: break-word;">Microsoft.WindowsTerminal.Preview  </span>
+<!--Wise.Program.Uninstaller --> <span class="winget" style="overflow-wrap: break-word;;">WiseCleaner.WiseProgramUninstaller</span>
+<!--wiztree                  --> <span class="scoop">wiztree                                                                </span>
+<!--WSA_System_Control       --> <span class="winget" style="overflow-wrap: break-word;">infinitepower18.WSASystemControl   </span>
+<!--yt_dlp                   --> <span class="scoop">yt-dlp                                                                 </span>
+<!--perl                     --> <span class="scoop">perl                                                                   </span>
+<!--kate                     --> <span class="scoop">kate                                                                   </span>
+<!--lazygit                  --> <span class="scoop">lazygit                                                                </span>
+<!--Pandoc                   --> <span class="scoop">Pandoc                                                                 </span>
 #+END_HTML
 
 
