@@ -608,8 +608,10 @@ lineux key to windows key
 
 
 
-#+INDEX: My Name is NahidNA
 
+#+BEGIN_LaTeX 
+- rclone copy storage/shared/rc_lone.conf /data/data/com.termux/files/home/.config/rclone/
+#+END_LaTeX
 
 #+BEGIN_COMMENT
 * Examples
@@ -654,7 +656,7 @@ My Name NahidNA
 My Name NahidNA
 #+END_EXAMPLE
 
-#+INDEX: My Name is NahidNA
+#+INDEX:
 
 #+INCLUDE: incllude file
 
@@ -667,6 +669,7 @@ My Name NahidNA
 #+HTML:
 
 #+BEGIN_LaTeX 
+- rclone copy storage/shared/rc_lone.conf /data/data/com.termux/files/home/.config/rclone/
 #+END_LaTeX
 
 #+LaTeX: 
