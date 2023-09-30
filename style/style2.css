@@ -4,8 +4,12 @@ body {
   max-width: 100%;
   margin: 0 auto 0 12%;
   color: aliceblue;
-
 }
+
+body > * {
+  margin-left: 200px;
+}
+
 
 p {
   text-align: justify; /* Change to justify for a cleaner look */
