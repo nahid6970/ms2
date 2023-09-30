@@ -127,10 +127,10 @@ table {
 
 @media screen and ( max-width: 700px ) {
   body {
-    max-width: 70%;
-    margin: 0 auto 0 30%;
+    max-width: 79%;
+    margin: 0 auto 0 21%;
   }
-  h1 { font-size:25% ;}
-  h2 {font-size:35% ;}
+  h1 { font-size: ;}
+  h2 {font-size: ;}
   
 }
