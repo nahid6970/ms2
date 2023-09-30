@@ -30,6 +30,17 @@ h3 {
   color:rgb(188, 120, 221);
 }
 
+
+/* Some class Examples */
+/* red heading */
+.redhead {
+  color: #ff0000;
+}
+
+
+
+
+
 /* Change hyperlink text color */
 a:link {color: #b5ac97;background-color: transparent;text-decoration: none;}
 a:visited {color: #bbd853;background-color: transparent;text-decoration: none;}
