@@ -557,7 +557,7 @@ For matching brackets and sign if the matching sign not found will delete the ne
 | %     | Open a new file in netrw's current directory                 |
 
 *** Notes:
-vim-visual-multi
+**vim-visual-multi**
 It's called vim-visual-multi in analogy with visual-block, but the plugin works mostly from normal
 mode.
 
