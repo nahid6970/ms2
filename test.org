@@ -562,44 +562,25 @@ It's called vim-visual-multi in analogy with visual-block, but the plugin works 
 mode.
 
 Basic usage:
-select words with Ctrl-N (like Ctrl-d in Sublime Text/VS Code)
-create cursors vertically with Ctrl-Down/Ctrl-Up
-select one character at a time with Shift-Arrows
-press n/N to get next/previous occurrence
-press [/] to select next/previous cursor
-press q to skip current and get next occurrence
-press Q to remove current cursor/selection
-start insert mode with i,a,I,A
-Two main modes:
+select words with Ctrl-N (like Ctrl-d in Sublime Text/VS Code) create cursors vertically with Ctrl-Down/Ctrl-Up
+select one character at a time with Shift-Arrows press n/N to get next/previous occurrence press [/] to select
+next/previous cursor press q to skip current and get next occurrence press Q to remove current cursor/selection
+start insert mode with i,a,I,A Two main modes:
 
-in cursor mode commands work as they would in normal mode
-in extend mode commands work as they would in visual mode
-press Tab to switch between «cursor» and «extend» mode
-Most vim commands work as expected (motions, r to replace characters, ~ to change case, etc).
-Additionally you can:
+in cursor mode commands work as they would in normal mode in extend mode commands work as they would in visual mode
+press Tab to switch between «cursor» and «extend» mode Most vim commands work as expected (motions, r to replace 
+characters, ~ to change case, etc).
 
-run macros/ex/normal commands at cursors
-align cursors
-transpose selections
-add patterns with regex, or from visual mode
-And more... of course, you can enter insert mode and autocomplete will work.
-
-{asdasdasdasdad}
-
+Additionally you can: run macros/ex/normal commands at cursors align cursors transpose selections add patterns with 
+regex, or from visual mode And more... of course, you can enter insert mode and autocomplete will work.
 
 BOOKMARK.NVIM
-move the cursor to the line of the file that needs to be bookmarked.
-press \\z in normal mode, and input a description in the pop-up shortcut window.
-press enter in insert mode to add, or press esc in normal mode to cancel adding bookmarks.
-press <tab>
-<tab> to open or close the bookmark list window.
-move the cursor in the bookmark list window, press enter to jump to the file line where the
-bookmark is located.
-press <space>
-<space> in the bookmark list window to switch sorting rules.
-press dd in the bookmark list to delete a bookmark.
-use :telescope bookmarks to stop seeing highlight
-s
+move the cursor to the line of the file that needs to be bookmarked. press \\z in normal mode, and input a description 
+in the pop-up shortcut window. Press enter in insert mode to add, or press esc in normal mode to cancel adding bookmarks.
+press <tab> <tab> to open or close the bookmark list window. move the cursor in the bookmark list window, press enter to 
+jump to the file line where the bookmark is located. press <space> <space> in the bookmark list window to switch sorting 
+rules. press dd in the bookmark list to delete a bookmark. use :telescope bookmarks to stop seeing highlights
+
 :help visual-multi
 :help vm-some-topic
 lineux key to windows key
