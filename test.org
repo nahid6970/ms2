@@ -596,6 +596,14 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 
+#+BEGIN_SRC text
+   _____ _ _       
+  / ____(_) |      
+ | (___  _| |_ ___ 
+  \___ \| | __/ _ \
+  ____) | | ||  __/
+ |_____/|_|\__\___|
+#+END_SRC
 
 
 
