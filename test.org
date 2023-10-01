@@ -626,11 +626,9 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 ** Details+Summary
 #+HTML:<details><summary>
-This is a Summary Paragraph
+Summary
 #+HTML:</summary>
-asmkwkjvlkljkewnlvlkqldkmldkmlk#+BEGIN_VERBATIM adkljdlmdjvkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaa
-efdlkjnioudwdnoadalksdmadjauiowdjjaksdnjknjvwnjklansjknijkaasdddsfsdfdsfdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaa
-asjdnjwndjaskmdlk
+Paragraph
 #+HTML:</details>
 
 
