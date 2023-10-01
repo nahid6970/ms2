@@ -7,7 +7,7 @@
 </head>
 #+END_HTML
 
-#+INCLUDE: ""C:\\Users\\nahid\\OneDrive\\Git\\ms2\\2.html" :lines "77-100"
+#+INCLUDE: ""C:\\Users\\nahid\\OneDrive\\Git\\ms2\\2.html" :lines "1-100"
 
 
 * Android 📱
