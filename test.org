@@ -7,7 +7,7 @@
 </head>
 #+END_HTML
 
-#+INCLUDE: "C:\\Users\\nahid\\OneDrive\\Desktop\\aa.txt"
+#+INCLUDE: "C:\\Users\\nahid\\OneDrive\\Desktop\\aa.txt" :lines "0-5"
 
 
 * Android 📱
