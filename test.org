@@ -707,7 +707,7 @@ Horizontal Rules:
 You can create a horizontal rule using ----- or **** on a line by itself.
 Math Equations:
 
-You can include mathematical expressions using LaTeX syntax. For inline math, use $...$, and for display math, use $$...$$.ddt
+You can include mathematical expressions using LaTeX syntax. For inline math, use $...$, and for display math, use $$ddt$$
 Custom HTML or LaTeX:
 
 You can include raw HTML or LaTeX code using #+BEGIN_HTML and #+END_HTML blocks, or #+BEGIN_LaTeX and #+END_LaTeX blocks.
