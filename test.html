@@ -231,7 +231,15 @@ Shortcuts</a></li>
 <li><a href="#notes" id="toc-notes">Notes:</a></li>
 </ul></li>
 </ul></li>
-<li><a href="#examples" id="toc-examples">Examples</a></li>
+<li><a href="#examples" id="toc-examples">Examples</a>
+<ul>
+<li><a href="#image" id="toc-image">Image</a></li>
+<li><a href="#span-using" id="toc-span-using">Span Using</a></li>
+<li><a href="#html-items" id="toc-html-items">Html Items</a></li>
+<li><a href="#detailssummary"
+id="toc-detailssummary">Details+Summary</a></li>
+<li><a href="#ascii" id="toc-ascii">ASCII</a></li>
+</ul></li>
 </ul>
 </nav>
 <head>
@@ -1860,137 +1868,89 @@ enter to jump to the file line where the bookmark is located. press
 sorting rules. press dd in the bookmark list to delete a bookmark. use
 :telescope bookmarks to stop seeing highlights</p>
 <h1 id="examples">Examples</h1>
-<pre><code>
-#+BEGIN_COMMENT
-#+END_COMMENT
+<h2 id="image">Image</h2>
+<figure id="fig:SED-HR4049">
+<img
+src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg" />
+<figcaption>This is the caption for the next figure link (or
+table)</figcaption>
+</figure>
+<h2 id="span-using">Span Using</h2>
+<span style="color: red;">Hello</span>
+<h2 id="html-items">Html Items</h2>
 
-** Image
-#+CAPTION: This is the caption for the next figure link (or table)
-#+NAME:   fig:SED-HR4049
-[[https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg]]
+<img src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg" alt="ff" height="250px" width="150">
+<h2 id="detailssummary">Details+Summary</h2>
+<details><summary>
+<p>Summary</p>
+</summary>
+<p>Paragraph</p>
+</details>
+<h2 id="ascii">ASCII</h2>
+<blockquote>
 
-** Span Using
-#+HTML: &lt;span style=&quot;color: red;&quot;&gt;Hello&lt;/span&gt;
+</blockquote>
+<pre class="example"><code></code></pre>
 
-** Html Items
-#+BEGIN_HTML
-#+END_HTML
 
-#+HTML: &lt;img src=&quot;https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg&quot; alt=&quot;ff&quot; height=&quot;250px&quot; width=&quot;150&quot;&gt;
+<div class="CENTER">
 
-** Details+Summary
-#+HTML:&lt;details&gt;&lt;summary&gt;
-Summary
-#+HTML:&lt;/summary&gt;
-Paragraph
-#+HTML:&lt;/details&gt;
+</div>
+<div class="VERBATIM">
 
-** ASCII
-#+BEGIN_ASCII 
-#+END_ASCII
-
-#+ASCII: 
-
-#+BEGIN_QUOTE 
-#+END_QUOTE
-
-#+BEGIN_EXAMPLE 
-#+END_EXAMPLE
-
-#+INDEX:
-
-#+INCLUDE: incllude file
-
-#+BEGIN_HTML 
-#+END_HTML
-
-#+HTML:
-
-#+BEGIN_LaTeX 
-#+END_LaTeX
-
-#+LaTeX: 
-
-#+BEGIN_CENTER 
-#+END_CENTER
-
-#+BEGIN_VERBATIM 
-#+END_VERBATIM
-
-#+BEGIN_VERSE 
-#+END_VERSE
-
-#+INCLUDE: &quot;C:\\Users\\nahid\\OneDrive\\Desktop\\aa.txt&quot; :lines &quot;0-5&quot;
-
-Bold Text:
-Use two asterisks ** before and after the text you want to make bold.
-Example: **Bold Text**
-
-Italic Text:
-Use single asterisks * or underscores _ before and after the text you want to italicize.
-Example: *Italic Text* or _Italic Text_
-
-Underline:
-Org Mode does not support underline directly. You can use a custom CSS file to achieve this effect.
-
-Strikethrough:
-Use two tildes ~ before and after the text you want to strikethrough.
-Example: ~Strikethrough Text~
-
-Monospace (Code):
-Use equal signs = before and after the text you want to format as monospace.
-Example: =Monospace Text=
-
-Superscript:
-Use caret ^ before and after the text you want to make superscript.
-Example: ^Superscript^
-
-Subscript:
-Use underscores _ before and after the text you want to make subscript.
-Example: _(Subscript)_
-
-Inline Verbatim:
-Use backticks ` before and after the text you want to format as inline verbatim.
-Example: `Inline Verbatim`
-
-Hyperlinks:
-You can create hyperlinks using the syntax [[URL][description]]. For example, [[https://example.com][Visit Example]].
-
-Colored Text:
-Org Mode supports colored text using LaTeX color macros. For example, \textcolor{red}{Text} will produce red text.
-Footnotes:
-
-You can add footnotes using the syntax [[fn:number]] where number is the reference number of the footnote.
-Tables:
-
-Org Mode supports creating tables using a simple markup. Tables can be formatted with various alignment options.
-Lists:
-
-Org Mode supports both ordered and unordered lists. Use 1., 2., etc., for ordered lists, and - or + for unordered lists.
-Images:
-
-You can include images in Org Mode using the [[file:path/to/image.png]] syntax.
-Linking to Sections:
-
-You can create links to specific sections or headings within your Org Mode file using custom IDs. For example, [[#custom-id][Link to Section]].
-Quoting Blocks:
-
-You can quote blocks of text using #+BEGIN_QUOTE and #+END_QUOTE.
-Horizontal Rules:
-
-You can create a horizontal rule using ----- or **** on a line by itself.
-Math Equations:
-
-You can include mathematical expressions using LaTeX syntax. For inline math, use $...$, and for display math, use $$...$$.
-Custom HTML or LaTeX:
-
-You can include raw HTML or LaTeX code using #+BEGIN_HTML and #+END_HTML blocks, or #+BEGIN_LaTeX and #+END_LaTeX blocks.
-Checkbox Lists:
-
-You can create checkbox lists using - [ ] for unchecked items and - [X] for checked items.
-Remember, Org Mode provides a wide range of formatting options, and the above list covers some of the most commonly used ones. Depending on your specific needs, there may be additional features or extensions available.
-
-</code></pre>
+</div>
+<div class="line-block"></div>
+<p>Bold Text: Use two asterisks ** before and after the text you want to
+make bold. Example: <strong><strong>Bold Text</strong></strong></p>
+<p>Italic Text: Use single asterisks * or underscores _ before and after
+the text you want to italicize. Example: <strong>Italic Text</strong> or
+<u>Italic Text</u></p>
+<p>Underline: Org Mode does not support underline directly. You can use
+a custom CSS file to achieve this effect.</p>
+<p>Strikethrough: Use two tildes ~ before and after the text you want to
+strikethrough. Example: <code>Strikethrough Text</code></p>
+<p>Monospace (Code): Use equal signs = before and after the text you
+want to format as monospace. Example: <code
+class="verbatim">Monospace Text</code></p>
+<p>Superscript: Use caret ^ before and after the text you want to make
+superscript. Example: <sup>Superscript</sup>^</p>
+<p>Subscript: Use underscores _ before and after the text you want to
+make subscript. Example: <u>(Subscript)</u></p>
+<p>Inline Verbatim: Use backticks ` before and after the text you want
+to format as inline verbatim. Example: `Inline Verbatim`</p>
+<p>Hyperlinks: You can create hyperlinks using the syntax <span
+class="spurious-link" target="URL"><em>description</em></span>. For
+example, <a href="https://example.com">Visit Example</a>.</p>
+<p>Colored Text: Org Mode supports colored text using LaTeX color
+macros. For example, <span style="color: red">Text</span> will produce
+red text. Footnotes:</p>
+<p>You can add footnotes using the syntax <a
+href="fn:number">fn:number</a> where number is the reference number of
+the footnote. Tables:</p>
+<p>Org Mode supports creating tables using a simple markup. Tables can
+be formatted with various alignment options. Lists:</p>
+<p>Org Mode supports both ordered and unordered lists. Use 1., 2., etc.,
+for ordered lists, and - or + for unordered lists. Images:</p>
+<p>You can include images in Org Mode using the <img
+src="path/to/image.png" /> syntax. Linking to Sections:</p>
+<p>You can create links to specific sections or headings within your Org
+Mode file using custom IDs. For example, <a href="#custom-id">Link to
+Section</a>. Quoting Blocks:</p>
+<p>You can quote blocks of text using #+BEGIN<sub>QUOTE</sub> and
+#+END<sub>QUOTE</sub>. Horizontal Rules:</p>
+<p>You can create a horizontal rule using —– or <strong>**</strong> on a
+line by itself. Math Equations:</p>
+<p>You can include mathematical expressions using LaTeX syntax. For
+inline math, use $…$, and for display math, use <span
+class="math display">...</span>. Custom HTML or LaTeX:</p>
+<p>You can include raw HTML or LaTeX code using #+BEGIN<sub>HTML</sub>
+and #+END<sub>HTML</sub> blocks, or #+BEGIN<sub>LaTeX</sub> and
+#+END<sub>LaTeX</sub> blocks. Checkbox Lists:</p>
+<p>You can create checkbox lists using - [ ] for unchecked items and -
+[X] for checked items. Remember, Org Mode provides a wide range of
+formatting options, and the above list covers some of the most commonly
+used ones. Depending on your specific needs, there may be additional
+features or extensions available.</p>
 <pre><code></code></pre>
 </body>
 </html>

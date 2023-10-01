@@ -585,7 +585,7 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 * Examples
-#+BEGIN_SRC
+
 
 #+BEGIN_COMMENT
 #+END_COMMENT
