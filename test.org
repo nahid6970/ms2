@@ -586,33 +586,6 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 
-
-
-
-
-	Symbol	HTML Code	HTML Entity	CSS Code	Hex Code	Unicode	Description
-| ➢  | &#10146;  | \27A2	&#x27A2;	U+027A2	three-d top-lighted rightwards arrowhead             |
-| ➤  | &#10148;  | \27A4	&#x27A4;	U+027A4	black rightwards arrowhead                           |
-| ⮘  | &#11160;  | \2B98	&#x2B98;	U+02B98	three-d top-lighted leftwards equilateral arrowhead  |
-| ⮙  | &#11161;  | \2B99	&#x2B99;	U+02B99	three-d right-lighted upwards equilateral arrowhead  |
-| ⮚  | &#11162;  | \2B9A	&#x2B9A;	U+02B9A	three-d top-lighted rightwards equilateral arrowhead |
-| ⮛  | &#11163;  | \2B9B	&#x2B9B;	U+02B9B	three-d left-lighted downwards equilateral arrowhead |
-| ⮜  | &#11164;  | \2B9C	&#x2B9C;	U+02B9C	black leftwards equilateral arrowhead                |
-| ⮝  | &#11165;  | \2B9D	&#x2B9D;	U+02B9D	black upwards equilateral arrowhead                  |
-| ⮞  | &#11166;  | \2B9E	&#x2B9E;	U+02B9E	black rightwards equilateral arrowhead               |
-| ⮟  | &#11167;  | \2B9F	&#x2B9F;	U+02B9F	black downwards equilateral arrowhead                |
-| 🢐 | &#129168; | \1F890	&#x1F890;	U+1F890	leftwards triangle arrowhead                       |
-| 🢑 | &#129169; | \1F891	&#x1F891;	U+1F891	upwards triangle arrowhead                         |
-| 🢒 | &#129170; | \1F892	&#x1F892;	U+1F892	rightwards triangle arrowhead                      |
-| 🢓 | &#129171; | \1F893	&#x1F893;	U+1F893	downwards triangle arrowhead                       |
-| 🢔 | &#129172; | \1F894	&#x1F894;	U+1F894	leftwards white arrow within triangle arrowhead    |
-| 🢕 | &#129173; | \1F895	&#x1F895;	U+1F895	upwards white arrow within triangle arrowhead      |
-| 🢖 | &#129174; | \1F896	&#x1F896;	U+1F896	rightwards white arrow within triangle arrowhead   |
-| 🢗 | &#129175; | \1F897	&#x1F897;	U+1F897	downwards white arrow within triangle arrowhead    |
-
-
-
-
 #+BEGIN_SRC text
    _____ _ _       
   / ____(_) |      
