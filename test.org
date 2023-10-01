@@ -7,7 +7,7 @@
 </head>
 #+END_HTML
 
-
+#+INCLUDE: ""C://Users//nahid\OneDrive//Desktop//aa.txt"" :lines "1-5"
 
 * Android 📱
 ** Application 📱
@@ -587,6 +587,8 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 #+BEGIN_SRC
+#+INCLUDE: "path/to/other-file.org" :lines "1-5"
+
 Bold Text:
 Use two asterisks ** before and after the text you want to make bold.
 Example: **Bold Text**
@@ -620,6 +622,41 @@ Example: `Inline Verbatim`
 
 Hyperlinks:
 You can create hyperlinks using the syntax [[URL][description]]. For example, [[https://example.com][Visit Example]].
+
+Colored Text:
+Org Mode supports colored text using LaTeX color macros. For example, \textcolor{red}{Text} will produce red text.
+Footnotes:
+
+You can add footnotes using the syntax [[fn:number]] where number is the reference number of the footnote.
+Tables:
+
+Org Mode supports creating tables using a simple markup. Tables can be formatted with various alignment options.
+Lists:
+
+Org Mode supports both ordered and unordered lists. Use 1., 2., etc., for ordered lists, and - or + for unordered lists.
+Images:
+
+You can include images in Org Mode using the [[file:path/to/image.png]] syntax.
+Linking to Sections:
+
+You can create links to specific sections or headings within your Org Mode file using custom IDs. For example, [[#custom-id][Link to Section]].
+Quoting Blocks:
+
+You can quote blocks of text using #+BEGIN_QUOTE and #+END_QUOTE.
+Horizontal Rules:
+
+You can create a horizontal rule using ----- or **** on a line by itself.
+Math Equations:
+
+You can include mathematical expressions using LaTeX syntax. For inline math, use $...$, and for display math, use $$...$$.
+Custom HTML or LaTeX:
+
+You can include raw HTML or LaTeX code using #+BEGIN_HTML and #+END_HTML blocks, or #+BEGIN_LaTeX and #+END_LaTeX blocks.
+Checkbox Lists:
+
+You can create checkbox lists using - [ ] for unchecked items and - [X] for checked items.
+Remember, Org Mode provides a wide range of formatting options, and the above list covers some of the most commonly used ones. Depending on your specific needs, there may be additional features or extensions available.
+
 #+END_SRC
 
 
