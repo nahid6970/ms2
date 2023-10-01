@@ -557,11 +557,11 @@ For matching brackets and sign if the matching sign not found will delete the ne
 | %     | Open a new file in netrw's current directory                 |
 
 *** Notes:
-_**Vim-Visual-Multi**_
+/_**Vim-Visual-Multi**_/
 It's called vim-visual-multi in analogy with visual-block, but the plugin works mostly from normal
 mode.
 
-_**Basic Usage:**_
+/_**Basic Usage:**_/
 select words with Ctrl-N (like Ctrl-d in Sublime Text/VS Code) create cursors vertically with Ctrl-Down/Ctrl-Up
 select one character at a time with Shift-Arrows press n/N to get next/previous occurrence press [/] to select
 next/previous cursor press q to skip current and get next occurrence press Q to remove current cursor/selection
