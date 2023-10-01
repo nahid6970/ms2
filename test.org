@@ -584,10 +584,8 @@ jump to the file line where the bookmark is located. press <space> <space> in th
 rules. press dd in the bookmark list to delete a bookmark. use :telescope bookmarks to stop seeing highlights
 
 
-
-
-#+BEGIN_SRC
 * Examples
+#+BEGIN_SRC
 
 #+BEGIN_COMMENT
 #+END_COMMENT
