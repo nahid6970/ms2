@@ -103,7 +103,7 @@ a:active {color: yellow;background-color: transparent;text-decoration: underline
 /* Adjust position of subheadings */
 #TOC ul ul li {
   margin-left: 15px;
-  list-style-type: lower-roman;
+  list-style-type: circle;
 }
 
 /* Firefox */
