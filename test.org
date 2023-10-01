@@ -467,7 +467,7 @@
 | Replace          | s                                 | replace the chars of the word                                   |    |
 | Replace          | S                                 | replace the line where mouse is                                 |    |
 | Save             | :w!                               | override and save                                               |    |
-| Save             | :wq                               | save and quit                                                   |    |
+| Save             | :wq                               |           \textcolor{red}{save and quit}                                          |    |
 | Select-All       | :%y or ggVG                       | To select all text in Neovim, you can use the                   |    |
 | Split            | :new                              |                                                                 |    |
 | Split            | :split                            |                                                                 |    |
