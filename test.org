@@ -590,7 +590,13 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 
-
+	Symbol	HTML Code	HTML Entity	CSS Code	Hex Code	Unicode	Description
+🢜	&#129180;		\1F89C	&#x1F89C;	U+1F89C	heavy arrow shaft width one
+🢝	&#129181;		\1F89D	&#x1F89D;	U+1F89D	heavy arrow shaft width two thirds
+🢞	&#129182;		\1F89E	&#x1F89E;	U+1F89E	heavy arrow shaft width one half
+🢟	&#129183;		\1F89F	&#x1F89F;	U+1F89F	heavy arrow shaft width one third
+🢬	&#129196;		\1F8AC	&#x1F8AC;	U+1F8AC	white arrow shaft width one
+🢭	&#129197;		\1F8AD	&#x1F8AD;	U+1F8AD	white arrow shaft width two thirds
 
 
 
@@ -606,7 +612,9 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 #+END_SRC
 
 
-
+ /\ /\
+( o.o )
+ > ^ <
 
 
 ** ASCII
