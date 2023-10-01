@@ -558,7 +558,7 @@ For matching brackets and sign if the matching sign not found will delete the ne
 
 *** Notes:
 **Vim-Visual-Multi**
-It's called vim-visual-multi in analogy with visual-block, but the plugin works mostly from normal
+*It's called vim-visual-multi in analogy with visual-block, but the plugin works mostly from normal*
 mode.
 
 **Basic Usage:**
