@@ -586,7 +586,7 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 
-#+BEGIN_SRC
+BEGIN_SRC
 Bold Text:
 
 Use two asterisks ** before and after the text you want to make bold.
@@ -635,7 +635,7 @@ Example: `Inline Verbatim`
 Hyperlinks:
 
 You can create hyperlinks using the syntax [[URL][description]]. For example, [[https://example.com][Visit Example]].
-#+END_SRC
+END_SRC
 
 #+BEGIN_SRC text
    _____ _ _       
