@@ -622,26 +622,30 @@ Hyperlinks:
 You can create hyperlinks using the syntax [[URL][description]]. For example, [[https://example.com][Visit Example]].
 #+END_SRC
 
-#+BEGIN_SRC text
-   _____ _ _       
-  / ____(_) |      
- | (___  _| |_ ___ 
-  \___ \| | __/ _ \
-  ____) | | ||  __/
- |_____/|_|\__\___|
-#+END_SRC
 
 
 
-** ASCII
-#+BEGIN_SRC
-  _______ _                 _     _______             
- |__   __| |               | |   |__   __|            
-    | |  | |__   __ _ _ __ | |_     | | ___   ___ ___ 
-    | |  | '_ \ / _` | '_ \| __|    | |/ _ \ / __/ _ \
-    | |  | | | | (_| | | | | |_     | | (_) | (_|  __/
-    |_|  |_| |_|\__,_|_| |_|\__|    |_|\___/ \___\___|
-#+END_SRC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
