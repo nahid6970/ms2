@@ -595,7 +595,7 @@ _This is an Example_
 
 _This is an Example
 
-^This is an Example^
+^This is an Example
 
 This is an Example
 
