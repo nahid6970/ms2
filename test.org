@@ -605,13 +605,10 @@ _This is an Example6
 
 +This is an Example10+
 
-- This is an Example11 -
-
-
 - This is an Example17
 
 * Sign with no Effect
-, ` 
+, ` " 
 
 * Sources Codes
 #+BEGIN_SRC
