@@ -467,7 +467,7 @@
 | Replace          | s                                 | replace the chars of the word                                   |    |
 | Replace          | S                                 | replace the line where mouse is                                 |    |
 | Save             | :w!                               | override and save                                               |    |
-| Save             | :wq                               |           \textcolor{red}{save and quit}                                          |    |
+| Save             | :wq                               | save and quit                                                   |    |
 | Select-All       | :%y or ggVG                       | To select all text in Neovim, you can use the                   |    |
 | Split            | :new                              |                                                                 |    |
 | Split            | :split                            |                                                                 |    |
@@ -491,10 +491,6 @@
 - Neovim tutorial https://www.youtube.com/watch?v=w7i4amO_zaE  
 - CHEATSHEET https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/editing-like-magic-with-vim-operators/
 - Vim cheatsheet https://devhints.io/vim
-For matching brackets and sign if the matching sign not found will delete the next matcing items.
-For matching brackets and sign if the matching sign not found will delete the next matcing items.
-For matching brackets and sign if the matching sign not found will delete the next matcing items.
-For matching brackets and sign if the matching sign not found will delete the next matcing items.
 For matching brackets and sign if the matching sign not found will delete the next matcing items.
 
 *** Nvim-netrw
