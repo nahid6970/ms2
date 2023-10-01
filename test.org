@@ -585,7 +585,7 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 * Examples
-
+#+BEGIN_SRC
 
 #+BEGIN_COMMENT
 #+END_COMMENT
@@ -684,11 +684,11 @@ You can create hyperlinks using the syntax [[URL][description]]. For example, [[
 
 Colored Text:
 Org Mode supports colored text using LaTeX color macros. For example, \textcolor{red}{Text} will produce red text.
+
 Footnotes:
-
 You can add footnotes using the syntax [[fn:number]] where number is the reference number of the footnote.
-Tables:
 
+Tables:
 Org Mode supports creating tables using a simple markup. Tables can be formatted with various alignment options.
 Lists:
 
@@ -707,7 +707,7 @@ Horizontal Rules:
 You can create a horizontal rule using ----- or **** on a line by itself.
 Math Equations:
 
-You can include mathematical expressions using LaTeX syntax. For inline math, use $...$, and for display math, use $$ddt$$
+You can include mathematical expressions using LaTeX syntax. For inline math, use $...$, and for display math, use $$..$$.
 Custom HTML or LaTeX:
 
 You can include raw HTML or LaTeX code using #+BEGIN_HTML and #+END_HTML blocks, or #+BEGIN_LaTeX and #+END_LaTeX blocks.
