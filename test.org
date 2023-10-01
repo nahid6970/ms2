@@ -462,7 +462,7 @@
 | Replace          | :%s/<x>,(?=\s)/<y>/g              | Replace 'x' if followed by comma and space with 'y'             |    |
 | Replace          | :%s/<x>/<y>                       | Replace first occurance                                         |    |
 | Replace          | :%s/<x>/<y>/g                     | Replace all first occurance                                     |    |
-| Replace          | =:1,10s/\(.\{-}\zs<x>\){2}/<y>/g= | $$Replace second occurrence of 'x' with$$                           |    |
+| Replace          | =:1,10s/\(.\{-}\zs<x>\){2}/<y>/g= |  \( Replace second occurrence of 'x' with Text \)                          |    |
 | Replace          | :1,10s/<x>/<y>/g                  | Replace <x> with <y> in lines 1 to 10                           |    |
 | Replace          | s                                 | replace the chars of the word                                   |    |
 | Replace          | S                                 | replace the line where mouse is                                 |    |
