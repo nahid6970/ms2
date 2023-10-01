@@ -629,8 +629,7 @@ My Name NahidNA
 
 #+INCLUDE: incllude file
 
-#+BEGIN_SRC 
-#+END_SRC
+
 
 #+BEGIN_HTML 
 #+END_HTML
