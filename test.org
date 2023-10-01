@@ -674,7 +674,7 @@ Example: ^Superscript^
 Subscript:
 Use underscores _ before and after the text you want to make subscript.
 Example: _(Subscript)_
-\textcolor{red}{Text}
+
 Inline Verbatim:
 Use backticks ` before and after the text you want to format as inline verbatim.
 Example: `Inline Verbatim`
@@ -707,7 +707,7 @@ Horizontal Rules:
 You can create a horizontal rule using ----- or **** on a line by itself.
 Math Equations:
 
-You can include mathematical expressions using LaTeX syntax. For inline math, use $...$, and for display math, use $$...$$.
+You can include mathematical expressions using LaTeX syntax. For inline math, use $...$, and for display math, use $$...$$.ddt
 Custom HTML or LaTeX:
 
 You can include raw HTML or LaTeX code using #+BEGIN_HTML and #+END_HTML blocks, or #+BEGIN_LaTeX and #+END_LaTeX blocks.
