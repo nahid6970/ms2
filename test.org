@@ -588,7 +588,7 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 #+BEGIN_SRC
-#+INCLUDE: "path/to/other-file.org" :lines "1-5"
+#+INCLUDE: "C:\\Users\\nahid\\OneDrive\\Desktop\\aa.txt" :lines "0-5"
 
 Bold Text:
 Use two asterisks ** before and after the text you want to make bold.
