@@ -394,6 +394,11 @@
 | +Prefix          | ]                               | +prefix                                                         |    |
 | +Prefix          | a                               | +around                                                         |    |
 | +Prefix          | i                               | +inside                                                         |    |
+| Copy             | :%y                             | Copy the entire file                                            |    |
+| Copy             | y                               | Copy the current line                                           |    |
+| Copy             | yip                             | Copy the current paragraph                                      |    |
+| Copy             | ys                              | Copy the current sentence                                       |    |
+| Copy             | yw                              | Copy the current word                                           |    |
 | Customization    | :colorscheme                    | list of all installed color schemes in Vim                      |    |
 | Delete           | #dd {normal}                    | to delete #lines.                                               |    |
 | Delete           | d#w {normal}                    | to delete the #UPPER CASE words                                 |    |
@@ -438,6 +443,8 @@
 | Goto             | T                               | Move before previous char                                       |    |
 | Goto             | w                               | Next word                                                       |    |
 | Help             | :help nvim                      | Help                                                            |    |
+| Help             | :help visual-multi              |                                                                 |    |
+| Help             | :help vm-some-topic             |                                                                 |    |
 | Help             | :Tutor                          |                                                                 |    |
 | Help             | F1                              | quick help                                                      |    |
 | History          | q:                              | edit command history                                            |    |
@@ -472,19 +479,15 @@
 | Split            | ctrl+w+v                        | vertical split or :vsplit                                       |    |
 | Suggestion       | Tab {normal}                    | in normal mode enter command and auto complete                  |    |
 | Swap             | ctrl+x                          | swap window                                                     |    |
+| Synonymous       | <cr>                            | Enter                                                           |    |
+| Undo / Redo      | ctrl+r                          | Redo                                                            |    |
 | Undo / Redo      | U {normal}                      | to fix a whole line.                                            |    |
 | Undo / Redo      | u {normal}                      | to undo the last commands,                                      |    |
-| Undo / Redo      | ctrl+r                          | Redo                                                            |    |
 | Utility          | :Telescope builtin              | ** ** **                                                        |    |
 | Utility          | :Telescope keymaps              | keymaps                                                         |    |
 | Visual-Mode      | ctrl+v                          | move around coulmns                                             | ** |
 | Visual-Mode      | vg                              | start selecting text                                            |    |
 | Zoom             | ctrl +/-                        | zoomin/out                                                      |    |
-| Copy             | y                               | Copy the current line                                           |    |
-| Copy             | yw                              | Copy the current word                                           |    |
-| Copy             | ys                              | Copy the current sentence                                       |    |
-| Copy             | yip                             | Copy the current paragraph                                      |    |
-| Copy             | :%y                             | Copy the entire file                                            |    |
 - Neovim tutorial https://www.youtube.com/watch?v=w7i4amO_zaE  
 - CHEATSHEET https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/editing-like-magic-with-vim-operators/
 - Vim cheatsheet https://devhints.io/vim
@@ -580,11 +583,7 @@ press <tab> <tab> to open or close the bookmark list window. move the cursor in 
 jump to the file line where the bookmark is located. press <space> <space> in the bookmark list window to switch sorting 
 rules. press dd in the bookmark list to delete a bookmark. use :telescope bookmarks to stop seeing highlights
 
-:help visual-multi
-:help vm-some-topic
-lineux key to windows key
-<cr> -------Enter
-</details>
+
 
 
 
