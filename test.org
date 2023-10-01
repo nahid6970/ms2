@@ -587,13 +587,13 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 /This is an Example/
 
-This is an Example
+_This is an Example_
 
-This is an Example
+~This is an Example~
 
-This is an Example
+^This is an Example^
 
-This is an Example
+_This is an Example
 
 This is an Example
 
