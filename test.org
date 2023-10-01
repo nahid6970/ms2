@@ -603,7 +603,7 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 ** ASCII
 #+BEGIN_ASCII 
-A B C D E F
+U+0291C
 #+END_ASCII
 
 
