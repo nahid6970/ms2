@@ -605,20 +605,10 @@ _This is an Example6
 
 +This is an Example10+
 
--This is an Example11-
+- This is an Example11 -
 
-``This is an Example12``
 
-`This is an Example13`
-
-```This is an Example14```
-
-```This is an Example15
-
-``This is an Example16
-
-" This is an Example17 "
-- 
+- This is an Example17
 
 * Sign with no Effect
 , ` 
