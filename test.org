@@ -599,7 +599,7 @@ _This is an Example
 
 ^This is an Example
 
-\This is an Example\
+\This is an Example
 
 This is an Example
 
