@@ -237,28 +237,6 @@ Shortcuts</a></li>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<p>&lt;div class="box2"&gt; &lt;details&gt; &lt;summary&gt;Android
-📱&lt;/summary&gt; &lt;li&gt;&lt;a href="<a
-href="https://www.youtube.com/watch?v=BWgh6pH72Fc&amp;t=470s">https://www.youtube.com/watch?v=BWgh6pH72Fc&amp;t=470s</a>"&gt;Encrypt
-&amp; Decrypt Device&lt;/a&gt; &lt;/li&gt; &lt;h1 class="h25"&gt;Termux
-Commands&lt;/h1&gt; &lt;li&gt;&lt;a href="<a
-href="https://www.learntermux.tech/2020/01/basic-commands-in-termux.html?m=1">https://www.learntermux.tech/2020/01/basic-commands-in-termux.html?m=1</a>"&gt;Learn<sub>Termux</sub>&lt;/a&gt;
-&lt;/li&gt; &lt;li&gt;&lt;a href="<a
-href="https://wiki.termux.com/wiki/Touch_Keyboard">https://wiki.termux.com/wiki/Touch_Keyboard</a>"&gt;&lt;/a&gt;
-termux pc keyboard mapping&lt;/li&gt; &lt;li&gt;alias
-alias<sub>name</sub>='command' &lt;/li&gt; &lt;li&gt;unalias &lt;/li&gt;
-&lt;li&gt;termux-setup-storage &lt;/li&gt; &lt;li&gt;cd storage/shared/
-&lt;/li&gt; &lt;li&gt;pkg update -y &amp;&amp; pkg upgrade -y
-&lt;/li&gt; &lt;li&gt;pkg in &lt;/li&gt; &lt;li&gt;apt update -y
-&amp;&amp; apt upgrade -y &lt;/li&gt; &lt;li&gt;pkg install rclone
-python tealdeer tsu -y &lt;/li&gt; &lt;li&gt;git clone <a
-href="https://github.com/h4ck3r0/Termux-os">https://github.com/h4ck3r0/Termux-os</a>
-&amp;&amp; cd Termux-os &amp;&amp; bash os.sh &lt;/li&gt; &lt;h1
-class="h25"&gt;Termux rclone &lt;/h1&gt; &lt;li&gt;rclone copy
-storage/shared/rclone.conf
-<em>data/data/com.termux/files/home</em>.config/rclone/ &lt;/li&gt;
-&lt;li&gt;rclone sync gu:/song/ storage/shared/song/ -P –track-renames
-–ignore-existing –fast-list &lt;/li&gt;</p>
 <h1 id="android">Android 📱</h1>
 <h2 id="application">Application 📱</h2>
 <!--1111WARP              --> <span> <a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone         ">1111WARP              </a></span>
@@ -1880,76 +1858,111 @@ enter to jump to the file line where the bookmark is located. press
 &lt;space&gt; &lt;space&gt; in the bookmark list window to switch
 sorting rules. press dd in the bookmark list to delete a bookmark. use
 :telescope bookmarks to stop seeing highlights</p>
-<pre><code>#+INCLUDE: &quot;C:\\Users\\nahid\\OneDrive\\Desktop\\aa.txt&quot; :lines &quot;0-5&quot;
+<pre><code>* Examples
 
-Bold Text:
-Use two asterisks ** before and after the text you want to make bold.
-Example: **Bold Text**
+#+BEGIN_COMMENT
+#+END_COMMENT
 
-Italic Text:
-Use single asterisks * or underscores _ before and after the text you want to italicize.
-Example: *Italic Text* or _Italic Text_
+** Image
+#+CAPTION: This is the caption for the next figure link (or table)
+#+NAME:   fig:SED-HR4049
+[[https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg]]
 
-Underline:
-Org Mode does not support underline directly. You can use a custom CSS file to achieve this effect.
+** Span Using
+#+HTML: &lt;span style=&quot;color: red;&quot;&gt;Hello&lt;/span&gt;
 
-Strikethrough:
-Use two tildes ~ before and after the text you want to strikethrough.
-Example: ~Strikethrough Text~
+** Html Items
+#+BEGIN_HTML
+#+END_HTML
 
-Monospace (Code):
-Use equal signs = before and after the text you want to format as monospace.
-Example: =Monospace Text=
+#+HTML: &lt;img src=&quot;https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg&quot; alt=&quot;ff&quot; height=&quot;250px&quot; width=&quot;150&quot;&gt;
 
-Superscript:
-Use caret ^ before and after the text you want to make superscript.
-Example: ^Superscript^
+** Details+Summary
+#+HTML:&lt;details&gt;&lt;summary&gt;
+Summary
+#+HTML:&lt;/summary&gt;
+Paragraph
+#+HTML:&lt;/details&gt;
 
-Subscript:
-Use underscores _ before and after the text you want to make subscript.
-Example: _(Subscript)_
+** ASCII
+#+BEGIN_ASCII 
+#+END_ASCII
 
-Inline Verbatim:
-Use backticks ` before and after the text you want to format as inline verbatim.
-Example: `Inline Verbatim`
+#+ASCII: 
 
-Hyperlinks:
-You can create hyperlinks using the syntax [[URL][description]]. For example, [[https://example.com][Visit Example]].
+#+BEGIN_QUOTE 
+My Name NahidNA
+#+END_QUOTE
 
-Colored Text:
-Org Mode supports colored text using LaTeX color macros. For example, \textcolor{red}{Text} will produce red text.
-Footnotes:
+#+BEGIN_EXAMPLE 
+My Name NahidNA
+#+END_EXAMPLE
 
-You can add footnotes using the syntax [[fn:number]] where number is the reference number of the footnote.
-Tables:
+#+INDEX:
 
-Org Mode supports creating tables using a simple markup. Tables can be formatted with various alignment options.
-Lists:
+#+INCLUDE: incllude file
 
-Org Mode supports both ordered and unordered lists. Use 1., 2., etc., for ordered lists, and - or + for unordered lists.
-Images:
-
-You can include images in Org Mode using the [[file:path/to/image.png]] syntax.
-Linking to Sections:
-
-You can create links to specific sections or headings within your Org Mode file using custom IDs. For example, [[#custom-id][Link to Section]].
-Quoting Blocks:
-
-You can quote blocks of text using #+BEGIN_QUOTE and #+END_QUOTE.
-Horizontal Rules:
-
-You can create a horizontal rule using ----- or **** on a line by itself.
-Math Equations:
-
-You can include mathematical expressions using LaTeX syntax. For inline math, use $...$, and for display math, use $$...$$.
-Custom HTML or LaTeX:
-
-You can include raw HTML or LaTeX code using #+BEGIN_HTML and #+END_HTML blocks, or #+BEGIN_LaTeX and #+END_LaTeX blocks.
-Checkbox Lists:
-
-You can create checkbox lists using - [ ] for unchecked items and - [X] for checked items.
-Remember, Org Mode provides a wide range of formatting options, and the above list covers some of the most commonly used ones. Depending on your specific needs, there may be additional features or extensions available.
-
+#+BEGIN_SRC 
 </code></pre>
+
+
+<div class="CENTER">
+
+</div>
+<div class="VERBATIM">
+
+</div>
+<div class="line-block"></div>
+<p>Bold Text: Use two asterisks ** before and after the text you want to
+make bold. Example: <strong><strong>Bold Text</strong></strong></p>
+<p>Italic Text: Use single asterisks * or underscores _ before and after
+the text you want to italicize. Example: <strong>Italic Text</strong> or
+<u>Italic Text</u></p>
+<p>Underline: Org Mode does not support underline directly. You can use
+a custom CSS file to achieve this effect.</p>
+<p>Strikethrough: Use two tildes ~ before and after the text you want to
+strikethrough. Example: <code>Strikethrough Text</code></p>
+<p>Monospace (Code): Use equal signs = before and after the text you
+want to format as monospace. Example: <code
+class="verbatim">Monospace Text</code></p>
+<p>Superscript: Use caret ^ before and after the text you want to make
+superscript. Example: <sup>Superscript</sup>^</p>
+<p>Subscript: Use underscores _ before and after the text you want to
+make subscript. Example: <u>(Subscript)</u></p>
+<p>Inline Verbatim: Use backticks ` before and after the text you want
+to format as inline verbatim. Example: `Inline Verbatim`</p>
+<p>Hyperlinks: You can create hyperlinks using the syntax <span
+class="spurious-link" target="URL"><em>description</em></span>. For
+example, <a href="https://example.com">Visit Example</a>.</p>
+<p>Colored Text: Org Mode supports colored text using LaTeX color
+macros. For example, <span style="color: red">Text</span> will produce
+red text. Footnotes:</p>
+<p>You can add footnotes using the syntax <a
+href="fn:number">fn:number</a> where number is the reference number of
+the footnote. Tables:</p>
+<p>Org Mode supports creating tables using a simple markup. Tables can
+be formatted with various alignment options. Lists:</p>
+<p>Org Mode supports both ordered and unordered lists. Use 1., 2., etc.,
+for ordered lists, and - or + for unordered lists. Images:</p>
+<p>You can include images in Org Mode using the <img
+src="path/to/image.png" /> syntax. Linking to Sections:</p>
+<p>You can create links to specific sections or headings within your Org
+Mode file using custom IDs. For example, <a href="#custom-id">Link to
+Section</a>. Quoting Blocks:</p>
+<p>You can quote blocks of text using #+BEGIN<sub>QUOTE</sub> and
+#+END<sub>QUOTE</sub>. Horizontal Rules:</p>
+<p>You can create a horizontal rule using —– or <strong>**</strong> on a
+line by itself. Math Equations:</p>
+<p>You can include mathematical expressions using LaTeX syntax. For
+inline math, use $…$, and for display math, use <span
+class="math display">...</span>. Custom HTML or LaTeX:</p>
+<p>You can include raw HTML or LaTeX code using #+BEGIN<sub>HTML</sub>
+and #+END<sub>HTML</sub> blocks, or #+BEGIN<sub>LaTeX</sub> and
+#+END<sub>LaTeX</sub> blocks. Checkbox Lists:</p>
+<p>You can create checkbox lists using - [ ] for unchecked items and -
+[X] for checked items. Remember, Org Mode provides a wide range of
+formatting options, and the above list covers some of the most commonly
+used ones. Depending on your specific needs, there may be additional
+features or extensions available.</p>
 </body>
 </html>

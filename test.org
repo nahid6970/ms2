@@ -7,7 +7,6 @@
 </head>
 #+END_HTML
 
-#+INCLUDE: "C:\\Users\\nahid\\OneDrive\\Git\\ms2\\2.html" :lines "77-100"
 
 
 * Android 📱
@@ -588,6 +587,72 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 #+BEGIN_SRC
+* Examples
+
+#+BEGIN_COMMENT
+#+END_COMMENT
+
+** Image
+#+CAPTION: This is the caption for the next figure link (or table)
+#+NAME:   fig:SED-HR4049
+[[https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg]]
+
+** Span Using
+#+HTML: <span style="color: red;">Hello</span>
+
+** Html Items
+#+BEGIN_HTML
+#+END_HTML
+
+#+HTML: <img src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg" alt="ff" height="250px" width="150">
+
+** Details+Summary
+#+HTML:<details><summary>
+Summary
+#+HTML:</summary>
+Paragraph
+#+HTML:</details>
+
+** ASCII
+#+BEGIN_ASCII 
+#+END_ASCII
+
+#+ASCII: 
+
+#+BEGIN_QUOTE 
+My Name NahidNA
+#+END_QUOTE
+
+#+BEGIN_EXAMPLE 
+My Name NahidNA
+#+END_EXAMPLE
+
+#+INDEX:
+
+#+INCLUDE: incllude file
+
+#+BEGIN_SRC 
+#+END_SRC
+
+#+BEGIN_HTML 
+#+END_HTML
+
+#+HTML:
+
+#+BEGIN_LaTeX 
+#+END_LaTeX
+
+#+LaTeX: 
+
+#+BEGIN_CENTER 
+#+END_CENTER
+
+#+BEGIN_VERBATIM 
+#+END_VERBATIM
+
+#+BEGIN_VERSE 
+#+END_VERSE
+
 #+INCLUDE: "C:\\Users\\nahid\\OneDrive\\Desktop\\aa.txt" :lines "0-5"
 
 Bold Text:
@@ -687,74 +752,4 @@ Remember, Org Mode provides a wide range of formatting options, and the above li
 
 
 
-#+BEGIN_COMMENT
-* Examples
-** Image
-#+CAPTION: This is the caption for the next figure link (or table)
-#+NAME:   fig:SED-HR4049
-[[https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg]]
-
-
-** Span Using
-#+HTML: <span style="color: red;">Hello</span>
-
-
-** Html Items
-#+BEGIN_HTML
-#+END_HTML
-
-
-#+HTML: <img src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg" alt="ff" height="250px" width="150">
-
-
-** Details+Summary
-#+HTML:<details><summary>
-Summary
-#+HTML:</summary>
-Paragraph
-#+HTML:</details>
-
-
-** ASCII
-#+BEGIN_ASCII 
-#+END_ASCII
-
-
-#+ASCII: 
-
-#+BEGIN_QUOTE 
-My Name NahidNA
-#+END_QUOTE
-
-#+BEGIN_EXAMPLE 
-My Name NahidNA
-#+END_EXAMPLE
-
-#+INDEX:
-
-#+INCLUDE: incllude file
-
-#+BEGIN_SRC 
-#+END_SRC
-
-#+BEGIN_HTML 
-#+END_HTML
-
-#+HTML:
-
-#+BEGIN_LaTeX 
-#+END_LaTeX
-
-#+LaTeX: 
-
-#+BEGIN_CENTER 
-#+END_CENTER
-
-#+BEGIN_VERBATIM 
-#+END_VERBATIM
-
-#+BEGIN_VERSE 
-#+END_VERSE
-
-#+END_COMMENT
 
