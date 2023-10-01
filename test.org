@@ -585,6 +585,10 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 * Examples
 #+BEGIN_SRC
 
+\textcolor{red}{Text}               works like span +doesnt remove spaces +left side
+$$Text$$                            works like span -removes all spaces   +center text
+\( Text \)                          works like span -removes all spaces   +left side
+
 #+BEGIN_COMMENT
 #+END_COMMENT
 
