@@ -488,10 +488,6 @@
 | Visual-Mode      | ctrl+v                            | move around coulmns                                             | ** |
 | Visual-Mode      | vg                                | start selecting text                                            |    |
 | Zoom             | ctrl +/-                          | zoomin/out                                                      |    |
-- Neovim tutorial https://www.youtube.com/watch?v=w7i4amO_zaE  
-- CHEATSHEET https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/editing-like-magic-with-vim-operators/
-- Vim cheatsheet https://devhints.io/vim
-For matching brackets and sign if the matching sign not found will delete the next matcing items.
 
 *** Nvim-netrw
 | Key   | Objective                                                    |
@@ -555,6 +551,12 @@ For matching brackets and sign if the matching sign not found will delete the ne
 | %     | Open a new file in netrw's current directory                 |
 
 *** Notes:
+- Neovim tutorial https://www.youtube.com/watch?v=w7i4amO_zaE  
+- CHEATSHEET https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/editing-like-magic-with-vim-operators/
+- Vim cheatsheet https://devhints.io/vim
+
+For matching brackets and sign if the matching sign not found will delete the next matcing items.
+
 /_**Vim-Visual-Multi**_/
 It's called vim-visual-multi in analogy with visual-block, but the plugin works mostly from normal
 mode.
