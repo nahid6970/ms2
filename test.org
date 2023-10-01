@@ -556,7 +556,7 @@ For matching brackets and sign if the matching sign not found will delete the ne
 | X     | Execute filename under cursor via system()                   |
 | %     | Open a new file in netrw's current directory                 |
 
-*** Notes:
+*** DONE Notes:
 _**Vim-Visual-Multi**_
 It's called vim-visual-multi in analogy with visual-block, but the plugin works mostly from normal
 mode.
@@ -574,7 +574,7 @@ characters, ~ to change case, etc).
 Additionally you can: run macros/ex/normal commands at cursors align cursors transpose selections add patterns with 
 regex, or from visual mode And more... of course, you can enter insert mode and autocomplete will work.
 
-~BOOKMARK.NVIM~
+BOOKMARK.NVIM
 move the cursor to the line of the file that needs to be bookmarked. press \\z in normal mode, and input a description 
 in the pop-up shortcut window. Press enter in insert mode to add, or press esc in normal mode to cancel adding bookmarks.
 press <tab> <tab> to open or close the bookmark list window. move the cursor in the bookmark list window, press enter to 
