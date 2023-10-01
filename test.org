@@ -618,18 +618,14 @@ Paragraph
 #+ASCII: 
 
 #+BEGIN_QUOTE 
-My Name NahidNA
 #+END_QUOTE
 
 #+BEGIN_EXAMPLE 
-My Name NahidNA
 #+END_EXAMPLE
 
 #+INDEX:
 
 #+INCLUDE: incllude file
-
-
 
 #+BEGIN_HTML 
 #+END_HTML
@@ -723,7 +719,8 @@ Remember, Org Mode provides a wide range of formatting options, and the above li
 #+END_SRC
 
 
-
+#+BEGIN_SRC 
+#+END_SRC
 
 
 
