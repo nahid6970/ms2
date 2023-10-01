@@ -674,7 +674,7 @@ Example: ^Superscript^
 Subscript:
 Use underscores _ before and after the text you want to make subscript.
 Example: _(Subscript)_
-
+\textcolor{red}{Text}
 Inline Verbatim:
 Use backticks ` before and after the text you want to format as inline verbatim.
 Example: `Inline Verbatim`
