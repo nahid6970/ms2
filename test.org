@@ -634,7 +634,7 @@ You can create hyperlinks using the syntax [[URL][description]]. For example, [[
 
 
 ** ASCII
-#+BEGIN_SRC text
+#+BEGIN_SRC
   _______ _                 _     _______             
  |__   __| |               | |   |__   __|            
     | |  | |__   __ _ _ __ | |_     | | ___   ___ ___ 
