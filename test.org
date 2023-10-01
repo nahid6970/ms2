@@ -583,18 +583,30 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 * Examples
+**This is an Example**
+
+/This is an Example/
+
 This is an Example
+
 This is an Example
+
 This is an Example
+
 This is an Example
+
 This is an Example
+
 This is an Example
+
 This is an Example
+
 This is an Example
+
 This is an Example
+
 This is an Example
-This is an Example
-This is an Example
+
 
 * Sources Codes
 #+BEGIN_SRC
