@@ -585,29 +585,29 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 * Examples
 This is an Example
 
-**This is an Example**
+**This is an Example1**
 
-*This is an Example*
+*This is an Example2*
 
-/This is an Example/
+/This is an Example3/
 
-_This is an Example_
+_This is an Example4_
 
-~This is an Example~
+~This is an Example5~
 
-_This is an Example
+_This is an Example6
 
-^This is an Example
+^This is an Example7
 
-\This
+\This is an Example8
 
-This is an Example
+This is an Example9
 
-This is an Example
+This is an Example10
 
-This is an Example
+This is an Example11
 
-This is an Example
+This is an Example12
 
 
 * Sources Codes
