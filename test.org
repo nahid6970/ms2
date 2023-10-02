@@ -583,5 +583,5 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 #+INCLUDE: "C:\\Users\\nahid\\OneDrive\\Git\\ms2\\Files\\orgdoc.txt"
-#+INCLUDE: "C:\\Users\\nahid\\scoop\\apps\\neovim\\current\\share\\nvim\\runtime\\doc\\api.txt"
+#+INCLUDE: "C:\Users\nahid\OneDrive\Git\ms2\Files\neovim_docs\api.txt"
 
