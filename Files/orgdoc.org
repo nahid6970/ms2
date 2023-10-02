@@ -102,17 +102,18 @@ Colored Text:
 Org Mode supports colored text using LaTeX color macros. For example, \textcolor{red}{Text} will produce red text.
 
 Footnotes:
-You can add footnotes using the syntax [[fn:number]] where number is the reference number of the footnote.
+You can add footnotes using the syntax 
 
-Tables:
-Org Mode supports creating tables using a simple markup. Tables can be formatted with various alignment options.
-Lists:
 
-Org Mode supports both ordered and unordered lists. Use 1., 2., etc., for ordered lists, and - or + for unordered lists.
-Images:
 
-1.tutorial
-2.head
+[[fn:number]]   --footnote
+
+
+
+
+
+1., 2., etc., for ordered lists
+- or + for unordered lists.
 
 [[file:path/to/image.png]]
 [[#custom-id][Link to Section]].
