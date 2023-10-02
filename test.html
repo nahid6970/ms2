@@ -176,6 +176,12 @@
 <body>
 <nav id="TOC" role="doc-toc">
 <ul>
+<li><a href="#org-documentation" id="toc-org-documentation">ORG
+Documentation</a>
+<ul>
+<li><a href="#org-functionality" id="toc-org-functionality">Org
+Functionality</a></li>
+</ul></li>
 <li><a href="#android" id="toc-android">Android 📱</a>
 <ul>
 <li><a href="#application" id="toc-application">Application 📱</a></li>
@@ -231,18 +237,58 @@ Shortcuts</a></li>
 <li><a href="#notes" id="toc-notes">Notes:</a></li>
 </ul></li>
 </ul></li>
-<li><a href="#org-documentation" id="toc-org-documentation">ORG
-Documentation</a>
-<ul>
-<li><a href="#org-functionality" id="toc-org-functionality">Org
-Functionality</a></li>
-</ul></li>
 </ul>
 </nav>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
+<details><summary>Org-Documentation</summary>
+<h1 id="org-documentation">ORG Documentation</h1>
+<h2 id="org-functionality">Org Functionality</h2>
+<pre><code>| ORG Functionality  | Sign                            | Example                                | Details / Usage                  |
+|--------------------+---------------------------------+----------------------------------------+----------------------------------|
+| &lt;A                 |                                 |                                        | #+ASCII:                         |
+| &lt;a                 |                                 |                                        | #+BEGIN_ASCII #+END_ASCII        |
+| &lt;c                 |                                 |                                        | #+BEGIN_CENTER #+END_CENTER      |
+| &lt;e                 |                                 |                                        | #+BEGIN_EXAMPLE #+END_EXAMPLE    |
+| &lt;h                 |                                 |                                        | #+BEGIN_HTML #+END_HTML          |
+| &lt;H                 |                                 |                                        | #+HTML:                          |
+| &lt;I                 |                                 | #+INCLUDE: &quot;path\to\file&quot; :lines &quot;0-5&quot; | #+INCLUDE:                       |
+| &lt;i                 | #+INDEX:                        |                                        |                                  |
+| &lt;l                 |                                 |                                        | #+BEGIN_LaTeX #+END_LaTeX        |
+| &lt;L                 | #+LaTeX:                        |                                        |                                  |
+| &lt;q                 |                                 |                                        | #+BEGIN_QUOTE #+END_QUOTE        |
+| &lt;s                 |                                 |                                        | #+BEGIN_SRC #+END_SRC            |
+| &lt;v                 |                                 |                                        | #+BEGIN_VERBATIM #+END_VERBATIM  |
+| &lt;v                 |                                 |                                        | #+BEGIN_VERSE #+END_VERSE        |
+| Bold               | **                              | **Hello World**                        | ** before and after text         |
+| Check / Uncheck    | - [ ]                           | - [ ] Not Done                         |                                  |
+| Check / Uncheck    | - [X]                           | - [X] Done                             |                                  |
+| Code               | = or ~                          | =Hello World=                          | = or ~ befor and after text      |
+| Display Math Mode: | $$                              | $$E=mc^2$$                             | middle                           |
+| Hide Word          | \                               | \This                                  | \ before the word                |
+| Horizontal Rule    | -----                           | -----                                  | ----- in a line without any text |
+| Inline Math Mode:  | $                               | $E=mc^2$                               | left side                        |
+| Italicize          | /                               | /Hello World/                          | / before and after text          |
+| Strikethrough      | +                               | +Hello World+                          | + before and after text          |
+| Underline          | _                               | _Hello World_                          | _ before and after text          |
+| Span               | [[]]                            | [[text]]                               |                                  |
+| Span               | \{}{}                           | \textcolor{red}{Text}                  |                                  |
+| Span               | \( \)                           | \( Text \)                             |                                  |
+| Superscript        | ^                               | ^Superscript                           |                                  |
+| Subscript          | _                               | _Subscript                             |                                  |
+| Hyperlink          | [[URL][description]]            |                                        |                                  |
+| image src          | [[file:path/to/image.png]]      |                                        |                                  |
+| Custom ID          | [[#custom-id][Link to Section]] |                                        |                                  |
+| Caption            | #+CAPTION:                      |                                        |                                  |
+| FootNote           | [[fn:number]]                   |                                        |                                  |
+
+</code></pre>
+</details>
+<ul>
+<li><a href="file:///Files/orgdoc.org">ORG Documentation</a></li>
+</ul>
 <h1 id="android">Android 📱</h1>
 <h2 id="application">Application 📱</h2>
 <!--1111WARP              --> <span> <a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone         ">1111WARP              </a></span>
@@ -1859,48 +1905,5 @@ enter to jump to the file line where the bookmark is located. press
 &lt;space&gt; &lt;space&gt; in the bookmark list window to switch
 sorting rules. press dd in the bookmark list to delete a bookmark. use
 :telescope bookmarks to stop seeing highlights</p>
-<details><summary>Org-Documentation</summary>
-<h1 id="org-documentation">ORG Documentation</h1>
-<h2 id="org-functionality">Org Functionality</h2>
-<pre><code>| ORG Functionality  | Sign                            | Example                                | Details / Usage                  |
-|--------------------+---------------------------------+----------------------------------------+----------------------------------|
-| &lt;A                 |                                 |                                        | #+ASCII:                         |
-| &lt;a                 |                                 |                                        | #+BEGIN_ASCII #+END_ASCII        |
-| &lt;c                 |                                 |                                        | #+BEGIN_CENTER #+END_CENTER      |
-| &lt;e                 |                                 |                                        | #+BEGIN_EXAMPLE #+END_EXAMPLE    |
-| &lt;h                 |                                 |                                        | #+BEGIN_HTML #+END_HTML          |
-| &lt;H                 |                                 |                                        | #+HTML:                          |
-| &lt;I                 |                                 | #+INCLUDE: &quot;path\to\file&quot; :lines &quot;0-5&quot; | #+INCLUDE:                       |
-| &lt;i                 | #+INDEX:                        |                                        |                                  |
-| &lt;l                 |                                 |                                        | #+BEGIN_LaTeX #+END_LaTeX        |
-| &lt;L                 | #+LaTeX:                        |                                        |                                  |
-| &lt;q                 |                                 |                                        | #+BEGIN_QUOTE #+END_QUOTE        |
-| &lt;s                 |                                 |                                        | #+BEGIN_SRC #+END_SRC            |
-| &lt;v                 |                                 |                                        | #+BEGIN_VERBATIM #+END_VERBATIM  |
-| &lt;v                 |                                 |                                        | #+BEGIN_VERSE #+END_VERSE        |
-| Bold               | **                              | **Hello World**                        | ** before and after text         |
-| Check / Uncheck    | - [ ]                           | - [ ] Not Done                         |                                  |
-| Check / Uncheck    | - [X]                           | - [X] Done                             |                                  |
-| Code               | = or ~                          | =Hello World=                          | = or ~ befor and after text      |
-| Display Math Mode: | $$                              | $$E=mc^2$$                             | middle                           |
-| Hide Word          | \                               | \This                                  | \ before the word                |
-| Horizontal Rule    | -----                           | -----                                  | ----- in a line without any text |
-| Inline Math Mode:  | $                               | $E=mc^2$                               | left side                        |
-| Italicize          | /                               | /Hello World/                          | / before and after text          |
-| Strikethrough      | +                               | +Hello World+                          | + before and after text          |
-| Underline          | _                               | _Hello World_                          | _ before and after text          |
-| Span               | [[]]                            | [[text]]                               |                                  |
-| Span               | \{}{}                           | \textcolor{red}{Text}                  |                                  |
-| Span               | \( \)                           | \( Text \)                             |                                  |
-| Superscript        | ^                               | ^Superscript                           |                                  |
-| Subscript          | _                               | _Subscript                             |                                  |
-| Hyperlink          | [[URL][description]]            |                                        |                                  |
-| image src          | [[file:path/to/image.png]]      |                                        |                                  |
-| Custom ID          | [[#custom-id][Link to Section]] |                                        |                                  |
-| Caption            | #+CAPTION:                      |                                        |                                  |
-| FootNote           | [[fn:number]]                   |                                        |                                  |
-
-</code></pre>
-</details>
 </body>
 </html>
