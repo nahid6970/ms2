@@ -1911,9 +1911,9 @@ sorting rules. press dd in the bookmark list to delete a bookmark. use
 [[xx.jpg]]
 </code></pre>
 <h2 id="examples">Examples</h2>
-<pre><code>Hide Word:
+<pre><code>
 Hides the word if before there is a \.
-Example: \This
+
 
 
 Monospace (Code):
@@ -1940,21 +1940,100 @@ Example: _Subscript
 
 
 
-| ORG Functionality  | Sign  | Example         | Details / Usage                  |
-|--------------------+-------+-----------------+----------------------------------|
-| Bold               | **    | **Hello World** | ** before and after text         |
-| Check / Uncheck    | - [ ] | - [ ] Not Done  |                                  |
-| Check / Uncheck    | - [X] | - [X] Done      |                                  |
-| Code               |       |                 |                                  |
-| Display Math Mode: | $$    | $$E=mc^2$$      | middle                           |
-| Horizontal Rule    | ----- | -----           | ----- in a line without any text |
-| Inline Math Mode:  | $     | $E=mc^2$        | left side                        |
-| Italicize          | /     | /Hello World/   | / before and after text          |
-| Strikethrough      | +     | +Hello World+   | + before and after text          |
-| Underline          | _     | _Hello World_   | _ before and after text          |
-
+| ORG Functionality  | Sign   | Example         | Details / Usage                  |
+|--------------------+--------+-----------------+----------------------------------|
+| Bold               | **     | **Hello World** | ** before and after text         |
+| Check / Uncheck    | - [ ]  | - [ ] Not Done  |                                  |
+| Check / Uncheck    | - [X]  | - [X] Done      |                                  |
+| Code               | = or ~ | =Hello World=   | = or ~ befor and after text      |
+| Display Math Mode: | $$     | $$E=mc^2$$      | middle                           |
+| Horizontal Rule    | -----  | -----           | ----- in a line without any text |
+| Inline Math Mode:  | $      | $E=mc^2$        | left side                        |
+| Italicize          | /      | /Hello World/   | / before and after text          |
+| Strikethrough      | +      | +Hello World+   | + before and after text          |
+| Underline          | _      | _Hello World_   | _ before and after text          |
+| Hide Word          | \      | \This           | \ before the word                |
 
 </code></pre>
 </details>
+<table>
+<thead>
+<tr class="header">
+<th>ORG Functionality</th>
+<th>Sign</th>
+<th>Example</th>
+<th>Details / Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bold</td>
+<td>**</td>
+<td><strong><strong>Hello World</strong></strong></td>
+<td>** before and after text</td>
+</tr>
+<tr class="even">
+<td>Check / Uncheck</td>
+<td>- [ ]</td>
+<td>- [ ] Not Done</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Check / Uncheck</td>
+<td>- [X]</td>
+<td>- [X] Done</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Code</td>
+<td>= or ~</td>
+<td><code class="verbatim">Hello World</code></td>
+<td>= or ~ befor and after text</td>
+</tr>
+<tr class="odd">
+<td>Display Math Mode:</td>
+<td><span class="math display">|</span>E=mc<sup>2</sup>$$</td>
+<td>middle</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Horizontal Rule</td>
+<td>—–</td>
+<td>—–</td>
+<td>—– in a line without any text</td>
+</tr>
+<tr class="odd">
+<td>Inline Math Mode:</td>
+<td>$</td>
+<td><span
+class="math inline"><em>E</em> = <em>m</em><em>c</em><sup>2</sup></span></td>
+<td>left side</td>
+</tr>
+<tr class="even">
+<td>Italicize</td>
+<td>/</td>
+<td><em>Hello World</em></td>
+<td>/ before and after text</td>
+</tr>
+<tr class="odd">
+<td>Strikethrough</td>
+<td>+</td>
+<td><del>Hello World</del></td>
+<td>+ before and after text</td>
+</tr>
+<tr class="even">
+<td>Underline</td>
+<td>_</td>
+<td><u>Hello World</u></td>
+<td>_ before and after text</td>
+</tr>
+<tr class="odd">
+<td>Hide Word</td>
+<td>\</td>
+<td></td>
+<td>\ before the word</td>
+</tr>
+</tbody>
+</table>
 </body>
 </html>
