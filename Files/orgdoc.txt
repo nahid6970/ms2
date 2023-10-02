@@ -26,7 +26,9 @@ _This is an Example6
 * Sign with no Effect
 , ` " 
 
+
 * Sources Codes
+#+BEGIN_SRC
 
 | Typing the below + TAB | Expands to ...                          |
 |------------------------+-----------------------------------------|
@@ -41,8 +43,6 @@ _This is an Example6
 | <s                     | '#+BEGIN_SRC' … '#+END_SRC'             |
 | <v                     | '#+BEGIN_VERSE' … '#+END_VERSE'         |
 
-
-#+BEGIN_SRC
 
 \textcolor{red}{Text}               works like span +doesnt remove spaces +left side
 $$Text$$                            works like span -removes all spaces   +center text
