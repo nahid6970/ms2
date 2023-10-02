@@ -127,6 +127,6 @@ Math Equations:
 -----           --create a horizontal rule
 $$Hello World$$ --for display math
 $Hello World$   --For inline math
-- [ ] for unchecked items.
-- [X] for checked items.
+- [ ]           --for unchecked items.
+- [X]           --for checked items.
 #+END_SRC
