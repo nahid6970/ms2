@@ -1915,21 +1915,6 @@ sorting rules. press dd in the bookmark list to delete a bookmark. use
 Hides the word if before there is a \.
 Example: \This
 
-Bold Text:
-Use two asterisks ** before and after the text you want to make bold.
-Example: **Bold Text**  *Bold Text*
-
-Italic Text:
-Use single underscores / before and after the text you want to italicize.
-Example: /Italic Text/
-
-Underline:
-Use single underscores _ before and after the text you want to italicize.
-Example: _Underline_
-
-Strikethrough:
-Use two tildes ~ before and after the text you want to strikethrough.
-Example: +Strikethrough Text+
 
 Monospace (Code):
 Use equal signs = or ~ before and after the text you want to format as monospace.
@@ -1953,18 +1938,25 @@ Example: _Subscript
 [[#custom-id][Link to Section]].
 [[fn:number]]   --footnote
 
------           --create a horizontal rule
-$$Hello World$$ --for display math
-$Hello World$   --For inline math
+
+ --for display math
+   --For inline math
 
 
-| ORG Functionality | Sign  | Details / Usage | Example        |
-|-------------------+-------+-----------------+----------------|
-| Code              |       |                 |                |
-| Bold              |       |                 |                |
-| Italicize         |       |                 |                |
-| Check / Uncheck   | - [ ] |                 | - [ ] Not Done |
-| Check / Uncheck   | - [X] |                 | - [X] Done     |
+
+
+| ORG Functionality | Sign  | Example         | Details / Usage                  |
+|-------------------+-------+-----------------+----------------------------------|
+| Bold              | **    | **Hello World** | ** before and after text         |
+| Check / Uncheck   | - [ ] | - [ ] Not Done  |                                  |
+| Check / Uncheck   | - [X] | - [X] Done      |                                  |
+| Code              |       |                 |                                  |
+| Italicize         | /     | /Hello World/   | / before and after text          |
+| Strikethrough     | +     | +Hello World+   | + before and after text          |
+| Underline         | _     | _Hello World_   | _ before and after text          |
+| Horizontal Rule   | ----- | -----           | ----- in a line without any text |
+|                   |       | $Hello World$   |                                  |
+|                   |       | $$Hello World$$ |                                  |
 
 </code></pre>
 </details>
