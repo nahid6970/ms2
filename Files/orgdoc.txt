@@ -116,7 +116,7 @@ Example: _Underline_
 
 Strikethrough:
 Use two tildes ~ before and after the text you want to strikethrough.
-Example: ~Strikethrough Text~
+Example: +Strikethrough Text+
 
 Monospace (Code):
 Use equal signs = or ~ before and after the text you want to format as monospace.
