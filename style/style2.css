@@ -53,8 +53,8 @@ color: white;
 }
 
 details {
-display: inline-flexbox;
-    border: 1px solid black;
+width: fit-content;
+border: 1px solid black;
 }
 
 span {
