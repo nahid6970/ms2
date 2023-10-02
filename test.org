@@ -582,6 +582,19 @@ jump to the file line where the bookmark is located. press <space> <space> in th
 rules. press dd in the bookmark list to delete a bookmark. use :telescope bookmarks to stop seeing highlights
 
 
+
+
+
+
+#+HTML: <details><summary>ORG-Doc</summary>
 #+INCLUDE: "C:\Users\\nahid\OneDrive\Git\ms2\Files\orgdoc.txt"
+#+HTML: <details>
+
+#+HTML: <details><summary>Neovim-Tutorials</summary>
 #+INCLUDE: "C:\Users\nahid\OneDrive\Git\ms2\Files\neovim_docs\api.txt"
+#+HTML: <details>
+
+
+
+
 
