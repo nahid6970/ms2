@@ -126,7 +126,8 @@ Math Equations:
 You can include mathematical expressions using LaTeX syntax. For inline math, use $...$, and for display math, use $$..$$.
 Custom HTML or LaTeX:
 
-
+$$Hello World$$
+$Hello World$
 - [ ] for unchecked items.
 - [X] for checked items.
 #+END_SRC
