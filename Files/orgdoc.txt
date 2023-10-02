@@ -85,7 +85,7 @@ Paragraph
 
 
 
-_This is an Example4_
+
 
 ~This is an Example5~
 
@@ -112,6 +112,7 @@ Example: /Italic Text/
 
 Underline:
 Org Mode does not support underline directly. You can use a custom CSS file to achieve this effect.
+Example: _Underline_
 
 Strikethrough:
 Use two tildes ~ before and after the text you want to strikethrough.
