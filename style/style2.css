@@ -32,19 +32,55 @@ h3 {
 }
 
 summary {
-color: #0a0a0a;
-width: fit-content;
-list-style: none;
-font-size: 25px;
-text-align: left;
-background-color: #f0f0f0;
-padding: 0%;
-border-radius: 1cqb;
-cursor: pointer; /* Set cursor to hand pointer */
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px 5px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin: 2px;
+  width: 160px;
 }
+
+  /* Hover effect */
+  summary:hover {
+    transform: scale(1.05);
+    background-color: #000000;
+    }
 
 details {
 }
+
+span {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px 5px;
+  background-color: #474747;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin: 2px;
+  width: 160px;
+  }
+  
+  /* Hover effect */
+  span:hover {
+  transform: scale(1.05);
+  background-color: #000000;
+  }
+  
+  /* Style for links inside spans */
+  span a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  }
+  
+  /* Hover effect for links */
+  span a:hover {
+  text-decoration: underline;
+  }
 
 /* Some class Examples */
 /* red heading */
@@ -204,35 +240,7 @@ table {
 
 
   /* Style for spans */
-span {
-  display: inline-block;
-  vertical-align: top;
-  padding: 5px 5px;
-  background-color: #474747;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  margin: 2px;
-  width: 160px;
-  }
-  
-  /* Hover effect */
-  span:hover {
-  transform: scale(1.05);
-  background-color: #000000;
-  }
-  
-  /* Style for links inside spans */
-  span a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  }
-  
-  /* Hover effect for links */
-  span a:hover {
-  text-decoration: underline;
-  }
+
 
   .scoop {
     display: inline-block;
