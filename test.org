@@ -587,7 +587,7 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 #+HTML: <details><summary>ORG-Doc</summary>
-#+INCLUDE: "C:\Users\\nahid\OneDrive\Git\ms2\Files\orgdoc.txt"
+#+INCLUDE: "C:\Users\\nahid\OneDrive\Git\ms2\Files\orgdoc.txt" :lines "30-183"
 #+HTML: </details>
 
 #+HTML: <details><summary>Neovim-Tutorials</summary>
