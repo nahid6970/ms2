@@ -1,7 +1,7 @@
+#+HTML: <details><summary>ORG-Doc</summary>
+
 
 * Sources Codes
-
-
 | Typing the below + TAB | Expands to ...                          |
 |------------------------+-----------------------------------------|
 | <a                     | '#+BEGIN_EXPORT ascii' … '#+END_EXPORT  |
@@ -15,7 +15,7 @@
 | <s                     | '#+BEGIN_SRC' … '#+END_SRC'             |
 | <v                     | '#+BEGIN_VERSE' … '#+END_VERSE'         |
 
-
+** Works Like Span
 \textcolor{red}{Text}               works like span +doesnt remove spaces +left side
 $$Text$$                            works like span -removes all spaces   +center text
 \( Text \)                          works like span -removes all spaces   +left side
@@ -28,23 +28,10 @@ $$Text$$                            works like span -removes all spaces   +cente
 #+NAME:   fig:SED-HR4049
 [[https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg]]
 
-** Span Using
-#+HTML: <span style="color: red;">Hello</span>
-
-** Html Items
+* ORG Tags
 #+BEGIN_HTML
 #+END_HTML
 
-#+HTML: <img src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg" alt="ff" height="250px" width="150">
-
-** Details+Summary
-#+HTML:<details><summary>
-Summary
-#+HTML:</summary>
-Paragraph
-#+HTML:</details>
-
-** ASCII
 #+BEGIN_ASCII 
 #+END_ASCII
 
@@ -176,4 +163,4 @@ Remember, Org Mode provides a wide range of formatting options, and the above li
 
 
 
-#+END_SRC
+#+HTML: </details>
