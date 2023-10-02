@@ -92,17 +92,17 @@ Example: _Subscript
 
 
 
-| ORG Functionality | Sign  | Example         | Details / Usage                  |
-|-------------------+-------+-----------------+----------------------------------|
-| Bold              | **    | **Hello World** | ** before and after text         |
-| Check / Uncheck   | - [ ] | - [ ] Not Done  |                                  |
-| Check / Uncheck   | - [X] | - [X] Done      |                                  |
-| Code              |       |                 |                                  |
-| Italicize         | /     | /Hello World/   | / before and after text          |
-| Strikethrough     | +     | +Hello World+   | + before and after text          |
-| Underline         | _     | _Hello World_   | _ before and after text          |
-| Horizontal Rule   | ----- | -----           | ----- in a line without any text |
-|                   |       | $E=mc^2$        | left side                        |
-|                   |       | $$E=mc^2$$      | middle                           |
+| ORG Functionality  | Sign  | Example         | Details / Usage                  |
+|--------------------+-------+-----------------+----------------------------------|
+| Bold               | **    | **Hello World** | ** before and after text         |
+| Check / Uncheck    | - [ ] | - [ ] Not Done  |                                  |
+| Check / Uncheck    | - [X] | - [X] Done      |                                  |
+| Code               |       |                 |                                  |
+| Italicize          | /     | /Hello World/   | / before and after text          |
+| Strikethrough      | +     | +Hello World+   | + before and after text          |
+| Underline          | _     | _Hello World_   | _ before and after text          |
+| Horizontal Rule    | ----- | -----           | ----- in a line without any text |
+| Inline Math Mode:  |       | $E=mc^2$        | left side                        |
+| Display Math Mode: |       | $$E=mc^2$$      | middle                           |
 
 #+END_SRC
