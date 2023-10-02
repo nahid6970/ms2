@@ -1,6 +1,3 @@
-#+HTML: <details><summary>ORG-Doc</summary>
-
-
 * Sources Codes
 | Typing the below + TAB | Expands to ...                          |
 |------------------------+-----------------------------------------|
@@ -158,9 +155,3 @@ Checkbox Lists:
 
 You can create checkbox lists using - [ ] for unchecked items and - [X] for checked items.
 Remember, Org Mode provides a wide range of formatting options, and the above list covers some of the most commonly used ones. Depending on your specific needs, there may be additional features or extensions available.
-
-
-
-
-
-#+HTML: </details>
