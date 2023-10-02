@@ -126,9 +126,7 @@ Math Equations:
 You can include mathematical expressions using LaTeX syntax. For inline math, use $...$, and for display math, use $$..$$.
 Custom HTML or LaTeX:
 
-You can include raw HTML or LaTeX code using #+BEGIN_HTML and #+END_HTML blocks, or #+BEGIN_LaTeX and #+END_LaTeX blocks.
-Checkbox Lists:
 
-- [ ] for unchecked items and 
+- [ ] for unchecked items.
 - [X] for checked items.
 #+END_SRC
