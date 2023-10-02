@@ -1876,6 +1876,56 @@ sorting rules. press dd in the bookmark list to delete a bookmark. use
 <h1 id="sign-with-no-effect">Sign with no Effect</h1>
 <p>, ` "</p>
 <h1 id="sources-codes">Sources Codes</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Typing the below + TAB</th>
+<th>Expands to …</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>&lt;a</td>
+<td>'#+BEGIN<sub>EXPORT</sub> ascii' … '#+END<sub>EXPORT</sub></td>
+</tr>
+<tr class="even">
+<td>&lt;c</td>
+<td>'#+BEGIN<sub>CENTER</sub>' … '#+END<sub>CENTER</sub>'</td>
+</tr>
+<tr class="odd">
+<td>&lt;C</td>
+<td>'#+BEGIN<sub>COMMENT</sub>' … '#+END<sub>COMMENT</sub>'</td>
+</tr>
+<tr class="even">
+<td>&lt;e</td>
+<td>'#+BEGIN<sub>EXAMPLE</sub>' … '#+END<sub>EXAMPLE</sub>'</td>
+</tr>
+<tr class="odd">
+<td>&lt;E</td>
+<td>'#+BEGIN<sub>EXPORT</sub>' … '#+END<sub>EXPORT</sub>'</td>
+</tr>
+<tr class="even">
+<td>&lt;h</td>
+<td>'#+BEGIN<sub>EXPORT</sub> html' … '#+END<sub>EXPORT</sub>'</td>
+</tr>
+<tr class="odd">
+<td>&lt;l</td>
+<td>'#+BEGIN<sub>EXPORT</sub> latex' … '#+END<sub>EXPORT</sub>'</td>
+</tr>
+<tr class="even">
+<td>&lt;q</td>
+<td>'#+BEGIN<sub>QUOTE</sub>' … '#+END<sub>QUOTE</sub>'</td>
+</tr>
+<tr class="odd">
+<td>&lt;s</td>
+<td>'#+BEGIN<sub>SRC</sub>' … '#+END<sub>SRC</sub>'</td>
+</tr>
+<tr class="even">
+<td>&lt;v</td>
+<td>'#+BEGIN<sub>VERSE</sub>' … '#+END<sub>VERSE</sub>'</td>
+</tr>
+</tbody>
+</table>
 <pre><code>
 \textcolor{red}{Text}               works like span +doesnt remove spaces +left side
 $$Text$$                            works like span -removes all spaces   +center text
@@ -2011,18 +2061,7 @@ You can create checkbox lists using - [ ] for unchecked items and - [X] for chec
 Remember, Org Mode provides a wide range of formatting options, and the above list covers some of the most commonly used ones. Depending on your specific needs, there may be additional features or extensions available.
 
 
-| Typing the below + TAB | Expands to ...                          |
-|------------------------+-----------------------------------------|
-| &lt;a                     | &#39;#+BEGIN_EXPORT ascii&#39; … &#39;#+END_EXPORT  |
-| &lt;c                     | &#39;#+BEGIN_CENTER&#39; … &#39;#+END_CENTER&#39;       |
-| &lt;C                     | &#39;#+BEGIN_COMMENT&#39; … &#39;#+END_COMMENT&#39;     |
-| &lt;e                     | &#39;#+BEGIN_EXAMPLE&#39; … &#39;#+END_EXAMPLE&#39;     |
-| &lt;E                     | &#39;#+BEGIN_EXPORT&#39; … &#39;#+END_EXPORT&#39;       |
-| &lt;h                     | &#39;#+BEGIN_EXPORT html&#39; … &#39;#+END_EXPORT&#39;  |
-| &lt;l                     | &#39;#+BEGIN_EXPORT latex&#39; … &#39;#+END_EXPORT&#39; |
-| &lt;q                     | &#39;#+BEGIN_QUOTE&#39; … &#39;#+END_QUOTE&#39;         |
-| &lt;s                     | &#39;#+BEGIN_SRC&#39; … &#39;#+END_SRC&#39;             |
-| &lt;v                     | &#39;#+BEGIN_VERSE&#39; … &#39;#+END_VERSE&#39;         |
+
 
 
 </code></pre>
