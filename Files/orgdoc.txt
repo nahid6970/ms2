@@ -1,3 +1,4 @@
+#+BEGIN_SRC
 * Sources Codes
 | Typing the below + TAB | Expands to ...                          |
 |------------------------+-----------------------------------------|
@@ -115,7 +116,6 @@ Remember, Org Mode provides a wide range of formatting options, and the above li
 
 
 * ORG Tags
-#+BEGIN_SRC
 #+BEGIN_COMMENT #+END_COMMENT
 #+ASCII: 
 #+BEGIN_ASCII #+END_ASCII
