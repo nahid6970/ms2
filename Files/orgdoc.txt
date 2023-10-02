@@ -1,6 +1,6 @@
 
 * Sources Codes
-#+BEGIN_SRC
+
 
 | Typing the below + TAB | Expands to ...                          |
 |------------------------+-----------------------------------------|
@@ -81,9 +81,9 @@ Paragraph
 #+END_VERSE
 
 
-*This is an Example2*
 
-/This is an Example3/
+
+
 
 _This is an Example4_
 
@@ -108,7 +108,7 @@ Example: **Bold Text**  *Bold Text*
 
 Italic Text:
 Use single asterisks * or underscores _ before and after the text you want to italicize.
-Example: *Italic Text* or _Italic Text_
+Example: /Italic Text/
 
 Underline:
 Org Mode does not support underline directly. You can use a custom CSS file to achieve this effect.
@@ -173,5 +173,5 @@ Remember, Org Mode provides a wide range of formatting options, and the above li
 
 
 
-
+#+BEGIN_SRC
 #+END_SRC
