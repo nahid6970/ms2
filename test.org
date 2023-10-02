@@ -589,8 +589,8 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 
-#+BEGIN_EXAMPLE 
+
 #+INCLUDE: "C:\\Users\\nahid\\scoop\\apps\\neovim\\current\\share\\nvim\\runtime\\doc\\api.txt"
-#+END_EXAMPLE
+
 
 
