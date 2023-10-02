@@ -115,7 +115,7 @@ Remember, Org Mode provides a wide range of formatting options, and the above li
 
 
 * ORG Tags
-#+BEGIN_COMMENT 
+#+BEGIN_SRC
 #+BEGIN_COMMENT #+END_COMMENT
 #+ASCII: 
 #+BEGIN_ASCII #+END_ASCII
@@ -133,4 +133,4 @@ Remember, Org Mode provides a wide range of formatting options, and the above li
 #+INCLUDE: include file
 #+INDEX:
 #+LaTeX: 
-#+END_COMMENT
+#+END_SRC
