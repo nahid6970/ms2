@@ -596,16 +596,3 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 
-| ORG Functionality  | Sign   | Example         | Details / Usage                  |
-|--------------------+--------+-----------------+----------------------------------|
-| Bold               | **     | **Hello World** | ** before and after text         |
-| Check / Uncheck    | - [ ]  | - [ ] Not Done  |                                  |
-| Check / Uncheck    | - [X]  | - [X] Done      |                                  |
-| Code               | = or ~ | =Hello World=   | = or ~ befor and after text      |
-| Display Math Mode: | $$     | $$E=mc^2$$      | middle                           |
-| Horizontal Rule    | -----  | -----           | ----- in a line without any text |
-| Inline Math Mode:  | $      | $E=mc^2$        | left side                        |
-| Italicize          | /      | /Hello World/   | / before and after text          |
-| Strikethrough      | +      | +Hello World+   | + before and after text          |
-| Underline          | _      | _Hello World_   | _ before and after text          |
-| Hide Word          | \      | \This           | \ before the word                |
