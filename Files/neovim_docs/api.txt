@@ -1,3 +1,4 @@
+#+BEGIN_SRC
 *api.txt*               Nvim
 
 
@@ -3539,3 +3540,4 @@ nvim_ui_try_resize_grid({grid}, {width}, {height})
       • {height}  The new requested height.
 
  vim:tw=78:ts=8:sw=4:sts=4:et:ft=help:norl:
+#+END_SRC
