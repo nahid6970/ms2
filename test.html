@@ -231,6 +231,9 @@ Shortcuts</a></li>
 <li><a href="#notes" id="toc-notes">Notes:</a></li>
 </ul></li>
 </ul></li>
+<li><a href="#org-documentation" id="toc-org-documentation">ORG
+Documentation</a>
+<ul>
 <li><a href="#sources-codes" id="toc-sources-codes">Sources Codes</a>
 <ul>
 <li><a href="#works-like-span" id="toc-works-like-span">Works Like
@@ -239,6 +242,7 @@ Span</a></li>
 </ul></li>
 <li><a href="#examples" id="toc-examples">Examples</a></li>
 <li><a href="#org-tags" id="toc-org-tags">ORG Tags</a></li>
+</ul></li>
 </ul>
 </nav>
 <head>
@@ -1862,7 +1866,8 @@ enter to jump to the file line where the bookmark is located. press
 sorting rules. press dd in the bookmark list to delete a bookmark. use
 :telescope bookmarks to stop seeing highlights</p>
 <details><summary>Org-Documentation</summary>
-<h1 id="sources-codes">Sources Codes</h1>
+<h1 id="org-documentation">ORG Documentation</h1>
+<h2 id="sources-codes">Sources Codes</h2>
 <pre><code>| Typing the below + TAB | Expands to ...                          |
 |------------------------+-----------------------------------------|
 | &lt;a                     | &#39;#+BEGIN_EXPORT ascii&#39; … &#39;#+END_EXPORT  |
@@ -1876,18 +1881,18 @@ sorting rules. press dd in the bookmark list to delete a bookmark. use
 | &lt;s                     | &#39;#+BEGIN_SRC&#39; … &#39;#+END_SRC&#39;             |
 | &lt;v                     | &#39;#+BEGIN_VERSE&#39; … &#39;#+END_VERSE&#39;         |
 </code></pre>
-<h2 id="works-like-span">Works Like Span</h2>
+<h3 id="works-like-span">Works Like Span</h3>
 <pre><code>=\textcolor{red}{Text}               works like span +doesnt remove spaces +left side=
 =$$Text$$                            works like span -removes all spaces   +center text=
 =\( Text \)                          works like span -removes all spaces   +left side=
 [[text]]
 </code></pre>
-<h2 id="image">Image</h2>
+<h3 id="image">Image</h3>
 <pre><code>#+CAPTION: This is the caption
 #+NAME:   fig:SED-HR4049
 [[xx.jpg]]
 </code></pre>
-<h1 id="examples">Examples</h1>
+<h2 id="examples">Examples</h2>
 <pre><code>Hide Word:
 Hides the word if before there is a \.
 Example: \This
@@ -1962,8 +1967,18 @@ Checkbox Lists:
 You can create checkbox lists using - [ ] for unchecked items and - [X] for checked items.
 Remember, Org Mode provides a wide range of formatting options, and the above list covers some of the most commonly used ones. Depending on your specific needs, there may be additional features or extensions available.
 </code></pre>
-<h1 id="org-tags">ORG Tags</h1>
-<pre><code>#+BEGIN_VERBATIM #+END_VERBATIM
+<h2 id="org-tags">ORG Tags</h2>
+<pre><code>#+BEGIN_COMMENT #+END_COMMENT
+#+ASCII: 
+#+BEGIN_ASCII #+END_ASCII
+#+BEGIN_CENTER #+END_CENTER
+#+BEGIN_EXAMPLE #+END_EXAMPLE
+#+BEGIN_HTML #+END_HTML
+#+BEGIN_HTML #+END_HTML
+#+BEGIN_LaTeX #+END_LaTeX
+#+BEGIN_QUOTE #+END_QUOTE
+#+BEGIN_SRC #+END_SRC
+#+BEGIN_VERBATIM #+END_VERBATIM
 #+BEGIN_VERSE #+END_VERSE
 #+HTML:
 #+INCLUDE: &quot;path\to\file&quot; :lines &quot;0-5&quot;
