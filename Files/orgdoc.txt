@@ -21,12 +21,12 @@
 #+END_COMMENT
 
 ** Image
-#+CAPTION: This is the caption for the next figure link (or table)
+#+CAPTION: This is the caption
 #+NAME:   fig:SED-HR4049
-[[https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg]]
+[[xx.jpg]]
 
 
-
+[[aa]]
 
 
 
