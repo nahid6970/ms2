@@ -87,7 +87,7 @@ Paragraph
 
 
 
-~This is an Example5~
+
 
 _This is an Example6
 
@@ -121,6 +121,7 @@ Example: ~Strikethrough Text~
 Monospace (Code):
 Use equal signs = before and after the text you want to format as monospace.
 Example: =Monospace Text=
+Example: ~Monospace Text~
 
 Superscript:
 Use caret ^ before and after the text you want to make superscript.
