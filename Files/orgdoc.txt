@@ -131,8 +131,8 @@ Subscript:
 Use underscores _ before the word you want to make subscript.
 Example: _Subscript
 
-Inline Verbatim:
-+Use backticks ` before and after the text you want to format as inline verbatim.
++Inline Verbatim:
+Use backticks ` before and after the text you want to format as inline verbatim.
 Example: `Inline Verbatim`+
 
 Hyperlinks:
