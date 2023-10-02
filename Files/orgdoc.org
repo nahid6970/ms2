@@ -91,36 +91,26 @@ Subscript:
 Use underscores _ before the word you want to make subscript.
 Example: _Subscript
 
-Inline Verbatim:
-+Use backticks ` before and after the text you want to format as inline verbatim.
-Example: `Inline Verbatim`+
-
-Hyperlinks:
-You can create hyperlinks using the syntax [[URL][description]]. For example, [[https://example.com][Visit Example]].
-
-Colored Text:
-Org Mode supports colored text using LaTeX color macros. For example, \textcolor{red}{Text} will produce red text.
-
-Footnotes:
-You can add footnotes using the syntax 
-
-
-
-[[fn:number]]   --footnote
-
-
-
-
-
-1., 2., etc., for ordered lists
-- or + for unordered lists.
+[[URL][description]]       --hyperlinks
+\textcolor{red}{Text}      --colored text
+1., 2., etc.,              --for ordered lists
+- or +                      --for unordered lists.
 
 [[file:path/to/image.png]]
 [[#custom-id][Link to Section]].
+[[fn:number]]   --footnote
 
 -----           --create a horizontal rule
 $$Hello World$$ --for display math
 $Hello World$   --For inline math
-- [ ]           --for unchecked items.
-- [X]           --for checked items.
+
+
+| ORG Functionality | Sign  | Details / Usage | Example    |
+|-------------------+-------+-----------------+------------|
+| Code              |       |                 |            |
+| Bold              |       |                 |            |
+| Italicize         |       |                 |            |
+| Check / Uncheck   | - [ ] |                 |            |
+| Check / Uncheck   | - [X] |                 | - [X] Done |
+
 #+END_SRC
