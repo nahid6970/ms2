@@ -39,7 +39,7 @@
 #+END_SRC
 
 
-*** Works Like Span
+** Works Like Span
 #+BEGIN_SRC
 =\textcolor{red}{Text}               works like span +doesnt remove spaces +left side=
 =$$Text$$                            works like span -removes all spaces   +center text=
@@ -48,7 +48,7 @@
 #+END_SRC
 
 
-*** Image
+** Image
 #+BEGIN_SRC 
 #+CAPTION: This is the caption
 #+NAME:   fig:SED-HR4049
