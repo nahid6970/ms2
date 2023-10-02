@@ -16,6 +16,29 @@
 | <v                     | '#+BEGIN_VERSE' … '#+END_VERSE'         |
 #+END_SRC
 
+
+** ORG Tags
+#+BEGIN_SRC 
+#+BEGIN_COMMENT #+END_COMMENT
+#+ASCII: 
+#+BEGIN_ASCII #+END_ASCII
+#+BEGIN_CENTER #+END_CENTER
+#+BEGIN_EXAMPLE #+END_EXAMPLE
+#+BEGIN_HTML #+END_HTML
+#+BEGIN_HTML #+END_HTML
+#+BEGIN_LaTeX #+END_LaTeX
+#+BEGIN_QUOTE #+END_QUOTE
+#+BEGIN_SRC #+END_SRC
+#+BEGIN_VERBATIM #+END_VERBATIM
+#+BEGIN_VERSE #+END_VERSE
+#+HTML:
+#+INCLUDE: "path\to\file" :lines "0-5"
+#+INCLUDE: include file
+#+INDEX:
+#+LaTeX: 
+#+END_SRC
+
+
 *** Works Like Span
 #+BEGIN_SRC
 =\textcolor{red}{Text}               works like span +doesnt remove spaces +left side=
@@ -23,6 +46,7 @@
 =\( Text \)                          works like span -removes all spaces   +left side=
 [[text]]
 #+END_SRC
+
 
 *** Image
 #+BEGIN_SRC 
@@ -107,25 +131,4 @@ Checkbox Lists:
 
 You can create checkbox lists using - [ ] for unchecked items and - [X] for checked items.
 Remember, Org Mode provides a wide range of formatting options, and the above list covers some of the most commonly used ones. Depending on your specific needs, there may be additional features or extensions available.
-#+END_SRC
-
-** ORG Tags
-#+BEGIN_SRC 
-#+BEGIN_COMMENT #+END_COMMENT
-#+ASCII: 
-#+BEGIN_ASCII #+END_ASCII
-#+BEGIN_CENTER #+END_CENTER
-#+BEGIN_EXAMPLE #+END_EXAMPLE
-#+BEGIN_HTML #+END_HTML
-#+BEGIN_HTML #+END_HTML
-#+BEGIN_LaTeX #+END_LaTeX
-#+BEGIN_QUOTE #+END_QUOTE
-#+BEGIN_SRC #+END_SRC
-#+BEGIN_VERBATIM #+END_VERBATIM
-#+BEGIN_VERSE #+END_VERSE
-#+HTML:
-#+INCLUDE: "path\to\file" :lines "0-5"
-#+INCLUDE: include file
-#+INDEX:
-#+LaTeX: 
 #+END_SRC
