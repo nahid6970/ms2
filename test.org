@@ -582,4 +582,4 @@ jump to the file line where the bookmark is located. press <space> <space> in th
 rules. press dd in the bookmark list to delete a bookmark. use :telescope bookmarks to stop seeing highlights
 
 
-#+#+INCLUDE: "C:\\Users\\nahid\\OneDrive\\Git\\ms2\\content\\orgdoc.txt"
+#+INCLUDE: "C:\\Users\\nahid\\OneDrive\\Git\\ms2\\content\\orgdoc.txt"
