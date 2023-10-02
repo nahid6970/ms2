@@ -85,7 +85,7 @@ Paragraph
 
 
 
-
+#+BEGIN_SRC
 
 
 
@@ -175,5 +175,5 @@ Remember, Org Mode provides a wide range of formatting options, and the above li
 
 
 
-#+BEGIN_SRC
+
 #+END_SRC
