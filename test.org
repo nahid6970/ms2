@@ -11,7 +11,7 @@
 #+INCLUDE: "C:\Users\nahid\OneDrive\Git\ms2\Files\orgdoc.org"
 #+HTML: </details>
 
-+ [[/Files/orgdoc.org][ORG Documentation]]
++ [[\Files\orgdoc.org][ORG Documentation]]
 
 
 * Android 📱
