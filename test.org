@@ -590,5 +590,5 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 #+INCLUDE: "C:\Users\nahid\OneDrive\Git\ms2\Files\orgdoc.org"
 #+HTML: </details>
 
-$$Hello World$$ --for display math
-$Hello World$   --For inline math
+$$x/y+xxmy$$ --for display math
+$x/y+xxmy$   --For inline math
