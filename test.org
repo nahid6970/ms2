@@ -583,12 +583,10 @@ rules. press dd in the bookmark list to delete a bookmark. use :telescope bookma
 
 
 
-
+1.tutorial
+2.head
 
 
 #+HTML: <details><summary>Org-Documentation</summary>
 #+INCLUDE: "C:\Users\nahid\OneDrive\Git\ms2\Files\orgdoc.org"
 #+HTML: </details>
-#+BEGIN_QUOTE 
-and
-#+END_QUOTE.

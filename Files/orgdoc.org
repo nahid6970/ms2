@@ -111,18 +111,11 @@ Lists:
 Org Mode supports both ordered and unordered lists. Use 1., 2., etc., for ordered lists, and - or + for unordered lists.
 Images:
 
-You can include images in Org Mode using the [[file:path/to/image.png]] syntax.
-Linking to Sections:
+1.tutorial
+2.head
 
-You can create links to specific sections or headings within your Org Mode file using custom IDs. For example, [[#custom-id][Link to Section]].
-Quoting Blocks:
-
-You can quote blocks of text using #+BEGIN_QUOTE and #+END_QUOTE.
-Horizontal Rules:
-
-You can  using  or  on a line by itself.
-Math Equations:
-
+[[file:path/to/image.png]]
+[[#custom-id][Link to Section]].
 
 -----           --create a horizontal rule
 $$Hello World$$ --for display math
