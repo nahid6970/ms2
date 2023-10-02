@@ -31,6 +31,16 @@ h3 {
   color:rgb(188, 120, 221);
 }
 
+summary {
+  color: #5fc4fd;
+  list-style: none;
+  font-size: 25px;
+  text-align: center;
+  #background-color: #333530;
+  padding: 0%;
+  border-radius: 1cqb;
+  cursor: pointer; /* Set cursor to hand pointer */
+  }
 
 /* Some class Examples */
 /* red heading */
