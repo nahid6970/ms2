@@ -120,11 +120,11 @@ Quoting Blocks:
 You can quote blocks of text using #+BEGIN_QUOTE and #+END_QUOTE.
 Horizontal Rules:
 
-You can create a horizontal rule using  or  on a line by itself.
+You can  using  or  on a line by itself.
 Math Equations:
 
-****
------
+
+-----           --create a horizontal rule
 $$Hello World$$ --for display math
 $Hello World$   --For inline math
 - [ ] for unchecked items.
