@@ -236,13 +236,6 @@ Documentation</a>
 <ul>
 <li><a href="#org-functionality" id="toc-org-functionality">Org
 Functionality</a></li>
-<li><a href="#sources-codes" id="toc-sources-codes">Sources
-Codes</a></li>
-<li><a href="#org-tags" id="toc-org-tags">ORG Tags</a></li>
-<li><a href="#works-like-span" id="toc-works-like-span">Works Like
-Span</a></li>
-<li><a href="#image" id="toc-image">Image</a></li>
-<li><a href="#examples" id="toc-examples">Examples</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -1869,94 +1862,43 @@ sorting rules. press dd in the bookmark list to delete a bookmark. use
 <details><summary>Org-Documentation</summary>
 <h1 id="org-documentation">ORG Documentation</h1>
 <h2 id="org-functionality">Org Functionality</h2>
-<pre><code>| ORG Functionality  | Sign   | Example         | Details / Usage                  |
-|--------------------+--------+-----------------+----------------------------------|
-| Bold               | **     | **Hello World** | ** before and after text         |
-| Check / Uncheck    | - [ ]  | - [ ] Not Done  |                                  |
-| Check / Uncheck    | - [X]  | - [X] Done      |                                  |
-| Code               | = or ~ | =Hello World=   | = or ~ befor and after text      |
-| Display Math Mode: | $$     | $$E=mc^2$$      | middle                           |
-| Horizontal Rule    | -----  | -----           | ----- in a line without any text |
-| Inline Math Mode:  | $      | $E=mc^2$        | left side                        |
-| Italicize          | /      | /Hello World/   | / before and after text          |
-| Strikethrough      | +      | +Hello World+   | + before and after text          |
-| Underline          | _      | _Hello World_   | _ before and after text          |
-| Hide Word          | \      | \This           | \ before the word                |
-</code></pre>
-<h2 id="sources-codes">Sources Codes</h2>
-<pre><code>| Typing the below + TAB | Expands to ...                          |
-|------------------------+-----------------------------------------|
-| &lt;a                     | &#39;#+BEGIN_EXPORT ascii&#39; … &#39;#+END_EXPORT  |
-| &lt;c                     | &#39;#+BEGIN_CENTER&#39; … &#39;#+END_CENTER&#39;       |
-| &lt;C                     | &#39;#+BEGIN_COMMENT&#39; … &#39;#+END_COMMENT&#39;     |
-| &lt;e                     | &#39;#+BEGIN_EXAMPLE&#39; … &#39;#+END_EXAMPLE&#39;     |
-| &lt;E                     | &#39;#+BEGIN_EXPORT&#39; … &#39;#+END_EXPORT&#39;       |
-| &lt;h                     | &#39;#+BEGIN_EXPORT html&#39; … &#39;#+END_EXPORT&#39;  |
-| &lt;l                     | &#39;#+BEGIN_EXPORT latex&#39; … &#39;#+END_EXPORT&#39; |
-| &lt;q                     | &#39;#+BEGIN_QUOTE&#39; … &#39;#+END_QUOTE&#39;         |
-| &lt;s                     | &#39;#+BEGIN_SRC&#39; … &#39;#+END_SRC&#39;             |
-| &lt;v                     | &#39;#+BEGIN_VERSE&#39; … &#39;#+END_VERSE&#39;         |
-</code></pre>
-<h2 id="org-tags">ORG Tags</h2>
-<pre><code>#+BEGIN_COMMENT #+END_COMMENT
-#+ASCII: 
-#+BEGIN_ASCII #+END_ASCII
-#+BEGIN_CENTER #+END_CENTER
-#+BEGIN_EXAMPLE #+END_EXAMPLE
-#+BEGIN_HTML #+END_HTML
-#+BEGIN_HTML #+END_HTML
-#+BEGIN_LaTeX #+END_LaTeX
-#+BEGIN_QUOTE #+END_QUOTE
-#+BEGIN_SRC #+END_SRC
-#+BEGIN_VERBATIM #+END_VERBATIM
-#+BEGIN_VERSE #+END_VERSE
-#+HTML:
-#+INCLUDE: &quot;path\to\file&quot; :lines &quot;0-5&quot;
-#+INCLUDE: include file
-#+INDEX:
-#+LaTeX: 
-</code></pre>
-<h2 id="works-like-span">Works Like Span</h2>
-<pre><code>=\textcolor{red}{Text}               works like span +doesnt remove spaces +left side=
-=$$Text$$                            works like span -removes all spaces   +center text=
-=\( Text \)                          works like span -removes all spaces   +left side=
-[[text]]
-</code></pre>
-<h2 id="image">Image</h2>
-<pre><code>#+CAPTION: This is the caption
-#+NAME:   fig:SED-HR4049
-[[xx.jpg]]
-</code></pre>
-<h2 id="examples">Examples</h2>
-<pre><code>
-Hides the word if before there is a \.
-
-
-
-Monospace (Code):
-Use equal signs = or ~ before and after the text you want to format as monospace.
-Example: =Monospace Text=
-Example: ~Monospace Text~
-
-Superscript:
-Use caret ^ before word you want to make superscript.
-Example: ^Superscript
-
-Subscript:
-Use underscores _ before the word you want to make subscript.
-Example: _Subscript
-
-[[URL][description]]       --hyperlinks
-\textcolor{red}{Text}      --colored text
-1., 2., etc.,              --for ordered lists
-- or +                      --for unordered lists.
-
-[[file:path/to/image.png]]
-[[#custom-id][Link to Section]].
-[[fn:number]]   --footnote
-
-
-
+<pre><code>| ORG Functionality  | Sign                            | Example                                | Details / Usage                  |
+|--------------------+---------------------------------+----------------------------------------+----------------------------------|
+| &lt;A                 |                                 |                                        | #+ASCII:                         |
+| &lt;a                 |                                 |                                        | #+BEGIN_ASCII #+END_ASCII        |
+| &lt;c                 |                                 |                                        | #+BEGIN_CENTER #+END_CENTER      |
+| &lt;e                 |                                 |                                        | #+BEGIN_EXAMPLE #+END_EXAMPLE    |
+| &lt;h                 |                                 |                                        | #+BEGIN_HTML #+END_HTML          |
+| &lt;H                 |                                 |                                        | #+HTML:                          |
+| &lt;I                 |                                 | #+INCLUDE: &quot;path\to\file&quot; :lines &quot;0-5&quot; | #+INCLUDE:                       |
+| &lt;i                 | #+INDEX:                        |                                        |                                  |
+| &lt;l                 |                                 |                                        | #+BEGIN_LaTeX #+END_LaTeX        |
+| &lt;L                 | #+LaTeX:                        |                                        |                                  |
+| &lt;q                 |                                 |                                        | #+BEGIN_QUOTE #+END_QUOTE        |
+| &lt;s                 |                                 |                                        | #+BEGIN_SRC #+END_SRC            |
+| &lt;v                 |                                 |                                        | #+BEGIN_VERBATIM #+END_VERBATIM  |
+| &lt;v                 |                                 |                                        | #+BEGIN_VERSE #+END_VERSE        |
+| Bold               | **                              | **Hello World**                        | ** before and after text         |
+| Check / Uncheck    | - [ ]                           | - [ ] Not Done                         |                                  |
+| Check / Uncheck    | - [X]                           | - [X] Done                             |                                  |
+| Code               | = or ~                          | =Hello World=                          | = or ~ befor and after text      |
+| Display Math Mode: | $$                              | $$E=mc^2$$                             | middle                           |
+| Hide Word          | \                               | \This                                  | \ before the word                |
+| Horizontal Rule    | -----                           | -----                                  | ----- in a line without any text |
+| Inline Math Mode:  | $                               | $E=mc^2$                               | left side                        |
+| Italicize          | /                               | /Hello World/                          | / before and after text          |
+| Strikethrough      | +                               | +Hello World+                          | + before and after text          |
+| Underline          | _                               | _Hello World_                          | _ before and after text          |
+| Span               | [[]]                            | [[text]]                               |                                  |
+| Span               | \{}{}                           | \textcolor{red}{Text}                  |                                  |
+| Span               | \( \)                           | \( Text \)                             |                                  |
+| Superscript        | ^                               | ^Superscript                           |                                  |
+| Subscript          | _                               | _Subscript                             |                                  |
+| Hyperlink          | [[URL][description]]            |                                        |                                  |
+| image src          | [[file:path/to/image.png]]      |                                        |                                  |
+| Custom ID          | [[#custom-id][Link to Section]] |                                        |                                  |
+| Caption            | #+CAPTION:                      |                                        |                                  |
+| FootNote           | [[fn:number]]                   |                                        |                                  |
 
 </code></pre>
 </details>

@@ -2,107 +2,49 @@
 * ORG Documentation
 ** Org Functionality
 #+BEGIN_SRC 
-| ORG Functionality  | Sign   | Example         | Details / Usage                  |
-|--------------------+--------+-----------------+----------------------------------|
-| Bold               | **     | **Hello World** | ** before and after text         |
-| Check / Uncheck    | - [ ]  | - [ ] Not Done  |                                  |
-| Check / Uncheck    | - [X]  | - [X] Done      |                                  |
-| Code               | = or ~ | =Hello World=   | = or ~ befor and after text      |
-| Display Math Mode: | $$     | $$E=mc^2$$      | middle                           |
-| Horizontal Rule    | -----  | -----           | ----- in a line without any text |
-| Inline Math Mode:  | $      | $E=mc^2$        | left side                        |
-| Italicize          | /      | /Hello World/   | / before and after text          |
-| Strikethrough      | +      | +Hello World+   | + before and after text          |
-| Underline          | _      | _Hello World_   | _ before and after text          |
-| Hide Word          | \      | \This           | \ before the word                |
-#+END_SRC
-
-** Sources Codes
-#+BEGIN_SRC
-| Typing the below + TAB | Expands to ...                          |
-|------------------------+-----------------------------------------|
-| <a                     | '#+BEGIN_EXPORT ascii' … '#+END_EXPORT  |
-| <c                     | '#+BEGIN_CENTER' … '#+END_CENTER'       |
-| <C                     | '#+BEGIN_COMMENT' … '#+END_COMMENT'     |
-| <e                     | '#+BEGIN_EXAMPLE' … '#+END_EXAMPLE'     |
-| <E                     | '#+BEGIN_EXPORT' … '#+END_EXPORT'       |
-| <h                     | '#+BEGIN_EXPORT html' … '#+END_EXPORT'  |
-| <l                     | '#+BEGIN_EXPORT latex' … '#+END_EXPORT' |
-| <q                     | '#+BEGIN_QUOTE' … '#+END_QUOTE'         |
-| <s                     | '#+BEGIN_SRC' … '#+END_SRC'             |
-| <v                     | '#+BEGIN_VERSE' … '#+END_VERSE'         |
-#+END_SRC
-
-
-** ORG Tags
-#+BEGIN_SRC 
-#+BEGIN_COMMENT #+END_COMMENT
-#+ASCII: 
-#+BEGIN_ASCII #+END_ASCII
-#+BEGIN_CENTER #+END_CENTER
-#+BEGIN_EXAMPLE #+END_EXAMPLE
-#+BEGIN_HTML #+END_HTML
-#+BEGIN_HTML #+END_HTML
-#+BEGIN_LaTeX #+END_LaTeX
-#+BEGIN_QUOTE #+END_QUOTE
-#+BEGIN_SRC #+END_SRC
-#+BEGIN_VERBATIM #+END_VERBATIM
-#+BEGIN_VERSE #+END_VERSE
-#+HTML:
-#+INCLUDE: "path\to\file" :lines "0-5"
-#+INCLUDE: include file
-#+INDEX:
-#+LaTeX: 
-#+END_SRC
-
-
-** Works Like Span
-#+BEGIN_SRC
-=\textcolor{red}{Text}               works like span +doesnt remove spaces +left side=
-=$$Text$$                            works like span -removes all spaces   +center text=
-=\( Text \)                          works like span -removes all spaces   +left side=
-[[text]]
-#+END_SRC
-
-
-** Image
-#+BEGIN_SRC 
-#+CAPTION: This is the caption
-#+NAME:   fig:SED-HR4049
-[[xx.jpg]]
-#+END_SRC
-
-
-** Examples
-#+BEGIN_SRC 
-
-Hides the word if before there is a \.
-
-
-
-Monospace (Code):
-Use equal signs = or ~ before and after the text you want to format as monospace.
-Example: =Monospace Text=
-Example: ~Monospace Text~
-
-Superscript:
-Use caret ^ before word you want to make superscript.
-Example: ^Superscript
-
-Subscript:
-Use underscores _ before the word you want to make subscript.
-Example: _Subscript
-
-[[URL][description]]       --hyperlinks
-\textcolor{red}{Text}      --colored text
-1., 2., etc.,              --for ordered lists
-- or +                      --for unordered lists.
-
-[[file:path/to/image.png]]
-[[#custom-id][Link to Section]].
-[[fn:number]]   --footnote
-
-
-
+| ORG Functionality  | Sign                            | Example                                | Details / Usage                  |
+|--------------------+---------------------------------+----------------------------------------+----------------------------------|
+| <A                 |                                 |                                        | #+ASCII:                         |
+| <a                 |                                 |                                        | #+BEGIN_ASCII #+END_ASCII        |
+| <c                 |                                 |                                        | #+BEGIN_CENTER #+END_CENTER      |
+| <e                 |                                 |                                        | #+BEGIN_EXAMPLE #+END_EXAMPLE    |
+| <h                 |                                 |                                        | #+BEGIN_HTML #+END_HTML          |
+| <H                 |                                 |                                        | #+HTML:                          |
+| <I                 |                                 | #+INCLUDE: "path\to\file" :lines "0-5" | #+INCLUDE:                       |
+| <i                 | #+INDEX:                        |                                        |                                  |
+| <l                 |                                 |                                        | #+BEGIN_LaTeX #+END_LaTeX        |
+| <L                 | #+LaTeX:                        |                                        |                                  |
+| <q                 |                                 |                                        | #+BEGIN_QUOTE #+END_QUOTE        |
+| <s                 |                                 |                                        | #+BEGIN_SRC #+END_SRC            |
+| <v                 |                                 |                                        | #+BEGIN_VERBATIM #+END_VERBATIM  |
+| <v                 |                                 |                                        | #+BEGIN_VERSE #+END_VERSE        |
+| Bold               | **                              | **Hello World**                        | ** before and after text         |
+| Check / Uncheck    | - [ ]                           | - [ ] Not Done                         |                                  |
+| Check / Uncheck    | - [X]                           | - [X] Done                             |                                  |
+| Code               | = or ~                          | =Hello World=                          | = or ~ befor and after text      |
+| Display Math Mode: | $$                              | $$E=mc^2$$                             | middle                           |
+| Hide Word          | \                               | \This                                  | \ before the word                |
+| Horizontal Rule    | -----                           | -----                                  | ----- in a line without any text |
+| Inline Math Mode:  | $                               | $E=mc^2$                               | left side                        |
+| Italicize          | /                               | /Hello World/                          | / before and after text          |
+| Strikethrough      | +                               | +Hello World+                          | + before and after text          |
+| Underline          | _                               | _Hello World_                          | _ before and after text          |
+| Span               | [[]]                            | [[text]]                               |                                  |
+| Span               | \{}{}                           | \textcolor{red}{Text}                  |                                  |
+| Span               | \( \)                           | \( Text \)                             |                                  |
+| Superscript        | ^                               | ^Superscript                           |                                  |
+| Subscript          | _                               | _Subscript                             |                                  |
+| Hyperlink          | [[URL][description]]            |                                        |                                  |
+| image src          | [[file:path/to/image.png]]      |                                        |                                  |
+| Custom ID          | [[#custom-id][Link to Section]] |                                        |                                  |
+| Caption            | #+CAPTION:                      |                                        |                                  |
+| FootNote           | [[fn:number]]                   |                                        |                                  |
 
 #+END_SRC
+
+
+
+
+
+
+
