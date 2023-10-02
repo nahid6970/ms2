@@ -89,9 +89,9 @@ Paragraph
 
 
 
-_This is an Example6
 
-^This is an Example7
+
+
 
 \This is an Example8
 
@@ -119,17 +119,18 @@ Use two tildes ~ before and after the text you want to strikethrough.
 Example: ~Strikethrough Text~
 
 Monospace (Code):
-Use equal signs = before and after the text you want to format as monospace.
+Use equal signs = or ~ before and after the text you want to format as monospace.
 Example: =Monospace Text=
 Example: ~Monospace Text~
 
 Superscript:
-Use caret ^ before and after the text you want to make superscript.
-Example: ^Superscript^
+Use caret ^ before word you want to make superscript.
+Example: ^Superscript
+
 
 Subscript:
-Use underscores _ before and after the text you want to make subscript.
-Example: _(Subscript)_
+Use underscores _ before the word you want to make subscript.
+Example: _Subscript
 
 Inline Verbatim:
 Use backticks ` before and after the text you want to format as inline verbatim.
