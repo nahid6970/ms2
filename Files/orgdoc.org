@@ -123,11 +123,9 @@ Horizontal Rules:
 You can create a horizontal rule using ----- or **** on a line by itself.
 Math Equations:
 
-You can include mathematical expressions using LaTeX syntax. For inline math, use $...$, and for display math, use $$..$$.
-Custom HTML or LaTeX:
 
-$$Hello World$$
-$Hello World$
+$$Hello World$$ --for display math
+$Hello World$   --For inline math
 - [ ] for unchecked items.
 - [X] for checked items.
 #+END_SRC
