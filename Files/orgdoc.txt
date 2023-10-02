@@ -1,30 +1,3 @@
-* Examples
-This is an Example
-
-**This is an Example1**
-
-*This is an Example2*
-
-/This is an Example3/
-
-_This is an Example4_
-
-~This is an Example5~
-
-_This is an Example6
-
-^This is an Example7
-
-\This is an Example8
-
-=This is an Example9=
-
-+This is an Example10+
-
-- This is an Example17
-
-* Sign with no Effect
-, ` " 
 
 * Sources Codes
 #+BEGIN_SRC
@@ -108,9 +81,30 @@ Paragraph
 #+END_VERSE
 
 
+*This is an Example2*
+
+/This is an Example3/
+
+_This is an Example4_
+
+~This is an Example5~
+
+_This is an Example6
+
+^This is an Example7
+
+\This is an Example8
+
+=This is an Example9=
+
++This is an Example10+
+
+- This is an Example17
+
+
 Bold Text:
 Use two asterisks ** before and after the text you want to make bold.
-Example: **Bold Text**
+Example: **Bold Text**  *Bold Text*
 
 Italic Text:
 Use single asterisks * or underscores _ before and after the text you want to italicize.
