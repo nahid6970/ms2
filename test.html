@@ -236,6 +236,11 @@ Documentation</a>
 <ul>
 <li><a href="#org-functionality" id="toc-org-functionality">Org
 Functionality</a></li>
+<li><a href="#sources-codes" id="toc-sources-codes">Sources
+Codes</a></li>
+<li><a href="#org-tags" id="toc-org-tags">ORG Tags</a></li>
+<li><a href="#works-like-span" id="toc-works-like-span">Works Like
+Span</a></li>
 <li><a href="#image" id="toc-image">Image</a></li>
 <li><a href="#examples" id="toc-examples">Examples</a></li>
 </ul></li>
@@ -1864,78 +1869,37 @@ sorting rules. press dd in the bookmark list to delete a bookmark. use
 <details><summary>Org-Documentation</summary>
 <h1 id="org-documentation">ORG Documentation</h1>
 <h2 id="org-functionality">Org Functionality</h2>
-<table>
-<thead>
-<tr class="header">
-<th>ORG Functionality</th>
-<th>Sign</th>
-<th>Example</th>
-<th>Details / Usage</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Bold</td>
-<td>**</td>
-<td><strong><strong>Hello World</strong></strong></td>
-<td>** before and after text</td>
-</tr>
-<tr class="even">
-<td>Check / Uncheck</td>
-<td>- [ ]</td>
-<td>- [ ] Not Done</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Check / Uncheck</td>
-<td>- [X]</td>
-<td>- [X] Done</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Code</td>
-<td>= or ~</td>
-<td><code class="verbatim">Hello World</code></td>
-<td>= or ~ befor and after text</td>
-</tr>
-<tr class="odd">
-<td>Display Math Mode:</td>
-<td><span class="math display">|</span>E=mc<sup>2</sup><span
-class="math display">$$      | middle                           |
-| Horizontal Rule    | -----  | -----           | ----- in a line
-without any text |
-| Inline Math Mode:  | $      | $E=mc^2$        | left
-side                        |
-| Italicize          | /      | /Hello World/   | / before and after
-text          |
-| Strikethrough      | +      | +Hello World+   | + before and after
-text          |
-| Underline          | _      | _Hello World_   | _ before and after
-text          |
-| Hide Word          | \      | \This           | \ before the
-word                |
-
-** Sources Codes
-#+BEGIN_SRC
-| Typing the below + TAB | Expands to ...                          |
+<pre><code>| ORG Functionality  | Sign   | Example         | Details / Usage                  |
+|--------------------+--------+-----------------+----------------------------------|
+| Bold               | **     | **Hello World** | ** before and after text         |
+| Check / Uncheck    | - [ ]  | - [ ] Not Done  |                                  |
+| Check / Uncheck    | - [X]  | - [X] Done      |                                  |
+| Code               | = or ~ | =Hello World=   | = or ~ befor and after text      |
+| Display Math Mode: | $$     | $$E=mc^2$$      | middle                           |
+| Horizontal Rule    | -----  | -----           | ----- in a line without any text |
+| Inline Math Mode:  | $      | $E=mc^2$        | left side                        |
+| Italicize          | /      | /Hello World/   | / before and after text          |
+| Strikethrough      | +      | +Hello World+   | + before and after text          |
+| Underline          | _      | _Hello World_   | _ before and after text          |
+| Hide Word          | \      | \This           | \ before the word                |
+</code></pre>
+<h2 id="sources-codes">Sources Codes</h2>
+<pre><code>| Typing the below + TAB | Expands to ...                          |
 |------------------------+-----------------------------------------|
-| &lt;a                     | '#+BEGIN_EXPORT ascii' … '#+END_EXPORT  |
-| &lt;c                     | '#+BEGIN_CENTER' … '#+END_CENTER'       |
-| &lt;C                     | '#+BEGIN_COMMENT' … '#+END_COMMENT'     |
-| &lt;e                     | '#+BEGIN_EXAMPLE' … '#+END_EXAMPLE'     |
-| &lt;E                     | '#+BEGIN_EXPORT' … '#+END_EXPORT'       |
-| &lt;h                     | '#+BEGIN_EXPORT html' … '#+END_EXPORT'  |
-| &lt;l                     | '#+BEGIN_EXPORT latex' … '#+END_EXPORT' |
-| &lt;q                     | '#+BEGIN_QUOTE' … '#+END_QUOTE'         |
-| &lt;s                     | '#+BEGIN_SRC' … '#+END_SRC'             |
-| &lt;v                     | '#+BEGIN_VERSE' … '#+END_VERSE'         |
-#+END_SRC
-
-
-** ORG Tags
-#+BEGIN_SRC
-#+BEGIN_COMMENT #+END_COMMENT
-#+ASCII:
+| &lt;a                     | &#39;#+BEGIN_EXPORT ascii&#39; … &#39;#+END_EXPORT  |
+| &lt;c                     | &#39;#+BEGIN_CENTER&#39; … &#39;#+END_CENTER&#39;       |
+| &lt;C                     | &#39;#+BEGIN_COMMENT&#39; … &#39;#+END_COMMENT&#39;     |
+| &lt;e                     | &#39;#+BEGIN_EXAMPLE&#39; … &#39;#+END_EXAMPLE&#39;     |
+| &lt;E                     | &#39;#+BEGIN_EXPORT&#39; … &#39;#+END_EXPORT&#39;       |
+| &lt;h                     | &#39;#+BEGIN_EXPORT html&#39; … &#39;#+END_EXPORT&#39;  |
+| &lt;l                     | &#39;#+BEGIN_EXPORT latex&#39; … &#39;#+END_EXPORT&#39; |
+| &lt;q                     | &#39;#+BEGIN_QUOTE&#39; … &#39;#+END_QUOTE&#39;         |
+| &lt;s                     | &#39;#+BEGIN_SRC&#39; … &#39;#+END_SRC&#39;             |
+| &lt;v                     | &#39;#+BEGIN_VERSE&#39; … &#39;#+END_VERSE&#39;         |
+</code></pre>
+<h2 id="org-tags">ORG Tags</h2>
+<pre><code>#+BEGIN_COMMENT #+END_COMMENT
+#+ASCII: 
 #+BEGIN_ASCII #+END_ASCII
 #+BEGIN_CENTER #+END_CENTER
 #+BEGIN_EXAMPLE #+END_EXAMPLE
@@ -1947,26 +1911,17 @@ word                |
 #+BEGIN_VERBATIM #+END_VERBATIM
 #+BEGIN_VERSE #+END_VERSE
 #+HTML:
-#+INCLUDE: "path\to\file" :lines "0-5"
+#+INCLUDE: &quot;path\to\file&quot; :lines &quot;0-5&quot;
 #+INCLUDE: include file
 #+INDEX:
-#+LaTeX:
-#+END_SRC
-
-
-** Works Like Span
-#+BEGIN_SRC
-=\textcolor{red}{Text}               works like span +doesnt remove
-spaces +left side=
-=$$</span>Text$$ works like span -removes all spaces +center text=</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p><code
-class="verbatim">\( Text \)                          works like span -removes all spaces   +left side</code>
-<span class="spurious-link" target="text"><em>text</em></span></p>
+#+LaTeX: 
+</code></pre>
+<h2 id="works-like-span">Works Like Span</h2>
+<pre><code>=\textcolor{red}{Text}               works like span +doesnt remove spaces +left side=
+=$$Text$$                            works like span -removes all spaces   +center text=
+=\( Text \)                          works like span -removes all spaces   +left side=
+[[text]]
+</code></pre>
 <h2 id="image">Image</h2>
 <pre><code>#+CAPTION: This is the caption
 #+NAME:   fig:SED-HR4049

@@ -1,6 +1,7 @@
 
 * ORG Documentation
 ** Org Functionality
+#+BEGIN_SRC 
 | ORG Functionality  | Sign   | Example         | Details / Usage                  |
 |--------------------+--------+-----------------+----------------------------------|
 | Bold               | **     | **Hello World** | ** before and after text         |
@@ -14,6 +15,7 @@
 | Strikethrough      | +      | +Hello World+   | + before and after text          |
 | Underline          | _      | _Hello World_   | _ before and after text          |
 | Hide Word          | \      | \This           | \ before the word                |
+#+END_SRC
 
 ** Sources Codes
 #+BEGIN_SRC
