@@ -86,11 +86,6 @@ Example: _Subscript
 [[fn:number]]   --footnote
 
 
- --for display math
-   --For inline math
-
-
-
 
 | ORG Functionality  | Sign  | Example         | Details / Usage                  |
 |--------------------+-------+-----------------+----------------------------------|
@@ -98,11 +93,12 @@ Example: _Subscript
 | Check / Uncheck    | - [ ] | - [ ] Not Done  |                                  |
 | Check / Uncheck    | - [X] | - [X] Done      |                                  |
 | Code               |       |                 |                                  |
+| Display Math Mode: | $$    | $$E=mc^2$$      | middle                           |
+| Horizontal Rule    | ----- | -----           | ----- in a line without any text |
+| Inline Math Mode:  | $     | $E=mc^2$        | left side                        |
 | Italicize          | /     | /Hello World/   | / before and after text          |
 | Strikethrough      | +     | +Hello World+   | + before and after text          |
 | Underline          | _     | _Hello World_   | _ before and after text          |
-| Horizontal Rule    | ----- | -----           | ----- in a line without any text |
-| Inline Math Mode:  |       | $E=mc^2$        | left side                        |
-| Display Math Mode: |       | $$E=mc^2$$      | middle                           |
+
 
 #+END_SRC
