@@ -238,6 +238,14 @@ Span</a></li>
 <li><a href="#image" id="toc-image">Image</a></li>
 </ul></li>
 <li><a href="#org-tags" id="toc-org-tags">ORG Tags</a></li>
+<li><a href="#sources-codes-1" id="toc-sources-codes-1">Sources
+Codes</a>
+<ul>
+<li><a href="#works-like-span-1" id="toc-works-like-span-1">Works Like
+Span</a></li>
+<li><a href="#image-1" id="toc-image-1">Image</a></li>
+</ul></li>
+<li><a href="#org-tags-1" id="toc-org-tags-1">ORG Tags</a></li>
 </ul>
 </nav>
 <head>
@@ -1918,11 +1926,11 @@ class="verbatim">\textcolor{red}{Text}               works like span +doesnt rem
 <code
 class="verbatim">$$Text$$                            works like span -removes all spaces   +center text</code>
 <code
-class="verbatim">\( Text \)                          works like span -removes all spaces   +left side</code></p>
+class="verbatim">\( Text \)                          works like span -removes all spaces   +left side</code>
+<span class="spurious-link" target="text"><em>text</em></span></p>
 <h2 id="image">Image</h2>
 <p><span class="spurious-link"
 target="xx.jpg"><em>xx.jpg</em></span></p>
-<p><span class="spurious-link" target="aa"><em>aa</em></span></p>
 <p> is an Example8</p>
 <p><code class="verbatim">This is an Example9</code></p>
 <p><del>This is an Example10</del></p>
@@ -1982,6 +1990,130 @@ formatting options, and the above list covers some of the most commonly
 used ones. Depending on your specific needs, there may be additional
 features or extensions available.</p>
 <h1 id="org-tags">ORG Tags</h1>
+
+</details>
+<details><summary>Org-Documentation</summary>
+<h1 id="sources-codes-1">Sources Codes</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Typing the below + TAB</th>
+<th>Expands to …</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>&lt;a</td>
+<td>'#+BEGIN<sub>EXPORT</sub> ascii' … '#+END<sub>EXPORT</sub></td>
+</tr>
+<tr class="even">
+<td>&lt;c</td>
+<td>'#+BEGIN<sub>CENTER</sub>' … '#+END<sub>CENTER</sub>'</td>
+</tr>
+<tr class="odd">
+<td>&lt;C</td>
+<td>'#+BEGIN<sub>COMMENT</sub>' … '#+END<sub>COMMENT</sub>'</td>
+</tr>
+<tr class="even">
+<td>&lt;e</td>
+<td>'#+BEGIN<sub>EXAMPLE</sub>' … '#+END<sub>EXAMPLE</sub>'</td>
+</tr>
+<tr class="odd">
+<td>&lt;E</td>
+<td>'#+BEGIN<sub>EXPORT</sub>' … '#+END<sub>EXPORT</sub>'</td>
+</tr>
+<tr class="even">
+<td>&lt;h</td>
+<td>'#+BEGIN<sub>EXPORT</sub> html' … '#+END<sub>EXPORT</sub>'</td>
+</tr>
+<tr class="odd">
+<td>&lt;l</td>
+<td>'#+BEGIN<sub>EXPORT</sub> latex' … '#+END<sub>EXPORT</sub>'</td>
+</tr>
+<tr class="even">
+<td>&lt;q</td>
+<td>'#+BEGIN<sub>QUOTE</sub>' … '#+END<sub>QUOTE</sub>'</td>
+</tr>
+<tr class="odd">
+<td>&lt;s</td>
+<td>'#+BEGIN<sub>SRC</sub>' … '#+END<sub>SRC</sub>'</td>
+</tr>
+<tr class="even">
+<td>&lt;v</td>
+<td>'#+BEGIN<sub>VERSE</sub>' … '#+END<sub>VERSE</sub>'</td>
+</tr>
+</tbody>
+</table>
+<h2 id="works-like-span-1">Works Like Span</h2>
+<p><code
+class="verbatim">\textcolor{red}{Text}               works like span +doesnt remove spaces +left side</code>
+<code
+class="verbatim">$$Text$$                            works like span -removes all spaces   +center text</code>
+<code
+class="verbatim">\( Text \)                          works like span -removes all spaces   +left side</code>
+<span class="spurious-link" target="text"><em>text</em></span></p>
+<h2 id="image-1">Image</h2>
+<p><span class="spurious-link"
+target="xx.jpg"><em>xx.jpg</em></span></p>
+<p> is an Example8</p>
+<p><code class="verbatim">This is an Example9</code></p>
+<p><del>This is an Example10</del></p>
+<ul>
+<li>This is an Example17</li>
+</ul>
+<p>Bold Text: Use two asterisks ** before and after the text you want to
+make bold. Example: <strong><strong>Bold Text</strong></strong>
+<strong>Bold Text</strong></p>
+<p>Italic Text: Use single underscores / before and after the text you
+want to italicize. Example: <em>Italic Text</em></p>
+<p>Underline: Use single underscores _ before and after the text you
+want to italicize. Example: <u>Underline</u></p>
+<p>Strikethrough: Use two tildes ~ before and after the text you want to
+strikethrough. Example: <del>Strikethrough Text</del></p>
+<p>Monospace (Code): Use equal signs = or ~ before and after the text
+you want to format as monospace. Example: <code
+class="verbatim">Monospace Text</code> Example:
+<code>Monospace Text</code></p>
+<p>Superscript: Use caret ^ before word you want to make superscript.
+Example: <sup>Superscript</sup></p>
+<p>Subscript: Use underscores _ before the word you want to make
+subscript. Example: <sub>Subscript</sub></p>
+<p>Inline Verbatim: <del>Use backticks ` before and after the text you
+want to format as inline verbatim. Example: `Inline Verbatim`</del></p>
+<p>Hyperlinks: You can create hyperlinks using the syntax <span
+class="spurious-link" target="URL"><em>description</em></span>. For
+example, <a href="https://example.com">Visit Example</a>.</p>
+<p>Colored Text: Org Mode supports colored text using LaTeX color
+macros. For example, <span style="color: red">Text</span> will produce
+red text.</p>
+<p>Footnotes: You can add footnotes using the syntax <a
+href="fn:number">fn:number</a> where number is the reference number of
+the footnote.</p>
+<p>Tables: Org Mode supports creating tables using a simple markup.
+Tables can be formatted with various alignment options. Lists:</p>
+<p>Org Mode supports both ordered and unordered lists. Use 1., 2., etc.,
+for ordered lists, and - or + for unordered lists. Images:</p>
+<p>You can include images in Org Mode using the <img
+src="path/to/image.png" /> syntax. Linking to Sections:</p>
+<p>You can create links to specific sections or headings within your Org
+Mode file using custom IDs. For example, <a href="#custom-id">Link to
+Section</a>. Quoting Blocks:</p>
+<p>You can quote blocks of text using #+BEGIN<sub>QUOTE</sub> and
+#+END<sub>QUOTE</sub>. Horizontal Rules:</p>
+<p>You can create a horizontal rule using —– or <strong>**</strong> on a
+line by itself. Math Equations:</p>
+<p>You can include mathematical expressions using LaTeX syntax. For
+inline math, use $…$, and for display math, use <span
+class="math display">..</span>. Custom HTML or LaTeX:</p>
+<p>You can include raw HTML or LaTeX code using #+BEGIN<sub>HTML</sub>
+and #+END<sub>HTML</sub> blocks, or #+BEGIN<sub>LaTeX</sub> and
+#+END<sub>LaTeX</sub> blocks. Checkbox Lists:</p>
+<p>You can create checkbox lists using - [ ] for unchecked items and -
+[X] for checked items. Remember, Org Mode provides a wide range of
+formatting options, and the above list covers some of the most commonly
+used ones. Depending on your specific needs, there may be additional
+features or extensions available.</p>
+<h1 id="org-tags-1">ORG Tags</h1>
 
 </details>
 </body>

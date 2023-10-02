@@ -16,9 +16,9 @@
 =\textcolor{red}{Text}               works like span +doesnt remove spaces +left side=
 =$$Text$$                            works like span -removes all spaces   +center text=
 =\( Text \)                          works like span -removes all spaces   +left side=
+[[text]]
 
-#+BEGIN_COMMENT
-#+END_COMMENT
+
 
 ** Image
 #+CAPTION: This is the caption
@@ -26,7 +26,7 @@
 [[xx.jpg]]
 
 
-[[aa]]
+
 
 
 
@@ -115,6 +115,7 @@ Remember, Org Mode provides a wide range of formatting options, and the above li
 
 
 * ORG Tags
+#+BEGIN_COMMENT #+END_COMMENT
 #+ASCII: 
 #+BEGIN_ASCII #+END_ASCII
 #+BEGIN_CENTER #+END_CENTER
