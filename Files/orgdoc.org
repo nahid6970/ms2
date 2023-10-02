@@ -105,12 +105,12 @@ $$Hello World$$ --for display math
 $Hello World$   --For inline math
 
 
-| ORG Functionality | Sign  | Details / Usage | Example    |
-|-------------------+-------+-----------------+------------|
-| Code              |       |                 |            |
-| Bold              |       |                 |            |
-| Italicize         |       |                 |            |
-| Check / Uncheck   | - [ ] |                 |            |
-| Check / Uncheck   | - [X] |                 | - [X] Done |
+| ORG Functionality | Sign  | Details / Usage | Example        |
+|-------------------+-------+-----------------+----------------|
+| Code              |       |                 |                |
+| Bold              |       |                 |                |
+| Italicize         |       |                 |                |
+| Check / Uncheck   | - [ ] |                 | - [ ] Not Done |
+| Check / Uncheck   | - [X] |                 | - [X] Done     |
 
 #+END_SRC
