@@ -1,5 +1,6 @@
-#+BEGIN_SRC
+
 * Sources Codes
+#+BEGIN_SRC
 | Typing the below + TAB | Expands to ...                          |
 |------------------------+-----------------------------------------|
 | <a                     | '#+BEGIN_EXPORT ascii' … '#+END_EXPORT  |
@@ -12,37 +13,29 @@
 | <q                     | '#+BEGIN_QUOTE' … '#+END_QUOTE'         |
 | <s                     | '#+BEGIN_SRC' … '#+END_SRC'             |
 | <v                     | '#+BEGIN_VERSE' … '#+END_VERSE'         |
+#+END_SRC
 
 ** Works Like Span
+#+BEGIN_SRC
 =\textcolor{red}{Text}               works like span +doesnt remove spaces +left side=
 =$$Text$$                            works like span -removes all spaces   +center text=
 =\( Text \)                          works like span -removes all spaces   +left side=
 [[text]]
-
-
+#+END_SRC
 
 ** Image
+#+BEGIN_SRC 
 #+CAPTION: This is the caption
 #+NAME:   fig:SED-HR4049
 [[xx.jpg]]
+#+END_SRC
 
 
-
-
-
-
-
-
-
-
-\This is an Example8
-
-=This is an Example9=
-
-+This is an Example10+
-
-- This is an Example17
-
+* Examples
+#+BEGIN_SRC 
+Hide Word:
+Hides the word if before there is a \.
+Example: \This
 
 Bold Text:
 Use two asterisks ** before and after the text you want to make bold.
@@ -113,7 +106,7 @@ Checkbox Lists:
 
 You can create checkbox lists using - [ ] for unchecked items and - [X] for checked items.
 Remember, Org Mode provides a wide range of formatting options, and the above list covers some of the most commonly used ones. Depending on your specific needs, there may be additional features or extensions available.
-
+#+END_SRC
 
 * ORG Tags
 #+BEGIN_COMMENT #+END_COMMENT
