@@ -127,14 +127,13 @@ Superscript:
 Use caret ^ before word you want to make superscript.
 Example: ^Superscript
 
-
 Subscript:
 Use underscores _ before the word you want to make subscript.
 Example: _Subscript
 
 Inline Verbatim:
-Use backticks ` before and after the text you want to format as inline verbatim.
-Example: `Inline Verbatim`
++Use backticks ` before and after the text you want to format as inline verbatim.
+Example: `Inline Verbatim`+
 
 Hyperlinks:
 You can create hyperlinks using the syntax [[URL][description]]. For example, [[https://example.com][Visit Example]].
