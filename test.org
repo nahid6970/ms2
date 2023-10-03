@@ -11,7 +11,8 @@
 #+INCLUDE: "C:\Users\nahid\OneDrive\Git\ms2\Files\orgdoc.org"
 #+HTML: </details>
 
-
+- Remove Google Account
+  - https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&osid=1&passive=1209600&service=mail&ifkv=AYZoVhc5gTKSPDFZBJvBBeB7zDbP_tqRg9VPfwNRAthr5UlIkuH0Qhglrg8hM2bD1EIEEDVcFEaRhg&theme=glif&flowName=GlifWebSignIn&flowEntry=ServiceLogin
 
 * Android 📱
 ** Application 📱
