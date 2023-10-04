@@ -12,6 +12,11 @@
 #+HTML: </details>
 
 
+* Windows Shell Directory
+- shell:appsfolder
+- shell:startup
+
+
 * Android 📱
 ** Application 📱
 #+BEGIN_HTML
