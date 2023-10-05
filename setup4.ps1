@@ -83,8 +83,8 @@ $html = $html -replace 'ICON="([^"]+)"', '> <img src="$1" '
 
 
 # Convert <h3> and 2 dots <H3>.. into <details><summary>
-$html = $html -replace '<H3>\.\.', '<details style="background-color: rgb(68, 34, 22);"><summary>'
-$html = $html -replace '<h3>\.\.', '<details style="background-color: rgb(59, 32, 23);"><summary>'
+$html = $html -replace '<H3>\.\.', '<details style="background-color: rgb(68, 34, 22); border-bottom-right-radius: 25px;"><summary>'
+$html = $html -replace '<h3>\.\.', '<details style="background-color: rgb(68, 34, 22); border-bottom-right-radius: 25px;"><summary>'
 
 # Convert 2 dots and </h3> ..</H3> into </summary>
 $html = $html -replace '\.\.</H3>', '</summary>'
