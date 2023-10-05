@@ -342,7 +342,9 @@
 | CTRL+T CTRL+T     | Table Format Properly                                   |
 | ctrl+alt+shift+n  | enable neovim                                           |
 | ctrl+alt+shift+m  | disable neovim                                          |
-- alt+j join lines
+| ctrl+n            | new file                                                |
+| ctrl+q ctrl+f     | table format                                            |
+| alt+j             | join lines                                              |
 - ctrl+b ctrl+b bookmark line
 - ctrl+b ctrl+l list all bookmark lines
 - ctrl+k ctrl+s keyboard shortcuts
