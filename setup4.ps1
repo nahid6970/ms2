@@ -68,4 +68,44 @@ $html = $html -replace 'ICON="([^"]+)"', '> <img src="$1" '
 # Write the modified HTML back to the file
 Set-Content -Path $htmlFilePath -Value $html -Encoding utf8
 
-pause
+
+
+# Your existing code...
+
+# Read in the HTML file
+$html = Get-Content -Path $htmlFilePath -Raw
+
+# Replace the ICON attribute with <img> tag
+$html = $html -replace 'ICON="([^"]+)"', '> <img src="$1" '
+
+# Convert <h3> and 2 dots <H3>.. into <details><summary>
+$html = $html -replace '<H3>\.\.', '<details><summary>'
+$html = $html -replace '<h3>\.\.', '<details><summary>'
+
+# Convert 2 dots and </h3> ..</H3> into </summary>
+$html = $html -replace '\.\.</H3>', '</summary>'
+$html = $html -replace '\.\.</h3>', '</summary>'
+
+# Write the modified HTML back to the file
+Set-Content -Path $htmlFilePath -Value $html -Encoding utf8
+
+# Pause at the end
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pause
+
+
+
+
+
