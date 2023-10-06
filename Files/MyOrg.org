@@ -277,6 +277,7 @@
 <!--wiztree                  --> <span class="scoop">wiztree                                                                </span>
 <!--WSA_System_Control       --> <span class="winget" style="overflow-wrap: break-word;">infinitepower18.WSASystemControl   </span>
 <!--yt_dlp                   --> <span class="scoop">yt-dlp                                                                 </span>
+<!--winget                   --> <span class="scoop">winget                                                                 </span>
 #+END_HTML
 
 
