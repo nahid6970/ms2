@@ -323,47 +323,48 @@
 | F2              | Suggestions                  |
 
 ** VScode
-| Vscode Keybinding | Objective                                               |
-|-------------------+---------------------------------------------------------|
-| Alt+L Alt+O       | Live Server                                             |
-| Alt+Shift+;       | Align Multi Coulmns By Separator                        |
-| Alt+Shift+A       | Comment                                                 |
-| Alt+Shift+M1      | For Coulmns Select First Point & Alt+Shift & Last Point |
-| Alt+Shift+R       | Align By Regex                                          |
-| Alt+Shift+Right   | Select All Text Between Quates                          |
-| Alt+Shift+S       | Sort Lines Ascending                                    |
-| Alt+Shift+Up/Down | Copy The Same Line                                      |
-| Ctrl+\            | Split Same Document                                     |
-| Ctrl+Alt+Up/Down  | Add Cursor Above/Below                                  |
-| Ctrl+F2           | Select All Similar Words Simultaneously                 |
-| Ctrl+K Ctrl+C     | Comment                                                 |
-| Ctrl+Shift+~      | Terminal.New                                            |
-| Ctrl+Shift+5      | Terminal.Split                                          |
-| Ctrl+Shift+V      | Preview                                                 |
-| Ctrl+T Ctrl+T     | Table Format Properly                                   |
-| Ctrl+Alt+Shift+N  | Enable Neovim                                           |
-| Ctrl+Alt+Shift+M  | Disable Neovim                                          |
-| Ctrl+N            | New File                                                |
-| Ctrl+R            | Show Recent Files                                       |
-| Ctrl+Q Ctrl+F     | Table Format                                            |
-| Alt+J             | Join Lines                                              |
-- ctrl+b ctrl+b bookmark line
-- ctrl+b ctrl+l list all bookmark lines
-- ctrl+k ctrl+s keyboard shortcuts
-- ctrl+f ctrl+a fold all
-- ctrl+f ctrl+u unfold all
+| Functionality | Vscode Keybinding     | Objective                                               | Editor.Code.Command                                                                      |
+|---------------+-----------------------+---------------------------------------------------------+------------------------------------------------------------------------------------------|
+| Delete        | Ctrl+Shift+K          | --Delete lines                                          | editor.action.deleteLines                                                                |
+|               |                       |                                                         | editor.action.joinLines                                                                  |
+|               |                       |                                                         | editor.action.removeDuplicateLines                                                       |
+|               |                       |                                                         | editor.action.sortLinesAscending                                                         |
+|               |                       |                                                         | editor.action.toggleMinimap                                                              |
+|               |                       |                                                         | workbench.action.duplicateActiveEditorGroupX (Right/left/up/below) --duplicates all tabs |
+|               |                       |                                                         | workbench.action.newGroupX (Right/left/up/below) --splits into empty window              |
+|               |                       |                                                         | workbench.action.splitEditorX (Right/left/up/below) --split and mirror current window    |
+| Align         | Alt+Shift+;           | Align Multi Coulmns By Separator                        |                                                                                          |
+| Align         | Alt+Shift+R           | Align By Regex                                          |                                                                                          |
+| Bookmark      | Ctrl+B Ctrl+B         | Bookmark Line                                           |                                                                                          |
+| Bookmark      | Ctrl+B Ctrl+L         | List All Bookmark Lines                                 |                                                                                          |
+| Comment       | Alt+Shift+A           | Comment                                                 |                                                                                          |
+| Comment       | Ctrl+K Ctrl+C         | Comment                                                 |                                                                                          |
+| Copy          | Alt+Shift+Up/Down     | Copy The Same Line                                      |                                                                                          |
+| File (New)    | Ctrl+N                | New File                                                |                                                                                          |
+| File (Recent) | Ctrl+R                | Show Recent Files                                       |                                                                                          |
+| Fold / Unfold | Ctrl+F Ctrl+A         | Fold All                                                |                                                                                          |
+| Fold / Unfold | Ctrl+F Ctrl+U         | Unfold All                                              |                                                                                          |
+| GoTo          | Ctrl+K Ctrl+S         | Keyboard Shortcuts                                      |                                                                                          |
+| Line          | Alt+J                 | --Join Lines                                            | editor.action.joinLines                                                                  |
+| MiniMap       | alt+m                 | minimap toogle                                          |                                                                                          |
+| Neovim        | Ctrl+Alt+Shift+M      | Disable Neovim                                          |                                                                                          |
+| Neovim        | Ctrl+Alt+Shift+N      | Enable Neovim                                           |                                                                                          |
+| Preview       | Alt+L Alt+O           | Live Server                                             |                                                                                          |
+| Preview       | Ctrl+Shift+V          | Preview                                                 |                                                                                          |
+| Selection     | Alt+Shift+M1          | For Coulmns Select First Point & Alt+Shift & Last Point |                                                                                          |
+| Selection     | Alt+Shift+Right       | Select All Text Between Quates                          |                                                                                          |
+| Selection     | Ctrl+Alt+Up/Down      | Add Cursor Above/Below                                  |                                                                                          |
+| Selection     | Ctrl+F2               | Select All Similar Words Simultaneously                 |                                                                                          |
+| Sort          | Alt+Shift+S           | Sort Lines Ascending                                    |                                                                                          |
+| Split         | Ctrl+\                | Split Same Document                                     |                                                                                          |
+| Split         | ctrl+right ctrl+right | split copy to right                                     |                                                                                          |
+| Table         | Ctrl+Q Ctrl+F         | Format As Table Org Mode                                |                                                                                          |
+| Table         | Ctrl+T Ctrl+T         | Table Format Properly                                   |                                                                                          |
+| Terminal      | Ctrl+Shift+~          | Terminal.New                                            |                                                                                          |
+| Terminal      | Ctrl+Shift+5          | Terminal.Split                                          |                                                                                          |
+
 - **org related keybinding
 - **emmet
-- alt+m minimap toogle
-- ctrl+right ctrl+right split copy to right
-- editor.action.deleteLines
-- editor.action.joinLines
-- editor.action.removeDuplicateLines
-- editor.action.sortLinesAscending
-- editor.action.toggleMinimap
-- workbench.action.newGroupX (Right/left/up/below) --splits into empty window
-- workbench.action.splitEditorX (Right/left/up/below) --split and mirror current window
-- workbench.action.duplicateActiveEditorGroupX (Right/left/up/below) --duplicates all tabs
 
 ** Windows-Terminal
 | Windows Terminal Keybinding | Objective                             |

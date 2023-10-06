@@ -768,122 +768,243 @@ href="https://github.com/scopatz/nanorc">https://github.com/scopatz/nanorc</a></
 <table>
 <thead>
 <tr class="header">
+<th>Functionality</th>
 <th>Vscode Keybinding</th>
 <th>Objective</th>
+<th>Editor.Code.Command</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Alt+L Alt+O</td>
-<td>Live Server</td>
+<td>Delete</td>
+<td>Ctrl+Shift+K</td>
+<td>–Delete lines</td>
+<td>editor.action.deleteLines</td>
 </tr>
 <tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td>editor.action.joinLines</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td>editor.action.removeDuplicateLines</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td>editor.action.sortLinesAscending</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td>editor.action.toggleMinimap</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td>workbench.action.duplicateActiveEditorGroupX (Right/left/up/below)
+–duplicates all tabs</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td>workbench.action.newGroupX (Right/left/up/below) –splits into empty
+window</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td>workbench.action.splitEditorX (Right/left/up/below) –split and
+mirror current window</td>
+</tr>
+<tr class="odd">
+<td>Align</td>
 <td>Alt+Shift+;</td>
 <td>Align Multi Coulmns By Separator</td>
-</tr>
-<tr class="odd">
-<td>Alt+Shift+A</td>
-<td>Comment</td>
+<td></td>
 </tr>
 <tr class="even">
-<td>Alt+Shift+M1</td>
-<td>For Coulmns Select First Point &amp; Alt+Shift &amp; Last Point</td>
-</tr>
-<tr class="odd">
+<td>Align</td>
 <td>Alt+Shift+R</td>
 <td>Align By Regex</td>
-</tr>
-<tr class="even">
-<td>Alt+Shift+Right</td>
-<td>Select All Text Between Quates</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>Alt+Shift+S</td>
-<td>Sort Lines Ascending</td>
+<td>Bookmark</td>
+<td>Ctrl+B Ctrl+B</td>
+<td>Bookmark Line</td>
+<td></td>
 </tr>
 <tr class="even">
-<td>Alt+Shift+Up/Down</td>
-<td>Copy The Same Line</td>
+<td>Bookmark</td>
+<td>Ctrl+B Ctrl+L</td>
+<td>List All Bookmark Lines</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>Ctrl+\</td>
-<td>Split Same Document</td>
+<td>Comment</td>
+<td>Alt+Shift+A</td>
+<td>Comment</td>
+<td></td>
 </tr>
 <tr class="even">
-<td>Ctrl+Alt+Up/Down</td>
-<td>Add Cursor Above/Below</td>
-</tr>
-<tr class="odd">
-<td>Ctrl+F2</td>
-<td>Select All Similar Words Simultaneously</td>
-</tr>
-<tr class="even">
+<td>Comment</td>
 <td>Ctrl+K Ctrl+C</td>
 <td>Comment</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>Ctrl+Shift+~</td>
-<td>Terminal.New</td>
+<td>Copy</td>
+<td>Alt+Shift+Up/Down</td>
+<td>Copy The Same Line</td>
+<td></td>
 </tr>
 <tr class="even">
-<td>Ctrl+Shift+5</td>
-<td>Terminal.Split</td>
-</tr>
-<tr class="odd">
-<td>Ctrl+Shift+V</td>
-<td>Preview</td>
-</tr>
-<tr class="even">
-<td>Ctrl+T Ctrl+T</td>
-<td>Table Format Properly</td>
-</tr>
-<tr class="odd">
-<td>Ctrl+Alt+Shift+N</td>
-<td>Enable Neovim</td>
-</tr>
-<tr class="even">
-<td>Ctrl+Alt+Shift+M</td>
-<td>Disable Neovim</td>
-</tr>
-<tr class="odd">
+<td>File (New)</td>
 <td>Ctrl+N</td>
 <td>New File</td>
-</tr>
-<tr class="even">
-<td>Ctrl+R</td>
-<td>Show Recent Files</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>Ctrl+Q Ctrl+F</td>
-<td>Table Format</td>
+<td>File (Recent)</td>
+<td>Ctrl+R</td>
+<td>Show Recent Files</td>
+<td></td>
 </tr>
 <tr class="even">
+<td>Fold / Unfold</td>
+<td>Ctrl+F Ctrl+A</td>
+<td>Fold All</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Fold / Unfold</td>
+<td>Ctrl+F Ctrl+U</td>
+<td>Unfold All</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>GoTo</td>
+<td>Ctrl+K Ctrl+S</td>
+<td>Keyboard Shortcuts</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Line</td>
 <td>Alt+J</td>
-<td>Join Lines</td>
+<td>–Join Lines</td>
+<td>editor.action.joinLines</td>
+</tr>
+<tr class="even">
+<td>MiniMap</td>
+<td>alt+m</td>
+<td>minimap toogle</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Neovim</td>
+<td>Ctrl+Alt+Shift+M</td>
+<td>Disable Neovim</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Neovim</td>
+<td>Ctrl+Alt+Shift+N</td>
+<td>Enable Neovim</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Preview</td>
+<td>Alt+L Alt+O</td>
+<td>Live Server</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Preview</td>
+<td>Ctrl+Shift+V</td>
+<td>Preview</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Selection</td>
+<td>Alt+Shift+M1</td>
+<td>For Coulmns Select First Point &amp; Alt+Shift &amp; Last Point</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Selection</td>
+<td>Alt+Shift+Right</td>
+<td>Select All Text Between Quates</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Selection</td>
+<td>Ctrl+Alt+Up/Down</td>
+<td>Add Cursor Above/Below</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Selection</td>
+<td>Ctrl+F2</td>
+<td>Select All Similar Words Simultaneously</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Sort</td>
+<td>Alt+Shift+S</td>
+<td>Sort Lines Ascending</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Split</td>
+<td>Ctrl+\</td>
+<td>Split Same Document</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Split</td>
+<td>ctrl+right ctrl+right</td>
+<td>split copy to right</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Table</td>
+<td>Ctrl+Q Ctrl+F</td>
+<td>Format As Table Org Mode</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Table</td>
+<td>Ctrl+T Ctrl+T</td>
+<td>Table Format Properly</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Terminal</td>
+<td>Ctrl+Shift+~</td>
+<td>Terminal.New</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Terminal</td>
+<td>Ctrl+Shift+5</td>
+<td>Terminal.Split</td>
+<td></td>
 </tr>
 </tbody>
 </table>
 <ul>
-<li>ctrl+b ctrl+b bookmark line</li>
-<li>ctrl+b ctrl+l list all bookmark lines</li>
-<li>ctrl+k ctrl+s keyboard shortcuts</li>
-<li>ctrl+f ctrl+a fold all</li>
-<li>ctrl+f ctrl+u unfold all</li>
 <li>**org related keybinding</li>
 <li>**emmet</li>
-<li>alt+m minimap toogle</li>
-<li>ctrl+right ctrl+right split copy to right</li>
-<li>editor.action.deleteLines</li>
-<li>editor.action.joinLines</li>
-<li>editor.action.removeDuplicateLines</li>
-<li>editor.action.sortLinesAscending</li>
-<li>editor.action.toggleMinimap</li>
-<li>workbench.action.newGroupX (Right/left/up/below) –splits into empty
-window</li>
-<li>workbench.action.splitEditorX (Right/left/up/below) –split and
-mirror current window</li>
-<li>workbench.action.duplicateActiveEditorGroupX (Right/left/up/below)
-–duplicates all tabs</li>
 </ul>
 <h2 id="windows-terminal">Windows-Terminal</h2>
 <table>
