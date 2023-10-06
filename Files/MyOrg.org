@@ -323,42 +323,40 @@
 | F2              | Suggestions                  |
 
 ** VScode
-| Functionality | Vscode Keybinding     | Objective                                               | Editor.Code.Command                                  |
-|---------------+-----------------------+---------------------------------------------------------+------------------------------------------------------|
-| Delete        | Ctrl+Shift+K          | --Delete lines                                          | editor.action.deleteLines                            |
-| Delete        | ctrl+num1 ctrl+num1   | --Delete Duplicate lines                                | editor.action.removeDuplicateLines                   |
-| Split         |                       | --duplicates all tabs view                              | workbench.action.duplicateActiveEditorGroup ⬅️⬆️⬇️➡️ |
-| Split         |                       | --splits into empty window                              | workbench.action.newGroup ⬅️⬆️⬇️➡️                   |
-|               |                       | --split and mirror current window                       | workbench.action.splitEditor ⬅️⬆️⬇️➡️                |
-| Align         | Alt+Shift+;           | Align Multi Coulmns By Separator                        |                                                      |
-| Align         | Alt+Shift+R           | Align By Regex                                          |                                                      |
-| Bookmark      | Ctrl+B Ctrl+B         | Bookmark Line                                           |                                                      |
-| Bookmark      | Ctrl+B Ctrl+L         | List All Bookmark Lines                                 |                                                      |
-| Comment       | Alt+Shift+A           | Comment                                                 |                                                      |
-| Comment       | Ctrl+K Ctrl+C         | Comment                                                 |                                                      |
-| Copy          | Alt+Shift+Up/Down     | Copy The Same Line                                      |                                                      |
-| File (New)    | Ctrl+N                | New File                                                |                                                      |
-| File (Recent) | Ctrl+R                | Show Recent Files                                       |                                                      |
-| Fold / Unfold | Ctrl+F Ctrl+A         | Fold All                                                |                                                      |
-| Fold / Unfold | Ctrl+F Ctrl+U         | Unfold All                                              |                                                      |
-| GoTo          | Ctrl+K Ctrl+S         | Keyboard Shortcuts                                      |                                                      |
-| Line          | Alt+J                 | --Join Lines                                            | editor.action.joinLines                              |
-| MiniMap       | alt+m                 | --minimap toogle                                        | editor.action.toggleMinimap                          |
-| Neovim        | Ctrl+Alt+Shift+M      | Disable Neovim                                          |                                                      |
-| Neovim        | Ctrl+Alt+Shift+N      | Enable Neovim                                           |                                                      |
-| Preview       | Alt+L Alt+O           | Live Server                                             |                                                      |
-| Preview       | Ctrl+Shift+V          | Preview                                                 |                                                      |
-| Selection     | Alt+Shift+M1          | For Coulmns Select First Point & Alt+Shift & Last Point |                                                      |
-| Selection     | Alt+Shift+Right       | Select All Text Between Quates                          |                                                      |
-| Selection     | Ctrl+Alt+Up/Down      | Add Cursor Above/Below                                  |                                                      |
-| Selection     | Ctrl+F2               | Select All Similar Words Simultaneously                 |                                                      |
-| Sort          | Alt+Shift+S           | --Sort Lines Ascending                                  | editor.action.sortLinesAscending                     |
-| Split         | Ctrl+\                | Split Same Document                                     |                                                      |
-| Split         | ctrl+right ctrl+right | split copy to right                                     |                                                      |
-| Table         | Ctrl+Q Ctrl+F         | Format As Table Org Mode                                |                                                      |
-| Table         | Ctrl+T Ctrl+T         | Table Format Properly                                   |                                                      |
-| Terminal      | Ctrl+Shift+~          | Terminal.New                                            |                                                      |
-| Terminal      | Ctrl+Shift+5          | Terminal.Split                                          |                                                      |
+| Functionality | Vscode Keybinding   | Objective                                               | Editor.Code.Command                                  |
+|---------------+---------------------+---------------------------------------------------------+------------------------------------------------------|
+| Align         | Alt+Shift+;         | Align Multi Coulmns By Separator                        |                                                      |
+| Align         | Alt+Shift+R         | Align By Regex                                          |                                                      |
+| Bookmark      | Ctrl+B Ctrl+B       | Bookmark Line                                           |                                                      |
+| Bookmark      | Ctrl+B Ctrl+L       | List All Bookmark Lines                                 |                                                      |
+| Comment       | Alt+Shift+A         | Comment                                                 |                                                      |
+| Comment       | Ctrl+K Ctrl+C       | Comment                                                 |                                                      |
+| Copy          | Alt+Shift+Up/Down   | Copy The Same Line                                      |                                                      |
+| Delete        | ctrl+num1 ctrl+num1 | --Delete Duplicate lines                                | editor.action.removeDuplicateLines                   |
+| Delete        | Ctrl+Shift+K        | --Delete lines                                          | editor.action.deleteLines                            |
+| File (New)    | Ctrl+N              | New File                                                | workbench.action.files.newUntitledFile               |
+| File (Recent) | Ctrl+R              | Show Recent Files                                       |                                                      |
+| Fold / Unfold | Ctrl+F Ctrl+A       | Fold All                                                |                                                      |
+| Fold / Unfold | Ctrl+F Ctrl+U       | Unfold All                                              |                                                      |
+| GoTo          | Ctrl+K Ctrl+S       | Keyboard Shortcuts                                      |                                                      |
+| Line          | Alt+J               | --Join Lines                                            | editor.action.joinLines                              |
+| MiniMap       | alt+m               | --minimap toogle                                        | editor.action.toggleMinimap                          |
+| Neovim        | Ctrl+Alt+Shift+M    | Disable Neovim                                          |                                                      |
+| Neovim        | Ctrl+Alt+Shift+N    | Enable Neovim                                           |                                                      |
+| Preview       | Alt+L Alt+O         | Live Server                                             |                                                      |
+| Preview       | Ctrl+Shift+V        | Preview                                                 |                                                      |
+| Selection     | Alt+Shift+M1        | For Coulmns Select First Point & Alt+Shift & Last Point |                                                      |
+| Selection     | Alt+Shift+Right     | Select All Text Between Quates                          |                                                      |
+| Selection     | Ctrl+Alt+Up/Down    | Add Cursor Above/Below                                  |                                                      |
+| Selection     | Ctrl+F2             | Select All Similar Words Simultaneously                 |                                                      |
+| Sort          | Alt+Shift+S         | --Sort Lines Ascending                                  | editor.action.sortLinesAscending                     |
+| Split         |                     | --duplicates all tabs view                              | workbench.action.duplicateActiveEditorGroup ⬅️⬆️⬇️➡️ |
+| Split         |                     | --split and mirror current window                       | workbench.action.splitEditor ⬅️⬆️⬇️➡️                |
+| Split         |                     | --splits into empty window                              | workbench.action.newGroup ⬅️⬆️⬇️➡️                   |
+| Table         | Ctrl+Q Ctrl+F       | Format As Table Org Mode                                |                                                      |
+| Table         | Ctrl+T Ctrl+T       | Table Format Properly                                   |                                                      |
+| Terminal      | Ctrl+Shift+~        | Terminal.New                                            |                                                      |
+| Terminal      | Ctrl+Shift+5        | Terminal.Split                                          |                                                      |
 
 
 - **emmet
