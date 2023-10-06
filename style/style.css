@@ -156,16 +156,20 @@ border: solid 2px rgb(167, 72, 8);
 
 
 summary {
-color: #5fc4fd;
-list-style: none;
-font-size: 25px;
+color: #129e5d;
+list-style: ;
+font-size: 20px;
 text-align: center;
-#background-color: #333530;
+background-color: #333530;
 padding: 0%;
-border-radius: 1cqb;
+#border-radius: 1cqb;
 cursor: pointer; /* Set cursor to hand pointer */
 }
 
+details {
+max-width: 250px;
+background-color: #1a354b;
+}
 
 h2 {
 padding-bottom: 0;
