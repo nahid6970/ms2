@@ -166,10 +166,7 @@ padding: 0%;
 cursor: pointer; /* Set cursor to hand pointer */
 }
 
-details {
-max-width: 250px;
-background-color: #1a354b;
-}
+
 
 h2 {
 padding-bottom: 0;
