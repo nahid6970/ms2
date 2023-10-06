@@ -1,6 +1,6 @@
 #+TITLE: 
 #+HTML_HEAD: <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4021/4021539.png" type="image/x-icon">
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style//style2.css">
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style//org.css">
 #+BEGIN_HTML
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">

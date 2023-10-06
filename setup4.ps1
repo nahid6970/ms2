@@ -40,7 +40,7 @@ $newLines = @(
     '<title>HomePage</title>',
     '<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4021/4021539.png" type="image/x-icon">',
     '<meta name="viewport" content="width=device-width, initial-scale=1">',
-    '<link rel="stylesheet"  href="style//style.css" ;>',
+    '<link rel="stylesheet"  href="style//style1.css" ;>',
     '</head>',
     '<body>',
     '<div class="flex-container">',
