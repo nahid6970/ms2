@@ -157,7 +157,7 @@ border: solid 2px rgb(167, 72, 8);
 
 summary {
 color: #129e5d;
-list-style: ;
+#list-style: none;
 font-size: 20px;
 text-align: center;
 background-color: #333530;
