@@ -323,29 +323,30 @@
 | F2              | Suggestions                  |
 
 ** VScode
-| VScode Keybinding | Objective                                               |
+| Vscode Keybinding | Objective                                               |
 |-------------------+---------------------------------------------------------|
-| ALT+L ALT+O       | Live Server                                             |
-| alt+shift+;       | Align Multi Coulmns by Separator                        |
-| ALT+SHIFT+A       | Comment                                                 |
-| ALT+SHIFT+M1      | For Coulmns Select First Point & Alt+Shift & Last Point |
-| ALT+SHIFT+R       | Align by RegEx                                          |
-| ALT+SHIFT+RIGHT   | Select All Text Between Quates                          |
-| ALT+SHIFT+S       | Sort Lines Ascending                                    |
-| ALT+SHIFT+UP/DOWN | Copy The Same Line                                      |
-| CTRL+\            | Split Same Document                                     |
-| CTRL+ALT+UP/DOWN  | Add Cursor Above/Below                                  |
-| CTRL+F2           | Select All Similar Words Simultaneously                 |
-| CTRL+K CTRL+C     | Comment                                                 |
-| CTRL+SHIFT+~      | Terminal.New                                            |
-| CTRL+SHIFT+5      | Terminal.Split                                          |
-| CTRL+SHIFT+V      | Preview                                                 |
-| CTRL+T CTRL+T     | Table Format Properly                                   |
-| ctrl+alt+shift+n  | enable neovim                                           |
-| ctrl+alt+shift+m  | disable neovim                                          |
-| ctrl+n            | new file                                                |
-| ctrl+q ctrl+f     | table format                                            |
-| alt+j             | join lines                                              |
+| Alt+L Alt+O       | Live Server                                             |
+| Alt+Shift+;       | Align Multi Coulmns By Separator                        |
+| Alt+Shift+A       | Comment                                                 |
+| Alt+Shift+M1      | For Coulmns Select First Point & Alt+Shift & Last Point |
+| Alt+Shift+R       | Align By Regex                                          |
+| Alt+Shift+Right   | Select All Text Between Quates                          |
+| Alt+Shift+S       | Sort Lines Ascending                                    |
+| Alt+Shift+Up/Down | Copy The Same Line                                      |
+| Ctrl+\            | Split Same Document                                     |
+| Ctrl+Alt+Up/Down  | Add Cursor Above/Below                                  |
+| Ctrl+F2           | Select All Similar Words Simultaneously                 |
+| Ctrl+K Ctrl+C     | Comment                                                 |
+| Ctrl+Shift+~      | Terminal.New                                            |
+| Ctrl+Shift+5      | Terminal.Split                                          |
+| Ctrl+Shift+V      | Preview                                                 |
+| Ctrl+T Ctrl+T     | Table Format Properly                                   |
+| Ctrl+Alt+Shift+N  | Enable Neovim                                           |
+| Ctrl+Alt+Shift+M  | Disable Neovim                                          |
+| Ctrl+N            | New File                                                |
+| Ctrl+R            | Show Recent Files                                       |
+| Ctrl+Q Ctrl+F     | Table Format                                            |
+| Alt+J             | Join Lines                                              |
 - ctrl+b ctrl+b bookmark line
 - ctrl+b ctrl+l list all bookmark lines
 - ctrl+k ctrl+s keyboard shortcuts
