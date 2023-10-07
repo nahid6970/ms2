@@ -87,24 +87,64 @@ span a:hover {
 text-decoration: underline;
 }
 
-/* Some class Examples */
-/* red heading */
-/* style.css */
-.redhead {
-color: red; /* Example CSS styling for the class */
-font-size: 75px;
-}
-
-
-
-
 /* Change hyperlink text color */
 a:link {color: #b5ac97;background-color: transparent;text-decoration: none;}
 a:visited {color: #bbd853;background-color: transparent;text-decoration: none;}
 a:hover {color: red;background-color: transparent;text-decoration: none;}
 a:active {color: yellow;background-color: transparent;text-decoration: underline;}
 
+.scoop {
+display: inline-block;
+padding: 5px 5px;
+background-color: #6b667b ;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+margin: 2px;
+width: 160px;
+}
 
+.winget {
+display: inline-block;
+padding: 5px 5px;
+background-color: #005da7 ;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+margin: 2px;
+width: 160px;
+}
+
+.choco {
+display: inline-block;
+padding: 5px 5px;
+background-color: #884b2e ;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+margin: 2px;
+width: 160px;
+}
+
+.home {
+display: inline-block;
+padding: 5px 5px;
+background-color: #43a72f ;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+margin: 2px;
+width: 160px;
+}
+
+.folder {
+background-color: yellow;
+color: rgb(116, 116, 116);
+}
+
+.yt {
+background-color: red;
+}
 
 
 /* Customize Table of Contents (TOC) */
@@ -176,8 +216,6 @@ background-color: #000000; /* Track color */
 
 
 
-
-
 /* Table Related */
 table {
 border-collapse: inherit;
@@ -204,101 +242,6 @@ tr:nth-child(odd) {
 background-color: #3b414b;
 }
 
-
-/* Style for the list container */
-/* ul {
-list-style: none;
-padding: 0;
-} */
-
-/* Style for list items */
-/*   li {
-list-style-type: none;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-margin-bottom: 2px;
-padding: 10px 5px;
-background-color: #3f3f3f;
-border-radius: 5px;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-transition: transform 0.3s ease;
-width: fit-content;
-} */
-
-/* Hover effect */
-/*   li:hover {
-transform: scale(1.05);
-background-color: #030303;
-} */
-
-/* Style for links inside list items */
-/*  li a {
-text-decoration: none;
-color: #333;
-font-weight: bold;
-} */
-
-/* Hover effect for links */
-/*   li a:hover {
-text-decoration: underline;
-} */
-
-
-
-/* Style for spans */
-
-
-.scoop {
-display: inline-block;
-padding: 5px 5px;
-background-color: #6b667b ;
-border-radius: 5px;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-transition: transform 0.3s ease;
-margin: 2px;
-width: 160px;
-}
-
-.winget {
-display: inline-block;
-padding: 5px 5px;
-background-color: #005da7 ;
-border-radius: 5px;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-transition: transform 0.3s ease;
-margin: 2px;
-width: 160px;
-}
-
-.choco {
-display: inline-block;
-padding: 5px 5px;
-background-color: #884b2e ;
-border-radius: 5px;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-transition: transform 0.3s ease;
-margin: 2px;
-width: 160px;
-}
-
-.home {
-display: inline-block;
-padding: 5px 5px;
-background-color: #43a72f ;
-border-radius: 5px;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-transition: transform 0.3s ease;
-margin: 2px;
-width: 160px;
-}
-
-.folder {
-background-color: yellow;
-color: rgb(116, 116, 116);
-}
-
-.yt {
-background-color: red;
-}
 
 
 
