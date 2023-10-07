@@ -250,24 +250,6 @@ background-color: #3b414b;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and ( max-width: 900px ) {
 body {
 background-color: rgb(40, 44, 52);
@@ -328,12 +310,8 @@ font-size: 14px; /* Adjust the font size for third-level headings */
 color: rgb(244, 67, 54);
 }
 
-
 /* Adjust position of subheadings */
 #TOC ul ul li {
 margin-left: 15px;
 }
-
-
-
 }
