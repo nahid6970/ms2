@@ -1,115 +1,8 @@
 /* Global styles */
 body {
-background-color: #31343a;
-font-family: Calibri;
+  background-color: #31343a;
+  font-family: Calibri;
 }
-
-h3 {
-color: #5fc4fd;
-background-color: #363633;
-text-align:center ;
-margin-top: 0ch ;
-}
-
-
-/* p {text-align: left;height: 15px;color: purple;} */
-p {
-  text-align: justify; /* Change to justify for a cleaner look */
-  line-height: 1.5; /* Increase line height for better readability */
-  height: auto; /* Remove fixed height for dynamic sizing */
-  color: #4a90e2; /* Change to a nice blue color */
-  font-family: Arial, sans-serif; /* Choose a widely supported font */
-  font-size: 16px; /* Set an appropriate font size */
-}
-
-
-
-a:link {color: #b5ac97;background-color: transparent;text-decoration: none;}
-a:visited {color: #bbd853;background-color: transparent;text-decoration: none;}
-a:hover {color: red;background-color: transparent;text-decoration: none;}
-a:active {color: yellow;background-color: transparent;text-decoration: underline;}
-
-
-img {
-border: 1px solid transparent;
-vertical-align: middle;
-}
-
-dt{
-padding: 1.5px;
-}
-
-/* Box styles */
-.box {
-width: 100%;
-height: 100%;
-background-color: #a4bb24;
-display: row;
-padding: 10px;
-border: 0px solid rgb(2, 56, 2);
-}
-
-.flex-container {
-display: flex;
-flex-direction: row;
-background-color: #31343a;
-gap: 3px;
-flex-wrap: wrap;
-text-align: left;
-line-height: auto;
-align-items: flex-start;
-font-size: auto;
-}
-
-.flex-container > div {
-background-image: linear-gradient(10deg, #1d1e22, #1d1e22);
-font-weight: bold;
-flex-grow: 1;
-border-radius: 0px;
-width: max-content;
-color: rgb(216, 42, 42);
-margin: 1px;
-text-align: left;
-border-bottom-right-radius: 0cm;
-}
-
-.break {
-flex-basis: 100%;
-height: 45px;
-display: none;
-}
-
-/* Lists */
-ul, #myUL {
-list-style-type: ""; /* thumbs up sign */
-margin: 0;
-padding: 0;
-}
-
-li {
-list-style: circle;
-}
-
-/* Interaction */
-.box {
-cursor: pointer;
--webkit-user-select: none; /* Safari 3.1+ */
--moz-user-select: none; /* Firefox 2+ */
--ms-user-select: none; /* IE 10+ */
-user-select: none;
-}
-
-.nested {
-display: none;
-}
-
-.active {
-display: block;
-}
-
-
-
-
 
 /* For html part 2 ############################################################*/
 .flex-container2 {
@@ -146,6 +39,11 @@ height: 100%;
 background-color: #1d1e22;
 display: row;
 padding: 10px;
+cursor: pointer;
+-webkit-user-select: none; /* Safari 3.1+ */
+-moz-user-select: none; /* Firefox 2+ */
+-ms-user-select: none; /* IE 10+ */
+user-select: none;
 }
 
 .box2:hover {
@@ -153,7 +51,25 @@ background-color: #000000;
 border: solid 2px rgb(167, 72, 8);
 }
 
+/* p {text-align: left;height: 15px;color: purple;} */
+p {
+text-align: justify; /* Change to justify for a cleaner look */
+line-height: 1.5; /* Increase line height for better readability */
+height: auto; /* Remove fixed height for dynamic sizing */
+color: #4a90e2; /* Change to a nice blue color */
+font-family: Arial, sans-serif; /* Choose a widely supported font */
+font-size: 16px; /* Set an appropriate font size */
+}
 
+a:link {color: #b5ac97;background-color: transparent;text-decoration: none;}
+a:visited {color: #bbd853;background-color: transparent;text-decoration: none;}
+a:hover {color: red;background-color: transparent;text-decoration: none;}
+a:active {color: yellow;background-color: transparent;text-decoration: underline;}
+
+img {
+border: 1px solid transparent;
+vertical-align: middle;
+}
 
 summary {
 color: #129e5d;
@@ -164,14 +80,6 @@ background-color: #333530;
 padding: 0%;
 #border-radius: 1cqb;
 cursor: pointer; /* Set cursor to hand pointer */
-}
-
-
-
-h2 {
-padding-bottom: 0;
-margin-bottom: 2px;
-margin-top: 0;
 }
 
 .h25 {
@@ -202,35 +110,6 @@ transform: scaleX(1);
 transform-origin: bottom left;
 }
 
-
-/* Table Related */
-table {
-border-collapse: collapse;
-width: 100%;
-border: 1px solid #ddd;
-}
-
-th, td {
-text-align: left;
-padding: 8px;
-}
-
-th {
-  text-align: center;
-background-color: #ffffff;
-color: #000000;
-} 
-
-tr:nth-child(even) {
-background-color: #454c5a;
-}
-
-tr:nth-child(odd) {
-  background-color: #3b414b;
-}
-
-
-
 /* Style for the list container */
 ul {
 list-style: none;
@@ -239,7 +118,7 @@ padding: 0;
 
 /* Style for list items */
 li {
-  list-style-type: none;
+list-style-type: none;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 margin-bottom: 2px;
 padding: 10px 5px;     /* two px for aboved below and left and right  */
@@ -267,7 +146,6 @@ font-weight: bold;
 li a:hover {
 text-decoration: underline;
 }
-
 
 /* Style for spans */
 span {
@@ -351,3 +229,32 @@ width: 160px;
 .yt {
   background-color: red;
 }
+
+
+/* Table Related */
+table {
+  border-collapse: collapse;
+width: 100%;
+border: 1px solid #ddd;
+}
+
+th, td {
+text-align: left;
+padding: 8px;
+}
+
+th {
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+} 
+
+tr:nth-child(even) {
+background-color: #454c5a;
+}
+
+tr:nth-child(odd) {
+  background-color: #3b414b;
+}
+
+
