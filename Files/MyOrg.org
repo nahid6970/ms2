@@ -278,6 +278,7 @@
 <!--WSA_System_Control       --> <span class="winget" style="overflow-wrap: break-word;">infinitepower18.WSASystemControl   </span>
 <!--yt_dlp                   --> <span class="scoop">yt-dlp                                                                 </span>
 <!--winget                   --> <span class="scoop">winget                                                                 </span>
+<!--Oracle.JavaRuntimeEnvironment--> <span class="winget">Oracle.JavaRuntimeEnvironment </span>
 #+END_HTML
 
 
