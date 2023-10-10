@@ -279,6 +279,7 @@
 <!--yt_dlp                   --> <span class="scoop">yt-dlp                                                                 </span>
 <!--winget                   --> <span class="scoop">winget                                                                 </span>
 <!--Oracle.JavaRuntimeEnvironment--> <span class="winget">Oracle.JavaRuntimeEnvironment </span>
+<!--WhatsApp--> <span class="winget">WhatsApp.WhatsApp</span>
 #+END_HTML
 
 
