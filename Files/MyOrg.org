@@ -254,7 +254,7 @@
 <!--Phantomjs                --> <span class="scoop">phantomjs<br>phantomjs19                                               </span>
 <!--Potplayer                --> <span class="scoop">potplayer                                                              </span>
 <!--Powertoys                --> <span class="scoop">powertoys                                                              </span>
-<!--Pwsh                     --> <span class="scoop">pwsh                                                                   </span>
+<!--Pwsh                     --> <span class="home">pwsh                                                                   </span>
 <!--Python                   --> <span class="scoop">python<br>python-alpha<br>python-beta                                  </span>
 <!--qBittorrent              --> <span class="winget">qBittorrent.qBittorrent                                               </span>
 <!--Rclone                   --> <span class="scoop">rclone<br>rclone-beta                                                  </span>
