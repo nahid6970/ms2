@@ -224,6 +224,7 @@
 <!--DirectX                  --> <span class="winget">Microsoft.DirectX                                                     </span>
 <!--Ditto                    --> <span class="scoop">Ditto                                                                  </span>
 <!--dot_NET_Desktop_Runtime  --> <span class="home"><a href="https://dotnet.microsoft.com/en-us/download">.NET 6.0</a>      </span>
+<!--FDM--> <span class="scoop">freedownloadmanager </span>
 <!--ffmpeg                   --> <span class="scoop">ffmpeg                                                                 </span>
 <!--FFmpeg_Batch_AV_Converter--> <span class="scoop">ffmpeg-batch                                                           </span>
 <!--Foxit_Reader             --> <span class="scoop">foxit-reader                                                           </span>
@@ -235,6 +236,7 @@
 <!--imagemagick              --> <span class="scoop">imagemagick                                                            </span>
 <!--Jackett                  --> <span class="scoop">jackett                                                                </span>
 <!--kate                     --> <span class="scoop">kate                                                                   </span>
+<!--keypirinha--> <span class="scoop">keypirinha </span>
 <!--lazygit                  --> <span class="scoop">lazygit                                                                </span>
 <!--libreoffice              --> <span class="scoop">libreoffice                                                            </span>
 <!--Lite_XL                  --> <span class="scoop">lite-xl                                                                </span>
@@ -249,6 +251,7 @@
 <!--Notepad++                --> <span class="scoop">notepadplusplus                                                        </span>
 <!--Oh_My_Posh               --> <span class="scoop">oh-my-posh                                                             </span>
 <!--OneDrive                 --> <span class="winget">Microsoft.OneDrive                                                    </span>
+<!--Oracle.JavaRuntimeEnvironment--> <span class="winget">Oracle.JavaRuntimeEnvironment </span>
 <!--Pandoc                   --> <span class="scoop">Pandoc                                                                 </span>
 <!--perl                     --> <span class="scoop">perl                                                                   </span>
 <!--Phantomjs                --> <span class="scoop">phantomjs<br>phantomjs19                                               </span>
@@ -273,14 +276,12 @@
 <!--wget                     --> <span class="scoop">wget                                                                   </span>
 <!--winaero_tweaker          --> <span class="scoop">winaero-tweaker                                                        </span>
 <!--Windows_Terminal         --> <span class="winget" style="overflow-wrap: break-word;">Microsoft.WindowsTerminal.Preview  </span>
+<!--winget                   --> <span class="scoop">winget                                                                 </span>
 <!--Wise.Program.Uninstaller --> <span class="winget" style="overflow-wrap: break-word;;">WiseCleaner.WiseProgramUninstaller</span>
 <!--wiztree                  --> <span class="scoop">wiztree                                                                </span>
 <!--WSA_System_Control       --> <span class="winget" style="overflow-wrap: break-word;">infinitepower18.WSASystemControl   </span>
 <!--yt_dlp                   --> <span class="scoop">yt-dlp                                                                 </span>
-<!--winget                   --> <span class="scoop">winget                                                                 </span>
-<!--Oracle.JavaRuntimeEnvironment--> <span class="winget">Oracle.JavaRuntimeEnvironment </span>
-<!--FDM--> <span class="scoop">freedownloadmanager </span>
-<!--WhatsApp--> <span class="winget">WhatsApp.WhatsApp</span>
+
 #+END_HTML
 
 
