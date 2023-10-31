@@ -362,6 +362,7 @@
 | Table         | Ctrl+T Ctrl+T       | Table Format Properly                                   |                                                      |
 | Terminal      | Ctrl+Shift+~        | Terminal.New                                            |                                                      |
 | Terminal      | Ctrl+Shift+5        | Terminal.Split                                          |                                                      |
+| Selection     | ctrl+D              | select next match                                       |                                                      |
 
 
 - **emmet
