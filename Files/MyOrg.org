@@ -210,84 +210,87 @@
 
 * PC
 ** Software 🖥️
-| Name                          | Src or Command                                             |
-|-------------------------------+------------------------------------------------------------|
-| ACK                           | scoop install ack                                          |
-| adb                           | scoop install adb                                          |
-| Alacritty                     | scoop install Alacritty                                    |
-| aria2                         | scoop install aria2                                        |
-| AutoHotKey                    | scoop install autohotkey1.1<br>autohotkey                  |
-| Cheat.Engine                  | choco install cheatengine -y                               |
-| clangd                        | scoop install clangd                                       |
-| cmake                         | scoop install cmake                                        |
-| Ditto                         | scoop install Ditto                                        |
-| FDM                           | scoop install freedownloadmanager                          |
-| ffmpeg                        | scoop install ffmpeg                                       |
-| FFmpeg_Batch_AV_Converter     | scoop install ffmpeg-batch                                 |
-| Foxit_Reader                  | scoop install foxit-reader                                 |
-| gcc                           | scoop install gcc                                          |
-| Git                           | scoop install git                                          |
-| Github_Desktop                | scoop install github                                       |
-| imagemagick                   | scoop install imagemagick                                  |
-| Jackett                       | scoop install jackett                                      |
-| kate                          | scoop install kate                                         |
-| keypirinha                    | scoop install keypirinha                                   |
-| lazygit                       | scoop install lazygit                                      |
-| libreoffice                   | scoop install libreoffice                                  |
-| Lite_XL                       | scoop install lite-xl                                      |
-| localsend                     | scoop install localsend                                    |
-| make                          | scoop install make                                         |
-| Nano                          | scoop install nano                                         |
-| NeoVim                        | scoop install NeoVim                                       |
-| Node.js                       | scoop install nodejs                                       |
-| Notepad++                     | scoop install notepadplusplus                              |
-| Oh_My_Posh                    | scoop install oh-my-posh                                   |
-| Pandoc                        | scoop install Pandoc                                       |
-| perl                          | scoop install perl                                         |
-| Phantomjs                     | scoop install phantomjs<br>phantomjs19                     |
-| Potplayer                     | scoop install potplayer                                    |
-| Powertoys                     | scoop install powertoys                                    |
-| Python                        | scoop install python<br>python-alpha<br>python-beta        |
-| Rclone                        | scoop install rclone<br>rclone-beta                        |
-| Ruffle_Nightly                | scoop install ruffle-nightly                               |
-| Rufus                         | scoop install rufus                                        |
-| scoop-completion              | scoop install scoop-completion                             |
-| scoop-search                  | scoop install scoop-search                                 |
-| scrcpy                        | scoop install scrcpy                                       |
-| Shell                         | scoop install nilesoft-shell                               |
-| Sysinternals                  | scoop install sysinternals                                 |
-| tldr                          | scoop install tldr                                         |
-| trafficmonitor                | scoop install trafficmonitor<br>trafficmonitor-lite        |
-| vcredist                      | scoop install vcredist2022<br>vcredist<br>vcredist-aio     |
-| ventoy                        | scoop install ventoy                                       |
-| VScode                        | scoop install vscode                                       |
-| wget                          | scoop install wget                                         |
-| winaero_tweaker               | scoop install winaero-tweaker                              |
-| wiztree                       | scoop install wiztree                                      |
-| yt_dlp                        | scoop install yt-dlp                                       |
-| simplewall                    | scoop install simplewall                                   |
-| winget                        | scoop install winget                                       |
-| AudioRelay                    | winget install AudioRelay                                  |
-| Chrome_Remote_Desktop         | winget install ChromeRemoteDesktop                         |
-| DirectX                       | winget install Microsoft.DirectX                           |
-| IDM                           | winget install IDM                                         |
-| Oracle.JavaRuntimeEnvironment | winget install Oracle.JavaRuntimeEnvironment               |
-| NanaZip                       | winget install M2Team.NanaZip                              |
-| NearbyShare                   | winget install Google.NearbyShare                          |
-| OneDrive                      | winget install Microsoft.OneDrive                          |
-| qBittorrent                   | winget install qBittorrent.qBittorrent                     |
-| Google_Chrome                 | https://www.google.com/chrome/                             |
-| Pwsh                          | https://github.com/PowerShell/PowerShell/releases          |
-| .NET 6.0                      | ://dotnet.microsoft.com/en-us/download                     |
-| Wise.Program.Uninstaller      | WiseCleaner.WiseProgramUninstaller                         |
-| WSA_System_Control            | infinitepower18.WSASystemControl                           |
-| Windows_Terminal              | Microsoft.WindowsTerminal.Preview                          |
-| Syncthing                     | https://syncthing.net/downloads/                           |
-| Microsoft_PC_Manager          | https://pcmanager.microsoft.com/en-us                      |
-| Jellyfin Server               | https://repo.jellyfin.org/releases/server/windows/stable/  |
-| Jellyfin Media Player         | https://github.com/jellyfin/jellyfin-media-player/releases |
-| Sonarr                        | https://sonarr.tv/                                         |
-| MS-Office                     | MS-OFFICE                                                  |
+|                | Name                          | Src or Command                                             |
+|----------------+-------------------------------+------------------------------------------------------------|
+| .Driver        | .NET 6.0                      | https://dotnet.microsoft.com/en-us/download                |
+|                | ACK                           | scoop install ack                                          |
+|                | adb                           | scoop install adb                                          |
+|                | Alacritty                     | scoop install Alacritty                                    |
+|                | aria2                         | scoop install aria2                                        |
+|                | AudioRelay                    | winget install AudioRelay                                  |
+|                | AutoHotKey                    | scoop install autohotkey1.1<br>autohotkey                  |
+| Game           | Cheat.Engine                  | choco install cheatengine -y                               |
+|                | Chrome_Remote_Desktop         | winget install ChromeRemoteDesktop                         |
+|                | clangd                        | scoop install clangd                                       |
+|                | cmake                         | scoop install cmake                                        |
+| .Driver        | DirectX                       | winget install Microsoft.DirectX                           |
+|                | Ditto                         | scoop install Ditto                                        |
+|                | FDM                           | scoop install freedownloadmanager                          |
+|                | ffmpeg                        | scoop install ffmpeg                                       |
+|                | FFmpeg_Batch_AV_Converter     | scoop install ffmpeg-batch                                 |
+|                | Foxit_Reader                  | scoop install foxit-reader                                 |
+|                | gcc                           | scoop install gcc                                          |
+| Developer_Tool | Git                           | scoop install git                                          |
+|                | Github_Desktop                | scoop install github                                       |
+|                | Google_Chrome                 | https://www.google.com/chrome/                             |
+|                | IDM                           | winget install IDM                                         |
+|                | imagemagick                   | scoop install imagemagick                                  |
+| Server         | Jackett                       | scoop install jackett                                      |
+| Server         | Jellyfin Media Player         | https://github.com/jellyfin/jellyfin-media-player/releases |
+| Server         | Jellyfin Server               | https://repo.jellyfin.org/releases/server/windows/stable/  |
+|                | kate                          | scoop install kate                                         |
+|                | keypirinha                    | scoop install keypirinha                                   |
+|                | lazygit                       | scoop install lazygit                                      |
+|                | libreoffice                   | scoop install libreoffice                                  |
+|                | Lite_XL                       | scoop install lite-xl                                      |
+| Share          | localsend                     | scoop install localsend                                    |
+|                | make                          | scoop install make                                         |
+|                | Microsoft_PC_Manager          | https://pcmanager.microsoft.com/en-us                      |
+|                | MS-Office                     | MS-OFFICE                                                  |
+| Zip            | NanaZip                       | winget install M2Team.NanaZip                              |
+| Editor         | Nano                          | scoop install nano                                         |
+| Share          | NearbyShare                   | winget install Google.NearbyShare                          |
+| Editor         | NeoVim                        | scoop install NeoVim                                       |
+| Developer_Tool | Node.js                       | scoop install nodejs                                       |
+| Editor         | Notepad++                     | scoop install notepadplusplus                              |
+|                | Oh_My_Posh                    | scoop install oh-my-posh                                   |
+| Cloud_Storage  | OneDrive                      | winget install Microsoft.OneDrive                          |
+|                | Oracle.JavaRuntimeEnvironment | winget install Oracle.JavaRuntimeEnvironment               |
+|                | Pandoc                        | scoop install Pandoc                                       |
+|                | perl                          | scoop install perl                                         |
+|                | Phantomjs                     | scoop install phantomjs<br>phantomjs19                     |
+| Media          | Potplayer                     | scoop install potplayer                                    |
+| Tool           | Powertoys                     | scoop install powertoys                                    |
+| Developer_Tool | Pwsh                          | https://github.com/PowerShell/PowerShell/releases          |
+| Developer_Tool | Python                        | scoop install python<br>python-alpha<br>python-beta        |
+|                | qBittorrent                   | winget install qBittorrent.qBittorrent                     |
+|                | Radarr                        | https://radarr.video/                                      |
+|                | Rclone                        | scoop install rclone<br>rclone-beta                        |
+|                | Ruffle_Nightly                | scoop install ruffle-nightly                               |
+|                | Rufus                         | scoop install rufus                                        |
+|                | scoop-completion              | scoop install scoop-completion                             |
+|                | scoop-search                  | scoop install scoop-search                                 |
+|                | scrcpy                        | scoop install scrcpy                                       |
+|                | Shell                         | scoop install nilesoft-shell                               |
+|                | simplewall                    | scoop install simplewall                                   |
+|                | Sonarr                        | https://sonarr.tv/                                         |
+|                | Syncthing                     | https://syncthing.net/downloads/                           |
+|                | Sysinternals                  | scoop install sysinternals                                 |
+|                | tldr                          | scoop install tldr                                         |
+|                | trafficmonitor                | scoop install trafficmonitor<br>trafficmonitor-lite        |
+|                | vcredist                      | scoop install vcredist2022<br>vcredist<br>vcredist-aio     |
+|                | ventoy                        | scoop install ventoy                                       |
+|                | VScode                        | scoop install vscode                                       |
+|                | wget                          | scoop install wget                                         |
+|                | winaero_tweaker               | scoop install winaero-tweaker                              |
+|                | Windows_Terminal              | Microsoft.WindowsTerminal.Preview                          |
+|                | winget                        | scoop install winget                                       |
+|                | Wise.Program.Uninstaller      | WiseCleaner.WiseProgramUninstaller                         |
+|                | wiztree                       | scoop install wiztree                                      |
+|                | WSA_System_Control            | infinitepower18.WSASystemControl                           |
+|                | yt_dlp                        | scoop install yt-dlp                                       |
+|                | Lidarr                        | https://lidarr.audio/                                      |
+|                | Prowlarr                      | https://prowlarr.com/                                      |
 
 
 
