@@ -210,7 +210,6 @@
 
 * PC
 ** Software 🖥️
-#+BEGIN_HTML
 | Name                          | Src or Command                                                                 |
 |-------------------------------+--------------------------------------------------------------------------------|
 | ACK                           | scoop">ack                                                                     |
@@ -290,8 +289,6 @@
 | Jellyfin Media Player         | https://github.com/jellyfin/jellyfin-media-player/releases                     |
 | Sonarr                        | https://sonarr.tv/                                                             |
 
-
-#+END_HTML
 
 
 ** Additional Software
