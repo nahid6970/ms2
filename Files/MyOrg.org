@@ -113,9 +113,48 @@
 - works on all matched item
 
 * PWSH Command List
+** Most Useful and Summarized
 - Get-Process | Where-Object { $_.Name -like "*name*" }
 - Start-Process name -verb Runas
 - Stop-Process -Name name
+
+- Set-ExecutionPo1icy -ExecutionPo1icy Bypass -Scope Process
+- pwsh.exe -command "command" /or/ pwsh.exe -c command
+- pwsh -c pause | command [not to close window ]
+- Copy-Item -Path "path" -Destination "path" -Force
+- powershell.exe -ExecutionPolicy Unrestricted -NoLogo -File "$(FULL_CURRENT_PATH)" -NoExit
+- Measure-Command {pwsh-command} #(time takes to run command)
+** Get-Process
+- Get-Process | Where-Object { $_.Name -like "$partialName" }
+- Get-Process [[-Name] <string[]>] [-Module] [-FileVersionInfo] []
+- Get-Process [[-Name] <string[]>] -IncludeUserName []
+- Get-Process -Id <int[]> [-Module] [-FileVersionInfo] []
+- Get-Process -Id <int[]> -IncludeUserName []
+- Get-Process -InputObject <Process[]> [-Module] [-FileVersionInfo] []
+- Get-Process -InputObject <Process[]> -IncludeUserName []
+
+** Start-Process
+- Start-Process pwsh -Verb runAs
+- Start-Process appname -Verb runAs
+- Start-Process [-FilePath] [[-ArgumentList] <string[]>] [-Credential ] [-WorkingDirectory ] [-LoadUserProfile] [-NoNewWindow] [-PassThru] [-RedirectStandardError ] [-RedirectStandardInput ] [-RedirectStandardOutput ] [-WindowStyle ] [-Wait] [-UseNewEnvironment] [-WhatIf] [-Confirm] []
+- Start-Process [-FilePath] [[-ArgumentList] <string[]>] [-WorkingDirectory ] [-PassThru] [-Verb ] [-WindowStyle ] [-Wait] [-WhatIf] [-Confirm] []
+
+** Stop-Process
+- Stop-Process -Name AutoHotkeyU64
+- Stop-Process [-Id] <int[]> [-PassThru] [-Force] [-WhatIf] [-Confirm] []
+- Stop-Process -Name <string[]> [-PassThru] [-Force] [-WhatIf] [-Confirm] []
+- Stop-Process [-InputObject] <Process[]> [-PassThru] [-Force] [-WhatIf] [-Confirm] []
+
+** mklink
+- mklink "fake" "main" #[cmd]
+- New-Item -ItemType HardLink -Path "fake" -Target "main" #[pwsh]
+- New-Item -ItemType SymbolicLink -Path "fake" -Target "main" -Force #[pwsh]
+
+* Others
+- rclone config paths
+- Location-Related
+- C:\Users\nahid\AppData\Roaming\Microsoft\Windows\SendTo
+- Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 
 * Initial Setup 🎯
 - Jackett

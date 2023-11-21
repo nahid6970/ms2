@@ -205,10 +205,20 @@ RegEx</a></li>
 <li><a href="#align-column" id="toc-align-column">Align-column</a></li>
 </ul></li>
 <li><a href="#pwsh-command-list" id="toc-pwsh-command-list">PWSH Command
-List</a></li>
+List</a>
+<ul>
+<li><a href="#most-useful-and-summarized"
+id="toc-most-useful-and-summarized">Most Useful and Summarized</a></li>
+<li><a href="#get-process" id="toc-get-process">Get-Process</a></li>
+<li><a href="#start-process"
+id="toc-start-process">Start-Process</a></li>
+<li><a href="#stop-process" id="toc-stop-process">Stop-Process</a></li>
+<li><a href="#mklink" id="toc-mklink">mklink</a></li>
+</ul></li>
+<li><a href="#others" id="toc-others">Others</a></li>
 <li><a href="#initial-setup" id="toc-initial-setup">Initial Setup
 🎯</a></li>
-<li><a href="#mklink" id="toc-mklink">Mklink ⤨</a></li>
+<li><a href="#mklink-1" id="toc-mklink-1">Mklink ⤨</a></li>
 <li><a href="#package-manager" id="toc-package-manager">Package
 Manager</a>
 <ul>
@@ -409,11 +419,71 @@ for others \ not necessary</li>
 <li>works on all matched item</li>
 </ul>
 <h1 id="pwsh-command-list">PWSH Command List</h1>
+<h2 id="most-useful-and-summarized">Most Useful and Summarized</h2>
 <ul>
-<li>Get-Process | Where-Object { $_.Name -like "<strong>name</strong>"
-}</li>
-<li>Start-Process name -verb Runas</li>
-<li>Stop-Process -Name name</li>
+<li><p>Get-Process | Where-Object { $_.Name -like
+"<strong>name</strong>" }</p></li>
+<li><p>Start-Process name -verb Runas</p></li>
+<li><p>Stop-Process -Name name</p></li>
+<li><p>Set-ExecutionPo1icy -ExecutionPo1icy Bypass -Scope
+Process</p></li>
+<li><p>pwsh.exe -command "command" <em>or</em> pwsh.exe -c
+command</p></li>
+<li><p>pwsh -c pause | command [not to close window ]</p></li>
+<li><p>Copy-Item -Path "path" -Destination "path" -Force</p></li>
+<li><p>powershell.exe -ExecutionPolicy Unrestricted -NoLogo -File
+"$(FULL<sub>CURRENTPATH</sub>)" -NoExit</p></li>
+<li><p>Measure-Command {pwsh-command} #(time takes to run
+command)</p></li>
+</ul>
+<h2 id="get-process">Get-Process</h2>
+<ul>
+<li>Get-Process | Where-Object { $_.Name -like "$partialName" }</li>
+<li>Get-Process [[-Name] &lt;string[]&gt;] [-Module] [-FileVersionInfo]
+[]</li>
+<li>Get-Process [[-Name] &lt;string[]&gt;] -IncludeUserName []</li>
+<li>Get-Process -Id &lt;int[]&gt; [-Module] [-FileVersionInfo] []</li>
+<li>Get-Process -Id &lt;int[]&gt; -IncludeUserName []</li>
+<li>Get-Process -InputObject &lt;Process[]&gt; [-Module]
+[-FileVersionInfo] []</li>
+<li>Get-Process -InputObject &lt;Process[]&gt; -IncludeUserName []</li>
+</ul>
+<h2 id="start-process">Start-Process</h2>
+<ul>
+<li>Start-Process pwsh -Verb runAs</li>
+<li>Start-Process appname -Verb runAs</li>
+<li>Start-Process [-FilePath] [[-ArgumentList] &lt;string[]&gt;]
+[-Credential ] [-WorkingDirectory ] [-LoadUserProfile] [-NoNewWindow]
+[-PassThru] [-RedirectStandardError ] [-RedirectStandardInput ]
+[-RedirectStandardOutput ] [-WindowStyle ] [-Wait] [-UseNewEnvironment]
+[-WhatIf] [-Confirm] []</li>
+<li>Start-Process [-FilePath] [[-ArgumentList] &lt;string[]&gt;]
+[-WorkingDirectory ] [-PassThru] [-Verb ] [-WindowStyle ] [-Wait]
+[-WhatIf] [-Confirm] []</li>
+</ul>
+<h2 id="stop-process">Stop-Process</h2>
+<ul>
+<li>Stop-Process -Name AutoHotkeyU64</li>
+<li>Stop-Process [-Id] &lt;int[]&gt; [-PassThru] [-Force] [-WhatIf]
+[-Confirm] []</li>
+<li>Stop-Process -Name &lt;string[]&gt; [-PassThru] [-Force] [-WhatIf]
+[-Confirm] []</li>
+<li>Stop-Process [-InputObject] &lt;Process[]&gt; [-PassThru] [-Force]
+[-WhatIf] [-Confirm] []</li>
+</ul>
+<h2 id="mklink">mklink</h2>
+<ul>
+<li>mklink "fake" "main" #[cmd]</li>
+<li>New-Item -ItemType HardLink -Path "fake" -Target "main" #[pwsh]</li>
+<li>New-Item -ItemType SymbolicLink -Path "fake" -Target "main" -Force
+#[pwsh]</li>
+</ul>
+<h1 id="others">Others</h1>
+<ul>
+<li>rclone config paths</li>
+<li>Location-Related</li>
+<li>C:</li>
+<li>Computer<sub>LOCALMACHINE</sub></li>
 </ul>
 <h1 id="initial-setup">Initial Setup 🎯</h1>
 <ul>
@@ -445,7 +515,7 @@ Invoke-Expression #pwsh profile</li>
 <li>npx tailwindcss -i ./src/input.css -o ./dist/output.css –watch</li>
 </ul></li>
 </ul>
-<h1 id="mklink">Mklink ⤨</h1>
+<h1 id="mklink-1">Mklink ⤨</h1>
 <ul>
 <li>rclone-config
 <ul>
