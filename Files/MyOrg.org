@@ -112,6 +112,10 @@
 - ,<>
 - works on all matched item
 
+* PWSH Command List
+- Get-Process | Where-Object { $_.Name -like "*name*" }
+- Start-Process name -verb Runas
+- Stop-Process -Name name
 
 * Initial Setup 🎯
 - Jackett
