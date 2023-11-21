@@ -209,6 +209,7 @@ List</a>
 <ul>
 <li><a href="#most-useful-and-summarized"
 id="toc-most-useful-and-summarized">Most Useful and Summarized</a></li>
+<li><a href="#extra" id="toc-extra">Extra</a></li>
 <li><a href="#get-process" id="toc-get-process">Get-Process</a></li>
 <li><a href="#start-process"
 id="toc-start-process">Start-Process</a></li>
@@ -421,20 +422,20 @@ for others \ not necessary</li>
 <h1 id="pwsh-command-list">PWSH Command List</h1>
 <h2 id="most-useful-and-summarized">Most Useful and Summarized</h2>
 <ul>
-<li><p>Get-Process | Where-Object { $_.Name -like
-"<strong>name</strong>" }</p></li>
-<li><p>Start-Process name -verb Runas</p></li>
-<li><p>Stop-Process -Name name</p></li>
-<li><p>Set-ExecutionPo1icy -ExecutionPo1icy Bypass -Scope
-Process</p></li>
-<li><p>pwsh.exe -command "command" <em>or</em> pwsh.exe -c
-command</p></li>
-<li><p>pwsh -c pause | command [not to close window ]</p></li>
-<li><p>Copy-Item -Path "path" -Destination "path" -Force</p></li>
-<li><p>powershell.exe -ExecutionPolicy Unrestricted -NoLogo -File
-"$(FULL<sub>CURRENTPATH</sub>)" -NoExit</p></li>
-<li><p>Measure-Command {pwsh-command} #(time takes to run
-command)</p></li>
+<li>Get-Process | Where-Object { $_.Name -like "<strong>name</strong>"
+}</li>
+<li>Start-Process name -verb Runas</li>
+<li>Stop-Process -Name name</li>
+</ul>
+<h2 id="extra">Extra</h2>
+<ul>
+<li>Set-ExecutionPo1icy -ExecutionPo1icy Bypass -Scope Process</li>
+<li>pwsh.exe -command "command" <em>or</em> pwsh.exe -c command</li>
+<li>pwsh -c pause | command [not to close window ]</li>
+<li>Copy-Item -Path "path" -Destination "path" -Force</li>
+<li>powershell.exe -ExecutionPolicy Unrestricted -NoLogo -File
+"$(FULL<sub>CURRENTPATH</sub>)" -NoExit</li>
+<li>Measure-Command {pwsh-command} #(time takes to run command)</li>
 </ul>
 <h2 id="get-process">Get-Process</h2>
 <ul>

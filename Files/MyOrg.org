@@ -118,12 +118,14 @@
 - Start-Process name -verb Runas
 - Stop-Process -Name name
 
+** Extra
 - Set-ExecutionPo1icy -ExecutionPo1icy Bypass -Scope Process
 - pwsh.exe -command "command" /or/ pwsh.exe -c command
 - pwsh -c pause | command [not to close window ]
 - Copy-Item -Path "path" -Destination "path" -Force
 - powershell.exe -ExecutionPolicy Unrestricted -NoLogo -File "$(FULL_CURRENT_PATH)" -NoExit
 - Measure-Command {pwsh-command} #(time takes to run command)
+
 ** Get-Process
 - Get-Process | Where-Object { $_.Name -like "$partialName" }
 - Get-Process [[-Name] <string[]>] [-Module] [-FileVersionInfo] []
