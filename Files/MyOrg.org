@@ -117,6 +117,7 @@
 - Get-Process | Where-Object { $_.Name -like "*name*" }
 - Start-Process name -verb Runas
 - Stop-Process -Name name
+- Start-Sleep -seconds 5
 
 ** Extra
 - Set-ExecutionPo1icy -ExecutionPo1icy Bypass -Scope Process
