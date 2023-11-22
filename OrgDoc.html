@@ -210,6 +210,7 @@ List</a>
 <li><a href="#most-useful-and-summarized"
 id="toc-most-useful-and-summarized">Most Useful and Summarized</a></li>
 <li><a href="#extra" id="toc-extra">Extra</a></li>
+<li><a href="#port-related" id="toc-port-related">Port Related</a></li>
 <li><a href="#get-process" id="toc-get-process">Get-Process</a></li>
 <li><a href="#start-process"
 id="toc-start-process">Start-Process</a></li>
@@ -436,6 +437,12 @@ for others \ not necessary</li>
 <li>powershell.exe -ExecutionPolicy Unrestricted -NoLogo -File
 "$(FULL<sub>CURRENTPATH</sub>)" -NoExit</li>
 <li>Measure-Command {pwsh-command} #(time takes to run command)</li>
+</ul>
+<h2 id="port-related">Port Related</h2>
+<ul>
+<li>Get-NetTCPConnection</li>
+<li>Get-NetTCPConnection | where Localport -eq 7878 | select
+Localport,OwningProcess</li>
 </ul>
 <h2 id="get-process">Get-Process</h2>
 <ul>

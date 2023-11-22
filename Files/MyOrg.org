@@ -126,6 +126,10 @@
 - powershell.exe -ExecutionPolicy Unrestricted -NoLogo -File "$(FULL_CURRENT_PATH)" -NoExit
 - Measure-Command {pwsh-command} #(time takes to run command)
 
+** Port Related
+- Get-NetTCPConnection
+- Get-NetTCPConnection | where Localport -eq 7878 | select Localport,OwningProcess
+
 ** Get-Process
 - Get-Process | Where-Object { $_.Name -like "$partialName" }
 - Get-Process [[-Name] <string[]>] [-Module] [-FileVersionInfo] []
