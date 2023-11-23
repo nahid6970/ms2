@@ -118,6 +118,7 @@
 - Start-Process name -verb Runas
 - Stop-Process -Name name
 - Start-Sleep -seconds 5
+- winget list | Select-String -Pattern 'name'
 
 ** Extra
 - Set-ExecutionPo1icy -ExecutionPo1icy Bypass -Scope Process
