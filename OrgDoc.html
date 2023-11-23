@@ -216,6 +216,7 @@ id="toc-most-useful-and-summarized">Most Useful and Summarized</a></li>
 id="toc-start-process">Start-Process</a></li>
 <li><a href="#stop-process" id="toc-stop-process">Stop-Process</a></li>
 <li><a href="#mklink" id="toc-mklink">mklink</a></li>
+<li><a href="#functions" id="toc-functions">Functions</a></li>
 </ul></li>
 <li><a href="#others" id="toc-others">Others</a></li>
 <li><a href="#initial-setup" id="toc-initial-setup">Initial Setup
@@ -487,6 +488,16 @@ Localport,OwningProcess</li>
 <li>New-Item -ItemType HardLink -Path "fake" -Target "main" #[pwsh]</li>
 <li>New-Item -ItemType SymbolicLink -Path "fake" -Target "main" -Force
 #[pwsh]</li>
+</ul>
+<h2 id="functions">Functions</h2>
+<ul>
+<li>function Copy-WithProgressBar
+{param($Source,$Destination)$fileSize=(Get-Item
+$Source).length;$bytesCopied=0;$progress=0;$reader=[System.IO.File]::OpenRead($Source);$writer=[System.IO.File]::OpenWrite($Destination);$bufferSize=4096;$buffer=New-Object
+byte[]
+$bufferSize;while($bytesRead=$reader.Read($buffer,0,$bufferSize)){$writer.Write($buffer,0,$bytesRead);$bytesCopied+=$bytesRead;$progress=$bytesCopied/$fileSize*100;Write-Progress
+-PercentComplete $progress -Activity "Copying $Source to
+$Destination"}$reader.Close();$writer.Close()}</li>
 </ul>
 <h1 id="others">Others</h1>
 <ul>
