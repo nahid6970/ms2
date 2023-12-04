@@ -28,19 +28,36 @@ text-align: left;
 border-bottom-right-radius: 0cm;
 }
 
-/* Box styles */
 .box {
-width: 100%;
-height: 100%;
-background-color: #a4bb24;
-display: row;
-padding: 10px;
-border: 0px solid rgb(2, 56, 2);
-cursor: pointer;
--webkit-user-select: none; /* Safari 3.1+ */
--moz-user-select: none; /* Firefox 2+ */
--ms-user-select: none; /* IE 10+ */
-user-select: none;
+    width: 100%;
+    height: 450px;
+    background-color: #a4bb24;
+    display: row;
+    padding: 10px;
+    border: 0px solid rgb(2, 56, 2);
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+    overflow: auto; /* Add this line to enable scrolling */
+
+    /* Custom scrollbar */
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: red black; /* Firefox */
+}
+
+/* Webkit (Chrome, Safari, etc.) scrollbar customization */
+.box::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar */
+}
+
+.box::-webkit-scrollbar-thumb {
+    background-color: red; /* Set the color of the thumb (the draggable part) */
+}
+
+.box::-webkit-scrollbar-track {
+    background-color: black; /* Set the color of the track (the non-draggable part) */
 }
 
 .break {
