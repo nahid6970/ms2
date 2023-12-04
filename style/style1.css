@@ -100,12 +100,12 @@ padding: 1.5px;
 
 summary {
 color: #129e5d;
-#list-style: none;
+list-style: none;
 font-size: 20px;
 text-align: center;
 background-color: #333530;
 padding: 0%;
-#border-radius: 1cqb;
+border-radius: 1cqb;
 cursor: pointer; /* Set cursor to hand pointer */
 }
 
