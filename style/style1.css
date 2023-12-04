@@ -21,11 +21,13 @@ background-image: linear-gradient(10deg, #1d1e22, #1d1e22);
 font-weight: bold;
 flex-grow: 1;
 border-radius: 0px;
-width: max-content;
+width: 300px;
+/* width: max-content; */
 color: rgb(216, 42, 42);
 margin: 1px;
 text-align: left;
 border-bottom-right-radius: 0cm;
+
 }
 
 .box {
@@ -41,6 +43,8 @@ border-bottom-right-radius: 0cm;
     -ms-user-select: none; /* IE 10+ */
     user-select: none;
     overflow: auto; /* Add this line to enable scrolling */
+    white-space: nowrap; /* Prevent text wrapping */
+
 
     /* Custom scrollbar */
     scrollbar-width: thin; /* Firefox */
@@ -50,6 +54,7 @@ border-bottom-right-radius: 0cm;
 /* Webkit (Chrome, Safari, etc.) scrollbar customization */
 .box::-webkit-scrollbar {
     width: 6px; /* Set the width of the scrollbar */
+    height: 0px;
 }
 
 .box::-webkit-scrollbar-thumb {
