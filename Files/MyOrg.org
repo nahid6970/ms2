@@ -120,6 +120,7 @@
 - Start-Sleep -seconds 5
 - winget list | Select-String -Pattern 'name'
 - curl ifconfig.me # Public IPv4 address
+- iex (Invoke-RestMethod -Uri "https://raw.githubusercontent.com/nahid6970/ms2/main/ytc.ps1")
 
 ** Extra
 - Set-ExecutionPo1icy -ExecutionPo1icy Bypass -Scope Process
