@@ -75,9 +75,10 @@
 <!--Termux                --> <span> <a href="https://github.com/termux/termux-app/releases                                              ">Termux                </a></span>
 <!--Tooly                 --> <span> <a href="https://play.google.com/store/apps/details?id=com.yousx.thetoolsapp                        ">Tooly                 </a></span>
 <!--Ultimate Job Solutions--> <span> <a href="https://play.google.com/store/apps/details?id=com.aisolutionsbd.jobsolutions&hl=en&gl=US   ">Ultimate Job Solutions</a></span>
-<!--Warden                --> <span> <a href="https://www.apkmirror.com/apk/aurora-oss/warden                                            ">Warden                </a></span>
-<!--Whatsapp              --> <span> <a href="https://play.google.com/store/apps/details?id=com.whatsapp                                 ">Whatsapp              </a></span>
-<!--YTDLnis               --> <span> <a href="https://github.com/deniscerri/ytdlnis/releases                                             ">YTDLnis               </a></span>
+<!--Warden                --> <span> <a href="https://www.apkmirror.com/apk/aurora-oss/warden">Warden</a></span>
+<!--Whatsapp              --> <span> <a href="https://play.google.com/store/apps/details?id=com.whatsapp">Whatsapp</a></span>
+<!--YTDLnis               --> <span> <a href="https://github.com/deniscerri/ytdlnis/releases">YTDLnis</a></span>
+<!--nzb360_Sonarr_Radarr_SAB--><span><a href="https://play.google.com/store/apps/details?id=com.kevinforeman.nzb360&hl=en&gl=US">nzb360_Sonarr_Radarr_SAB</a></span>
 #+END_HTML
 - [[https://www.youtube.com/watch?v=BWgh6pH72Fc&t=470s][Encrypt & Decrypt Device]]
 
