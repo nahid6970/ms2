@@ -124,7 +124,7 @@
 - iex (Invoke-RestMethod -Uri "https://raw.githubusercontent.com/nahid6970/ms2/main/ytc.ps1")
 - $env:USERNAME #to find username
 - scp twrp-3.7.0_9-0-davinci.img nahid@192.168.1.101:/D:/  #[openssh copy files from android to pc]
-
+- netplwiz #winaero auto login check email password
 
 ** Extra
 - Set-ExecutionPo1icy -ExecutionPo1icy Bypass -Scope Process
