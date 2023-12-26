@@ -75,9 +75,8 @@ Cornflower Blue - #6495ED
 
 <!--####################################################################################################################################################################-->
 
-<div class="box2">
-<details>
-<summary>Android 📱</summary>
+<div class="box2"><details><summary>Android 📱</summary>
+
 <li><a href="https://www.youtube.com/watch?v=BWgh6pH72Fc&t=470s">Encrypt & Decrypt Device</a> </li>
 <h1 class="h25">Termux Commands</h1>
 <li><a href="https://www.learntermux.tech/2020/01/basic-commands-in-termux.html?m=1">Learn_Termux</a>
@@ -97,12 +96,12 @@ termux pc keyboard mapping</li>
 <li>rclone copy storage/shared/rclone.conf /data/data/com.termux/files/home/.config/rclone/ </li>
 <li>rclone sync gu:/song/ storage/shared/song/ -P --track-renames --ignore-existing --fast-list </li>
 
-</details>
-</div>
+</details></div>
 
 <!--####################################################################################################################################################################-->
 
 <div class="box2"><details><summary>Application 📱</summary>
+
 <span> <!--1111WARP--><a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone">1111WARP</a></span>
 <span><!--1DM--><a href="https://play.google.com/store/apps/details?id=idm.internet.download.manager">1DM</a></span>
 <span><!--AIMP--><a href="https://play.google.com/store/apps/details?id=com.aimp.player&hl=en&gl=US">AIMP</a></span>
@@ -163,11 +162,12 @@ termux pc keyboard mapping</li>
 <span><!--Warden--><a href="https://www.apkmirror.com/apk/aurora-oss/warden/">Warden</a></span>
 <span><!--Whatsapp--><a href="https://play.google.com/store/apps/details?id=com.whatsapp">Whatsapp</a></span>
 <span><!--YTDLnis--><a href="https://github.com/deniscerri/ytdlnis/releases">YTDLnis</a></span>
-</details>
-</div>
+
+</details></div>
 
 <!--####################################################################################################################################################################-->
 <div class="box2"><details><summary>How to 🤔</summary>
+
 <h1>Align by RegEx</h1>
 <li>remove all unnecessary spaces </li>
 <li>Pressing Ctrl+F -> enter \s+. -> is a regular expression -> any number of whitespace characters.
@@ -186,9 +186,8 @@ termux pc keyboard mapping</li>
 
 <!--####################################################################################################################################################################-->
 
-<div class="box2">
-<details>
-<summary>Initial Setup 🎯</summary>
+<div class="box2"><details><summary>Initial Setup 🎯</summary>
+
 <h1 class="h25">Jackett</h1>
 <li>C:\Users\nahid\AppData\Local\qBittorrent\nova3\engines\jackett.json</li>
 <h1 class="h25">Ditto</h1>
@@ -206,113 +205,109 @@ termux pc keyboard mapping</li>
 <li>always cd to that folder and</li>
 <li>always keep below command running</li>
 <li>npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch</li>
+
+</details></div>
+
+<!--####################################################################################################################################################################-->
+
+<div class="box2"> <details> <summary>Mklink &#10541;</summary>
+
+<h1 class="h25">rclone-config </h1>
+<li>Start-Process "C:\Users\nahid\scoop\apps\rclone\current\" -Confirm</li>
+<li>New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\scoop\apps\rclone\current\rclone.conf" -Target
+"C:\Users\nahid\OneDrive\Git\ms1\mklink\rclone.conf" -Confirm </li>
+
+<h1 class="h25">Powershell-Profile </h1>
+<li>Start-Process "C:\Users\nahid\OneDrive\Documents\PowerShell\" -Confirm</li>
+<li>New-Item -ItemType SymbolicLink -Path
+"C:\Users\nahid\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target
+"C:\Users\nahid\OneDrive\Git\ms1\mklink\PowerShell.Profile.txt" -Confirm</li>
+
+<h1 class="h25">Windows-Terminal-Preview</h1>
+<li>Start-Process
+"C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\"
+-Confirm</li>
+<li>New-Item -ItemType SymbolicLink -Path
+"C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json"
+-Target "C:\Users\nahid\OneDrive\Git\ms1\mklink\WindowsTerminal.Profile.json" -Confirm</li>
+
+<h1 class="h25">nvim</h1>
+<li>mkdir C:\Users\nahid\AppData\Local\nvim -Confirm</li>
+<li>Start-Process "C:\Users\nahid\AppData\Local\nvim" -Confirm</li>
+<li>New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\AppData\Local\nvim\init.lua" -Target
+"C:\Users\nahid\OneDrive\Git\ms1\mklink\nvim_init.lua" -Confirm</li>
+
+</details> </div>
+
+<!--####################################################################################################################################################################-->
+
+<div class="box2"> <details> <summary>Package Manager</summary> 
+
+<details><summary class="h25">SCOOP</summary>
+
+<h2>Scoop Setup</h2>
+<li>iex (new-object net.webclient).downloadstring('https://get.scoop.sh') </li>
+<li>scoop config cache_Path D:\@install\scoop\cache </li>
+<h2>Scoop Add Buckets</h2>
+<li>Usage: scoop bucket add|list|known|rm [<args>] </li>
+<li>scoop bucket add main </li>
+<li>scoop bucket add extras </li>
+<li>scoop bucket add versions </li>
+<li>scoop bucket add nonportable </li>
+<li>scoop bucket add games </li>
+<h2>Scoop Commands</h2>
+<li>Set-Alias -Name fake -Value real </li>
+<li>del .\scoop -Force</li>
+<li>scoop update</li>
+<li>scoop update *</li>
+<li>scoop cleanup *</li>
+<li>scoop status</li>
+<li>scoop list | foreach { scoop update $_.Name }</li>
+<li>scoop cache rm * #To clear everything in your cache</li>
+<li>scoop export > C:\Users\nahid\OneDrive\Git\ms1\asset\scoop\scoop-apps.txt #(backup scoop apps settings)</li>
+<li>scoop import C:\Users\nahid\OneDrive\Git\ms1\asset\scoop\scoop-apps.txt #(restore settings)</li>
+
 </details>
+
+<details> <summary class="h25">WINGET</summary>
+
+<div id="markdown-table-1">
+***
+| install   | Installs the given package                  |
+| show      | Shows information about a package           |
+| source    | Manage sources of packages                  |
+| search    | Find and show basic info of packages        |
+| list      | Display installed packages                  |
+| upgrade   | Shows and performs available upgrades       |
+| uninstall | Uninstalls the given package                |
+| hash      | Helper to hash installer files              |
+| validate  | Validates a manifest file                   |
+| settings  | Open settings or set administrator settings |
+| features  | Shows the status of experimental features   |
+| export    | Exports a list of the installed packages    |
+| import    | Installs all the packages in a file         |
+| pin       | Manage package pins                         |
+***
 </div>
 
-<!--####################################################################################################################################################################-->
+</details>
 
-        <div class="box2">
-            <details>
-                <summary>Mklink &#10541;</summary>
-                <h1 class="h25">rclone-config </h1>
-                <li>Start-Process "C:\Users\nahid\scoop\apps\rclone\current\" -Confirm</li>
-                <li>New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\scoop\apps\rclone\current\rclone.conf" -Target
-                    "C:\Users\nahid\OneDrive\Git\ms1\mklink\rclone.conf" -Confirm </li>
-
-                <h1 class="h25">Powershell-Profile </h1>
-                <li>Start-Process "C:\Users\nahid\OneDrive\Documents\PowerShell\" -Confirm</li>
-                <li>New-Item -ItemType SymbolicLink -Path
-                    "C:\Users\nahid\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target
-                    "C:\Users\nahid\OneDrive\Git\ms1\mklink\PowerShell.Profile.txt" -Confirm</li>
-
-                <h1 class="h25">Windows-Terminal-Preview</h1>
-                <li>Start-Process
-                    "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\"
-                    -Confirm</li>
-                <li>New-Item -ItemType SymbolicLink -Path
-                    "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json"
-                    -Target "C:\Users\nahid\OneDrive\Git\ms1\mklink\WindowsTerminal.Profile.json" -Confirm</li>
-
-                <h1 class="h25">nvim</h1>
-                <li>mkdir C:\Users\nahid\AppData\Local\nvim -Confirm</li>
-                <li>Start-Process "C:\Users\nahid\AppData\Local\nvim" -Confirm</li>
-                <li>New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\AppData\Local\nvim\init.lua" -Target
-                    "C:\Users\nahid\OneDrive\Git\ms1\mklink\nvim_init.lua" -Confirm</li>
-
-            </details>
-        </div>
-
-<!--####################################################################################################################################################################-->
-
-        <div class="box2">
-            <details>
-                <summary>Package Manager</summary>
-                <details>
-                    <summary class="h25">SCOOP</summary>
-                    <h2>Scoop Setup</h2>
-                    <li>iex (new-object net.webclient).downloadstring('https://get.scoop.sh') </li>
-                    <li>scoop config cache_Path D:\@install\scoop\cache </li>
-                    <h2>Scoop Add Buckets</h2>
-                    <li>Usage: scoop bucket add|list|known|rm [<args>] </li>
-                    <li>scoop bucket add main </li>
-                    <li>scoop bucket add extras </li>
-                    <li>scoop bucket add versions </li>
-                    <li>scoop bucket add nonportable </li>
-                    <li>scoop bucket add games </li>
-                    <h2>Scoop Commands</h2>
-                    <li>Set-Alias -Name fake -Value real </li>
-                    <li>del .\scoop -Force</li>
-                    <li>scoop update</li>
-                    <li>scoop update *</li>
-                    <li>scoop cleanup *</li>
-                    <li>scoop status</li>
-                    <li>scoop list | foreach { scoop update $_.Name }</li>
-                    <li>scoop cache rm * #To clear everything in your cache</li>
-                    <li>scoop export > C:\Users\nahid\OneDrive\Git\ms1\asset\scoop\scoop-apps.txt #(backup scoop apps
-                        settings)</li>
-                    <li>scoop import C:\Users\nahid\OneDrive\Git\ms1\asset\scoop\scoop-apps.txt #(restore settings)</li>
-                </details>
-
-                <details>
-                    <summary class="h25">WINGET</summary>
-
-                    <div id="markdown-table-1">
-                        ***
-                        | install | Installs the given package |
-                        | show | Shows information about a package |
-                        | source | Manage sources of packages |
-                        | search | Find and show basic info of packages |
-                        | list | Display installed packages |
-                        | upgrade | Shows and performs available upgrades |
-                        | uninstall | Uninstalls the given package |
-                        | hash | Helper to hash installer files |
-                        | validate | Validates a manifest file |
-                        | settings | Open settings or set administrator settings |
-                        | features | Shows the status of experimental features |
-                        | export | Exports a list of the installed packages |
-                        | import | Installs all the packages in a file |
-                        | pin | Manage package pins |
-                        ***
-                    </div>
-
-                </details>
-
-                <details>
-                    <summary class="h25">GIT</summary>
-                    <li style="list-style: square;">git #shows all command list
-                    <li style="list-style: square;">cd to local file where u can see the .git folder dont have to go to
-                        that folders</li>
-                    <li style="list-style: square;">git init #initialize a folder as git repository</li>
-                    <li style="list-style: square;">git add . # Stage all changes</li>
-                    <li style="list-style: square;">git commit -m "Your commit message here"</li>
-                    <li style="list-style: square;">git pull origin main && git push origin main</li>
-                    <li style="list-style: square;">git add . && git commit -m "comment" && git pull origin main && git
-                        push origin main</li>
-                    <li style="list-style: square;">#dont-work-for-pull</li>
-                    <li style="list-style: square;">git pull</li>
-                </details>
-            </details>
-        </div>
+<details>
+<summary class="h25">GIT</summary>
+<li style="list-style: square;">git #shows all command list
+<li style="list-style: square;">cd to local file where u can see the .git folder dont have to go to
+that folders</li>
+<li style="list-style: square;">git init #initialize a folder as git repository</li>
+<li style="list-style: square;">git add . # Stage all changes</li>
+<li style="list-style: square;">git commit -m "Your commit message here"</li>
+<li style="list-style: square;">git pull origin main && git push origin main</li>
+<li style="list-style: square;">git add . && git commit -m "comment" && git pull origin main && git
+push origin main</li>
+<li style="list-style: square;">#dont-work-for-pull</li>
+<li style="list-style: square;">git pull</li>
+</details>
+</details>
+</div>
 
 <!--####################################################################################################################################################################-->
 
