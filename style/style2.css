@@ -112,7 +112,7 @@ transform-origin: bottom left;
 /* Style for the list container */
 ul {
 list-style: none;
-padding: 0;
+padding: none;
 }
 
 /* Style for list items */
