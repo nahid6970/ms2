@@ -119,8 +119,8 @@ padding: none;
 li {
 list-style-type: "➡️";
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-margin-bottom: -10px;
-/* margin-bottom: 5px; */
+/* margin-bottom: -10px; */
+margin-bottom: 5px;
 padding: 10px 5px;     /* two px for aboved below and left and right  */
 background-color: #3f3f3f;
 border-radius: 5px;
