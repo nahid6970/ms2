@@ -70,13 +70,15 @@ vertical-align: middle;
 
 summary {
 color: #129e5d;
-#list-style: none;
 font-size: 20px;
 text-align: center;
 background-color: #333530;
 padding: 0%;
-#border-radius: 1cqb;
+margin-top: 0px;
+margin-bottom: 0px;
 cursor: pointer; /* Set cursor to hand pointer */
+#border-radius: 1cqb;
+#list-style: none;
 }
 
 .h25 {
@@ -176,6 +178,7 @@ text-decoration: underline;
 
 .scoop {
 display: inline-block;
+vertical-align: top;
 padding: 5px 5px;
 background-color: #6b667b ;
 border-radius: 5px;
