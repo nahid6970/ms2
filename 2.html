@@ -69,18 +69,19 @@ Cornflower Blue - #6495ED
 
 <!--####################################################################################################################################################################-->
 
-<div class="box2"><details><summary>Android 📱</summary>
+<div class="box2"><details><summary>Android 📱</summary><pre id="content">
+
 
 <li><a href="https://www.youtube.com/watch?v=BWgh6pH72Fc&t=470s">Encrypt & Decrypt Device</a> </li>
 
 <h1 class="h25">Termux Commands</h1>
-<pre id="content">
+
 - <a href="https://www.learntermux.tech/2020/01/basic-commands-in-termux.html?m=1">Learn_Termux</a> 
 - <a href="https://wiki.termux.com/wiki/Touch_Keyboard"></a> termux pc keyboard mapping
 - alias alias_name='command' 
 - unalias 
-termux-setup-storage 
-cd storage/shared/ 
+- termux-setup-storage 
+- cd storage/shared/ 
 pkg update -y && pkg upgrade -y 
 pkg in 
 apt update -y && apt upgrade -y 
@@ -88,7 +89,7 @@ pkg install rclone python tealdeer tsu -y
 git clone https://github.com/h4ck3r0/Termux-os && cd Termux-os && bash os.sh 
 </pre>
 
-<h1 class="h25">Termux rclone </h1><pre id="content">
+<h1 class="h25">Termux rclone </h1>
 rclone copy storage/shared/rclone.conf /data/data/com.termux/files/home/.config/rclone/ 
 rclone sync gu:/song/ storage/shared/song/ -P --track-renames --ignore-existing --fast-list 
 </pre>
