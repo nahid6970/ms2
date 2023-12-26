@@ -77,24 +77,26 @@ Cornflower Blue - #6495ED
 
 <div class="box2"><details><summary>Android 📱</summary>
 
-<li><a href="https://www.youtube.com/watch?v=BWgh6pH72Fc&t=470s">Encrypt & Decrypt Device</a> </li>
+src_start_org
+- "https://www.youtube.com/watch?v=BWgh6pH72Fc&t=470s">Encrypt & Decrypt Device</a> </li>
 <h1 class="h25">Termux Commands</h1>
-<li><a href="https://www.learntermux.tech/2020/01/basic-commands-in-termux.html?m=1">Learn_Termux</a>
+- "https://www.learntermux.tech/2020/01/basic-commands-in-termux.html?m=1">Learn_Termux</a>
 </li>
-<li><a href="https://wiki.termux.com/wiki/Touch_Keyboard"></a>
+- "https://wiki.termux.com/wiki/Touch_Keyboard"></a>
 termux pc keyboard mapping</li>
-<li>alias alias_name='command' </li>
-<li>unalias </li>
-<li>termux-setup-storage </li>
-<li>cd storage/shared/ </li>
-<li>pkg update -y && pkg upgrade -y </li>
-<li>pkg in </li>
-<li>apt update -y && apt upgrade -y </li>
-<li>pkg install rclone python tealdeer tsu -y </li>
-<li>git clone https://github.com/h4ck3r0/Termux-os && cd Termux-os && bash os.sh </li>
+- alias alias_name='command' </li>
+- unalias </li>
+- termux-setup-storage </li>
+- cd storage/shared/ </li>
+- pkg update -y && pkg upgrade -y </li>
+- pkg in </li>
+- apt update -y && apt upgrade -y </li>
+- pkg install rclone python tealdeer tsu -y </li>
+- git clone https://github.com/h4ck3r0/Termux-os && cd Termux-os && bash os.sh </li>
 <h1 class="h25">Termux rclone </h1>
-<li>rclone copy storage/shared/rclone.conf /data/data/com.termux/files/home/.config/rclone/ </li>
-<li>rclone sync gu:/song/ storage/shared/song/ -P --track-renames --ignore-existing --fast-list </li>
+- rclone copy storage/shared/rclone.conf /data/data/com.termux/files/home/.config/rclone/ </li>
+- rclone sync gu:/song/ storage/shared/song/ -P --track-renames --ignore-existing --fast-list </li>
+src_end_org
 
 </details></div>
 
@@ -102,7 +104,7 @@ termux pc keyboard mapping</li>
 
 <div class="box2"><details><summary>Application 📱</summary>
 
-<span> <!--1111WARP--><a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone">1111WARP</a></span>
+<span> <!--1111WARP-->"https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone">1111WARP</a></span>
 <span><!--1DM--><a href="https://play.google.com/store/apps/details?id=idm.internet.download.manager">1DM</a></span>
 <span><!--AIMP--><a href="https://play.google.com/store/apps/details?id=com.aimp.player&hl=en&gl=US">AIMP</a></span>
 <span><!--App_Ops--><a href="https://play.google.com/store/apps/details?id=rikka.appops&hl=en_US">App_Ops</a></span>
