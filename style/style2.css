@@ -113,6 +113,7 @@ transform-origin: bottom left;
 ul {
 list-style: none;
 padding: none;
+word-break: break-all;
 }
 
 /* Style for list items */

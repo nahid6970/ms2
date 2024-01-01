@@ -228,31 +228,31 @@ Cornflower Blue - #6495ED
 
 <div class="box2"> <details> <summary>Package Manager</summary> 
 
-<details><summary class="h25">SCOOP</summary>
+<details><summary class="h25">SCOOP</summary><list>
 
 <h2>Scoop Setup</h2>
-<li>iex (new-object net.webclient).downloadstring('https://get.scoop.sh') </li>
-<li>scoop config cache_Path D:\@install\scoop\cache </li>
+- iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+- scoop config cache_Path D:\@install\scoop\cache 
 <h2>Scoop Add Buckets</h2>
-<li>Usage: scoop bucket add|list|known|rm [<args>] </li>
-<li>scoop bucket add main </li>
-<li>scoop bucket add extras </li>
-<li>scoop bucket add versions </li>
-<li>scoop bucket add nonportable </li>
-<li>scoop bucket add games </li>
+- Usage: scoop bucket add|list|known|rm [<args>] 
+- scoop bucket add main 
+- scoop bucket add extras 
+- scoop bucket add versions 
+- scoop bucket add nonportable 
+- scoop bucket add games 
 <h2>Scoop Commands</h2>
-<li>Set-Alias -Name fake -Value real </li>
-<li>del .\scoop -Force</li>
-<li>scoop update</li>
-<li>scoop update *</li>
-<li>scoop cleanup *</li>
-<li>scoop status</li>
-<li>scoop list | foreach { scoop update $_.Name }</li>
-<li>scoop cache rm * #To clear everything in your cache</li>
-<li>scoop export > C:\Users\nahid\OneDrive\Git\ms1\asset\scoop\scoop-apps.txt #(backup scoop apps settings)</li>
-<li>scoop import C:\Users\nahid\OneDrive\Git\ms1\asset\scoop\scoop-apps.txt #(restore settings)</li>
+- Set-Alias -Name fake -Value real 
+- del .\scoop -Force
+- scoop update
+- scoop update *
+- scoop cleanup *
+- scoop status
+- scoop list | foreach { scoop update $_.Name }
+- scoop cache rm * #To clear everything in your cache
+- scoop export > C:\Users\nahid\OneDrive\Git\ms1\asset\scoop\scoop-apps.txt #(backup scoop apps settings)
+- scoop import C:\Users\nahid\OneDrive\Git\ms1\asset\scoop\scoop-apps.txt #(restore settings)
 
-</details>
+</list></details>
 
 <details> <summary class="h25">WINGET</summary><div id="markdown-table-1">
     
@@ -275,19 +275,19 @@ Cornflower Blue - #6495ED
 
 </div></details>
 
-<details> <summary class="h25">GIT</summary>
+<details> <summary class="h25">GIT</summary><list>
 
-<li style="list-style: square;">git #shows all command list
-<li style="list-style: square;">cd to local file where u can see the .git folder dont have to go to that folders</li>
-<li style="list-style: square;">git init #initialize a folder as git repository</li>
-<li style="list-style: square;">git add . # Stage all changes</li>
-<li style="list-style: square;">git commit -m "Your commit message here"</li>
-<li style="list-style: square;">git pull origin main && git push origin main</li>
-<li style="list-style: square;">git add . && git commit -m "comment" && git pull origin main && git push origin main</li>
-<li style="list-style: square;">#dont-work-for-pull</li>
-<li style="list-style: square;">git pull</li>
+- git #shows all command list
+- cd to local file where u can see the .git folder dont have to go to that folders
+- git init #initialize a folder as git repository
+- git add . # Stage all changes
+- git commit -m "Your commit message here"
+- git pull origin main && git push origin main
+- git add . && git commit -m "comment" && git pull origin main && git push origin main
+- #dont-work-for-pull
+- git pull
 
-</details>
+</list></details>
 
 <details> <summary class="h25">Chocolatey</summary>
 
