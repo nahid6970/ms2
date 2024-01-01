@@ -112,6 +112,7 @@ transform-origin: bottom left;
 /* Style for the list container */
 ul {
 list-style: none;
+margin-left: -20px;
 padding: none;
 word-break: break-all;
 }
