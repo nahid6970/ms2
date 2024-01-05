@@ -3,6 +3,25 @@ body {
   background-color: #31343a;
   font-family: Calibri;
 }
+/* Thin scrollbar with custom styles */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #000000 #ff0000; /* black background and red thumb */
+}
+
+/* WebKit browsers (Chrome, Safari) */
+body::-webkit-scrollbar {
+  width: 1px; /* Set the width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ff0000; /* Color of the thumb (red) */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #000000; /* Color of the track (black) */
+}
+
 
 /* For html part 2 ############################################################*/
 .flex-container2 {
