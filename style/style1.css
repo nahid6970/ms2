@@ -45,16 +45,19 @@ border-bottom-right-radius: 0cm;
     overflow: auto; /* Add this line to enable scrolling */
     white-space: nowrap; /* Prevent text wrapping */
 
+    overflow-y: auto; /* Use 'auto' to show vertical scrollbar only */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
 
     /* Custom scrollbar */
     scrollbar-width: thin; /* Firefox */
     scrollbar-color: red black; /* Firefox */
 }
 
+
 /* Webkit (Chrome, Safari, etc.) scrollbar customization */
 .box::-webkit-scrollbar {
     width: 6px; /* Set the width of the scrollbar */
-    height: 0px;
 }
 
 .box::-webkit-scrollbar-thumb {
