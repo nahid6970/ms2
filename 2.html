@@ -8,55 +8,13 @@
 <link rel="stylesheet" href="style//style2.css" ;>
 <script src="script/script.js"></script>
 <script src="script/list.js"></script>
+<script src="script/open_newtab.js"></script>
 
 
 </head>
 
 <body>
 <div class="flex-container2">
-<!-- 
-Aqua - #00FFFF
-Cerulean Blue - #007BA7
-Cobalt Blue - #0047AB
-Coral - #FF6F61
-Crimson Red - #DC143C
-Deep Purple - #800080
-Electric Blue - #7DF9FF
-Electric Purple - #BF00FF
-Emerald Green - #008000
-Fuchsia - #FF00FF
-Golden Yellow - #FFD700
-Hot Pink - #FF69B4
-Indigo - #4B0082
-Lavender - #E6E6FA
-Lime Green - #32CD32
-Limeade - #6FED8B
-Magenta - #FF00FF
-Maroon - #800000
-Mint Green - #98FF98
-Neon Green - #39FF14
-Raspberry - #E30B5C
-Royal Blue - #4169E1
-Sapphire Blue - #0F52BA
-Sunset Orange - #FF4500
-Tangerine - #FFA500
-Teal - #008080
-Turquoise - #40E0D0
-Turquoise Blue - #00CED1
-Vibrant Green - #00FF00
-Violet - #8A2BE2
-White - #ffffff
-Ruby Red - #E0115F
-Electric Indigo - #6F00FF
-Amber - #FFBF00
-Deep Turquoise - #00CED1
-Firebrick - #B22222
-Olive Green - #808000
-Steel Blue - #4682B4
-Orchid - #DA70D6
-Goldenrod - #DAA520
-Cornflower Blue - #6495ED
--->
 
 <!--     
 <div class="box2">
@@ -69,16 +27,16 @@ Cornflower Blue - #6495ED
 
 <!--####################################################################################################################################################################-->
 <div style="display: flex; width: 100%; justify-content: center;">
-    <span style="width: fit-content;"><a href ="http://192.168.0.101:8989/"         target   ="_blank"><img src ="https://res.cloudinary.com/razordarkamg/image/upload/v1621212884/SonarrV3_pufacd.png"    width="50" height="50" alt ="Sonarr      "></a></span>
-    <span style="width: fit-content;"><a href ="http://192.168.0.101:7878/"         target   ="_blank"><img src ="https://static-00.iconduck.com/assets.00/radarr-icon-1845x2048-97le6lim.png"             width="50" height="50" alt ="Radarr      "></a></span>
-    <span style="width: fit-content;"><a href ="http://localhost:6969/"             target   ="_blank"><img src ="https://whisparr.com/logo/256.png"                                                       width="50" height="50" alt ="Whisparr    "></a></span>
-    <span style="width: fit-content;"><a href ="http://192.168.0.101:6767/"         target   ="_blank"><img src ="https://static-00.iconduck.com/assets.00/bazarr-icon-2048x2048-hx0jyxm5.png"             width="50" height="50" alt ="Bazarr      "></a></span>
-    <span style="width: fit-content;"><a href ="http://192.168.0.101:9696/"         target   ="_blank"><img src ="https://static-00.iconduck.com/assets.00/prowlarr-icon-2048x2048-2pxvehfe.png"           width="50" height="50" alt ="Prowlarr    "></a></span>
-    <span style="width: fit-content;"><a href ="http://localhost:9117/UI/Dashboard" target   ="_blank"><img src ="https://styles.redditmedia.com/t5_3e9ey/styles/communityIcon_vouv833bm3g31.png"  width        ="50" height="50" alt ="Jackett     "></a></span>
-    <span style="width: fit-content;"> <a href="http://127.0.0.1:8384/"             target   ="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/SyncthingAugustLogo.png" width            ="50" height="50" alt ="Syncthing"> </a> </span>
-    <span style="width: fit-content;"><a href ="http://192.168.0.101:8191/"         target   ="_blank"><img src ="https://static-00.iconduck.com/assets.00/cloudflare-icon-2048x2048-wks6nchu.png"         width="50" height="50" alt ="FlareSolverr"></a></span>
-    <span style="width: fit-content;"><a href ="https://feeds.flossboxin.org.in/p/i/" target ="_blank"><img src ="https://avatars.githubusercontent.com/u/9414285?s                                             =280&v      =4"width  ="50" height               ="50" alt="FreshRSS"></a></span>
-    <span style="width: fit-content;"><a href ="https://www.youtube.com/" target             ="_blank"><img src ="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png?20220706172052" width    ="50" height="50" alt ="Youtube"></a></span>
+    <span style="width: fit-content;"><a href ="http://192.168.0.101:8989/"          ><img src ="https://res.cloudinary.com/razordarkamg/image/upload/v1621212884/SonarrV3_pufacd.png" width="50" height="50" alt ="Sonarr      "></a></span>
+    <span style="width: fit-content;"><a href ="http://192.168.0.101:7878/"          ><img src ="https://static-00.iconduck.com/assets.00/radarr-icon-1845x2048-97le6lim.png"          width="50" height="50" alt ="Radarr      "></a></span>
+    <span style="width: fit-content;"><a href ="http://localhost:6969/"              ><img src ="https://whisparr.com/logo/256.png"                                                    width="50" height="50" alt ="Whisparr    "></a></span>
+    <span style="width: fit-content;"><a href ="http://192.168.0.101:6767/"          ><img src ="https://static-00.iconduck.com/assets.00/bazarr-icon-2048x2048-hx0jyxm5.png"          width="50" height="50" alt ="Bazarr      "></a></span>
+    <span style="width: fit-content;"><a href ="http://192.168.0.101:9696/"          ><img src ="https://static-00.iconduck.com/assets.00/prowlarr-icon-2048x2048-2pxvehfe.png"        width="50" height="50" alt ="Prowlarr    "></a></span>
+    <span style="width: fit-content;"><a href ="http://localhost:9117/UI/Dashboard"  ><img src ="https://styles.redditmedia.com/t5_3e9ey/styles/communityIcon_vouv833bm3g31.png"       width="50" height="50" alt ="Jackett     "></a></span>
+    <span style="width: fit-content;"> <a href="http://127.0.0.1:8384/"              ><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/SyncthingAugustLogo.png"           width="50" height="50" alt ="Syncthing"> </a> </span>
+    <span style="width: fit-content;"><a href ="http://192.168.0.101:8191/"          ><img src ="https://static-00.iconduck.com/assets.00/cloudflare-icon-2048x2048-wks6nchu.png"      width="50" height="50" alt ="FlareSolverr"></a></span>
+    <span style="width: fit-content;"><a href ="https://feeds.flossboxin.org.in/p/i/"><img src ="https://avatars.githubusercontent.com/u/9414285?s=280&v=4"                            width="50" height="50" alt="FreshRSS"></a></span>
+    <span style="width: fit-content;"><a href ="https://www.youtube.com/"            ><img src ="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png?20220706172052"  width="50" height="50" alt ="Youtube"></a></span>
 </div>
 
 <div style="display: flex; width: 100%; justify-content: center;">
