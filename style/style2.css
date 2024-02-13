@@ -1,26 +1,28 @@
-/* Global styles */
+/* Thin scrollbar with custom styles for html and body */
+html,
 body {
   background-color: #31343a;
   font-family: Calibri;
-}
-/* Thin scrollbar with custom styles */
-body {
   scrollbar-width: thin;
-  scrollbar-color: #000000 #ff0000; /* black background and red thumb */
+  scrollbar-color: #ff0000 #000000; /* black background and red thumb */
 }
 
 /* WebKit browsers (Chrome, Safari) */
+html::-webkit-scrollbar,
 body::-webkit-scrollbar {
   width: 1px; /* Set the width of the scrollbar */
 }
 
+html::-webkit-scrollbar-thumb,
 body::-webkit-scrollbar-thumb {
-  background-color: #ff0000; /* Color of the thumb (red) */
+  background-color: #ff000f; /* Color of the thumb (red) */
 }
 
+html::-webkit-scrollbar-track,
 body::-webkit-scrollbar-track {
   background-color: #000000; /* Color of the track (black) */
 }
+
 
 
 /* For html part 2 ############################################################*/
