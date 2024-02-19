@@ -8,7 +8,7 @@
 #+END_HTML
 
 #+HTML: <details><summary>Org-Documentation</summary>
-#+INCLUDE: "C:\git\ms2\Files\ORG-Documentation.org"
+#+INCLUDE: "D:\@git\ms2\Files\ORG-Documentation.org"
 #+HTML: </details>
 
 
@@ -198,20 +198,20 @@
 * Mklink ⤨
 - rclone-config 
   - Start-Process "C:\Users\nahid\scoop\apps\rclone\current\" -Confirm
-  - New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\scoop\apps\rclone\current\rclone.conf" -Target "C:\git\ms1\mklink\rclone.conf" -Confirm 
+  - New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\scoop\apps\rclone\current\rclone.conf" -Target "D:\@git\ms1\mklink\rclone.conf" -Confirm 
 
 - Powershell-Profile 
   - Start-Process "C:\Users\nahid\OneDrive\Documents\PowerShell\" -Confirm
-  - =New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target "C:\git\ms1\mklink\PowerShell.Profile.txt" -Confirm=
+  - =New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target "D:\@git\ms1\mklink\PowerShell.Profile.txt" -Confirm=
 
 - Windows-Terminal-Preview
   - =Start-Process "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\" -Confirm=
-  - =New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json" -Target "C:\git\ms1\mklink\WindowsTerminal.Profile.json" -Confirm=
+  - =New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json" -Target "D:\@git\ms1\mklink\WindowsTerminal.Profile.json" -Confirm=
 
 - Neovim
   - mkdir C:\Users\nahid\AppData\Local\nvim -Confirm
   - Start-Process "C:\Users\nahid\AppData\Local\nvim" -Confirm
-  - =New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\AppData\Local\nvim\init.lua" -Target "C:\git\ms1\mklink\nvim_init.lua" -Confirm=
+  - =New-Item -ItemType SymbolicLink -Path "C:\Users\nahid\AppData\Local\nvim\init.lua" -Target "D:\@git\ms1\mklink\nvim_init.lua" -Confirm=
 
 
 
@@ -236,8 +236,8 @@
 - scoop status
 - scoop list | foreach { scoop update $_.Name }
 - scoop cache rm * #To clear everything in your cache
-- scoop export > C:\git\ms1\asset\scoop\scoop-apps.txt #(backup scoop apps settings)
-- scoop import C:\git\ms1\asset\scoop\scoop-apps.txt #(restore settings)
+- scoop export > D:\@git\ms1\asset\scoop\scoop-apps.txt #(backup scoop apps settings)
+- scoop import D:\@git\ms1\asset\scoop\scoop-apps.txt #(restore settings)
 
 ** Winget
 | Winget    | Commands Details                            |
