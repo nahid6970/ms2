@@ -91,16 +91,16 @@ vertical-align: middle;
 }
 
 summary {
-color: #129e5d;
-font-size: 20px;
+/* color: #129e5d; */
+/* font-size: 20px; */
 text-align: center;
-background-color: #333530;
-padding: 1%;
-margin-top: 10px;
-margin-bottom: 10px;
-cursor: pointer; /* Set cursor to hand pointer */
-#border-radius: 1cqb;
-#list-style: none;
+/* background-color: #333530; */
+/* padding: 1%; */
+/* margin-top: 10px; */
+/* margin-bottom: 10px; */
+/* cursor: pointer; */
+/*! border-radius: 1cqb; */
+/*! list-style: none; */
 }
 
 .h25 {
