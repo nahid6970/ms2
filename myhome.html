@@ -6,26 +6,31 @@
 <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4021/4021539.png" type="image/x-icon">
 <meta charset="utf-8">
 <meta name="viewport" content="wilih=device-wilih, initial-scale=1">
-<link rel="stylesheet" href="style//style2.css" ;>
-<script src="script/script.js"></script>
-<script src="script/list.js"></script>
-<script src="script/open_newtab.js"></script>
-
-
+<link rel="stylesheet" href="myhome/myhome.css" ;>
 
 </head>
-
 <body>
 <div class="flex-container2">
 
-<!--     
-<div class="box2">
-<details>
-<summary>Android 📱</summary>
 
-</details>
+
+
+
+<div class="date-time" style="display: flex; width: 100%; justify-content: center;">
+<div id="currentDate"></div>
+<div id="currentTime"></div>
 </div>
--->
+
+
+<div class="search-container">
+<select id="search-engine" onchange="updateSearchEngine()">
+<option value="google">Google</option>
+<option value="yahoo">Yahoo</option>
+<option value="bing">Bing</option>
+</select>
+<input type="text" id="searchQuery" placeholder="Search..." onkeydown="checkEnter(event)" style="text-align: center;">
+<button onclick="search()">🔍</button>
+</div>
 
 <!--####################################################################################################################################################################-->
 <div style="display: flex; width: 100%; justify-content: center;">
@@ -34,7 +39,7 @@
    <!-- Prowlarr --> <span ><a href ="http://localhost:9696/"><img src ="https://static-00.iconduck.com/assets.00/prowlarr-icon-2048x2048-2pxvehfe.png"width="50" height="50" alt ="Prowlarr"></a></span>
    <!-- Bazarr --> <span ><a href ="http://localhost:6767/"><img src ="https://static-00.iconduck.com/assets.00/bazarr-icon-2048x2048-hx0jyxm5.png"width="50" height="50" alt ="Bazarr"></a></span>
    <!-- Jackett --> <span ><a href ="http://localhost:9117/UI/Dashboard"><img src ="https://styles.redditmedia.com/t5_3e9ey/styles/communityIcon_vouv833bm3g31.png"width="50" height="50" alt ="Jackett"></a></span>
-   <!-- qBittorrent --> <span ><a href ="http://localhost:8080/"><img src ="https://upload.wikimedia.org/wikipedia/commons/6/66/New_qBittorrent_Logo.svg" width="50" height="50" alt ="qBittorrent"></a></span>
+   <!-- qBittorrent --> <span ><a href ="http://localhost:8081/"><img src ="https://upload.wikimedia.org/wikipedia/commons/6/66/New_qBittorrent_Logo.svg" width="50" height="50" alt ="qBittorrent"></a></span>
    <!-- Whisparr <span ><a href ="http://localhost:6969/"><img src ="https://whisparr.com/logo/256.png"width="50" height="50" alt ="Whisparr"></a></span> -->
    <!-- Synthing --> <span > <a href="http://127.0.0.1:8384/"><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/SyncthingAugustLogo.png"width="50" height="50" alt ="Syncthing"> </a> </span>
    <!-- Flaresolver <span ><a href ="http://localhost:8191/"><img src ="https://static-00.iconduck.com/assets.00/cloudflare-icon-2048x2048-wks6nchu.png"width="50" height="50" alt ="FlareSolverr"></a></span> -->
@@ -172,67 +177,67 @@
 
 <div class="box2"><details><summary>Android Apps 📱</summary>
 
-<span> <!--1111WARP--><a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone">1111WARP</a></span>
-<span><!--1DM--><a href="https://play.google.com/store/apps/details?id=idm.internet.download.manager">1DM</a></span>
-<span><!--AIMP--><a href="https://play.google.com/store/apps/details?id=com.aimp.player&hl=en&gl=US">AIMP</a></span>
-<span><!--App_Ops--><a href="https://play.google.com/store/apps/details?id=rikka.appops&hl=en_US">App_Ops</a></span>
-<span><!--audiorelay--><a href="https://audiorelay.net/">Audiorelay</a></span>
-<span><!--Authenticator--><a href="https://authenticatorpro.jmh.me/">Authenticator</a></span>
-<span><!--Automate--><a href="https://play.google.com/store/apps/details?id=com.llamalab.automate&hl=en&gl=US">Automate</a></span>
-<span><!--BCSProstuti--><a href="https://play.google.com/store/apps/details?id=com.bcsprostuti.tanim.bcsprostuti&hl=en&gl=US">BCSProstuti</a></span>
-<span><!--Bing--><a href="https://play.google.com/store/apps/details?id=com.microsoft.bing">Bing_AI</a></span>
-<span><!--Chat--><a href="https://play.google.com/store/apps/details?id=com.openai.chatgpt">Chat_AI</a></span>
-<span><!--Daraz--><a href="https://play.google.com/store/apps/details?id=com.daraz.android">Daraz</a></span>
-<span><!--discord--><a href="https://play.google.com/store/apps/details?id=com.discord">Discord</a></span>
-<span><!--droid_ify--><a href="https://github.com/Droid-ify/client/releases">droid_ify</a></span>
-<span><!--droidfs--><a href="https://github.com/hardcore-sushi/DroidFS/releases">Droidfs</a></span>
-<span><!--Excel--><a href="https://play.google.com/store/apps/details?id=com.microsoft.office.excel">Excel</a></span>
-<span><!--Facebook--><a href="https://play.google.com/store/apps/details?id=com.facebook.katana">Facebook</a></span>
-<span><!--feeder--><a href="https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play">Feeder</a></span>
-<span><!--Formulia--><a href="https://play.google.com/store/apps/details?id=m4.enginary&hl=en&gl=US">Formulia</a></span>
-<span><!--Game--><a href="https://gameguardian.net/forum/files/file/2-gameguardian/">Game_Guardian</a></span>
-<span><!--github--><a href="https://play.google.com/store/apps/details?id=com.github.android">github</a></span>
-<span><!--Google_Photos--><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.photos">Google_Photos</a></span>
-<span><!--Google--><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.docs&hl=en&gl=US">Google</a></span>
-<span><!--InviZible--><a href="https://play.google.com/store/apps/details?id=pan.alexander.tordnscrypt.gp">InviZible</a></span>
-<span><!--jobcircular--><a href="https://play.google.com/store/apps/details?id=com.careerguidebd.jobcircular">jobcircular</a></span>
-<span><!--Keep--><a href="https://play.google.com/store/apps/details?id=com.google.android.keep">Keep</a></span>
-<span><!--Kiwi--><a href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser">Kiwi</a></span>
-<span><!--Kotatsu--><a href="https://github.com/KotatsuApp/Kotatsu/releases">Kotatsu</a></span>
-<span><!--LSPosed--><a href="https://github.com/LSPosed/LSPosed">LSPosed</a></span>
-<span><!--MacroDroid--><a href="https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid&hl=en&gl=US&pli=1">MacroDroid</a></span>
-<span><!--Magisk--><a href="https://github.com/topjohnwu/Magisk">Magisk</a></span>
-<span><!--Magnet--><a href="https://play.google.com/store/apps/details?id=app.magnetx.magnetx">Magnet</a></span>
-<span><!--Material_FIles--><a href="https://play.google.com/store/apps/details?id=me.zhanghai.android.files">Material_FIles</a></span>
-<span><!--MEGA--><a href="https://play.google.com/store/apps/details?id=mega.privacy.android.app">MEGA</a></span>
-<span><!--Microsoft_365--><a href="https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow">Microsoft_365</a></span>
-<span><!--MyGP--><a href="https://play.google.com/store/apps/details?id=com.portonics.mygp">MyGP</a></span>
-<span><!--MyTeletalk--><a href="https://play.google.com/store/apps/details?id=teletalk.teletalkcustomerapp">MyTeletalk</a></span>
-<span><!--Nagad--><a href="https://play.google.com/store/apps/details?id=com.konasl.nagad">Nagad</a></span>
-<span><!--NewPipe--><a href="https://github.com/TeamNewPipe/NewPipe/releases">NewPipe</a></span>
-<span><!--Nextplayer--><a href="https://github.com/anilbeesetti/nextplayer/releases">Nextplayer</a></span>
-<span><!--NOVA_Video_Player--><a href="https://play.google.com/store/apps/details?id=org.courville.nova&hl=en&gl=US">NOVA_Video_Player</a></span>
-<span><!--nzb360--><a href="https://play.google.com/store/apps/details?id=com.kevinforeman.nzb360&hl=en&gl=US&pli=1">nzb360</a></span>
-<span><!--OneDrive--><a href="https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en&gl=US">OneDrive</a></span>
-<span><!--OneNote--><a href="https://play.google.com/store/apps/details?id=com.microsoft.office.onenote">OneNote</a></span>
-<span><!--Perplexity--><a href="https://play.google.com/store/apps/details?id=ai.perplexity.app.android">Perplexity</a></span>
-<span><!--Quran--><a href="https://play.google.com/store/apps/details?id=com.quranapp.android">Quran</a></span>
-<span><!--Rclone--><a href="https://github.com/x0b/rcx/releases/tag/v1.12.2">Rclone</a></span>
-<span><!--RemoteDesktop--><a href="https://play.google.com/store/apps/details?id=com.google.chromeremotedesktop">RemoteDesktop</a></span>
-<span><!--Seal--><a href="https://github.com/JunkFood02/Seal/releases">Seal</a></span>
-<span><!--shizuku--><a href="https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api">shizuku</a></span>
-<span><!--shortcutmaker--><a href="https://play.google.com/store/apps/details?id=rk.android.app.shortcutmaker">shortcutmaker</a></span>
-<span><!--Showly--><a href="https://github.com/1RandomDev/showly-oss/releases">Showly_OSS</a></span>
-<span><!--Syncthing--><a href="https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid&hl=en&gl=US">Syncthing</a></span>
-<span><!--Tailwind_CSS--><a href="https://play.google.com/store/apps/details?id=net.golbarg.tailwind">Tailwind_CSS</a></span>
-<span><!--telegram--><a href="https://play.google.com/store/apps/details?id=org.telegram.messenger">Telegram</a></span>
-<span><!--Termux--><a href="https://github.com/termux/termux-app/releases">Termux</a></span>
-<span><!--Tooly--><a href="https://play.google.com/store/apps/details?id=com.yousx.thetoolsapp">Tooly</a></span>
-<span><!--Ultimate_Job_Solutions--><a href="https://play.google.com/store/apps/details?id=com.aisolutionsbd.jobsolutions&hl=en&gl=US">Ultimate_Job_Solutions</a></span>
-<span><!--Warden--><a href="https://www.apkmirror.com/apk/aurora-oss/warden/">Warden</a></span>
-<span><!--Whatsapp--><a href="https://play.google.com/store/apps/details?id=com.whatsapp">Whatsapp</a></span>
-<span><!--YTDLnis--><a href="https://github.com/deniscerri/ytdlnis/releases">YTDLnis</a></span>
-<span><!--NotiNotes --><a href="https://play.google.com/store/apps/details?id=de.dlyt.yanndroid.notinotes&hl">NotiNotes</a></span>
+<span class="Android_Apps"> <!--1111WARP--><a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone">1111WARP</a></span>
+<span class="Android_Apps"><!--1DM--><a href="https://play.google.com/store/apps/details?id=idm.internet.download.manager">1DM</a></span>
+<span class="Android_Apps"><!--AIMP--><a href="https://play.google.com/store/apps/details?id=com.aimp.player&hl=en&gl=US">AIMP</a></span>
+<span class="Android_Apps"><!--App_Ops--><a href="https://play.google.com/store/apps/details?id=rikka.appops&hl=en_US">App_Ops</a></span>
+<span class="Android_Apps"><!--audiorelay--><a href="https://audiorelay.net/">Audiorelay</a></span>
+<span class="Android_Apps"><!--Authenticator--><a href="https://authenticatorpro.jmh.me/">Authenticator</a></span>
+<span class="Android_Apps"><!--Automate--><a href="https://play.google.com/store/apps/details?id=com.llamalab.automate&hl=en&gl=US">Automate</a></span>
+<span class="Android_Apps"><!--BCSProstuti--><a href="https://play.google.com/store/apps/details?id=com.bcsprostuti.tanim.bcsprostuti&hl=en&gl=US">BCSProstuti</a></span>
+<span class="Android_Apps"><!--Bing--><a href="https://play.google.com/store/apps/details?id=com.microsoft.bing">Bing_AI</a></span>
+<span class="Android_Apps"><!--Chat--><a href="https://play.google.com/store/apps/details?id=com.openai.chatgpt">Chat_AI</a></span>
+<span class="Android_Apps"><!--Daraz--><a href="https://play.google.com/store/apps/details?id=com.daraz.android">Daraz</a></span>
+<span class="Android_Apps"><!--discord--><a href="https://play.google.com/store/apps/details?id=com.discord">Discord</a></span>
+<span class="Android_Apps"><!--droid_ify--><a href="https://github.com/Droid-ify/client/releases">droid_ify</a></span>
+<span class="Android_Apps"><!--droidfs--><a href="https://github.com/hardcore-sushi/DroidFS/releases">Droidfs</a></span>
+<span class="Android_Apps"><!--Excel--><a href="https://play.google.com/store/apps/details?id=com.microsoft.office.excel">Excel</a></span>
+<span class="Android_Apps"><!--Facebook--><a href="https://play.google.com/store/apps/details?id=com.facebook.katana">Facebook</a></span>
+<span class="Android_Apps"><!--feeder--><a href="https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play">Feeder</a></span>
+<span class="Android_Apps"><!--Formulia--><a href="https://play.google.com/store/apps/details?id=m4.enginary&hl=en&gl=US">Formulia</a></span>
+<span class="Android_Apps"><!--Game--><a href="https://gameguardian.net/forum/files/file/2-gameguardian/">Game_Guardian</a></span>
+<span class="Android_Apps"><!--github--><a href="https://play.google.com/store/apps/details?id=com.github.android">github</a></span>
+<span class="Android_Apps"><!--Google_Photos--><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.photos">Google_Photos</a></span>
+<span class="Android_Apps"><!--Google--><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.docs&hl=en&gl=US">Google</a></span>
+<span class="Android_Apps"><!--InviZible--><a href="https://play.google.com/store/apps/details?id=pan.alexander.tordnscrypt.gp">InviZible</a></span>
+<span class="Android_Apps"><!--jobcircular--><a href="https://play.google.com/store/apps/details?id=com.careerguidebd.jobcircular">jobcircular</a></span>
+<span class="Android_Apps"><!--Keep--><a href="https://play.google.com/store/apps/details?id=com.google.android.keep">Keep</a></span>
+<span class="Android_Apps"><!--Kiwi--><a href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser">Kiwi</a></span>
+<span class="Android_Apps"><!--Kotatsu--><a href="https://github.com/KotatsuApp/Kotatsu/releases">Kotatsu</a></span>
+<span class="Android_Apps"><!--LSPosed--><a href="https://github.com/LSPosed/LSPosed">LSPosed</a></span>
+<span class="Android_Apps"><!--MacroDroid--><a href="https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid&hl=en&gl=US&pli=1">MacroDroid</a></span>
+<span class="Android_Apps"><!--Magisk--><a href="https://github.com/topjohnwu/Magisk">Magisk</a></span>
+<span class="Android_Apps"><!--Magnet--><a href="https://play.google.com/store/apps/details?id=app.magnetx.magnetx">Magnet</a></span>
+<span class="Android_Apps"><!--Material_FIles--><a href="https://play.google.com/store/apps/details?id=me.zhanghai.android.files">Material_FIles</a></span>
+<span class="Android_Apps"><!--MEGA--><a href="https://play.google.com/store/apps/details?id=mega.privacy.android.app">MEGA</a></span>
+<span class="Android_Apps"><!--Microsoft_365--><a href="https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow">Microsoft_365</a></span>
+<span class="Android_Apps"><!--MyGP--><a href="https://play.google.com/store/apps/details?id=com.portonics.mygp">MyGP</a></span>
+<span class="Android_Apps"><!--MyTeletalk--><a href="https://play.google.com/store/apps/details?id=teletalk.teletalkcustomerapp">MyTeletalk</a></span>
+<span class="Android_Apps"><!--Nagad--><a href="https://play.google.com/store/apps/details?id=com.konasl.nagad">Nagad</a></span>
+<span class="Android_Apps"><!--NewPipe--><a href="https://github.com/TeamNewPipe/NewPipe/releases">NewPipe</a></span>
+<span class="Android_Apps"><!--Nextplayer--><a href="https://github.com/anilbeesetti/nextplayer/releases">Nextplayer</a></span>
+<span class="Android_Apps"><!--NOVA_Video_Player--><a href="https://play.google.com/store/apps/details?id=org.courville.nova&hl=en&gl=US">NOVA_Video_Player</a></span>
+<span class="Android_Apps"><!--nzb360--><a href="https://play.google.com/store/apps/details?id=com.kevinforeman.nzb360&hl=en&gl=US&pli=1">nzb360</a></span>
+<span class="Android_Apps"><!--OneDrive--><a href="https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en&gl=US">OneDrive</a></span>
+<span class="Android_Apps"><!--OneNote--><a href="https://play.google.com/store/apps/details?id=com.microsoft.office.onenote">OneNote</a></span>
+<span class="Android_Apps"><!--Perplexity--><a href="https://play.google.com/store/apps/details?id=ai.perplexity.app.android">Perplexity</a></span>
+<span class="Android_Apps"><!--Quran--><a href="https://play.google.com/store/apps/details?id=com.quranapp.android">Quran</a></span>
+<span class="Android_Apps"><!--Rclone--><a href="https://github.com/x0b/rcx/releases/tag/v1.12.2">Rclone</a></span>
+<span class="Android_Apps"><!--RemoteDesktop--><a href="https://play.google.com/store/apps/details?id=com.google.chromeremotedesktop">RemoteDesktop</a></span>
+<span class="Android_Apps"><!--Seal--><a href="https://github.com/JunkFood02/Seal/releases">Seal</a></span>
+<span class="Android_Apps"><!--shizuku--><a href="https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api">shizuku</a></span>
+<span class="Android_Apps"><!--shortcutmaker--><a href="https://play.google.com/store/apps/details?id=rk.android.app.shortcutmaker">shortcutmaker</a></span>
+<span class="Android_Apps"><!--Showly--><a href="https://github.com/1RandomDev/showly-oss/releases">Showly_OSS</a></span>
+<span class="Android_Apps"><!--Syncthing--><a href="https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid&hl=en&gl=US">Syncthing</a></span>
+<span class="Android_Apps"><!--Tailwind_CSS--><a href="https://play.google.com/store/apps/details?id=net.golbarg.tailwind">Tailwind_CSS</a></span>
+<span class="Android_Apps"><!--telegram--><a href="https://play.google.com/store/apps/details?id=org.telegram.messenger">Telegram</a></span>
+<span class="Android_Apps"><!--Termux--><a href="https://github.com/termux/termux-app/releases">Termux</a></span>
+<span class="Android_Apps"><!--Tooly--><a href="https://play.google.com/store/apps/details?id=com.yousx.thetoolsapp">Tooly</a></span>
+<span class="Android_Apps"><!--Ultimate_Job_Solutions--><a href="https://play.google.com/store/apps/details?id=com.aisolutionsbd.jobsolutions&hl=en&gl=US">Ultimate_Job_Solutions</a></span>
+<span class="Android_Apps"><!--Warden--><a href="https://www.apkmirror.com/apk/aurora-oss/warden/">Warden</a></span>
+<span class="Android_Apps"><!--Whatsapp--><a href="https://play.google.com/store/apps/details?id=com.whatsapp">Whatsapp</a></span>
+<span class="Android_Apps"><!--YTDLnis--><a href="https://github.com/deniscerri/ytdlnis/releases">YTDLnis</a></span>
+<span class="Android_Apps"><!--NotiNotes --><a href="https://play.google.com/store/apps/details?id=de.dlyt.yanndroid.notinotes&hl">NotiNotes</a></span>
 </details></div>
 
 <!--
@@ -352,7 +357,7 @@
 <!--Lite_XL--> <span class="scoop">lite-xl </span>
 <!--localsend--> <span class="scoop">localsend </span>
 <!--make--> <span class="scoop">make </span>
-<!--MS-Office--> <span class="">MS-OFFICE </span>
+<!--MS-Office--> <span class="Unknown_Source">MS-OFFICE </span>
 <!--NanaZip--> <span class="winget">M2Team.NanaZip </span>
 <!--Nano--> <span class="scoop">nano </span>
 <!--NearbyShare--> <span class="winget">Google.NearbyShare </span>
@@ -391,7 +396,7 @@
 <!--kate--> <span class="scoop">kate </span>
 <!--lazygit--> <span class="scoop">lazygit </span>
 <!--Pandoc--> <span class="scoop">Pandoc </span>
-- Key Remapper
+<!--Pandoc--> <span class="Unknown_Source">Key Remapper </span>
 
 <details> <summary>extra</summary><list>
 
@@ -497,8 +502,10 @@ lineux key to windows key
 
 
 
-
-
+<script src="myhome/script.js"></script>
+<script src="myhome/list.js"></script>
+<script src="myhome/index.js"></script>
+<!-- <script src="myhome/open_newtab.js"></script> -->
 
 
 </div> </body> </html>

@@ -48,7 +48,7 @@ border-radius: 0px;
 width: max-content;
 margin: 1px;
 text-align: left;
-#border-radius: 10%  10% 10% 10%;
+/* border-radius: 10%  10% 10% 10%; */
 /* border-bottom-right-radius: 2cqmin; */
 width: 500px;
 }
@@ -214,7 +214,9 @@ border-radius: 5px;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 transition: transform 0.3s ease;
 margin: 2px;
-width: 160px;
+font-size: 12px;
+width: 120px;
+height: fit-content;
 }
 
 .winget {
@@ -225,7 +227,10 @@ border-radius: 5px;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 transition: transform 0.3s ease;
 margin: 2px;
-width: 160px;
+font-size: 12px;
+width: 120px;
+height: fit-content;
+overflow-wrap: break-word;
 }
 
 .choco {
@@ -236,7 +241,9 @@ border-radius: 5px;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 transition: transform 0.3s ease;
 margin: 2px;
-width: 160px;
+font-size: 12px;
+width: 120px;
+height: fit-content;
 }
 
 .home {
@@ -247,7 +254,35 @@ border-radius: 5px;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 transition: transform 0.3s ease;
 margin: 2px;
-width: 160px;
+font-size: 12px;
+width: 120px;
+height: fit-content;
+}
+
+.Unknown_Source {
+display: inline-block;
+padding: 5px 5px;
+background-color: #343b33 ;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+margin: 2px;
+font-size: 12px;
+width: 120px;
+height: fit-content;
+}
+
+.Android_Apps {
+display: inline-block;
+padding: 5px 5px;
+background-color: #3c63cf ;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+margin: 2px;
+font-size: 12px;
+width: fit-content;
+height: fit-content;
 }
 
 .folder {
@@ -287,3 +322,61 @@ tr:nth-child(odd) {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+.date-time {
+  font-family: 'JetBrains Mono', monospace;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+#currentDate, #currentTime {
+  font-size: 25px;
+  margin: 5px 0;
+}
+
+.logo-container {
+  margin-bottom: 20px;
+  border-radius: 0 10px 10px 0;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+.google-logo {
+  font-size: 24px;
+  height: 10px;
+  font-weight: bold;
+  color: #4285F4; /* Google's logo blue color */
+  background-color: #030303;
+}
+#searchQuery {
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-color: #4285f4;
+  color: white;
+  cursor: pointer;
+  /* border-radius: 0 10px 10px 0; */
+  border-radius: 0 0px 0px 0;
+}
+button:hover {
+  background-color: #4f6992;
+}
