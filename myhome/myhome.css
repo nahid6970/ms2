@@ -188,10 +188,23 @@ align-content: center;
 }
 
 /* Hover effect */
-span:hover {
-transform: scale(1.05);
-background-color: #000000;
+/* span:hover {
+  transform: scale(1.05);
+  background-color: #000000;
+  } */
+
+span {
+  display: inline-block; /* Makes the span an inline-block element */
+  transition: transform 0.3s ease, margin 0.3s ease; /* Smooth transition */
 }
+
+span:hover {
+  transform: scale(1.5);
+  background-color: #000000;
+  margin-left: 1rem; /* Adjusts margin to create space on the left */
+  margin-right: 1rem; /* Adjusts margin to create space on the right */
+}
+
 
 /* Style for links inside spans */
 span a {
@@ -202,7 +215,7 @@ font-weight: bold;
 
 /* Hover effect for links */
 span a:hover {
-text-decoration: underline;
+text-decoration: none;
 }
 
 .scoop {
