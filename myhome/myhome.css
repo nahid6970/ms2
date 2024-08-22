@@ -188,22 +188,22 @@ align-content: center;
 }
 
 /* Hover effect */
-/* span:hover {
+span:hover {
   transform: scale(1.05);
   background-color: #000000;
-  } */
+  }
 
-span {
-  display: inline-block; /* Makes the span an inline-block element */
-  transition: transform 0.3s ease, margin 0.3s ease; /* Smooth transition */
-}
+/* span {
+  display: inline-block;
+  transition: transform 0.3s ease, margin 0.3s ease;
+} */
 
-span:hover {
+/* span:hover {
   transform: scale(1.5);
   background-color: #000000;
-  margin-left: 1rem; /* Adjusts margin to create space on the left */
-  margin-right: 1rem; /* Adjusts margin to create space on the right */
-}
+  margin-left: 1rem;
+  margin-right: 1rem; 
+} */
 
 
 /* Style for links inside spans */
