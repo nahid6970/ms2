@@ -407,6 +407,7 @@ button:hover {
   display: flex;
   gap: 20px;
   padding: 0px;
+  padding-top: 20px;
   justify-content: center;
 }
 
