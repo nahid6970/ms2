@@ -428,17 +428,32 @@ button:hover {
   transition: width 0.3s ease, height 0.3s ease;
 }
 
-/* Expanded state for the folder */
 .folder-container.expanded {
   width: fit-content;
-  height: 150px;
+  max-width: 100%;
+  height: auto;
   padding: 20px;
-  justify-content: space-evenly;
-  /* flex-direction: row; */
-  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
   align-items: center;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
+
+/*! with grid and 5 items per row */
+/* .folder-container.expanded {
+  width: fit-content;
+  height: auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, min-content);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease;
+} */
+
 
 /* Folder main icon style */
 .folder-main-icon {
