@@ -88,6 +88,7 @@ a:active {color: yellow;background-color: transparent;text-decoration: underline
 img {
 border: 1px solid transparent;
 vertical-align: middle;
+border-radius: 10px;
 }
 
 summary {
