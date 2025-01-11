@@ -11,7 +11,7 @@ body {
 html,
 body {
   background-color: #31343a;
-  font-family: Calibri;
+  font-family: JetBrains Mono;
   scrollbar-width: thin;
   scrollbar-color: #ff0000 #000000; /* black background and red thumb */
 }
