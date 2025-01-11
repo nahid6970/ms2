@@ -1,17 +1,8 @@
-/* Import the JetBrains Mono font */
-@import url("https://www.nerdfonts.com/assets/css/webfont.css");
-
-/* Apply the JetBrains Mono font globally */
-body {
-  font-family: 'JetBrains Mono', monospace;
-}
-
-
 /* Thin scrollbar with custom styles for html and body */
 html,
 body {
   background-color: #31343a;
-  font-family: 'JetBrains Mono';
+  font-family: Calibri;
   scrollbar-width: thin;
   scrollbar-color: #ff0000 #000000; /* black background and red thumb */
 }
