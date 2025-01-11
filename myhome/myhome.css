@@ -1,3 +1,12 @@
+/* Import the JetBrains Mono font */
+@import url("https://www.nerdfonts.com/assets/css/webfont.css");
+
+/* Apply the JetBrains Mono font globally */
+body {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+
 /* Thin scrollbar with custom styles for html and body */
 html,
 body {
@@ -497,5 +506,3 @@ button:hover {
   font-size: 40px;
   text-align: center;
 }
-
-/* @import "https://www.nerdfonts.com/assets/css/webfont.css" */
