@@ -145,11 +145,12 @@ word-break: break-all;
 
 /* Style for list items */
 li {
-list-style-type: "➡️";
+list-style-type: "🔹";
+/* list-style-type: "🔹💠#️⃣#️⃣✳️☢️▶️▶️🔴🔵🔶🔷"; */
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 /* margin-bottom: -10px; */
 margin-bottom: 5px;
-padding: 10px 5px;     /* two px for aboved below and left and right  */
+/* padding: 10px 5px; */
 background-color: #3f3f3f;
 border-radius: 5px;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -159,7 +160,7 @@ width: fit-content;
 
 /* Hover effect */
 li:hover {
-transform: scale(1.05);
+/* transform: scale(1.05); */
 background-color: #030303;
 }
 
