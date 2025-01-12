@@ -175,6 +175,23 @@ li a:hover {
 text-decoration: underline;
 }
 
+/* Style for copy icon */
+.copy-icon {
+  font-family: 'Nerd Font', 'Font Awesome', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px; /* Match size to the list text */
+  color: #fff;
+  height: 20px;
+  cursor: pointer;
+  padding: 5px;
+  background-color: #000000ef;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effect for copy icon */
+.copy-icon:hover {
+  background-color: #1d1d1d;
+  transform: scale(1.2);
+}
 /* Style for spans */
 span {
 display: inline-block;

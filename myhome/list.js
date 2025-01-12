@@ -10,8 +10,13 @@ document.addEventListener('DOMContentLoaded', function () {
     // Process lines and convert those starting with a dash to list items
     var updatedContent = content.replace(/(^|\n)( *)- (.*?)(?=\n|$)/g, function (match, p1, p2, p3) {
       var indentLevel = p2.length / 2; // Assuming each level of indentation is 2 spaces
-      var listItem = '<li class="custom-list">' + p3.trim() + '</li>';
-      
+      var listItem = `
+        <li class="custom-list">
+          ${p3.trim()}
+          <span class="copy-icon" title="Copy to clipboard" onclick="copyToClipboard('${p3.trim()}')">©️</span>
+        </li>
+      `;
+
       // Create nested lists based on the indent level
       if (indentLevel > 0) {
         return p1 + '<ul>'.repeat(indentLevel) + listItem + '</ul>'.repeat(indentLevel);
@@ -24,3 +29,15 @@ document.addEventListener('DOMContentLoaded', function () {
     listElement.innerHTML = '<ul>' + updatedContent + '</ul>';
   });
 });
+
+// Function to copy text to the clipboard
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(
+    function () {
+      alert(`Copied: "${text}"`);
+    },
+    function (err) {
+      console.error('Error copying text: ', err);
+    }
+  );
+}
