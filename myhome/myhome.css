@@ -518,3 +518,7 @@ button:hover {
   font-size: 40px;
   text-align: center;
 }
+
+.hidden {
+  display: none;
+}
