@@ -1,33 +1,74 @@
 import re
+import os
 
-main_file = "C:\\ms2\\myhome_input.html"  # change this to your actual main file
-output_file = "C:\\ms2\\myhome.html"
+# --- Function to handle imports in the form of <!-- import path/to/file -->
+def process_imports(content, base_dir='.'):
+    # Match <!-- import path/to/file -->
+    import_pattern = re.compile(r'<!--\s*import\s+([^\s]+)\s*-->')
+    
+    def replacer(match):
+        # Get file path from the import statement
+        file_path = os.path.join(base_dir, match.group(1))
+        
+        try:
+            # Read the content of the imported file
+            with open(file_path, 'r', encoding='utf-8') as f:
+                return f.read()
+        except FileNotFoundError:
+            return f'<!-- File not found: {file_path} -->'
 
-# Regex to match: <!-- import path -->
-import_pattern = re.compile(r'<!--\s*import\s+([^\s]+)\s*-->')
+    # Replace import tags with the actual file contents
+    return import_pattern.sub(replacer, content)
 
-def read_file(path):
-    try:
-        with open(path, 'r', encoding='utf-8') as f:
-            return f.read()
-    except FileNotFoundError:
-        return f"<!-- ERROR: File '{path}' not found -->"
+# --- Function to convert custom [[Caption]-[Link]-[Image]] into proper HTML
+def convert_custom_img_links(text):
+    pattern = re.compile(
+        r'\[\[([^\]]+)\]-\[(https?://[^\]]+)\]-\[(\S+)(?:\s+width=(\d+),?\s*height=(\d+))?\]\]'
+    )
+    
+    def replacer(match):
+        caption = match.group(1)
+        href = match.group(2)
+        img_src = match.group(3)
+        width = match.group(4)
+        height = match.group(5)
 
-def process_main_file():
-    with open(main_file, 'r', encoding='utf-8') as f:
+        img_tag = f'<img src="{img_src}" alt="{caption}"'
+        if width:
+            img_tag += f' width="{width}"'
+        if height:
+            img_tag += f' height="{height}"'
+        img_tag += '>'
+
+        return f'<a href="{href}" title="{caption}">{img_tag}</a>'
+
+    return pattern.sub(replacer, text)
+
+# --- Main function to process the file
+def process_file(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    def replace_import(match):
-        path = match.group(1)
-        included_html = read_file(path)
-        return f"\n<!-- Start of {path} -->\n{included_html}\n<!-- End of {path} -->\n"
+    base_dir = os.path.dirname(file_path)
 
-    final_content = re.sub(import_pattern, replace_import, content)
+    # First process imports (if any)
+    content = process_imports(content, base_dir)
+    
+    # Then convert custom img links to HTML
+    content = convert_custom_img_links(content)
 
-    with open(output_file, 'w', encoding='utf-8') as out:
-        out.write(final_content)
+    return content
 
-    print(f"Combined file saved as '{output_file}'.")
-
+# --- Example usage
 if __name__ == "__main__":
-    process_main_file()
+    input_file = "C:\\ms2\\myhome_input.html"  # Or any Org or HTML file
+    output_file = "C:\\ms2\\myhome.html"
+
+
+
+    result = process_file(input_file)
+
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(result)
+
+    print(f"Saved processed output to {output_file}")
