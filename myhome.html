@@ -20,10 +20,10 @@
     <!--?    ██║   ██║██║ ╚═╝ ██║███████╗    ██████║      ██████╔╝██║  ██║   ██║   ███████╗ -->
     <!--?    ╚═╝   ╚═╝╚═╝     ╚═╝╚══════╝    ╚═════╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝ -->
 
-    <div class="date-time" style="display: flex; width: 100%; justify-content: center;">
+    <!-- <div class="date-time" style="display: flex; width: 100%; justify-content: center;">
       <div id="currentDate"></div>
       <div id="currentTime"></div>
-    </div>
+    </div> -->
 
     <!--?  ██████╗  ██████╗  ██████╗  ██████╗ ██╗     ███████╗    ███████╗███████╗ █████╗ ██████╗  ██████╗██╗  ██╗ -->
     <!--? ██╔════╝ ██╔═══██╗██╔═══██╗██╔════╝ ██║     ██╔════╝    ██╔════╝██╔════╝██╔══██╗██╔══██╗██╔════╝██║  ██║ -->
@@ -32,7 +32,7 @@
     <!--? ╚██████╔╝╚██████╔╝╚██████╔╝╚██████╔╝███████╗███████╗    ███████║███████╗██║  ██║██║  ██║╚██████╗██║  ██║ -->
     <!--?  ╚═════╝  ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝╚══════╝    ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝ -->
 
-    <div class="search-container">
+    <!-- <div class="search-container">
       <select id="search-engine" onchange="updateSearchEngine()">
         <option value="google">Google</option>
         <option value="yahoo">Yahoo</option>
@@ -41,7 +41,7 @@
       <input type="text" id="searchQuery" placeholder="Search..." onkeydown="checkEnter(event)"
         style="text-align: center;">
       <button onclick="search()">🔍</button>
-    </div>
+    </div> -->
 
     <!--!      ██╗ ██████╗ ██████╗  -->
     <!--!      ██║██╔═══██╗██╔══██╗ -->
@@ -50,7 +50,7 @@
     <!--! ╚█████╔╝╚██████╔╝██████╔╝ -->
     <!--!  ╚════╝  ╚═════╝ ╚═════╝  -->
 
-    <div style="display: flex; width: 100%; justify-content: center;">
+    <div style="display: flex; flex-wrap: wrap; width: 100%; justify-content: center;">
       <!-- erecruitment --> <span><a href="https://erecruitment.bb.org.bd/"><i class="nf nf-oct-dot_fill"
             style="color: #ff0000;"></i>eRecruitment</a></span>
       <!-- erecruitment --> <span><a href="https://www.bepza.gov.bd/career"><i class="nf nf-oct-dot_fill"
@@ -74,7 +74,7 @@
     <!--* ███████╗╚██████╔╝╚██████╗██║  ██║███████╗    ██║  ██║╚██████╔╝███████║   ██║    -->
     <!--* ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝    -->
 
-    <div style="display: flex; width: 100%; justify-content: center;">
+    <div style="display: flex; flex-wrap: wrap; width: 100%; justify-content: center;">
       <!-- Sonarr <span ><a href ="http://192.168.0.101:8989/"><img src ="https://res.cloudinary.com/razordarkamg/image/upload/v1621212884/SonarrV3_pufacd.png" width="50" height="50" alt ="Sonarr"></a></span> -->
       <!-- <span class="sonarr" ><a href ="http://192.168.0.101:8989/"><i class="nf nf-md-television_classic"></i></a></span> -->
       <span class="sonarr"><a href="http://192.168.0.101:8989/"><img
@@ -103,14 +103,17 @@
       <!-- Flaresolver <span ><a href ="http://192.168.0.101:8191/"><img src ="https://static-00.iconduck.com/assets.00/cloudflare-icon-2048x2048-wks6nchu.png"width="50" height="50" alt ="FlareSolverr"></a></span> -->
       <!-- FreshRSS <span ><a href ="https://feeds.flossboxin.org.in/p/i/"><img src ="https://avatars.githubusercontent.com/u/9414285?s=280&v=4"width="50" height="50" alt="FreshRSS"></a></span> -->
       <!-- Synthing --> <span> <a href="http://192.168.0.1/">🛜</a> </span>
+    </div>
+
+
+    <div style="display: flex; flex-wrap: wrap; width: 100%; justify-content: center;">
       <!-- Synthing --> <span> <a href="http://192.168.0.101:5001"><i class="nf nf-fa-file_text"></i></a> </span>
       <!-- Synthing --> <span> <a href="http://192.168.0.101:5002"><i class="nf nf-fa-share_alt"></i></a> </span>
       <!-- Synthing --> <span> <a href="http://192.168.0.101:5003"><i class="nf nf-fa-hard_drive"></i></a> </span>
-      <!-- Synthing --> <span> <a href="http://192.168.0.101:5005"><i class="nf nf-md-nintendo_game_boy"></i></a>
-      </span>
+      <!-- Synthing --> <span> <a href="http://192.168.0.101:5005"><i class="nf nf-md-nintendo_game_boy"></i></a></span>
     </div>
 
-    <div style="display: flex; width: 100%; justify-content: center;">
+    <div style="display: flex; flex-wrap: wrap; width: 100%; justify-content: center;">
       <!-- Synthing --> <span> <a href="https://romsfun.com/"><img
             src="https://romsfun.com/wp-content/uploads/2023/08/LOGO.png" alt=""></a> </span>
       <!-- Synthing --> <span style="background-color: #ffffff;"> <a href="https://archive.org/"><img
